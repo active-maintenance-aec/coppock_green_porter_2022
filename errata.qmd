@@ -1,6 +1,7 @@
 ---
 title: "Errata"
-subtitle: "Coppock, Green and Porter (2022), *Research & Politics* 9(1)"
+subtitle: "On Coppock, Green and Porter (2022), *Research & Politics* 9(1)"
+author: "Alexander Coppock"
 format:
   pdf:
     output-file: coppock_green_porter_2022_errata.pdf
@@ -26,11 +27,13 @@ b3 <- read_csv(here("maintained", "output", "table_b3_vote_share_precinct_cd.csv
 
 This note lists four errors in "Does digital advertising affect vote choice? Evidence from a randomized field experiment," published in *Research & Politics* 9(1), doi [10.1177/20531680221076901](https://doi.org/10.1177/20531680221076901). None of them changes a conclusion of the paper. They are recorded here because the numbers themselves are wrong and a reader who quotes them would be misled.
 
+I wrote this note on my own, as one of the paper's three authors. Donald P. Green and Ethan Porter had no hand in it and bear no responsibility for it.
+
 Each item was found while rebuilding the analysis from the deposited replication archive ([10.7910/DVN/UH2NQW](https://doi.org/10.7910/DVN/UH2NQW)). The maintained code and the output supporting every correction below are at [github.com/active-maintenance-aec/coppock_green_porter_2022](https://github.com/active-maintenance-aec/coppock_green_porter_2022).
 
 ## 1. The unadjusted estimate is misstated by a factor of ten
 
-On p. 5 we write that the first column of Table 4 shows "a 2.1 percentage point increase in Democratic vote share, though this estimate is uncertain, as evidenced by its large standard error of 3.0 percentage points."
+On p. 5 the article states that the first column of Table 4 shows "a 2.1 percentage point increase in Democratic vote share, though this estimate is uncertain, as evidenced by its large standard error of 3.0 percentage points."
 
 Table 4 reports `r sprintf("%.4f", t4$estimate)` with a standard error of `r sprintf("%.4f", t4$std.error)`. In the percentage point units the sentence uses, and which the next sentence applies correctly to the adjusted estimate, that is **`r sprintf("%.2f", t4$estimate*100)` percentage points with a standard error of `r sprintf("%.2f", t4$std.error*100)`**. The estimate is stated at ten times its value. The standard error of 3.0 corresponds to no model in the paper or the appendix.
 
