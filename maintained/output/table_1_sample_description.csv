@@ -1,0 +1,13 @@
+sample,condition,precincts,zip_codes
+No exclusions,Control,NA,104
+No exclusions,Treatment video 1,NA,53
+No exclusions,Treatment video 2,NA,53
+No exclusions,Total,NA,210
+Only nested precincts,Control,524,84
+Only nested precincts,Treatment video 1,285,43
+Only nested precincts,Treatment video 2,287,42
+Only nested precincts,Total,1096,169
+With outcome data,Control,420,76
+With outcome data,Treatment video 1,220,41
+With outcome data,Treatment video 2,213,37
+With outcome data,Total,853,154

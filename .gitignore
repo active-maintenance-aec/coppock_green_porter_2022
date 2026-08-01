@@ -1,0 +1,22 @@
+# Publication PDFs are not redistributed here; the README links to the DOIs.
+coppock_green_porter_2022.pdf
+coppock_green_porter_2022_preprint.pdf
+coppock_green_porter_2022_appendix.pdf
+
+# Quarto build artifacts
+/.quarto/
+*_files/
+
+# Working log stays private, per the house rule for public repos.
+notes.md
+
+# Quarto copies referenced resources beside the PDF; the PDF embeds them.
+report/maintained/
+
+# The deposited archive is fetched from Dataverse by download_original.R, not redistributed.
+original/
+
+**/*.quarto_ipynb
+
+# RStudio project state
+.Rproj.user/

@@ -1,0 +1,7 @@
+quantity,value,note
+total_two_party_votes_treated_zips,822782.7733194007,Sum of vote_total_2018 across treated ZIP codes
+posterior_mean_after_three_studies,0.01003100201576892,Reported in the text as 1.0 percentage points
+posterior_mean_all_four_studies,0.00708364086516408,Reported in the text as 0.7 percentage points
+posterior_sd_all_four_studies,0.00449617308465873,Reported in the text as 0.4 percentage points
+cost_per_vote_rounded_inputs,8.681337780261797,Reproduces the published $8.68 using the rounded quantities the footnote quotes
+cost_per_vote_unrounded_inputs,8.578834297336483,Same calculation carried out at full precision

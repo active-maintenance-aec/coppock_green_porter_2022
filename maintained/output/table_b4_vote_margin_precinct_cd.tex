@@ -1,0 +1,37 @@
+\begin{table}
+\centering
+\caption{Table B.4: Effects on vote margin (CD fixed effects)}
+\centering
+\begin{tabular}[t]{lcccc}
+\toprule
+  & Model 1 & Model 2 & Model 3 & Model 4\\
+\midrule
+Any Treatment Video & 51.94 & 3.62 &  & \\
+ & (55.15) & (18.95) &  & \\
+Treatment Video 1 &  &  & 31.94 & -21.37\\
+ &  &  & (53.25) & (22.62)\\
+Treatment Video 2 &  &  & 71.72 & 26.63\\
+ &  &  & (80.34) & (22.79)\\
+Two Party Vote Margin (2016) &  & 0.74* &  & 0.74*\\
+ &  & (0.04) &  & \vphantom{1} (0.04)\\
+Missingness Indicator (2016) &  & -76.80 &  & -73.27\\
+ &  & (68.68) &  & (64.05)\\
+Two Party Vote Margin (2014) &  & 0.05 &  & 0.05\\
+ &  & (0.04) &  & (0.04)\\
+Missingness Indicator (2014) &  & 10.24 &  & 15.22\\
+ &  & (18.08) &  & (18.50)\\
+Two Party Vote Margin (2012) &  & 0.03 &  & 0.02\\
+ &  & (0.05) &  & (0.05)\\
+Missingness Indicator (2012) &  & 30.59 &  & 26.69\\
+ &  & (19.24) &  & (19.45)\\
+Intercept & -126.10 & 62.96* & -127.86* & 61.80*\\
+ & (64.62) & (19.54) & (64.25) & (19.75)\\
+\midrule
+R2 & 0.06 & 0.86 & 0.06 & 0.86\\
+Num. obs. & 857 & 857 & 857 & 857\\
+N Clusters & 154 & 154 & 154 & 154\\
+\bottomrule
+\multicolumn{5}{l}{\rule{0pt}{1em}* p $<$ 0.05}\\
+\multicolumn{5}{l}{\rule{0pt}{1em}CR2 cluster-robust standard errors are in parentheses. All models include fixed effects for congressional district.}\\
+\end{tabular}
+\end{table}
