@@ -15,6 +15,8 @@
 - [Rewrite verification](#rewrite-verification)
 - [R environment](#r-environment)
 
+*Drafted by Claude Opus 5 under the supervision of Alex Coppock.*
+
 This repository holds the actively maintained replication code for
 Coppock, Green and Porter (2022), together with the reproducibility
 report that documents what the original archive did and did not do. It

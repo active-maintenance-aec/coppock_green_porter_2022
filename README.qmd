@@ -36,6 +36,8 @@ gt <- read_csv(here::here("ground_truth", "coppock_green_porter_2022_ground_trut
 out <- function(f) read_csv(here::here("maintained", "output", f), show_col_types = FALSE)
 ```
 
+*Drafted by Claude Opus 5 under the supervision of Alex Coppock.*
+
 This repository holds the actively maintained replication code for Coppock, Green and Porter (2022), together with the reproducibility report that documents what the original archive did and did not do. It is part of a program applying the maintenance proposal in Peer, Orr and Coppock (2021, *PS: Political Science & Politics*, doi [10.1017/S1049096521000366](https://doi.org/10.1017/S1049096521000366)) to a set of published archives.
 
 | | |
