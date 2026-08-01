@@ -1,0 +1,55 @@
+---
+title: "Errata"
+subtitle: "Coppock, Green and Porter (2022), *Research & Politics* 9(1)"
+format:
+  pdf:
+    output-file: coppock_green_porter_2022_errata.pdf
+    geometry: margin=1.25in
+    fontsize: 11pt
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(here)
+library(tidyverse)
+here::i_am("errata.qmd")
+```
+
+```{r values}
+t4 <- read_csv(here("maintained", "output", "table_4_vote_share_precinct.csv"),
+               show_col_types = FALSE) |>
+  filter(model == "Model 1", term == "Z")
+b3 <- read_csv(here("maintained", "output", "table_b3_vote_share_precinct_cd.csv"),
+               show_col_types = FALSE) |>
+  filter(term == "Z")
+```
+
+This note lists four errors in "Does digital advertising affect vote choice? Evidence from a randomized field experiment," published in *Research & Politics* 9(1), doi [10.1177/20531680221076901](https://doi.org/10.1177/20531680221076901). None of them changes a conclusion of the paper. They are recorded here because the numbers themselves are wrong and a reader who quotes them would be misled.
+
+Each item was found while rebuilding the analysis from the deposited replication archive ([10.7910/DVN/UH2NQW](https://doi.org/10.7910/DVN/UH2NQW)). The maintained code and the output supporting every correction below are at [github.com/active-maintenance-aec/coppock_green_porter_2022](https://github.com/active-maintenance-aec/coppock_green_porter_2022).
+
+## 1. The unadjusted estimate is misstated by a factor of ten
+
+On p. 5 we write that the first column of Table 4 shows "a 2.1 percentage point increase in Democratic vote share, though this estimate is uncertain, as evidenced by its large standard error of 3.0 percentage points."
+
+Table 4 reports `r sprintf("%.4f", t4$estimate)` with a standard error of `r sprintf("%.4f", t4$std.error)`. In the percentage point units the sentence uses, and which the next sentence applies correctly to the adjusted estimate, that is **`r sprintf("%.2f", t4$estimate*100)` percentage points with a standard error of `r sprintf("%.2f", t4$std.error*100)`**. The estimate is stated at ten times its value. The standard error of 3.0 corresponds to no model in the paper or the appendix.
+
+The sentence's claim is unaffected: on either reading the unadjusted estimate is small and swamped by its standard error, and the paper's conclusion rests on the covariate-adjusted estimate in column 2, which is reported and interpreted correctly throughout. The error appears in the published version and in the preprint.
+
+## 2. Appendix Table B.3 reprints Table B.4
+
+Table B.3 is captioned "Effects on vote share (CD fixed effects)." Every cell beneath that caption is identical to Table B.4, "Effects on vote margin (CD fixed effects)": the same coefficients, standard errors, R-squared values and covariate labels, all on the vote margin scale. The vote share models with congressional district fixed effects appear nowhere in the appendix.
+
+Those models are estimable from the deposited data. The effect of any treatment video on vote share with district fixed effects is `r sprintf("%.4f", b3$estimate[1])` (`r sprintf("%.4f", b3$std.error[1])`) without covariates, which is the same substantive result as Table 4.
+
+## 3. Covariate row labels are wrong in five appendix tables
+
+Tables E.7 and F.8 regress on lagged two-party vote *margins* and label those rows "Two Party Vote Share."
+
+Tables F.9, F.10 and F.11 were given a vector of coefficient names one element shorter than the model, so every covariate row from 2016 downward carries the label belonging to the row above it. The 2016 vote share coefficient is printed as "Missingness Indicator (2016)."
+
+No coefficient is affected. Only the labels are wrong.
+
+## 4. Figure G.2 names the wrong effect size
+
+The panel annotation reads "Power when PATE = 0.1." The simulated effects are drawn from a normal distribution centred at 0.01, which is also what the appendix text says two paragraphs earlier. The label is a hardcoded string in the analysis script.
