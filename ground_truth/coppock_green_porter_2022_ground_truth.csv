@@ -1,211 +1,211 @@
-paper_id,table_figure,claim,value_script,value_paper,match,notes,value_rewrite,match_rewrite
-coppock_green_porter_2022,table_4,m1_any_video_est,0.00211445890447404,0.0021,1,,0.00211445890447404,1
-coppock_green_porter_2022,table_4,m2_any_video_est,-4.4332328582928296e-4,-4e-4,1,,-4.4332328582928296e-4,1
-coppock_green_porter_2022,table_4,m3_video1_est,-0.02054151711593248,-0.0205,1,,-0.02054151711593248,1
-coppock_green_porter_2022,table_4,m3_video2_est,0.02551499751710058,0.0255,1,,0.02551499751710058,1
-coppock_green_porter_2022,table_4,m4_video1_est,-0.00161931034712876,-0.0016,1,,-0.00161931034712876,1
-coppock_green_porter_2022,table_4,m4_video2_est,6.758475674641944e-4,7e-4,1,,6.758475674641944e-4,1
-coppock_green_porter_2022,table_4,m1_any_video_se,0.02248729557733574,0.0225,1,,0.02248729557733574,1
-coppock_green_porter_2022,table_4,m2_any_video_se,0.00847596925939286,0.0085,1,,0.00847596925939286,1
-coppock_green_porter_2022,table_4,m3_video1_se,0.0249779396651857,0.025,1,,0.0249779396651857,1
-coppock_green_porter_2022,table_4,m3_video2_se,0.0291181584918253,0.0291,1,,0.0291181584918253,1
-coppock_green_porter_2022,table_4,m4_video1_se,0.01086087176269422,0.0109,1,,0.01086087176269422,1
-coppock_green_porter_2022,table_4,m4_video2_se,0.00960570277980645,0.0096,1,,0.00960570277980645,1
-coppock_green_porter_2022,table_a1,m1_any_video_est,47.14504548673529,47.15,1,,47.14504548673529,1
-coppock_green_porter_2022,table_a1,m2_any_video_est,6.537417274466778,6.54,1,,6.537417274466778,1
-coppock_green_porter_2022,table_a1,m3_video1_est,18.066542846163777,18.07,1,,18.066542846163777,1
-coppock_green_porter_2022,table_a1,m3_video2_est,77.45221725296497,77.45,1,,77.45221725296497,1
-coppock_green_porter_2022,table_a1,m4_video1_est,-14.522192596932932,-14.52,1,,-14.522192596932932,1
-coppock_green_porter_2022,table_a1,m4_video2_est,26.70337066473266,26.7,1,,26.70337066473266,1
-coppock_green_porter_2022,table_a1,m1_any_video_se,56.74410432699257,56.74,1,,56.74410432699257,1
-coppock_green_porter_2022,table_a1,m2_any_video_se,18.69691935822568,18.7,1,,18.69691935822568,1
-coppock_green_porter_2022,table_a1,m3_video1_se,53.36957704512563,53.37,1,,53.36957704512563,1
-coppock_green_porter_2022,table_a1,m3_video2_se,84.914914470095,84.91,1,,84.914914470095,1
-coppock_green_porter_2022,table_a1,m4_video1_se,21.94449045561022,21.94,1,,21.94449045561022,1
-coppock_green_porter_2022,table_a1,m4_video2_se,22.81222828610203,22.81,1,,22.81222828610203,1
-coppock_green_porter_2022,table_a2,m1_any_video_est,-23.591594487116556,-23.59,1,,-23.591594487116556,1
-coppock_green_porter_2022,table_a2,m2_any_video_est,10.186389960237149,10.19,1,,10.186389960237149,1
-coppock_green_porter_2022,table_a2,m3_video1_est,-115.5233124119383,-115.52,1,,-115.5233124119383,1
-coppock_green_porter_2022,table_a2,m3_video2_est,72.22456222326072,72.22,1,,72.22456222326072,1
-coppock_green_porter_2022,table_a2,m4_video1_est,15.632883176789813,15.63,1,,15.632883176789813,1
-coppock_green_porter_2022,table_a2,m4_video2_est,4.978948376139224,4.98,1,,4.978948376139224,1
-coppock_green_porter_2022,table_a2,m1_any_video_se,103.35115006129978,103.35,1,,103.35115006129978,1
-coppock_green_porter_2022,table_a2,m2_any_video_se,23.67650930379425,23.68,1,,23.67650930379425,1
-coppock_green_porter_2022,table_a2,m3_video1_se,140.9333352820469,140.93,1,,140.9333352820469,1
-coppock_green_porter_2022,table_a2,m3_video2_se,112.05587295378326,112.06,1,,112.05587295378326,1
-coppock_green_porter_2022,table_a2,m4_video1_se,29.013936367844305,29.01,1,,29.013936367844305,1
-coppock_green_porter_2022,table_a2,m4_video2_se,28.28167314961479,28.28,1,,28.28167314961479,1
-coppock_green_porter_2022,table_b3,m1_any_video_est,0.00424102545744664,NA,NA,"Published Table B.3 reprints the Table B.4 vote margin models under the vote share caption, so these vote share estimates appear nowhere in the appendix.",0.00424102545744664,NA
-coppock_green_porter_2022,table_b3,m2_any_video_est,-0.00179900361535011,NA,NA,"Published Table B.3 reprints the Table B.4 vote margin models under the vote share caption, so these vote share estimates appear nowhere in the appendix.",-0.00179900361535011,NA
-coppock_green_porter_2022,table_b3,m3_video1_est,-0.01540767189425262,NA,NA,"Published Table B.3 reprints the Table B.4 vote margin models under the vote share caption, so these vote share estimates appear nowhere in the appendix.",-0.01540767189425262,NA
-coppock_green_porter_2022,table_b3,m3_video2_est,0.02350049426000227,NA,NA,"Published Table B.3 reprints the Table B.4 vote margin models under the vote share caption, so these vote share estimates appear nowhere in the appendix.",0.02350049426000227,NA
-coppock_green_porter_2022,table_b3,m4_video1_est,-0.00388299268233914,NA,NA,"Published Table B.3 reprints the Table B.4 vote margin models under the vote share caption, so these vote share estimates appear nowhere in the appendix.",-0.00388299268233914,NA
-coppock_green_porter_2022,table_b3,m4_video2_est,1.0737788774877615e-4,NA,NA,"Published Table B.3 reprints the Table B.4 vote margin models under the vote share caption, so these vote share estimates appear nowhere in the appendix.",1.0737788774877615e-4,NA
-coppock_green_porter_2022,table_b3,m1_any_video_se,0.02171048858825918,NA,NA,"Published Table B.3 reprints the Table B.4 vote margin models under the vote share caption, so these vote share estimates appear nowhere in the appendix.",0.02171048858825918,NA
-coppock_green_porter_2022,table_b3,m2_any_video_se,0.00882331010534093,NA,NA,"Published Table B.3 reprints the Table B.4 vote margin models under the vote share caption, so these vote share estimates appear nowhere in the appendix.",0.00882331010534093,NA
-coppock_green_porter_2022,table_b3,m3_video1_se,0.02444246906606207,NA,NA,"Published Table B.3 reprints the Table B.4 vote margin models under the vote share caption, so these vote share estimates appear nowhere in the appendix.",0.02444246906606207,NA
-coppock_green_porter_2022,table_b3,m3_video2_se,0.0272377971422544,NA,NA,"Published Table B.3 reprints the Table B.4 vote margin models under the vote share caption, so these vote share estimates appear nowhere in the appendix.",0.0272377971422544,NA
-coppock_green_porter_2022,table_b3,m4_video1_se,0.01156632152205259,NA,NA,"Published Table B.3 reprints the Table B.4 vote margin models under the vote share caption, so these vote share estimates appear nowhere in the appendix.",0.01156632152205259,NA
-coppock_green_porter_2022,table_b3,m4_video2_se,0.00994055780639916,NA,NA,"Published Table B.3 reprints the Table B.4 vote margin models under the vote share caption, so these vote share estimates appear nowhere in the appendix.",0.00994055780639916,NA
-coppock_green_porter_2022,table_b4,m1_any_video_est,51.94003608999533,51.94,1,,51.94003608999533,1
-coppock_green_porter_2022,table_b4,m2_any_video_est,3.620607291284251,3.62,1,,3.620607291284251,1
-coppock_green_porter_2022,table_b4,m3_video1_est,31.94489326114893,31.94,1,,31.94489326114893,1
-coppock_green_porter_2022,table_b4,m3_video2_est,71.72008423122978,71.72,1,,71.72008423122978,1
-coppock_green_porter_2022,table_b4,m4_video1_est,-21.367516584053423,-21.37,1,,-21.367516584053423,1
-coppock_green_porter_2022,table_b4,m4_video2_est,26.631009953546908,26.63,1,,26.631009953546908,1
-coppock_green_porter_2022,table_b4,m1_any_video_se,55.15257829619377,55.15,1,,55.15257829619377,1
-coppock_green_porter_2022,table_b4,m2_any_video_se,18.94736841476798,18.95,1,,18.94736841476798,1
-coppock_green_porter_2022,table_b4,m3_video1_se,53.246071085433805,53.25,1,,53.246071085433805,1
-coppock_green_porter_2022,table_b4,m3_video2_se,80.34377407240518,80.34,1,,80.34377407240518,1
-coppock_green_porter_2022,table_b4,m4_video1_se,22.61607513395567,22.62,1,,22.61607513395567,1
-coppock_green_porter_2022,table_b4,m4_video2_se,22.7883889158653,22.79,1,,22.7883889158653,1
-coppock_green_porter_2022,table_b5,m1_any_video_est,-27.539633034278985,-27.54,1,,-27.539633034278985,1
-coppock_green_porter_2022,table_b5,m2_any_video_est,9.176570629363654,9.18,1,,9.176570629363654,1
-coppock_green_porter_2022,table_b5,m3_video1_est,-159.44585637169507,-159.45,1,,-159.44585637169507,1
-coppock_green_porter_2022,table_b5,m3_video2_est,102.94762930116796,102.95,1,,102.94762930116796,1
-coppock_green_porter_2022,table_b5,m4_video1_est,3.500956430176096,3.5,1,,3.500956430176096,1
-coppock_green_porter_2022,table_b5,m4_video2_est,14.439900124496443,14.44,1,,14.439900124496443,1
-coppock_green_porter_2022,table_b5,m1_any_video_se,95.65243499506208,95.65,1,,95.65243499506208,1
-coppock_green_porter_2022,table_b5,m2_any_video_se,23.163937034582144,23.16,1,,23.163937034582144,1
-coppock_green_porter_2022,table_b5,m3_video1_se,142.8199242185158,142.82,1,,142.8199242185158,1
-coppock_green_porter_2022,table_b5,m3_video2_se,90.25316399835982,90.25,1,,90.25316399835982,1
-coppock_green_porter_2022,table_b5,m4_video1_se,30.617428910821552,30.62,1,,30.617428910821552,1
-coppock_green_porter_2022,table_b5,m4_video2_se,26.763512191064105,26.76,1,,26.763512191064105,1
-coppock_green_porter_2022,table_f9,m1_any_video_est,0.00985458813345355,0.0099,1,,0.00985458813345355,1
-coppock_green_porter_2022,table_f9,m2_any_video_est,0.001494794878072,0.0015,1,,0.001494794878072,1
-coppock_green_porter_2022,table_f9,m3_video1_est,0.01671408460282777,0.0167,1,,0.01671408460282777,1
-coppock_green_porter_2022,table_f9,m3_video2_est,0.00299509166407935,0.003,1,,0.00299509166407935,1
-coppock_green_porter_2022,table_f9,m4_video1_est,0.005482479358447,0.0055,1,,0.005482479358447,1
-coppock_green_porter_2022,table_f9,m4_video2_est,-0.00245711888495072,-0.0025,1,,-0.00245711888495072,1
-coppock_green_porter_2022,table_f9,m1_any_video_se,0.01448034336347406,0.0145,1,,0.01448034336347406,1
-coppock_green_porter_2022,table_f9,m2_any_video_se,0.00879754283818571,0.0088,1,,0.00879754283818571,1
-coppock_green_porter_2022,table_f9,m3_video1_se,0.01784546092514657,0.0178,1,,0.01784546092514657,1
-coppock_green_porter_2022,table_f9,m3_video2_se,0.01809158505430489,0.0181,1,,0.01809158505430489,1
-coppock_green_porter_2022,table_f9,m4_video1_se,0.00855046173703903,0.0086,1,,0.00855046173703903,1
-coppock_green_porter_2022,table_f9,m4_video2_se,0.01278053151891731,0.0128,1,,0.01278053151891731,1
-coppock_green_porter_2022,table_f10,m1_any_video_est,68.59196024679093,68.592,1,,68.59196024679093,1
-coppock_green_porter_2022,table_f10,m2_any_video_est,-77.26722783851457,-77.2672,1,,-77.26722783851457,1
-coppock_green_porter_2022,table_f10,m3_video1_est,9.34382726443521,9.3438,1,,9.34382726443521,1
-coppock_green_porter_2022,table_f10,m3_video2_est,127.84009322914687,127.8401,1,,127.84009322914687,1
-coppock_green_porter_2022,table_f10,m4_video1_est,-132.28417994945687,-132.2842,1,,-132.28417994945687,1
-coppock_green_porter_2022,table_f10,m4_video2_est,-23.55872275403127,-23.5587,1,,-23.55872275403127,1
-coppock_green_porter_2022,table_f10,m1_any_video_se,269.40973755205994,269.4097,1,,269.40973755205994,1
-coppock_green_porter_2022,table_f10,m2_any_video_se,156.34892143047512,156.3489,1,,156.34892143047512,1
-coppock_green_porter_2022,table_f10,m3_video1_se,275.9061329158996,275.9061,1,,275.9061329158996,1
-coppock_green_porter_2022,table_f10,m3_video2_se,384.5197385131535,384.5197,1,,384.5197385131535,1
-coppock_green_porter_2022,table_f10,m4_video1_se,177.3082762231606,177.3083,1,,177.3082762231606,1
-coppock_green_porter_2022,table_f10,m4_video2_se,211.41213868011167,211.4121,1,,211.41213868011167,1
-coppock_green_porter_2022,table_f11,m1_any_video_est,-89.82885631182347,-89.8289,1,,-89.82885631182347,1
-coppock_green_porter_2022,table_f11,m2_any_video_est,195.6585496839684,195.6585,1,,195.6585496839684,1
-coppock_green_porter_2022,table_f11,m3_video1_est,-439.0957478018704,-439.0957,1,,-439.0957478018704,1
-coppock_green_porter_2022,table_f11,m3_video2_est,259.4380351782236,259.438,1,,259.4380351782236,1
-coppock_green_porter_2022,table_f11,m4_video1_est,1018.57542627657,1018.5754,1,,1018.57542627657,1
-coppock_green_porter_2022,table_f11,m4_video2_est,-590.521797449917,-590.5218,1,,-590.521797449917,1
-coppock_green_porter_2022,table_f11,m1_any_video_se,953.4329157462817,953.4329,1,,953.4329157462817,1
-coppock_green_porter_2022,table_f11,m2_any_video_se,526.4416784228432,526.4417,1,,526.4416784228432,1
-coppock_green_porter_2022,table_f11,m3_video1_se,1125.3363245077278,1125.3363,1,,1125.3363245077278,1
-coppock_green_porter_2022,table_f11,m3_video2_se,1182.4407478854894,1182.4407,1,,1182.4407478854894,1
-coppock_green_porter_2022,table_f11,m4_video1_se,685.7638188243877,685.7638,1,,685.7638188243877,1
-coppock_green_porter_2022,table_f11,m4_video2_se,631.3777433267358,631.3777,1,,631.3777433267358,1
-coppock_green_porter_2022,table_4,n_obs,853,853,1,,853,1
-coppock_green_porter_2022,table_4,n_clusters,154,154,1,,154,1
-coppock_green_porter_2022,table_a1,n_obs,857,857,1,,857,1
-coppock_green_porter_2022,table_a1,n_clusters,154,154,1,,154,1
-coppock_green_porter_2022,table_a2,n_obs,857,857,1,,857,1
-coppock_green_porter_2022,table_b4,n_obs,857,857,1,,857,1
-coppock_green_porter_2022,table_b5,n_obs,857,857,1,,857,1
-coppock_green_porter_2022,table_f9,n_obs,210,210,1,,210,1
-coppock_green_porter_2022,table_f10,n_obs,210,210,1,,210,1
-coppock_green_porter_2022,table_f11,n_obs,210,210,1,,210,1
-coppock_green_porter_2022,table_1,no_exclusions_control_zip_codes,104,104,1,,104,1
-coppock_green_porter_2022,table_1,no_exclusions_treatment_video_1_zip_codes,53,53,1,,53,1
-coppock_green_porter_2022,table_1,no_exclusions_treatment_video_2_zip_codes,53,53,1,,53,1
-coppock_green_porter_2022,table_1,no_exclusions_total_zip_codes,210,210,1,,210,1
-coppock_green_porter_2022,table_1,no_exclusions_control_precincts,NA,4683,NA,"The deposit holds only the 1096 precincts nested within a single ZIP code, so the unrestricted precinct counts cannot be recomputed.",NA,NA
-coppock_green_porter_2022,table_1,no_exclusions_treatment_video_1_precincts,NA,2246,NA,"The deposit holds only the 1096 precincts nested within a single ZIP code, so the unrestricted precinct counts cannot be recomputed.",NA,NA
-coppock_green_porter_2022,table_1,no_exclusions_treatment_video_2_precincts,NA,2306,NA,"The deposit holds only the 1096 precincts nested within a single ZIP code, so the unrestricted precinct counts cannot be recomputed.",NA,NA
-coppock_green_porter_2022,table_1,no_exclusions_total_precincts,NA,9235,NA,"The deposit holds only the 1096 precincts nested within a single ZIP code, so the unrestricted precinct counts cannot be recomputed.",NA,NA
-coppock_green_porter_2022,table_1,only_nested_precincts_control_precincts,524,524,1,,524,1
-coppock_green_porter_2022,table_1,only_nested_precincts_treatment_video_1_precincts,285,285,1,,285,1
-coppock_green_porter_2022,table_1,only_nested_precincts_treatment_video_2_precincts,287,287,1,,287,1
-coppock_green_porter_2022,table_1,only_nested_precincts_total_precincts,1096,1096,1,,1096,1
-coppock_green_porter_2022,table_1,only_nested_precincts_control_zip_codes,84,84,1,,84,1
-coppock_green_porter_2022,table_1,only_nested_precincts_treatment_video_1_zip_codes,43,43,1,,43,1
-coppock_green_porter_2022,table_1,only_nested_precincts_treatment_video_2_zip_codes,42,42,1,,42,1
-coppock_green_porter_2022,table_1,only_nested_precincts_total_zip_codes,169,169,1,,169,1
-coppock_green_porter_2022,table_1,with_outcome_data_control_precincts,420,420,1,,420,1
-coppock_green_porter_2022,table_1,with_outcome_data_treatment_video_1_precincts,220,220,1,,220,1
-coppock_green_porter_2022,table_1,with_outcome_data_treatment_video_2_precincts,213,213,1,,213,1
-coppock_green_porter_2022,table_1,with_outcome_data_total_precincts,853,853,1,,853,1
-coppock_green_porter_2022,table_1,with_outcome_data_control_zip_codes,76,76,1,,76,1
-coppock_green_porter_2022,table_1,with_outcome_data_treatment_video_1_zip_codes,41,41,1,,41,1
-coppock_green_porter_2022,table_1,with_outcome_data_treatment_video_2_zip_codes,37,37,1,,37,1
-coppock_green_porter_2022,table_1,with_outcome_data_total_zip_codes,154,154,1,,154,1
-coppock_green_porter_2022,table_c6,vote_share_dim_sd_1.0,NA,0.165,NA,The archive's CGP_2022_equivalence_tests.R stops under current estimatr: lh_robust() has no CR2 path when clusters are supplied. The rewrite recovers the contrast from the fitted CR2 variance-covariance matrix.,0.1645746137815807,1
-coppock_green_porter_2022,table_c6,vote_share_dim_estimate,NA,-0.046,NA,The archive's CGP_2022_equivalence_tests.R stops under current estimatr: lh_robust() has no CR2 path when clusters are supplied. The rewrite recovers the contrast from the fitted CR2 variance-covariance matrix.,-0.04605651463303306,1
-coppock_green_porter_2022,table_c6,vote_share_dim_std.error,NA,0.031,NA,The archive's CGP_2022_equivalence_tests.R stops under current estimatr: lh_robust() has no CR2 path when clusters are supplied. The rewrite recovers the contrast from the fitted CR2 variance-covariance matrix.,0.03126043091996563,1
-coppock_green_porter_2022,table_c6,vote_share_dim_p_eq_0.2,NA,0.663,NA,The archive's CGP_2022_equivalence_tests.R stops under current estimatr: lh_robust() has no CR2 path when clusters are supplied. The rewrite recovers the contrast from the fitted CR2 variance-covariance matrix.,0.662899939658417,1
-coppock_green_porter_2022,table_c6,vote_share_dim_p_eq_0.1,NA,0.828,NA,The archive's CGP_2022_equivalence_tests.R stops under current estimatr: lh_robust() has no CR2 path when clusters are supplied. The rewrite recovers the contrast from the fitted CR2 variance-covariance matrix.,0.8281433215779932,1
-coppock_green_porter_2022,table_c6,vote_share_ols_sd_1.0,NA,0.165,NA,The archive's CGP_2022_equivalence_tests.R stops under current estimatr: lh_robust() has no CR2 path when clusters are supplied. The rewrite recovers the contrast from the fitted CR2 variance-covariance matrix.,0.1645746137815807,1
-coppock_green_porter_2022,table_c6,vote_share_ols_estimate,NA,-0.002,NA,The archive's CGP_2022_equivalence_tests.R stops under current estimatr: lh_robust() has no CR2 path when clusters are supplied. The rewrite recovers the contrast from the fitted CR2 variance-covariance matrix.,-0.00229515791459295,1
-coppock_green_porter_2022,table_c6,vote_share_ols_std.error,NA,0.011,NA,The archive's CGP_2022_equivalence_tests.R stops under current estimatr: lh_robust() has no CR2 path when clusters are supplied. The rewrite recovers the contrast from the fitted CR2 variance-covariance matrix.,0.01136316110124855,1
-coppock_green_porter_2022,table_c6,vote_share_ols_p_eq_0.2,NA,0.004,NA,The archive's CGP_2022_equivalence_tests.R stops under current estimatr: lh_robust() has no CR2 path when clusters are supplied. The rewrite recovers the contrast from the fitted CR2 variance-covariance matrix.,0.00352310895521738,1
-coppock_green_porter_2022,table_c6,vote_share_ols_p_eq_0.1,NA,0.106,NA,The archive's CGP_2022_equivalence_tests.R stops under current estimatr: lh_robust() has no CR2 path when clusters are supplied. The rewrite recovers the contrast from the fitted CR2 variance-covariance matrix.,0.1063207478953106,1
-coppock_green_porter_2022,table_c6,vote_margin_dim_sd_1.0,NA,433.178,NA,The archive's CGP_2022_equivalence_tests.R stops under current estimatr: lh_robust() has no CR2 path when clusters are supplied. The rewrite recovers the contrast from the fitted CR2 variance-covariance matrix.,433.17804914351865,1
-coppock_green_porter_2022,table_c6,vote_margin_dim_estimate,NA,-59.386,NA,The archive's CGP_2022_equivalence_tests.R stops under current estimatr: lh_robust() has no CR2 path when clusters are supplied. The rewrite recovers the contrast from the fitted CR2 variance-covariance matrix.,-59.3856744068012,1
-coppock_green_porter_2022,table_c6,vote_margin_dim_std.error,NA,84.907,NA,The archive's CGP_2022_equivalence_tests.R stops under current estimatr: lh_robust() has no CR2 path when clusters are supplied. The rewrite recovers the contrast from the fitted CR2 variance-covariance matrix.,84.90738918159616,1
-coppock_green_porter_2022,table_c6,vote_margin_dim_p_eq_0.2,NA,0.374,NA,The archive's CGP_2022_equivalence_tests.R stops under current estimatr: lh_robust() has no CR2 path when clusters are supplied. The rewrite recovers the contrast from the fitted CR2 variance-covariance matrix.,0.3741290104662065,1
-coppock_green_porter_2022,table_c6,vote_margin_dim_p_eq_0.1,NA,0.575,NA,The archive's CGP_2022_equivalence_tests.R stops under current estimatr: lh_robust() has no CR2 path when clusters are supplied. The rewrite recovers the contrast from the fitted CR2 variance-covariance matrix.,0.5750476184048949,1
-coppock_green_porter_2022,table_c6,vote_margin_ols_sd_1.0,NA,433.178,NA,The archive's CGP_2022_equivalence_tests.R stops under current estimatr: lh_robust() has no CR2 path when clusters are supplied. The rewrite recovers the contrast from the fitted CR2 variance-covariance matrix.,433.17804914351865,1
-coppock_green_porter_2022,table_c6,vote_margin_ols_estimate,NA,-41.226,NA,The archive's CGP_2022_equivalence_tests.R stops under current estimatr: lh_robust() has no CR2 path when clusters are supplied. The rewrite recovers the contrast from the fitted CR2 variance-covariance matrix.,-41.22556326166559,1
-coppock_green_porter_2022,table_c6,vote_margin_ols_std.error,NA,25.443,NA,The archive's CGP_2022_equivalence_tests.R stops under current estimatr: lh_robust() has no CR2 path when clusters are supplied. The rewrite recovers the contrast from the fitted CR2 variance-covariance matrix.,25.44264487032406,1
-coppock_green_porter_2022,table_c6,vote_margin_ols_p_eq_0.2,NA,0.037,NA,The archive's CGP_2022_equivalence_tests.R stops under current estimatr: lh_robust() has no CR2 path when clusters are supplied. The rewrite recovers the contrast from the fitted CR2 variance-covariance matrix.,0.03714683703081702,1
-coppock_green_porter_2022,table_c6,vote_margin_ols_p_eq_0.1,NA,0.467,NA,The archive's CGP_2022_equivalence_tests.R stops under current estimatr: lh_robust() has no CR2 path when clusters are supplied. The rewrite recovers the contrast from the fitted CR2 variance-covariance matrix.,0.46723045605851593,1
-coppock_green_porter_2022,table_c6,vote_total_dim_sd_1.0,NA,982.813,NA,The archive's CGP_2022_equivalence_tests.R stops under current estimatr: lh_robust() has no CR2 path when clusters are supplied. The rewrite recovers the contrast from the fitted CR2 variance-covariance matrix.,982.813030266344,1
-coppock_green_porter_2022,table_c6,vote_total_dim_estimate,NA,-187.748,NA,The archive's CGP_2022_equivalence_tests.R stops under current estimatr: lh_robust() has no CR2 path when clusters are supplied. The rewrite recovers the contrast from the fitted CR2 variance-covariance matrix.,-187.74787463519905,1
-coppock_green_porter_2022,table_c6,vote_total_dim_std.error,NA,150.99,NA,The archive's CGP_2022_equivalence_tests.R stops under current estimatr: lh_robust() has no CR2 path when clusters are supplied. The rewrite recovers the contrast from the fitted CR2 variance-covariance matrix.,150.98982860987078,1
-coppock_green_porter_2022,table_c6,vote_total_dim_p_eq_0.2,NA,0.477,NA,The archive's CGP_2022_equivalence_tests.R stops under current estimatr: lh_robust() has no CR2 path when clusters are supplied. The rewrite recovers the contrast from the fitted CR2 variance-covariance matrix.,0.476723117124747,1
-coppock_green_porter_2022,table_c6,vote_total_dim_p_eq_0.1,NA,0.723,NA,The archive's CGP_2022_equivalence_tests.R stops under current estimatr: lh_robust() has no CR2 path when clusters are supplied. The rewrite recovers the contrast from the fitted CR2 variance-covariance matrix.,0.7232533912387584,1
-coppock_green_porter_2022,table_c6,vote_total_ols_sd_1.0,NA,982.813,NA,The archive's CGP_2022_equivalence_tests.R stops under current estimatr: lh_robust() has no CR2 path when clusters are supplied. The rewrite recovers the contrast from the fitted CR2 variance-covariance matrix.,982.813030266344,1
-coppock_green_porter_2022,table_c6,vote_total_ols_estimate,NA,10.654,NA,The archive's CGP_2022_equivalence_tests.R stops under current estimatr: lh_robust() has no CR2 path when clusters are supplied. The rewrite recovers the contrast from the fitted CR2 variance-covariance matrix.,10.653934800650587,1
-coppock_green_porter_2022,table_c6,vote_total_ols_std.error,NA,32.177,NA,The archive's CGP_2022_equivalence_tests.R stops under current estimatr: lh_robust() has no CR2 path when clusters are supplied. The rewrite recovers the contrast from the fitted CR2 variance-covariance matrix.,32.17699526161328,1
-coppock_green_porter_2022,table_c6,vote_total_ols_p_eq_0.2,NA,0,NA,The archive's CGP_2022_equivalence_tests.R stops under current estimatr: lh_robust() has no CR2 path when clusters are supplied. The rewrite recovers the contrast from the fitted CR2 variance-covariance matrix.,3.786681639530645e-9,1
-coppock_green_porter_2022,table_c6,vote_total_ols_p_eq_0.1,NA,0.003,NA,The archive's CGP_2022_equivalence_tests.R stops under current estimatr: lh_robust() has no CR2 path when clusters are supplied. The rewrite recovers the contrast from the fitted CR2 variance-covariance matrix.,0.00323174069823089,1
-coppock_green_porter_2022,table_e7,joint_f_p_value,0.3335685705573611,0.33,1,,0.3335685705573611,1
-coppock_green_porter_2022,table_e7,intercept_est,0.553059771850728,0.553,1,,0.553059771850728,1
-coppock_green_porter_2022,table_e7,intercept_se,0.08309170382047601,0.083,1,,0.08309170382047601,1
-coppock_green_porter_2022,table_e7,r_squared,0.0347554080253486,0.035,1,,0.0347554080253486,1
-coppock_green_porter_2022,table_e7,n_obs,1096,1096,1,,1096,1
-coppock_green_porter_2022,table_e7,n_clusters,169,169,1,,169,1
-coppock_green_porter_2022,table_f8,joint_f_p_value,0.3284604392860449,0.328,1,,0.3284604392860449,1
-coppock_green_porter_2022,table_f8,intercept_est,0.49965554403635726,0.5,1,,0.49965554403635726,1
-coppock_green_porter_2022,table_f8,intercept_se,0.03900731696002892,0.039,1,,0.03900731696002892,1
-coppock_green_porter_2022,table_f8,r_squared,0.00892627884588936,0.009,1,,0.00892627884588936,1
-coppock_green_porter_2022,table_f8,n_obs,210,210,1,,210,1
-coppock_green_porter_2022,figure_1,prior_mu,0,0,1,,0,1
-coppock_green_porter_2022,figure_1,prior_sigma,0.05,0.05,1,,0.05,1
-coppock_green_porter_2022,figure_1,posterior_1_broockman_green_mu,0.01483679525222552,0.015,1,,0.01483679525222552,1
-coppock_green_porter_2022,figure_1,posterior_1_broockman_green_sigma,0.01348149627599854,0.013,1,,0.01348149627599854,1
-coppock_green_porter_2022,figure_1,posterior_2_turitto_mu,0.01371702077982722,0.014,1,,0.01371702077982722,1
-coppock_green_porter_2022,figure_1,posterior_2_turitto_sigma,0.01134488933950494,0.011,1,,0.01134488933950494,1
-coppock_green_porter_2022,figure_1,posterior_3_hager_mu,0.01003100201576892,0.01,1,,0.01003100201576892,1
-coppock_green_porter_2022,figure_1,posterior_3_hager_sigma,0.0053039097610428,0.005,1,,0.0053039097610428,1
-coppock_green_porter_2022,figure_1,posterior_4_present_study_mu,0.00708364086516408,0.007,1,,0.00708364086516408,1
-coppock_green_porter_2022,figure_1,posterior_4_present_study_sigma,0.00449617308465873,0.004,1,,0.00449617308465873,1
-coppock_green_porter_2022,figure_1,present_study_estimate_label,-4.4332328582928296e-4,0,1,,-4.4332328582928296e-4,1
-coppock_green_porter_2022,figure_1,present_study_se_label,0.0085,0.009,1,"The published panel label reads SE 0.009 because the archive typed the table's rounded 0.0085 into the figure. The rewrite feeds the estimate itself, 0.0084760, whose label rounds to 0.008. Every posterior is unchanged.",0.00847596925939286,0
-coppock_green_porter_2022,figure_g2,power_ols,0.23,0.21,0,Simulation based. The archive sets no seed and shipped sims = 500 with the published sims = 5000 commented out. Rerun at 5000 draws with a seed; the gap is under one Monte Carlo standard error.,0.20719999999999977,0
-coppock_green_porter_2022,figure_g2,power_posterior,0.89,0.893,0,Simulation based. The archive sets no seed and shipped sims = 500 with the published sims = 5000 commented out. Rerun at 5000 draws with a seed; the gap is under one Monte Carlo standard error.,0.8866000000000002,0
-coppock_green_porter_2022,text,total_two_party_votes_treated_zips,822782.7733194007,822783,1,,822782.7733194007,1
-coppock_green_porter_2022,text,cost_per_vote_usd,8.681337780261797,8.68,1,,8.681337780261797,1
-coppock_green_porter_2022,text,posterior_mean_after_three_studies_pp,1.003100201576892,1,1,,1.003100201576892,1
-coppock_green_porter_2022,text,posterior_mean_all_four_studies_pp,0.7083640865164079,0.7,1,,0.7083640865164079,1
-coppock_green_porter_2022,text,posterior_sd_all_four_studies_pp,0.44961730846587294,0.4,1,,0.44961730846587294,1
-coppock_green_porter_2022,text,unadjusted_estimate_pp,0.211445890447404,2.1,0,"The text says 2.1 percentage points. Table 4 Model 1 is 0.0021, which is 0.21 percentage points. The text is off by a factor of ten.",0.211445890447404,0
-coppock_green_porter_2022,text,unadjusted_se_pp,2.248729557733574,3,0,"The text says 3.0 percentage points. Table 4 Model 1's standard error is 0.0225, which is 2.25 percentage points.",2.248729557733574,0
-coppock_green_porter_2022,text,adjusted_estimate_pp,-0.04433232858292829,-0.04,1,,-0.04433232858292829,1
-coppock_green_porter_2022,text,adjusted_se_pp,0.8475969259392859,0.85,1,,0.8475969259392859,1
-coppock_green_porter_2022,text,ri_p_unadjusted,0.48,0.471,0,Randomization inference. The archive sets no seed and shipped sims = 500 with the published sims = 2000 commented out. Rerun at 2000 draws with a seed; the gap is under one Monte Carlo standard error.,0.4585,0
-coppock_green_porter_2022,text,ri_p_adjusted,0.51,0.508,0,Randomization inference. The archive sets no seed and shipped sims = 500 with the published sims = 2000 commented out. Rerun at 2000 draws with a seed; the gap is under one Monte Carlo standard error.,0.505,0
-coppock_green_porter_2022,text,three_second_views,NA,1128478,NA,Table 3's exposure counts come from the advertisement vendor and are not in the deposit.,NA,NA
-coppock_green_porter_2022,text,full_views,NA,117913,NA,Table 3's exposure counts come from the advertisement vendor and are not in the deposit.,NA,NA
+paper_id,table_figure,claim,value_script,value_paper,match,notes,value_rewrite,match_rewrite,defect_locus
+coppock_green_porter_2022,table_4,m1_any_video_est,0.00211445890447404,0.0021,1,,0.00211445890447404,1,
+coppock_green_porter_2022,table_4,m2_any_video_est,-4.4332328582928296e-4,-4e-4,1,,-4.4332328582928296e-4,1,
+coppock_green_porter_2022,table_4,m3_video1_est,-0.02054151711593248,-0.0205,1,,-0.02054151711593248,1,
+coppock_green_porter_2022,table_4,m3_video2_est,0.02551499751710058,0.0255,1,,0.02551499751710058,1,
+coppock_green_porter_2022,table_4,m4_video1_est,-0.00161931034712876,-0.0016,1,,-0.00161931034712876,1,
+coppock_green_porter_2022,table_4,m4_video2_est,6.758475674641944e-4,7e-4,1,,6.758475674641944e-4,1,
+coppock_green_porter_2022,table_4,m1_any_video_se,0.02248729557733574,0.0225,1,,0.02248729557733574,1,
+coppock_green_porter_2022,table_4,m2_any_video_se,0.00847596925939286,0.0085,1,,0.00847596925939286,1,
+coppock_green_porter_2022,table_4,m3_video1_se,0.0249779396651857,0.025,1,,0.0249779396651857,1,
+coppock_green_porter_2022,table_4,m3_video2_se,0.0291181584918253,0.0291,1,,0.0291181584918253,1,
+coppock_green_porter_2022,table_4,m4_video1_se,0.01086087176269422,0.0109,1,,0.01086087176269422,1,
+coppock_green_porter_2022,table_4,m4_video2_se,0.00960570277980645,0.0096,1,,0.00960570277980645,1,
+coppock_green_porter_2022,table_a1,m1_any_video_est,47.14504548673529,47.15,1,,47.14504548673529,1,
+coppock_green_porter_2022,table_a1,m2_any_video_est,6.537417274466778,6.54,1,,6.537417274466778,1,
+coppock_green_porter_2022,table_a1,m3_video1_est,18.066542846163777,18.07,1,,18.066542846163777,1,
+coppock_green_porter_2022,table_a1,m3_video2_est,77.45221725296497,77.45,1,,77.45221725296497,1,
+coppock_green_porter_2022,table_a1,m4_video1_est,-14.522192596932932,-14.52,1,,-14.522192596932932,1,
+coppock_green_porter_2022,table_a1,m4_video2_est,26.70337066473266,26.7,1,,26.70337066473266,1,
+coppock_green_porter_2022,table_a1,m1_any_video_se,56.74410432699257,56.74,1,,56.74410432699257,1,
+coppock_green_porter_2022,table_a1,m2_any_video_se,18.69691935822568,18.7,1,,18.69691935822568,1,
+coppock_green_porter_2022,table_a1,m3_video1_se,53.36957704512563,53.37,1,,53.36957704512563,1,
+coppock_green_porter_2022,table_a1,m3_video2_se,84.914914470095,84.91,1,,84.914914470095,1,
+coppock_green_porter_2022,table_a1,m4_video1_se,21.94449045561022,21.94,1,,21.94449045561022,1,
+coppock_green_porter_2022,table_a1,m4_video2_se,22.81222828610203,22.81,1,,22.81222828610203,1,
+coppock_green_porter_2022,table_a2,m1_any_video_est,-23.591594487116556,-23.59,1,,-23.591594487116556,1,
+coppock_green_porter_2022,table_a2,m2_any_video_est,10.186389960237149,10.19,1,,10.186389960237149,1,
+coppock_green_porter_2022,table_a2,m3_video1_est,-115.5233124119383,-115.52,1,,-115.5233124119383,1,
+coppock_green_porter_2022,table_a2,m3_video2_est,72.22456222326072,72.22,1,,72.22456222326072,1,
+coppock_green_porter_2022,table_a2,m4_video1_est,15.632883176789813,15.63,1,,15.632883176789813,1,
+coppock_green_porter_2022,table_a2,m4_video2_est,4.978948376139224,4.98,1,,4.978948376139224,1,
+coppock_green_porter_2022,table_a2,m1_any_video_se,103.35115006129978,103.35,1,,103.35115006129978,1,
+coppock_green_porter_2022,table_a2,m2_any_video_se,23.67650930379425,23.68,1,,23.67650930379425,1,
+coppock_green_porter_2022,table_a2,m3_video1_se,140.9333352820469,140.93,1,,140.9333352820469,1,
+coppock_green_porter_2022,table_a2,m3_video2_se,112.05587295378326,112.06,1,,112.05587295378326,1,
+coppock_green_porter_2022,table_a2,m4_video1_se,29.013936367844305,29.01,1,,29.013936367844305,1,
+coppock_green_porter_2022,table_a2,m4_video2_se,28.28167314961479,28.28,1,,28.28167314961479,1,
+coppock_green_porter_2022,table_b3,m1_any_video_est,0.00424102545744664,,,"Published Table B.3 reprints the Table B.4 vote margin models under the vote share caption, so these vote share estimates appear nowhere in the appendix.",0.00424102545744664,,
+coppock_green_porter_2022,table_b3,m2_any_video_est,-0.00179900361535011,,,"Published Table B.3 reprints the Table B.4 vote margin models under the vote share caption, so these vote share estimates appear nowhere in the appendix.",-0.00179900361535011,,
+coppock_green_porter_2022,table_b3,m3_video1_est,-0.01540767189425262,,,"Published Table B.3 reprints the Table B.4 vote margin models under the vote share caption, so these vote share estimates appear nowhere in the appendix.",-0.01540767189425262,,
+coppock_green_porter_2022,table_b3,m3_video2_est,0.02350049426000227,,,"Published Table B.3 reprints the Table B.4 vote margin models under the vote share caption, so these vote share estimates appear nowhere in the appendix.",0.02350049426000227,,
+coppock_green_porter_2022,table_b3,m4_video1_est,-0.00388299268233914,,,"Published Table B.3 reprints the Table B.4 vote margin models under the vote share caption, so these vote share estimates appear nowhere in the appendix.",-0.00388299268233914,,
+coppock_green_porter_2022,table_b3,m4_video2_est,1.0737788774877615e-4,,,"Published Table B.3 reprints the Table B.4 vote margin models under the vote share caption, so these vote share estimates appear nowhere in the appendix.",1.0737788774877615e-4,,
+coppock_green_porter_2022,table_b3,m1_any_video_se,0.02171048858825918,,,"Published Table B.3 reprints the Table B.4 vote margin models under the vote share caption, so these vote share estimates appear nowhere in the appendix.",0.02171048858825918,,
+coppock_green_porter_2022,table_b3,m2_any_video_se,0.00882331010534093,,,"Published Table B.3 reprints the Table B.4 vote margin models under the vote share caption, so these vote share estimates appear nowhere in the appendix.",0.00882331010534093,,
+coppock_green_porter_2022,table_b3,m3_video1_se,0.02444246906606207,,,"Published Table B.3 reprints the Table B.4 vote margin models under the vote share caption, so these vote share estimates appear nowhere in the appendix.",0.02444246906606207,,
+coppock_green_porter_2022,table_b3,m3_video2_se,0.0272377971422544,,,"Published Table B.3 reprints the Table B.4 vote margin models under the vote share caption, so these vote share estimates appear nowhere in the appendix.",0.0272377971422544,,
+coppock_green_porter_2022,table_b3,m4_video1_se,0.01156632152205259,,,"Published Table B.3 reprints the Table B.4 vote margin models under the vote share caption, so these vote share estimates appear nowhere in the appendix.",0.01156632152205259,,
+coppock_green_porter_2022,table_b3,m4_video2_se,0.00994055780639916,,,"Published Table B.3 reprints the Table B.4 vote margin models under the vote share caption, so these vote share estimates appear nowhere in the appendix.",0.00994055780639916,,
+coppock_green_porter_2022,table_b4,m1_any_video_est,51.94003608999533,51.94,1,,51.94003608999533,1,
+coppock_green_porter_2022,table_b4,m2_any_video_est,3.620607291284251,3.62,1,,3.620607291284251,1,
+coppock_green_porter_2022,table_b4,m3_video1_est,31.94489326114893,31.94,1,,31.94489326114893,1,
+coppock_green_porter_2022,table_b4,m3_video2_est,71.72008423122978,71.72,1,,71.72008423122978,1,
+coppock_green_porter_2022,table_b4,m4_video1_est,-21.367516584053423,-21.37,1,,-21.367516584053423,1,
+coppock_green_porter_2022,table_b4,m4_video2_est,26.631009953546908,26.63,1,,26.631009953546908,1,
+coppock_green_porter_2022,table_b4,m1_any_video_se,55.15257829619377,55.15,1,,55.15257829619377,1,
+coppock_green_porter_2022,table_b4,m2_any_video_se,18.94736841476798,18.95,1,,18.94736841476798,1,
+coppock_green_porter_2022,table_b4,m3_video1_se,53.246071085433805,53.25,1,,53.246071085433805,1,
+coppock_green_porter_2022,table_b4,m3_video2_se,80.34377407240518,80.34,1,,80.34377407240518,1,
+coppock_green_porter_2022,table_b4,m4_video1_se,22.61607513395567,22.62,1,,22.61607513395567,1,
+coppock_green_porter_2022,table_b4,m4_video2_se,22.7883889158653,22.79,1,,22.7883889158653,1,
+coppock_green_porter_2022,table_b5,m1_any_video_est,-27.539633034278985,-27.54,1,,-27.539633034278985,1,
+coppock_green_porter_2022,table_b5,m2_any_video_est,9.176570629363654,9.18,1,,9.176570629363654,1,
+coppock_green_porter_2022,table_b5,m3_video1_est,-159.44585637169507,-159.45,1,,-159.44585637169507,1,
+coppock_green_porter_2022,table_b5,m3_video2_est,102.94762930116796,102.95,1,,102.94762930116796,1,
+coppock_green_porter_2022,table_b5,m4_video1_est,3.500956430176096,3.5,1,,3.500956430176096,1,
+coppock_green_porter_2022,table_b5,m4_video2_est,14.439900124496443,14.44,1,,14.439900124496443,1,
+coppock_green_porter_2022,table_b5,m1_any_video_se,95.65243499506208,95.65,1,,95.65243499506208,1,
+coppock_green_porter_2022,table_b5,m2_any_video_se,23.163937034582144,23.16,1,,23.163937034582144,1,
+coppock_green_porter_2022,table_b5,m3_video1_se,142.8199242185158,142.82,1,,142.8199242185158,1,
+coppock_green_porter_2022,table_b5,m3_video2_se,90.25316399835982,90.25,1,,90.25316399835982,1,
+coppock_green_porter_2022,table_b5,m4_video1_se,30.617428910821552,30.62,1,,30.617428910821552,1,
+coppock_green_porter_2022,table_b5,m4_video2_se,26.763512191064105,26.76,1,,26.763512191064105,1,
+coppock_green_porter_2022,table_f9,m1_any_video_est,0.00985458813345355,0.0099,1,,0.00985458813345355,1,
+coppock_green_porter_2022,table_f9,m2_any_video_est,0.001494794878072,0.0015,1,,0.001494794878072,1,
+coppock_green_porter_2022,table_f9,m3_video1_est,0.01671408460282777,0.0167,1,,0.01671408460282777,1,
+coppock_green_porter_2022,table_f9,m3_video2_est,0.00299509166407935,0.003,1,,0.00299509166407935,1,
+coppock_green_porter_2022,table_f9,m4_video1_est,0.005482479358447,0.0055,1,,0.005482479358447,1,
+coppock_green_porter_2022,table_f9,m4_video2_est,-0.00245711888495072,-0.0025,1,,-0.00245711888495072,1,
+coppock_green_porter_2022,table_f9,m1_any_video_se,0.01448034336347406,0.0145,1,,0.01448034336347406,1,
+coppock_green_porter_2022,table_f9,m2_any_video_se,0.00879754283818571,0.0088,1,,0.00879754283818571,1,
+coppock_green_porter_2022,table_f9,m3_video1_se,0.01784546092514657,0.0178,1,,0.01784546092514657,1,
+coppock_green_porter_2022,table_f9,m3_video2_se,0.01809158505430489,0.0181,1,,0.01809158505430489,1,
+coppock_green_porter_2022,table_f9,m4_video1_se,0.00855046173703903,0.0086,1,,0.00855046173703903,1,
+coppock_green_porter_2022,table_f9,m4_video2_se,0.01278053151891731,0.0128,1,,0.01278053151891731,1,
+coppock_green_porter_2022,table_f10,m1_any_video_est,68.59196024679093,68.592,1,,68.59196024679093,1,
+coppock_green_porter_2022,table_f10,m2_any_video_est,-77.26722783851457,-77.2672,1,,-77.26722783851457,1,
+coppock_green_porter_2022,table_f10,m3_video1_est,9.34382726443521,9.3438,1,,9.34382726443521,1,
+coppock_green_porter_2022,table_f10,m3_video2_est,127.84009322914687,127.8401,1,,127.84009322914687,1,
+coppock_green_porter_2022,table_f10,m4_video1_est,-132.28417994945687,-132.2842,1,,-132.28417994945687,1,
+coppock_green_porter_2022,table_f10,m4_video2_est,-23.55872275403127,-23.5587,1,,-23.55872275403127,1,
+coppock_green_porter_2022,table_f10,m1_any_video_se,269.40973755205994,269.4097,1,,269.40973755205994,1,
+coppock_green_porter_2022,table_f10,m2_any_video_se,156.34892143047512,156.3489,1,,156.34892143047512,1,
+coppock_green_porter_2022,table_f10,m3_video1_se,275.9061329158996,275.9061,1,,275.9061329158996,1,
+coppock_green_porter_2022,table_f10,m3_video2_se,384.5197385131535,384.5197,1,,384.5197385131535,1,
+coppock_green_porter_2022,table_f10,m4_video1_se,177.3082762231606,177.3083,1,,177.3082762231606,1,
+coppock_green_porter_2022,table_f10,m4_video2_se,211.41213868011167,211.4121,1,,211.41213868011167,1,
+coppock_green_porter_2022,table_f11,m1_any_video_est,-89.82885631182347,-89.8289,1,,-89.82885631182347,1,
+coppock_green_porter_2022,table_f11,m2_any_video_est,195.6585496839684,195.6585,1,,195.6585496839684,1,
+coppock_green_porter_2022,table_f11,m3_video1_est,-439.0957478018704,-439.0957,1,,-439.0957478018704,1,
+coppock_green_porter_2022,table_f11,m3_video2_est,259.4380351782236,259.438,1,,259.4380351782236,1,
+coppock_green_porter_2022,table_f11,m4_video1_est,1018.57542627657,1018.5754,1,,1018.57542627657,1,
+coppock_green_porter_2022,table_f11,m4_video2_est,-590.521797449917,-590.5218,1,,-590.521797449917,1,
+coppock_green_porter_2022,table_f11,m1_any_video_se,953.4329157462817,953.4329,1,,953.4329157462817,1,
+coppock_green_porter_2022,table_f11,m2_any_video_se,526.4416784228432,526.4417,1,,526.4416784228432,1,
+coppock_green_porter_2022,table_f11,m3_video1_se,1125.3363245077278,1125.3363,1,,1125.3363245077278,1,
+coppock_green_porter_2022,table_f11,m3_video2_se,1182.4407478854894,1182.4407,1,,1182.4407478854894,1,
+coppock_green_porter_2022,table_f11,m4_video1_se,685.7638188243877,685.7638,1,,685.7638188243877,1,
+coppock_green_porter_2022,table_f11,m4_video2_se,631.3777433267358,631.3777,1,,631.3777433267358,1,
+coppock_green_porter_2022,table_4,n_obs,853,853,1,,853,1,
+coppock_green_porter_2022,table_4,n_clusters,154,154,1,,154,1,
+coppock_green_porter_2022,table_a1,n_obs,857,857,1,,857,1,
+coppock_green_porter_2022,table_a1,n_clusters,154,154,1,,154,1,
+coppock_green_porter_2022,table_a2,n_obs,857,857,1,,857,1,
+coppock_green_porter_2022,table_b4,n_obs,857,857,1,,857,1,
+coppock_green_porter_2022,table_b5,n_obs,857,857,1,,857,1,
+coppock_green_porter_2022,table_f9,n_obs,210,210,1,,210,1,
+coppock_green_porter_2022,table_f10,n_obs,210,210,1,,210,1,
+coppock_green_porter_2022,table_f11,n_obs,210,210,1,,210,1,
+coppock_green_porter_2022,table_1,no_exclusions_control_zip_codes,104,104,1,,104,1,
+coppock_green_porter_2022,table_1,no_exclusions_treatment_video_1_zip_codes,53,53,1,,53,1,
+coppock_green_porter_2022,table_1,no_exclusions_treatment_video_2_zip_codes,53,53,1,,53,1,
+coppock_green_porter_2022,table_1,no_exclusions_total_zip_codes,210,210,1,,210,1,
+coppock_green_porter_2022,table_1,no_exclusions_control_precincts,,4683,,"The deposit holds only the 1096 precincts nested within a single ZIP code, so the unrestricted precinct counts cannot be recomputed.",,,
+coppock_green_porter_2022,table_1,no_exclusions_treatment_video_1_precincts,,2246,,"The deposit holds only the 1096 precincts nested within a single ZIP code, so the unrestricted precinct counts cannot be recomputed.",,,
+coppock_green_porter_2022,table_1,no_exclusions_treatment_video_2_precincts,,2306,,"The deposit holds only the 1096 precincts nested within a single ZIP code, so the unrestricted precinct counts cannot be recomputed.",,,
+coppock_green_porter_2022,table_1,no_exclusions_total_precincts,,9235,,"The deposit holds only the 1096 precincts nested within a single ZIP code, so the unrestricted precinct counts cannot be recomputed.",,,
+coppock_green_porter_2022,table_1,only_nested_precincts_control_precincts,524,524,1,,524,1,
+coppock_green_porter_2022,table_1,only_nested_precincts_treatment_video_1_precincts,285,285,1,,285,1,
+coppock_green_porter_2022,table_1,only_nested_precincts_treatment_video_2_precincts,287,287,1,,287,1,
+coppock_green_porter_2022,table_1,only_nested_precincts_total_precincts,1096,1096,1,,1096,1,
+coppock_green_porter_2022,table_1,only_nested_precincts_control_zip_codes,84,84,1,,84,1,
+coppock_green_porter_2022,table_1,only_nested_precincts_treatment_video_1_zip_codes,43,43,1,,43,1,
+coppock_green_porter_2022,table_1,only_nested_precincts_treatment_video_2_zip_codes,42,42,1,,42,1,
+coppock_green_porter_2022,table_1,only_nested_precincts_total_zip_codes,169,169,1,,169,1,
+coppock_green_porter_2022,table_1,with_outcome_data_control_precincts,420,420,1,,420,1,
+coppock_green_porter_2022,table_1,with_outcome_data_treatment_video_1_precincts,220,220,1,,220,1,
+coppock_green_porter_2022,table_1,with_outcome_data_treatment_video_2_precincts,213,213,1,,213,1,
+coppock_green_porter_2022,table_1,with_outcome_data_total_precincts,853,853,1,,853,1,
+coppock_green_porter_2022,table_1,with_outcome_data_control_zip_codes,76,76,1,,76,1,
+coppock_green_porter_2022,table_1,with_outcome_data_treatment_video_1_zip_codes,41,41,1,,41,1,
+coppock_green_porter_2022,table_1,with_outcome_data_treatment_video_2_zip_codes,37,37,1,,37,1,
+coppock_green_porter_2022,table_1,with_outcome_data_total_zip_codes,154,154,1,,154,1,
+coppock_green_porter_2022,table_c6,vote_share_dim_sd_1.0,,0.165,,The archive's CGP_2022_equivalence_tests.R stops under current estimatr: lh_robust() has no CR2 path when clusters are supplied. The rewrite recovers the contrast from the fitted CR2 variance-covariance matrix.,0.1645746137815807,1,
+coppock_green_porter_2022,table_c6,vote_share_dim_estimate,,-0.046,,The archive's CGP_2022_equivalence_tests.R stops under current estimatr: lh_robust() has no CR2 path when clusters are supplied. The rewrite recovers the contrast from the fitted CR2 variance-covariance matrix.,-0.04605651463303306,1,
+coppock_green_porter_2022,table_c6,vote_share_dim_std.error,,0.031,,The archive's CGP_2022_equivalence_tests.R stops under current estimatr: lh_robust() has no CR2 path when clusters are supplied. The rewrite recovers the contrast from the fitted CR2 variance-covariance matrix.,0.03126043091996563,1,
+coppock_green_porter_2022,table_c6,vote_share_dim_p_eq_0.2,,0.663,,The archive's CGP_2022_equivalence_tests.R stops under current estimatr: lh_robust() has no CR2 path when clusters are supplied. The rewrite recovers the contrast from the fitted CR2 variance-covariance matrix.,0.662899939658417,1,
+coppock_green_porter_2022,table_c6,vote_share_dim_p_eq_0.1,,0.828,,The archive's CGP_2022_equivalence_tests.R stops under current estimatr: lh_robust() has no CR2 path when clusters are supplied. The rewrite recovers the contrast from the fitted CR2 variance-covariance matrix.,0.8281433215779932,1,
+coppock_green_porter_2022,table_c6,vote_share_ols_sd_1.0,,0.165,,The archive's CGP_2022_equivalence_tests.R stops under current estimatr: lh_robust() has no CR2 path when clusters are supplied. The rewrite recovers the contrast from the fitted CR2 variance-covariance matrix.,0.1645746137815807,1,
+coppock_green_porter_2022,table_c6,vote_share_ols_estimate,,-0.002,,The archive's CGP_2022_equivalence_tests.R stops under current estimatr: lh_robust() has no CR2 path when clusters are supplied. The rewrite recovers the contrast from the fitted CR2 variance-covariance matrix.,-0.00229515791459295,1,
+coppock_green_porter_2022,table_c6,vote_share_ols_std.error,,0.011,,The archive's CGP_2022_equivalence_tests.R stops under current estimatr: lh_robust() has no CR2 path when clusters are supplied. The rewrite recovers the contrast from the fitted CR2 variance-covariance matrix.,0.01136316110124855,1,
+coppock_green_porter_2022,table_c6,vote_share_ols_p_eq_0.2,,0.004,,The archive's CGP_2022_equivalence_tests.R stops under current estimatr: lh_robust() has no CR2 path when clusters are supplied. The rewrite recovers the contrast from the fitted CR2 variance-covariance matrix.,0.00352310895521738,1,
+coppock_green_porter_2022,table_c6,vote_share_ols_p_eq_0.1,,0.106,,The archive's CGP_2022_equivalence_tests.R stops under current estimatr: lh_robust() has no CR2 path when clusters are supplied. The rewrite recovers the contrast from the fitted CR2 variance-covariance matrix.,0.1063207478953106,1,
+coppock_green_porter_2022,table_c6,vote_margin_dim_sd_1.0,,433.178,,The archive's CGP_2022_equivalence_tests.R stops under current estimatr: lh_robust() has no CR2 path when clusters are supplied. The rewrite recovers the contrast from the fitted CR2 variance-covariance matrix.,433.17804914351865,1,
+coppock_green_porter_2022,table_c6,vote_margin_dim_estimate,,-59.386,,The archive's CGP_2022_equivalence_tests.R stops under current estimatr: lh_robust() has no CR2 path when clusters are supplied. The rewrite recovers the contrast from the fitted CR2 variance-covariance matrix.,-59.3856744068012,1,
+coppock_green_porter_2022,table_c6,vote_margin_dim_std.error,,84.907,,The archive's CGP_2022_equivalence_tests.R stops under current estimatr: lh_robust() has no CR2 path when clusters are supplied. The rewrite recovers the contrast from the fitted CR2 variance-covariance matrix.,84.90738918159616,1,
+coppock_green_porter_2022,table_c6,vote_margin_dim_p_eq_0.2,,0.374,,The archive's CGP_2022_equivalence_tests.R stops under current estimatr: lh_robust() has no CR2 path when clusters are supplied. The rewrite recovers the contrast from the fitted CR2 variance-covariance matrix.,0.3741290104662065,1,
+coppock_green_porter_2022,table_c6,vote_margin_dim_p_eq_0.1,,0.575,,The archive's CGP_2022_equivalence_tests.R stops under current estimatr: lh_robust() has no CR2 path when clusters are supplied. The rewrite recovers the contrast from the fitted CR2 variance-covariance matrix.,0.5750476184048949,1,
+coppock_green_porter_2022,table_c6,vote_margin_ols_sd_1.0,,433.178,,The archive's CGP_2022_equivalence_tests.R stops under current estimatr: lh_robust() has no CR2 path when clusters are supplied. The rewrite recovers the contrast from the fitted CR2 variance-covariance matrix.,433.17804914351865,1,
+coppock_green_porter_2022,table_c6,vote_margin_ols_estimate,,-41.226,,The archive's CGP_2022_equivalence_tests.R stops under current estimatr: lh_robust() has no CR2 path when clusters are supplied. The rewrite recovers the contrast from the fitted CR2 variance-covariance matrix.,-41.22556326166559,1,
+coppock_green_porter_2022,table_c6,vote_margin_ols_std.error,,25.443,,The archive's CGP_2022_equivalence_tests.R stops under current estimatr: lh_robust() has no CR2 path when clusters are supplied. The rewrite recovers the contrast from the fitted CR2 variance-covariance matrix.,25.44264487032406,1,
+coppock_green_porter_2022,table_c6,vote_margin_ols_p_eq_0.2,,0.037,,The archive's CGP_2022_equivalence_tests.R stops under current estimatr: lh_robust() has no CR2 path when clusters are supplied. The rewrite recovers the contrast from the fitted CR2 variance-covariance matrix.,0.03714683703081702,1,
+coppock_green_porter_2022,table_c6,vote_margin_ols_p_eq_0.1,,0.467,,The archive's CGP_2022_equivalence_tests.R stops under current estimatr: lh_robust() has no CR2 path when clusters are supplied. The rewrite recovers the contrast from the fitted CR2 variance-covariance matrix.,0.46723045605851593,1,
+coppock_green_porter_2022,table_c6,vote_total_dim_sd_1.0,,982.813,,The archive's CGP_2022_equivalence_tests.R stops under current estimatr: lh_robust() has no CR2 path when clusters are supplied. The rewrite recovers the contrast from the fitted CR2 variance-covariance matrix.,982.813030266344,1,
+coppock_green_porter_2022,table_c6,vote_total_dim_estimate,,-187.748,,The archive's CGP_2022_equivalence_tests.R stops under current estimatr: lh_robust() has no CR2 path when clusters are supplied. The rewrite recovers the contrast from the fitted CR2 variance-covariance matrix.,-187.74787463519905,1,
+coppock_green_porter_2022,table_c6,vote_total_dim_std.error,,150.99,,The archive's CGP_2022_equivalence_tests.R stops under current estimatr: lh_robust() has no CR2 path when clusters are supplied. The rewrite recovers the contrast from the fitted CR2 variance-covariance matrix.,150.98982860987078,1,
+coppock_green_porter_2022,table_c6,vote_total_dim_p_eq_0.2,,0.477,,The archive's CGP_2022_equivalence_tests.R stops under current estimatr: lh_robust() has no CR2 path when clusters are supplied. The rewrite recovers the contrast from the fitted CR2 variance-covariance matrix.,0.476723117124747,1,
+coppock_green_porter_2022,table_c6,vote_total_dim_p_eq_0.1,,0.723,,The archive's CGP_2022_equivalence_tests.R stops under current estimatr: lh_robust() has no CR2 path when clusters are supplied. The rewrite recovers the contrast from the fitted CR2 variance-covariance matrix.,0.7232533912387584,1,
+coppock_green_porter_2022,table_c6,vote_total_ols_sd_1.0,,982.813,,The archive's CGP_2022_equivalence_tests.R stops under current estimatr: lh_robust() has no CR2 path when clusters are supplied. The rewrite recovers the contrast from the fitted CR2 variance-covariance matrix.,982.813030266344,1,
+coppock_green_porter_2022,table_c6,vote_total_ols_estimate,,10.654,,The archive's CGP_2022_equivalence_tests.R stops under current estimatr: lh_robust() has no CR2 path when clusters are supplied. The rewrite recovers the contrast from the fitted CR2 variance-covariance matrix.,10.653934800650587,1,
+coppock_green_porter_2022,table_c6,vote_total_ols_std.error,,32.177,,The archive's CGP_2022_equivalence_tests.R stops under current estimatr: lh_robust() has no CR2 path when clusters are supplied. The rewrite recovers the contrast from the fitted CR2 variance-covariance matrix.,32.17699526161328,1,
+coppock_green_porter_2022,table_c6,vote_total_ols_p_eq_0.2,,0,,The archive's CGP_2022_equivalence_tests.R stops under current estimatr: lh_robust() has no CR2 path when clusters are supplied. The rewrite recovers the contrast from the fitted CR2 variance-covariance matrix.,3.786681639530645e-9,1,
+coppock_green_porter_2022,table_c6,vote_total_ols_p_eq_0.1,,0.003,,The archive's CGP_2022_equivalence_tests.R stops under current estimatr: lh_robust() has no CR2 path when clusters are supplied. The rewrite recovers the contrast from the fitted CR2 variance-covariance matrix.,0.00323174069823089,1,
+coppock_green_porter_2022,table_e7,joint_f_p_value,0.3335685705573611,0.33,1,,0.3335685705573611,1,
+coppock_green_porter_2022,table_e7,intercept_est,0.553059771850728,0.553,1,,0.553059771850728,1,
+coppock_green_porter_2022,table_e7,intercept_se,0.08309170382047601,0.083,1,,0.08309170382047601,1,
+coppock_green_porter_2022,table_e7,r_squared,0.0347554080253486,0.035,1,,0.0347554080253486,1,
+coppock_green_porter_2022,table_e7,n_obs,1096,1096,1,,1096,1,
+coppock_green_porter_2022,table_e7,n_clusters,169,169,1,,169,1,
+coppock_green_porter_2022,table_f8,joint_f_p_value,0.3284604392860449,0.328,1,,0.3284604392860449,1,
+coppock_green_porter_2022,table_f8,intercept_est,0.49965554403635726,0.5,1,,0.49965554403635726,1,
+coppock_green_porter_2022,table_f8,intercept_se,0.03900731696002892,0.039,1,,0.03900731696002892,1,
+coppock_green_porter_2022,table_f8,r_squared,0.00892627884588936,0.009,1,,0.00892627884588936,1,
+coppock_green_porter_2022,table_f8,n_obs,210,210,1,,210,1,
+coppock_green_porter_2022,figure_1,prior_mu,0,0,1,,0,1,
+coppock_green_porter_2022,figure_1,prior_sigma,0.05,0.05,1,,0.05,1,
+coppock_green_porter_2022,figure_1,posterior_1_broockman_green_mu,0.01483679525222552,0.015,1,,0.01483679525222552,1,
+coppock_green_porter_2022,figure_1,posterior_1_broockman_green_sigma,0.01348149627599854,0.013,1,,0.01348149627599854,1,
+coppock_green_porter_2022,figure_1,posterior_2_turitto_mu,0.01371702077982722,0.014,1,,0.01371702077982722,1,
+coppock_green_porter_2022,figure_1,posterior_2_turitto_sigma,0.01134488933950494,0.011,1,,0.01134488933950494,1,
+coppock_green_porter_2022,figure_1,posterior_3_hager_mu,0.01003100201576892,0.01,1,,0.01003100201576892,1,
+coppock_green_porter_2022,figure_1,posterior_3_hager_sigma,0.0053039097610428,0.005,1,,0.0053039097610428,1,
+coppock_green_porter_2022,figure_1,posterior_4_present_study_mu,0.00708364086516408,0.007,1,,0.00708364086516408,1,
+coppock_green_porter_2022,figure_1,posterior_4_present_study_sigma,0.00449617308465873,0.004,1,,0.00449617308465873,1,
+coppock_green_porter_2022,figure_1,present_study_estimate_label,-4.4332328582928296e-4,0,1,,-4.4332328582928296e-4,1,
+coppock_green_porter_2022,figure_1,present_study_se_label,0.0085,0.009,1,"The published panel label reads SE 0.009 because the archive typed the table's rounded 0.0085 into the figure. The rewrite feeds the estimate itself, 0.0084760, whose label rounds to 0.008. Every posterior is unchanged.",0.00847596925939286,0,archive
+coppock_green_porter_2022,figure_g2,power_ols,0.23,0.21,0,Simulation based. The archive sets no seed and shipped sims = 500 with the published sims = 5000 commented out. Rerun at 5000 draws with a seed; the gap is under one Monte Carlo standard error.,0.20719999999999977,0,archive
+coppock_green_porter_2022,figure_g2,power_posterior,0.89,0.893,0,Simulation based. The archive sets no seed and shipped sims = 500 with the published sims = 5000 commented out. Rerun at 5000 draws with a seed; the gap is under one Monte Carlo standard error.,0.8866000000000002,0,archive
+coppock_green_porter_2022,text,total_two_party_votes_treated_zips,822782.7733194007,822783,1,,822782.7733194007,1,
+coppock_green_porter_2022,text,cost_per_vote_usd,8.681337780261797,8.68,1,,8.681337780261797,1,
+coppock_green_porter_2022,text,posterior_mean_after_three_studies_pp,1.003100201576892,1,1,,1.003100201576892,1,
+coppock_green_porter_2022,text,posterior_mean_all_four_studies_pp,0.7083640865164079,0.7,1,,0.7083640865164079,1,
+coppock_green_porter_2022,text,posterior_sd_all_four_studies_pp,0.44961730846587294,0.4,1,,0.44961730846587294,1,
+coppock_green_porter_2022,text,unadjusted_estimate_pp,0.211445890447404,2.1,0,"The text says 2.1 percentage points. Table 4 Model 1 is 0.0021, which is 0.21 percentage points. The text is off by a factor of ten.",0.211445890447404,0,paper_internal
+coppock_green_porter_2022,text,unadjusted_se_pp,2.248729557733574,3,0,"The text says 3.0 percentage points. Table 4 Model 1's standard error is 0.0225, which is 2.25 percentage points.",2.248729557733574,0,paper_internal
+coppock_green_porter_2022,text,adjusted_estimate_pp,-0.04433232858292829,-0.04,1,,-0.04433232858292829,1,
+coppock_green_porter_2022,text,adjusted_se_pp,0.8475969259392859,0.85,1,,0.8475969259392859,1,
+coppock_green_porter_2022,text,ri_p_unadjusted,0.48,0.471,0,Randomization inference. The archive sets no seed and shipped sims = 500 with the published sims = 2000 commented out. Rerun at 2000 draws with a seed; the gap is under one Monte Carlo standard error.,0.4585,0,archive
+coppock_green_porter_2022,text,ri_p_adjusted,0.51,0.508,0,Randomization inference. The archive sets no seed and shipped sims = 500 with the published sims = 2000 commented out. Rerun at 2000 draws with a seed; the gap is under one Monte Carlo standard error.,0.505,0,archive
+coppock_green_porter_2022,text,three_second_views,,1128478,,Table 3's exposure counts come from the advertisement vendor and are not in the deposit.,,,
+coppock_green_porter_2022,text,full_views,,117913,,Table 3's exposure counts come from the advertisement vendor and are not in the deposit.,,,
