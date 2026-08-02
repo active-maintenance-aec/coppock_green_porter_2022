@@ -39,3 +39,10 @@ source(here::here("maintained", "figure_g2_design_diagnosis.R"))
 # half a minute.
 source(here::here("maintained", "text_in_text_calculations.R"))
 source(here::here("maintained", "text_randomization_inference.R"))
+
+# Deposited archive, again ----
+# The check at the top of this file is a precondition: it says original/ was intact
+# before anything ran. Nothing above writes to original/, and this second pass is what
+# demonstrates it rather than assuming it. Nothing is downloaded; the files are already
+# present and are re-checked against the manifest on checksum, byte size and membership.
+source(here::here("download_original.R"))
