@@ -1,6 +1,6 @@
 # Active Maintenance Report: coppock_green_porter_2022
 
-2026-08-01
+2026-08-03
 
 - [Summary](#summary)
   - [Does the deposited archive run?](#does-the-deposited-archive-run)
@@ -10,6 +10,8 @@
 - [Original archive reproducibility](#original-archive-reproducibility)
 - [Errata](#errata)
 - [Ground truth](#ground-truth)
+- [The extraction and the two
+  instruments](#the-extraction-and-the-two-instruments)
 - [Maintained rewrite](#maintained-rewrite)
 - [Figure verification](#figure-verification)
 - [Rewrite verification](#rewrite-verification)
@@ -42,8 +44,14 @@ in version control even though the bytes themselves are not.
 script per published table or figure, writing to `output/`, which is
 committed so a reader can compare a fresh run against it without
 downloading anything. `ground_truth/` ties every published number to the
-code that produces it. `original/` is created by the download script and
-is deliberately absent from the repository. This file is the
+code that produces it: `published_claims.csv` is the extraction of every
+numeric token in the article and its appendix, `build_ground_truth.R`
+assembles the comparison and gates it, and `maintained/in_text_claims.R`
+recomputes every claimed number a second time by its own path.
+`original/` is created by the download script and is deliberately absent
+from the repository. `errata.qmd` renders
+`coppock_green_porter_2022_errata.pdf`, a short note listing the
+sentences and floats in the article that are wrong. This file is the
 reproducibility report, also available as a PDF in `report/`.
 
 **License.** CC0 1.0 Universal, matching the terms of the deposit this
@@ -56,15 +64,16 @@ repository maintains. See `LICENSE`.
 source("run_all.R")
 ```
 
-That fetches the deposit, verifies its 14 files, and produces every
-table and figure into `maintained/output/`. Required packages:
-tidyverse, estimatr, modelsummary, DeclareDesign, knitr, kableExtra,
-here. Paths resolve through `here`, so nothing depends on the working
-directory. The full run takes about two minutes, nearly all of it in the
-two simulation scripts: 2000 re-randomizations for the randomization
-inference and 5000 design simulations for Figure G.2. A successful run
-overwrites `maintained/output/`, which is committed: **`git diff` on
-that folder is the reproduction check.**
+That fetches the deposit, verifies its 14 files, produces every table
+and figure into `maintained/output/`, and then rebuilds and gates the
+ground truth. Required packages: tidyverse, estimatr, modelsummary,
+DeclareDesign, knitr, kableExtra, here. Paths resolve through `here`, so
+nothing depends on the working directory. The full run takes about three
+minutes, most of it in the two simulation scripts: 2000
+re-randomizations for the randomization inference and 5000 design
+simulations for Figure G.2. A successful run overwrites
+`maintained/output/`, which is committed: **`git diff` on that folder is
+the reproduction check.**
 
 # Summary
 
@@ -78,7 +87,7 @@ on its first model: it asks `lh_robust()` for a linear combination of
 coefficients with clustered CR2 standard errors, and current `estimatr`
 refuses, because `lh_robust()` has no CR2 path. Everything in appendix
 Table C.6 therefore has no live source in the deposit, which is 30 of
-the 210 recorded quantities.
+the 627 recorded quantities.
 
 Of what does run, every number matches the table it belongs to. Two
 numbers in the article’s prose do not match the table they describe, but
@@ -93,34 +102,41 @@ line above.
 
 ## Does the maintained rewrite reproduce the paper?
 
-Yes, with the exceptions that are the point of the exercise. 185 of the
-192 verifiable ground truth claims match the published values to
-reported precision. The 7 that do not are these:
+Yes, with the exceptions that are the point of the exercise. 550 of the
+613 verifiable ground truth claims match the published values to
+reported precision. The 63 that do not fall into four groups:
 
+- **52 are cells of appendix Table B.3, which is a reprint of Table
+  B.4.** Every cell beneath a vote share caption is a vote margin cell,
+  so the rewrite’s vote share models disagree with all of them. The four
+  that do agree are the cluster counts, which a table printed in the
+  wrong place still gets right. See the errata.
 - **Two are errors in the published text.** Describing Table 4’s first
   column, the article says the unadjusted estimate is “a 2.1 percentage
   point increase” with “a standard error of 3.0 percentage points”.
   Table 4 gives 0.0021 with a standard error of 0.0225, which is 0.21
   and 2.25 percentage points. The estimate in the text is off by a
   factor of ten and the standard error does not correspond to any model
-  in the paper. The same sentence appears in the preprint, so it is not
-  a typesetting accident, and it inflates the reported effect tenfold in
-  the only place a reader meets it in prose.
-- **Four are simulation draws.** The two randomization inference
-  p-values and the two power figures differ from the published values by
+  in the paper, and it inflates the reported effect tenfold in the only
+  place a reader meets it in prose.
+- **Six are simulation draws.** The two randomization inference
+  p-values, the two power figures as the appendix states them, and the
+  two as Figure G.2 prints them, all differ from the published values by
   less than one Monte Carlo standard error. They cannot be matched
-  exactly, because the archive sets no seed.
-- **One is a figure label.** The published Figure 1 annotates this
-  study’s standard error as 0.009 because the archive typed the table’s
-  rounded 0.0085 into the figure. The rewrite reads the estimate from
-  the Table 4 output instead, and 0.0084760 rounds to 0.008. Every
-  posterior in the figure is unchanged.
+  exactly, because the archive sets no seed. The same power figures
+  rounded to whole per cent, as the main text states them, do match.
+- **Three are figure labels.** Figure G.2’s two panels annotate the
+  simulated effect as `PATE = 0.1` where the design draws from a normal
+  centred on 0.01, and the published Figure 1 annotates this study’s
+  standard error as 0.009 because the archive typed the table’s rounded
+  0.0085 into the figure. The rewrite reads the estimate from the Table
+  4 output instead, and 0.0084760 rounds to 0.008. Nothing plotted in
+  either figure is affected.
 
-The remaining 18 recorded quantities are unverifiable rather than
-unmatched: 12 belong to a table the appendix never printed (see the
-errata), four are precinct counts for a sample the deposit does not
-contain, and two are advertisement-vendor exposure counts that were
-never deposited in any form.
+The remaining 6 recorded quantities are unverifiable rather than
+unmatched: four are precinct counts for a sample the deposit does not
+contain, and two are the range in “approximately 10 to 20 voting
+precincts”, which describes the same absent mapping.
 
 # Paper overview
 
@@ -213,7 +229,11 @@ actually run in.
 # Errata
 
 Four defects in the published record, none of which changes a
-substantive conclusion, all of which the rewrite corrects or flags.
+substantive conclusion, all of which the rewrite corrects or flags. They
+are also published as a standalone note,
+`coppock_green_porter_2022_errata.pdf`, rendered from `errata.qmd` in
+this repository, which quotes each published sentence beside its
+correction and reprints the six floats that need reprinting.
 
 **1. The text misstates the unadjusted estimate by a factor of ten.**
 “The first column shows the unadjusted difference-in-means estimate of
@@ -225,7 +245,7 @@ standard error of 2.25. The estimate is stated at ten times its value,
 and the standard error matches no model in the paper or appendix. The
 sentence’s conclusion is unaffected, since both readings describe an
 estimate that is small and swamped by its standard error, but the number
-itself is wrong in the article and in the preprint.
+itself is wrong.
 
 **2. Appendix Table B.3 prints Table B.4.** The caption of B.3 reads
 “Effects on vote share (CD fixed effects)”, and every cell beneath it is
@@ -239,15 +259,19 @@ live. The estimate on any treatment video is 0.0042 (0.0217) unadjusted
 and -0.0018 (0.0088) adjusted, which is the same substantive story as
 Table 4.
 
-**3. Covariate row labels are wrong in five appendix tables.** Tables
-E.7 and F.8 regress the treatment indicator on lagged two-party *vote
-margins* and label the rows “Two Party Vote Share”. Tables F.9, F.10 and
-F.11 pass `texreg` a coefficient-name vector one label short of the
-model, so every covariate row from 2016 down is labelled with the name
-belonging to the row above it: the 2016 vote share coefficient is
-printed as “Missingness Indicator (2016)”. No coefficient moves; only
-its name does. The rewrite labels each row with the variable actually in
-the model.
+**3. Covariate row labels are wrong in five appendix tables.** Thirteen
+covariate rows name a variable their model does not contain. Tables E.7
+and F.8 regress the treatment indicator on lagged two-party *vote
+margins* and label all three lagged rows “Two Party Vote Share”. Tables
+F.9, F.10 and F.11 pass `texreg` a coefficient-name vector whose first
+covariate entry is “Missingness Indicator (2016)”; no ZIP code is
+missing 2016 returns, so the ZIP-level models carry no such indicator
+and the label lands on the 2016 vote share, margin or total coefficient
+instead. The same vector is reused for all three outcomes, which is why
+the 2014 and 2012 rows of F.10 and F.11 read “Two Party Vote Share” over
+vote margins and vote totals. The 2014 and 2012 rows of F.9 are correct
+as published. No coefficient moves; only its name does. The rewrite
+labels each row with the variable actually in the model.
 
 **4. Figure G.2’s panel annotation names the wrong effect size.** The
 label reads “Power when PATE = 0.1”. The simulated effects are drawn
@@ -259,42 +283,192 @@ rewrite prints 0.01.
 
 | Table or figure | Claims | Archive verifiable | Archive matches | Rewrite verifiable | Rewrite matches |
 |:---|---:|---:|---:|---:|---:|
-| figure_1 | 12 | 12 | 12 | 12 | 11 |
-| figure_g2 | 2 | 2 | 0 | 2 | 0 |
-| table_1 | 24 | 20 | 20 | 20 | 20 |
-| table_4 | 14 | 14 | 14 | 14 | 14 |
-| table_a1 | 14 | 14 | 14 | 14 | 14 |
-| table_a2 | 13 | 13 | 13 | 13 | 13 |
-| table_b3 | 12 | 0 | 0 | 0 | 0 |
-| table_b4 | 13 | 13 | 13 | 13 | 13 |
-| table_b5 | 13 | 13 | 13 | 13 | 13 |
-| table_c6 | 30 | 0 | 0 | 30 | 30 |
-| table_e7 | 6 | 6 | 6 | 6 | 6 |
-| table_f10 | 13 | 13 | 13 | 13 | 13 |
-| table_f11 | 13 | 13 | 13 | 13 | 13 |
-| table_f8 | 5 | 5 | 5 | 5 | 5 |
-| table_f9 | 13 | 13 | 13 | 13 | 13 |
-| text | 13 | 11 | 7 | 11 | 7 |
+| Abstract | 2 | 2 | 2 | 2 | 2 |
+| Appendix A | 1 | 0 | 0 | 0 | 0 |
+| Appendix C | 3 | 0 | 0 | 0 | 0 |
+| Appendix D | 1 | 0 | 0 | 1 | 1 |
+| Appendix E | 2 | 1 | 1 | 1 | 1 |
+| Appendix F | 1 | 0 | 0 | 1 | 1 |
+| Appendix F.1 | 2 | 1 | 1 | 1 | 1 |
+| Appendix G | 4 | 2 | 0 | 4 | 2 |
+| Appendix H (pre-analysis plan) | 4 | 0 | 0 | 4 | 4 |
+| Bayesian integration | 9 | 6 | 5 | 8 | 8 |
+| Discussion | 3 | 2 | 2 | 2 | 2 |
+| Field experiment: Florida advertisements | 7 | 0 | 0 | 5 | 5 |
+| Figure 1 | 12 | 12 | 12 | 12 | 11 |
+| Figure G.2 | 4 | 2 | 0 | 4 | 0 |
+| Note 1 | 4 | 4 | 4 | 4 | 4 |
+| Results | 7 | 6 | 2 | 7 | 3 |
+| Table 1 | 24 | 20 | 20 | 20 | 20 |
+| Table 4 | 56 | 20 | 20 | 56 | 56 |
+| Table A.1 | 56 | 20 | 20 | 56 | 56 |
+| Table A.2 | 56 | 16 | 16 | 56 | 56 |
+| Table B.3 | 56 | 12 | 0 | 56 | 4 |
+| Table B.4 | 56 | 16 | 16 | 56 | 56 |
+| Table B.5 | 56 | 16 | 16 | 56 | 56 |
+| Table C.6 | 30 | 0 | 0 | 30 | 30 |
+| Table E.7 | 17 | 5 | 5 | 17 | 17 |
+| Table F.10 | 48 | 16 | 16 | 48 | 48 |
+| Table F.11 | 48 | 16 | 16 | 48 | 48 |
+| Table F.8 | 10 | 4 | 4 | 10 | 10 |
+| Table F.9 | 48 | 16 | 16 | 48 | 48 |
 
 Ground truth, by published object
 
 Every value in the `value_paper` column of
 `ground_truth/coppock_green_porter_2022_ground_truth.csv` was read off
-the published article or its appendix. Where the paper does not state a
-quantity, the column is blank and the row is marked unverifiable rather
-than matched.
+the published article or its appendix, and it is stored as the string
+the article prints rather than as a number, because a double does not
+record how many decimals were on the page. A value agrees when the
+rewrite’s number, printed to that precision, gives the same digits.
 
-| Claim                            | Published | Rewrite |
-|:---------------------------------|----------:|--------:|
-| figure_1: present_study_se_label |     0.009 |  0.0085 |
-| figure_g2: power_ols             |     0.210 |  0.2072 |
-| figure_g2: power_posterior       |     0.893 |  0.8866 |
-| text: unadjusted_estimate_pp     |     2.100 |  0.2114 |
-| text: unadjusted_se_pp           |     3.000 |  2.2487 |
-| text: ri_p_unadjusted            |     0.471 |  0.4585 |
-| text: ri_p_adjusted              |     0.508 |  0.5050 |
+`value_script` is what the deposited scripts produce. It covers 215 of
+the 627 rows: those are the cells measured from a run of the deposit and
+recorded in `ground_truth/archive_values.csv`. This repository has no
+`extract_archive_values.R`, so the archive column is a recorded
+measurement rather than a generated one, and the rows it does not reach
+carry `match = NA` rather than a verdict.
 
-The 7 claims the rewrite does not match
+| Claim | Published | Rewrite | Locus |
+|:---|:---|---:|:---|
+| Appendix G: Power of the Bayesian posterior estimator, per cent, as stated in the appendix | 89.3 | 88.6600 | archive |
+| Appendix G: Power of the study on its own, per cent, as stated in the appendix | 21.0 | 20.7200 | archive |
+| Figure 1: The present study’s standard error on the panel face | 0.009 | 0.0085 | archive |
+| Figure G.2: PATE named in the left panel annotation | 0.1 | 0.0100 | archive |
+| Figure G.2: Power printed in the left panel | 0.210 | 0.2072 | archive |
+| Figure G.2: PATE named in the right panel annotation | 0.1 | 0.0100 | archive |
+| Figure G.2: Power printed in the right panel | 0.893 | 0.8866 | archive |
+| Results: One-tailed randomization inference p-value, covariate-adjusted model | 0.508 | 0.5050 | archive |
+| Results: One-tailed randomization inference p-value, unadjusted model | 0.471 | 0.4585 | archive |
+| Results: Unadjusted effect on Democratic vote share as stated in the text, percentage points | 2.1 | 0.2114 | paper_internal |
+| Results: Standard error of the unadjusted effect as stated in the text, percentage points | 3.0 | 2.2487 | paper_internal |
+
+The 11 claims outside Table B.3 the rewrite does not match
+
+`defect_locus` records where the fault lies, because a mismatch
+otherwise reads as a failure of the rewrite and here never is.
+`paper_internal` means the article disagrees with its own tables,
+`archive` that the deposit cannot support the claim, and `environment`
+that a package moved underneath the deposited code.
+
+| Defect locus   | Rows |
+|:---------------|-----:|
+| archive        |   16 |
+| environment    |   30 |
+| paper_internal |   54 |
+
+Where the fault lies, by row
+
+# The extraction and the two instruments
+
+The ground truth answers “does this number reproduce?” only for numbers
+somebody wrote down. What decides whether the answer means anything is
+the extraction: `ground_truth/published_claims.csv` lists **every
+numeric token in the article and its online appendix**, 754 of them,
+each classified by hand and each carrying the string the page prints.
+Spelled-out numbers were swept for separately, which is where “three
+conditions”, “matched trios” and “four possible explanations” come from.
+Bibliographic apparatus is excluded: citation years, the reference list,
+the DOI, page headers and affiliation markers.
+
+| Claim type   | Needs a block | Verified at the point of use |
+|:-------------|--------------:|-----------------------------:|
+| definitional |             5 |                           27 |
+| descriptive  |            10 |                            0 |
+| pipeline     |           612 |                            0 |
+| structural   |             0 |                           62 |
+| transcribed  |             0 |                           38 |
+
+The extraction, by claim type
+
+`pipeline` claims are estimates. `descriptive` claims are assertions
+about shape, sign or count with no printed number, such as “each of the
+individual coefficients is nonsignificant”; each gets a computed truth
+value in the `holds` column. `transcribed` claims are other people’s
+results and the advertisement vendor’s exposure counts, which cannot
+drift with this pipeline. `definitional` and `structural` claims are
+design parameters, cross-references and front matter; they get a block
+only where the pipeline can actually reach them, which here means the
+prior’s standard deviation and the two parameters of the simulated
+effect distribution.
+
+**Coverage, float by float.** A float covered by one row is a float
+nobody has checked, so the table below states the covered fraction for
+each published object rather than reporting that each has at least one
+row.
+
+| Published object | On the page | Ground truth rows | Verified |
+|:---|---:|---:|---:|
+| Abstract | 5 | 2 | 2 |
+| Appendix A | 1 | 1 | 1 |
+| Appendix C | 5 | 3 | 3 |
+| Appendix contents | 10 | 0 | 0 |
+| Appendix D | 2 | 1 | 1 |
+| Appendix E | 2 | 2 | 2 |
+| Appendix F | 3 | 1 | 1 |
+| Appendix F.1 | 2 | 2 | 2 |
+| Appendix front matter | 2 | 0 | 0 |
+| Appendix G | 4 | 4 | 2 |
+| Appendix H (pre-analysis plan) | 28 | 4 | 4 |
+| Bayesian integration | 14 | 9 | 9 |
+| Discussion | 5 | 3 | 3 |
+| Field experiment: Florida advertisements | 26 | 7 | 5 |
+| Figure 1 | 21 | 12 | 11 |
+| Figure D.1 | 12 | 0 | 0 |
+| Figure G.2 | 7 | 4 | 0 |
+| Introduction | 1 | 0 | 0 |
+| Note 1 | 7 | 4 | 4 |
+| Results | 11 | 7 | 3 |
+| Table 1 | 24 | 24 | 20 |
+| Table 2 | 5 | 0 | 0 |
+| Table 3 | 6 | 0 | 0 |
+| Table 4 | 56 | 56 | 56 |
+| Table A.1 | 56 | 56 | 56 |
+| Table A.2 | 56 | 56 | 56 |
+| Table B.3 | 56 | 56 | 4 |
+| Table B.4 | 56 | 56 | 56 |
+| Table B.5 | 56 | 56 | 56 |
+| Table C.6 | 30 | 30 | 30 |
+| Table E.7 | 17 | 17 | 17 |
+| Table F.10 | 48 | 48 | 48 |
+| Table F.11 | 48 | 48 | 48 |
+| Table F.8 | 10 | 10 | 10 |
+| Table F.9 | 48 | 48 | 48 |
+| The challenge of political persuasion | 14 | 0 | 0 |
+
+Published numbers, and how many of them are checked
+
+**Two instruments, not one.** `ground_truth/build_ground_truth.R` and
+`maintained/in_text_claims.R` reach the same claimed numbers from the
+same files in `maintained/output/` by separate paths, each doing its own
+selection, unit conversion and rounding. The build pivots each output
+file long and matches coefficient keys; the claims file filters row by
+row and prints each value beside the sentence that states it. Neither
+refits: estimation happens once, in the analysis scripts, and only
+derivation happens twice.
+
+`in_text_claims.R` prints one line per claim,
+`CLAIM <id> = <value> || <label>`, and the printed id is the only link
+between a block and the claim it covers. `build_ground_truth.R` runs
+that file as a program, captures what it printed, and stops unless:
+
+- every extraction row that needs a block printed one, and every printed
+  id names a claim the extraction declares;
+- the number of printed claims equals the number of rows requiring one,
+  627 either way;
+- every `pipeline` and `descriptive` claim has a ground truth row;
+- the two instruments agree value by value, at the precision the article
+  printed;
+- every row carrying an adverse verdict, or one the deposit cannot
+  answer, names a `defect_locus`, and every clean match names none;
+- every `value_paper` string round-trips through its own precision,
+  which catches a transcription whose digits are right and whose
+  precision is not.
+
+The gate matters because the coverage boundary is where drift
+accumulates. The most consequential error in this article is not in any
+float: the tenfold overstatement on page 4 is prose, and a ground truth
+built from the pipeline outward would never have posed the question.
 
 # Maintained rewrite
 
@@ -318,13 +492,18 @@ The 7 claims the rewrite does not match
 | figure_g2_design_diagnosis.R | Figure G.2 |
 | text_in_text_calculations.R | The vote totals, posteriors and cost per vote quoted in the text |
 | text_randomization_inference.R | The two randomization inference p-values quoted in the text |
+| in_text_claims.R | Every published number, recomputed and printed beside its sentence |
 
 Maintained rewrite: one script per published object
 
 Every script writes a full-precision `.csv` of every coefficient it
-estimates and, for the regression tables, a `.tex` rendering with the
-same rows and columns as the published table, so a reader can compare
-them line by line.
+estimates, a `_gof.csv` of the R-squared, sample size and cluster count
+that sit at the foot of the published table, and a `.tex` rendering with
+the same rows and columns as the published table, so a reader can
+compare them line by line. The summary rows are written out rather than
+read back off the formatted table, for the same reason the coefficients
+are: reading a rounded cell and rounding it again manufactures
+mismatches.
 
 **Substitutions.**
 
@@ -396,32 +575,43 @@ values above, which is as close as an unseeded simulation permits.
 
 # Rewrite verification
 
-| Table or figure | Claims | Matching | Not matching |
-|:----------------|-------:|---------:|-------------:|
-| figure_1        |     12 |       11 |            1 |
-| figure_g2       |      2 |        0 |            2 |
-| table_1         |     20 |       20 |            0 |
-| table_4         |     14 |       14 |            0 |
-| table_a1        |     14 |       14 |            0 |
-| table_a2        |     13 |       13 |            0 |
-| table_b4        |     13 |       13 |            0 |
-| table_b5        |     13 |       13 |            0 |
-| table_c6        |     30 |       30 |            0 |
-| table_e7        |      6 |        6 |            0 |
-| table_f10       |     13 |       13 |            0 |
-| table_f11       |     13 |       13 |            0 |
-| table_f8        |      5 |        5 |            0 |
-| table_f9        |     13 |       13 |            0 |
-| text            |     11 |        7 |            4 |
+| Table or figure                          | Claims | Matching | Not matching |
+|:-----------------------------------------|-------:|---------:|-------------:|
+| Abstract                                 |      2 |        2 |            0 |
+| Appendix D                               |      1 |        1 |            0 |
+| Appendix E                               |      1 |        1 |            0 |
+| Appendix F                               |      1 |        1 |            0 |
+| Appendix F.1                             |      1 |        1 |            0 |
+| Appendix G                               |      4 |        2 |            2 |
+| Appendix H (pre-analysis plan)           |      4 |        4 |            0 |
+| Bayesian integration                     |      8 |        8 |            0 |
+| Discussion                               |      2 |        2 |            0 |
+| Field experiment: Florida advertisements |      5 |        5 |            0 |
+| Figure 1                                 |     12 |       11 |            1 |
+| Figure G.2                               |      4 |        0 |            4 |
+| Note 1                                   |      4 |        4 |            0 |
+| Results                                  |      7 |        3 |            4 |
+| Table 1                                  |     20 |       20 |            0 |
+| Table 4                                  |     56 |       56 |            0 |
+| Table A.1                                |     56 |       56 |            0 |
+| Table A.2                                |     56 |       56 |            0 |
+| Table B.3                                |     56 |        4 |           52 |
+| Table B.4                                |     56 |       56 |            0 |
+| Table B.5                                |     56 |       56 |            0 |
+| Table C.6                                |     30 |       30 |            0 |
+| Table E.7                                |     17 |       17 |            0 |
+| Table F.10                               |     48 |       48 |            0 |
+| Table F.11                               |     48 |       48 |            0 |
+| Table F.8                                |     10 |       10 |            0 |
+| Table F.9                                |     48 |       48 |            0 |
 
 Rewrite against the published values
 
-Beyond the ground truth, the `.tex` files in `maintained/output/`
-reproduce the published tables cell for cell, including the covariate
-rows, the R-squared values, the sample sizes and the significance stars.
-Table 4, Tables A.1 and A.2, Tables B.4 and B.5, Tables E.7 and F.8, and
-Tables F.9 through F.11 all match the published tables in every printed
-cell.
+Every printed cell of every published table is a row in the table above,
+so “reproduces the published table” is a counted claim here rather than
+an impression: Table 4, Tables A.1 and A.2, Tables B.4 and B.5, Tables
+C.6, E.7 and F.8, and Tables F.9 through F.11 match in all 501 of their
+cells. Table B.3 is the exception, and it is the erratum.
 
 **Determinism.** Every script other than the two simulation scripts is
 deterministic and returns byte-identical output on a second run. The two

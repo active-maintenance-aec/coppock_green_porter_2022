@@ -1,5 +1,6 @@
 # coppock_green_porter_2022/maintained/table_f9_vote_share_zip.R
-# Output: output/table_f9_vote_share_zip.csv, output/table_f9_vote_share_zip.tex
+# Output: output/table_f9_vote_share_zip.csv, output/table_f9_vote_share_zip.tex,
+#   output/table_f9_vote_share_zip_gof.csv
 # Depends on: CGP_2022_zip_code_level.rds, helpers.R
 # Description: Reproduces appendix Table F.9, the vote share models estimated on all 210
 #   randomized ZIP codes after apportioning precinct votes across ZIP boundaries.
@@ -43,6 +44,19 @@ results <- fits |>
   list_rbind(names_to = "model")
 
 write_csv(results, here::here("maintained", "output", "table_f9_vote_share_zip.csv"))
+
+# The published table's foot carries R2, the number of observations and, at the precinct
+# level, the number of clusters. Those cells are estimates too, so they are written out
+# unrounded beside the coefficients rather than being read back off the formatted table.
+gof <- fits |>
+  map(\(fit) tibble(
+    r.squared = glance(fit)$r.squared,
+    nobs = glance(fit)$nobs,
+    nclusters = if (is.null(fit$nclusters)) NA_integer_ else fit$nclusters
+  )) |>
+  list_rbind(names_to = "model")
+
+write_csv(gof, here::here("maintained", "output", "table_f9_vote_share_zip_gof.csv"))
 
 coef_labels <- c(
   "Z" = "Any Treatment Video",

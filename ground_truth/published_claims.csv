@@ -1,0 +1,755 @@
+claim_id,location,claim_type,value_paper,needs_block,claim,notes
+abs_impressions,"Abstract, p. 1",transcribed,1.1,FALSE,"Impressions, in millions, the ads were seen",Table 3's exposure counts come from the advertisement vendor and appear in no deposited file
+abs_full_views,"Abstract, p. 1",transcribed,100000,FALSE,Full views of the ads,Table 3's exposure counts come from the advertisement vendor and appear in no deposited file
+abs_adjusted_est,"Abstract, p. 1",pipeline,-0.04,TRUE,"Covariate-adjusted effect on Democratic vote share, percentage points",
+abs_adjusted_se,"Abstract, p. 1",pipeline,0.85,TRUE,"Standard error of the covariate-adjusted effect, percentage points",
+abs_election_year,"Abstract, p. 1",structural,2018,FALSE,Year of the midterm elections studied,"A fact about the field period, not a quantity the deposit computes"
+intro_impressions,"Introduction, pp. 1-2",transcribed,1.1,FALSE,"Impressions, in millions, restated in the introduction",Table 3's exposure counts come from the advertisement vendor and appear in no deposited file
+lit_facebook_spend,"The challenge of political persuasion, pp. 2-3",transcribed,400,FALSE,Millions of dollars Facebook reported was spent on political advertising on its platform in 2018,"Copied from Fowler, Franz and Ridout (2018)"
+lit_bg_est,"The challenge of political persuasion, pp. 2-3",transcribed,1.6,FALSE,"Broockman and Green (2014) effect on vote intention, points",Copied from the cited study
+lit_bg_se,"The challenge of political persuasion, pp. 2-3",transcribed,1.4,FALSE,"Broockman and Green (2014) standard error, points",Copied from the cited study
+lit_turitto_est,"The challenge of political persuasion, pp. 2-3",transcribed,1.1,FALSE,"Turitto et al. (2014) point estimate, points",Copied from the cited study
+lit_turitto_se,"The challenge of political persuasion, pp. 2-3",transcribed,2.1,FALSE,"Turitto et al. (2014) standard error, points",Copied from the cited study
+lit_hager_pooled_est,"The challenge of political persuasion, pp. 2-3",transcribed,1.7,FALSE,"Hager (2019) pooled effect on CDU vote share, percentage points",Copied from the cited study
+lit_hager_pooled_se,"The challenge of political persuasion, pp. 2-3",transcribed,1.2,FALSE,"Hager (2019) pooled standard error, points",Copied from the cited study
+lit_hager_adj_est,"The challenge of political persuasion, pp. 2-3",transcribed,0.9,FALSE,"Hager (2019) covariate-adjusted estimate, points",Copied from the cited study; the value that enters this paper's Bayesian updating
+lit_hager_adj_se,"The challenge of political persuasion, pp. 2-3",transcribed,0.6,FALSE,"Hager (2019) covariate-adjusted standard error, points",Copied from the cited study
+design_zip_codes,"Field experiment: Florida advertisements, p. 3",pipeline,210,TRUE,ZIP codes randomized,
+design_cd_1,"Field experiment: Florida advertisements, p. 3",definitional,15,FALSE,Florida congressional district 15 spanned by the study ZIP codes,"Verified at the point of use: the congressional district fixed effects in Tables B.3 to B.5 are the six cd_jumble levels spanning districts 15, 16, 26 and 27"
+design_cd_2,"Field experiment: Florida advertisements, p. 3",definitional,16,FALSE,Florida congressional district 16 spanned by the study ZIP codes,"Verified at the point of use: the congressional district fixed effects in Tables B.3 to B.5 are the six cd_jumble levels spanning districts 15, 16, 26 and 27"
+design_cd_3,"Field experiment: Florida advertisements, p. 3",definitional,26,FALSE,Florida congressional district 26 spanned by the study ZIP codes,"Verified at the point of use: the congressional district fixed effects in Tables B.3 to B.5 are the six cd_jumble levels spanning districts 15, 16, 26 and 27"
+design_cd_4,"Field experiment: Florida advertisements, p. 3",definitional,27,FALSE,Florida congressional district 27 spanned by the study ZIP codes,"Verified at the point of use: the congressional district fixed effects in Tables B.3 to B.5 are the six cd_jumble levels spanning districts 15, 16, 26 and 27"
+design_precincts_per_zip_low,"Field experiment: Florida advertisements, p. 3",descriptive,10,TRUE,Lower end of the stated typical number of voting precincts per ZIP code,
+design_precincts_per_zip_high,"Field experiment: Florida advertisements, p. 3",descriptive,20,TRUE,Upper end of the stated typical number of voting precincts per ZIP code,
+design_drop_threshold,"Field experiment: Florida advertisements, p. 3",definitional,10,FALSE,Percentage of a ZIP code's voters below which a precinct-ZIP pair is dropped,A rule stated in the text; the deposit ships the mapping already applied
+design_control_zips,"Field experiment: Florida advertisements, p. 3",pipeline,104,TRUE,ZIP codes assigned to control,
+design_treatment_zips,"Field experiment: Florida advertisements, p. 3",pipeline,53,TRUE,ZIP codes assigned to each advertisement condition,
+design_precincts,"Field experiment: Florida advertisements, p. 3",pipeline,853,TRUE,Voting precincts in the analysis sample,
+design_zips_analysis,"Field experiment: Florida advertisements, p. 3",pipeline,154,TRUE,ZIP codes in the analysis sample,
+design_conditions,"Field experiment: Florida advertisements, p. 3",structural,3,FALSE,Conditions a ZIP code could be assigned to (spelled out as 'three conditions'),Spelled-out number
+design_trios,"Field experiment: Florida advertisements, p. 3",structural,3,FALSE,ZIP codes per matched block (spelled out as 'matched trios'),Spelled-out number
+design_districts_count,"Field experiment: Florida advertisements, p. 3",structural,4,FALSE,Congressional races the ads were deployed across (spelled out as 'the four congressional races'),Spelled-out number
+design_ads_count,"Field experiment: Florida advertisements, p. 3",structural,2,FALSE,Treatment advertisements (spelled out as 'the two treatment ads'),Spelled-out number
+ads_start_day,"Field experiment: Florida advertisements, p. 4",definitional,25,FALSE,Day of October 2018 the ads began running,A field-period fact carried by no deposited file
+ads_budget_each,"Field experiment: Florida advertisements, p. 4",definitional,30000,FALSE,Budget in dollars for each advertisement,A spending fact carried by no deposited file
+ads_budget_total,"Field experiment: Florida advertisements, p. 4",definitional,60000,FALSE,Total advertising budget in dollars,A spending fact carried by no deposited file
+ads_min_seconds,"Field experiment: Florida advertisements, p. 4",definitional,3,FALSE,Seconds a viewer had to watch before the ad could be skipped,A platform setting carried by no deposited file
+ads_still_seconds,"Field experiment: Florida advertisements, p. 4",definitional,3,FALSE,Seconds into the advertisements at which the Table 2 stills were captured,"Stated as 0:03; a property of the figure, not of the data"
+outcome_year,"Field experiment: Florida advertisements, p. 4",structural,2018,FALSE,Election year of the outcome measure,
+covariate_year_2012,"Field experiment: Florida advertisements, p. 4",structural,2012,FALSE,Lagged general election year used as a covariate: 2012,
+covariate_year_2014,"Field experiment: Florida advertisements, p. 4",structural,2014,FALSE,Lagged general election year used as a covariate: 2014,
+covariate_year_2016,"Field experiment: Florida advertisements, p. 4",structural,2016,FALSE,Lagged general election year used as a covariate: 2016,
+t1_noex_control_prec,"Table 1, p. 3",pipeline,4683,TRUE,"No exclusions, Control: precincts","The deposit holds only the precincts nested within a single ZIP code, so the unrestricted precinct count is not recoverable"
+t1_noex_control_zip,"Table 1, p. 3",pipeline,104,TRUE,"No exclusions, Control: ZIP codes",
+t1_noex_v1_prec,"Table 1, p. 3",pipeline,2246,TRUE,"No exclusions, Treatment video 1: precincts","The deposit holds only the precincts nested within a single ZIP code, so the unrestricted precinct count is not recoverable"
+t1_noex_v1_zip,"Table 1, p. 3",pipeline,53,TRUE,"No exclusions, Treatment video 1: ZIP codes",
+t1_noex_v2_prec,"Table 1, p. 3",pipeline,2306,TRUE,"No exclusions, Treatment video 2: precincts","The deposit holds only the precincts nested within a single ZIP code, so the unrestricted precinct count is not recoverable"
+t1_noex_v2_zip,"Table 1, p. 3",pipeline,53,TRUE,"No exclusions, Treatment video 2: ZIP codes",
+t1_noex_total_prec,"Table 1, p. 3",pipeline,9235,TRUE,"No exclusions, Total: precincts","The deposit holds only the precincts nested within a single ZIP code, so the unrestricted precinct count is not recoverable"
+t1_noex_total_zip,"Table 1, p. 3",pipeline,210,TRUE,"No exclusions, Total: ZIP codes",
+t1_nested_control_prec,"Table 1, p. 3",pipeline,524,TRUE,"Only nested precincts, Control: precincts",
+t1_nested_control_zip,"Table 1, p. 3",pipeline,84,TRUE,"Only nested precincts, Control: ZIP codes",
+t1_nested_v1_prec,"Table 1, p. 3",pipeline,285,TRUE,"Only nested precincts, Treatment video 1: precincts",
+t1_nested_v1_zip,"Table 1, p. 3",pipeline,43,TRUE,"Only nested precincts, Treatment video 1: ZIP codes",
+t1_nested_v2_prec,"Table 1, p. 3",pipeline,287,TRUE,"Only nested precincts, Treatment video 2: precincts",
+t1_nested_v2_zip,"Table 1, p. 3",pipeline,42,TRUE,"Only nested precincts, Treatment video 2: ZIP codes",
+t1_nested_total_prec,"Table 1, p. 3",pipeline,1096,TRUE,"Only nested precincts, Total: precincts",
+t1_nested_total_zip,"Table 1, p. 3",pipeline,169,TRUE,"Only nested precincts, Total: ZIP codes",
+t1_outcome_control_prec,"Table 1, p. 3",pipeline,420,TRUE,"With outcome data, Control: precincts",
+t1_outcome_control_zip,"Table 1, p. 3",pipeline,76,TRUE,"With outcome data, Control: ZIP codes",
+t1_outcome_v1_prec,"Table 1, p. 3",pipeline,220,TRUE,"With outcome data, Treatment video 1: precincts",
+t1_outcome_v1_zip,"Table 1, p. 3",pipeline,41,TRUE,"With outcome data, Treatment video 1: ZIP codes",
+t1_outcome_v2_prec,"Table 1, p. 3",pipeline,213,TRUE,"With outcome data, Treatment video 2: precincts",
+t1_outcome_v2_zip,"Table 1, p. 3",pipeline,37,TRUE,"With outcome data, Treatment video 2: ZIP codes",
+t1_outcome_total_prec,"Table 1, p. 3",pipeline,853,TRUE,"With outcome data, Total: precincts",
+t1_outcome_total_zip,"Table 1, p. 3",pipeline,154,TRUE,"With outcome data, Total: ZIP codes",
+t2_teachers_pct,"Table 2, p. 4",transcribed,40,FALSE,Percentage of teachers the ad says Republicans want to arm,Quoted advertisement copy
+t2_nra_millions,"Table 2, p. 4",transcribed,10,FALSE,Millions of dollars the ad says the NRA has given Republicans in Congress,Quoted advertisement copy
+t2_nra_pct,"Table 2, p. 4",transcribed,95,FALSE,Percentage of Senate Republicans the ad says have an NRA 'A' grade,Quoted advertisement copy
+t2_election_day,"Table 2, p. 4",transcribed,6,FALSE,November date the ad tells viewers to vote,Quoted advertisement copy
+t2_still_seconds,"Table 2, p. 4",definitional,3,FALSE,Seconds into the advertisements at which the stills were captured (table note),Stated as 0:03
+t3_ad1_clicks,"Table 3, p. 4",transcribed,24832,FALSE,Advertisement 1: clicks,Table 3's exposure counts come from the advertisement vendor and appear in no deposited file
+t3_ad1_full,"Table 3, p. 4",transcribed,70266,FALSE,Advertisement 1: full views,Table 3's exposure counts come from the advertisement vendor and appear in no deposited file
+t3_ad1_three,"Table 3, p. 4",transcribed,611732,FALSE,Advertisement 1: three-second views,Table 3's exposure counts come from the advertisement vendor and appear in no deposited file
+t3_ad2_clicks,"Table 3, p. 4",transcribed,17185,FALSE,Advertisement 2: clicks,Table 3's exposure counts come from the advertisement vendor and appear in no deposited file
+t3_ad2_full,"Table 3, p. 4",transcribed,47647,FALSE,Advertisement 2: full views,Table 3's exposure counts come from the advertisement vendor and appear in no deposited file
+t3_ad2_three,"Table 3, p. 4",transcribed,516746,FALSE,Advertisement 2: three-second views,Table 3's exposure counts come from the advertisement vendor and appear in no deposited file
+results_exposures,"Results, pp. 4-5",transcribed,1.1,FALSE,"Three-second exposures, in millions",Table 3's exposure counts come from the advertisement vendor and appear in no deposited file
+results_full_views,"Results, pp. 4-5",transcribed,100000,FALSE,Full views,Table 3's exposure counts come from the advertisement vendor and appear in no deposited file
+results_unadj_est,"Results, pp. 4-5",pipeline,2.1,TRUE,"Unadjusted effect on Democratic vote share as stated in the text, percentage points",
+results_unadj_se,"Results, pp. 4-5",pipeline,3.0,TRUE,"Standard error of the unadjusted effect as stated in the text, percentage points",
+results_ri_p_unadj,"Results, pp. 4-5",pipeline,0.471,TRUE,"One-tailed randomization inference p-value, unadjusted model",
+results_adj_est,"Results, pp. 4-5",pipeline,-0.04,TRUE,"Covariate-adjusted effect on vote share, percentage points",
+results_adj_se,"Results, pp. 4-5",pipeline,0.85,TRUE,"Standard error of the covariate-adjusted effect, percentage points",
+results_ri_p_adj,"Results, pp. 4-5",pipeline,0.508,TRUE,"One-tailed randomization inference p-value, covariate-adjusted model",
+results_col_ref_3,"Results, pp. 4-5",structural,3,FALSE,Cross-reference to Table 4 column 3,"A pointer to a float, not a quantity"
+results_col_ref_4,"Results, pp. 4-5",structural,4,FALSE,Cross-reference to Table 4 column 4,"A pointer to a float, not a quantity"
+results_zip_all,"Results, pp. 4-5",pipeline,210,TRUE,ZIP codes included in the ZIP-level analysis,
+t4_m1_any_est,"Table 4, p. 5",pipeline,0.0021,TRUE,Table 4 cell m1_any_est,
+t4_m2_any_est,"Table 4, p. 5",pipeline,-0.0004,TRUE,Table 4 cell m2_any_est,
+t4_m1_any_se,"Table 4, p. 5",pipeline,0.0225,TRUE,Table 4 cell m1_any_se,
+t4_m2_any_se,"Table 4, p. 5",pipeline,0.0085,TRUE,Table 4 cell m2_any_se,
+t4_m3_tv1_est,"Table 4, p. 5",pipeline,-0.0205,TRUE,Table 4 cell m3_tv1_est,
+t4_m4_tv1_est,"Table 4, p. 5",pipeline,-0.0016,TRUE,Table 4 cell m4_tv1_est,
+t4_m3_tv1_se,"Table 4, p. 5",pipeline,0.0250,TRUE,Table 4 cell m3_tv1_se,
+t4_m4_tv1_se,"Table 4, p. 5",pipeline,0.0109,TRUE,Table 4 cell m4_tv1_se,
+t4_m3_tv2_est,"Table 4, p. 5",pipeline,0.0255,TRUE,Table 4 cell m3_tv2_est,
+t4_m4_tv2_est,"Table 4, p. 5",pipeline,0.0007,TRUE,Table 4 cell m4_tv2_est,
+t4_m3_tv2_se,"Table 4, p. 5",pipeline,0.0291,TRUE,Table 4 cell m3_tv2_se,
+t4_m4_tv2_se,"Table 4, p. 5",pipeline,0.0096,TRUE,Table 4 cell m4_tv2_se,
+t4_m2_x2016_est,"Table 4, p. 5",pipeline,0.8482,TRUE,Table 4 cell m2_x2016_est,
+t4_m4_x2016_est,"Table 4, p. 5",pipeline,0.8483,TRUE,Table 4 cell m4_x2016_est,
+t4_m2_x2016_se,"Table 4, p. 5",pipeline,0.0613,TRUE,Table 4 cell m2_x2016_se,
+t4_m4_x2016_se,"Table 4, p. 5",pipeline,0.0616,TRUE,Table 4 cell m4_x2016_se,
+t4_m2_m2016_est,"Table 4, p. 5",pipeline,84.3343,TRUE,Table 4 cell m2_m2016_est,
+t4_m4_m2016_est,"Table 4, p. 5",pipeline,84.3359,TRUE,Table 4 cell m4_m2016_est,
+t4_m2_m2016_se,"Table 4, p. 5",pipeline,6.0944,TRUE,Table 4 cell m2_m2016_se,
+t4_m4_m2016_se,"Table 4, p. 5",pipeline,6.1268,TRUE,Table 4 cell m4_m2016_se,
+t4_m2_x2014_est,"Table 4, p. 5",pipeline,0.1489,TRUE,Table 4 cell m2_x2014_est,
+t4_m4_x2014_est,"Table 4, p. 5",pipeline,0.1484,TRUE,Table 4 cell m4_x2014_est,
+t4_m2_x2014_se,"Table 4, p. 5",pipeline,0.0511,TRUE,Table 4 cell m2_x2014_se,
+t4_m4_x2014_se,"Table 4, p. 5",pipeline,0.0521,TRUE,Table 4 cell m4_x2014_se,
+t4_m2_m2014_est,"Table 4, p. 5",pipeline,14.8150,TRUE,Table 4 cell m2_m2014_est,
+t4_m4_m2014_est,"Table 4, p. 5",pipeline,14.7661,TRUE,Table 4 cell m4_m2014_est,
+t4_m2_m2014_se,"Table 4, p. 5",pipeline,5.0869,TRUE,Table 4 cell m2_m2014_se,
+t4_m4_m2014_se,"Table 4, p. 5",pipeline,5.1776,TRUE,Table 4 cell m4_m2014_se,
+t4_m2_x2012_est,"Table 4, p. 5",pipeline,0.0531,TRUE,Table 4 cell m2_x2012_est,
+t4_m4_x2012_est,"Table 4, p. 5",pipeline,0.0525,TRUE,Table 4 cell m4_x2012_est,
+t4_m2_x2012_se,"Table 4, p. 5",pipeline,0.0307,TRUE,Table 4 cell m2_x2012_se,
+t4_m4_x2012_se,"Table 4, p. 5",pipeline,0.0315,TRUE,Table 4 cell m4_x2012_se,
+t4_m2_m2012_est,"Table 4, p. 5",pipeline,5.3026,TRUE,Table 4 cell m2_m2012_est,
+t4_m4_m2012_est,"Table 4, p. 5",pipeline,5.2424,TRUE,Table 4 cell m4_m2012_est,
+t4_m2_m2012_se,"Table 4, p. 5",pipeline,3.0541,TRUE,Table 4 cell m2_m2012_se,
+t4_m4_m2012_se,"Table 4, p. 5",pipeline,3.1297,TRUE,Table 4 cell m4_m2012_se,
+t4_m1_int_est,"Table 4, p. 5",pipeline,0.4937,TRUE,Table 4 cell m1_int_est,
+t4_m1_int_se,"Table 4, p. 5",pipeline,0.0157,TRUE,Table 4 cell m1_int_se,
+t4_m2_int_est,"Table 4, p. 5",pipeline,0.0135,TRUE,Table 4 cell m2_int_est,
+t4_m2_int_se,"Table 4, p. 5",pipeline,0.0122,TRUE,Table 4 cell m2_int_se,
+t4_m3_int_est,"Table 4, p. 5",pipeline,0.4937,TRUE,Table 4 cell m3_int_est,
+t4_m3_int_se,"Table 4, p. 5",pipeline,0.0157,TRUE,Table 4 cell m3_int_se,
+t4_m4_int_est,"Table 4, p. 5",pipeline,0.0140,TRUE,Table 4 cell m4_int_est,
+t4_m4_int_se,"Table 4, p. 5",pipeline,0.0128,TRUE,Table 4 cell m4_int_se,
+t4_m1_r2,"Table 4, p. 5",pipeline,0.0000,TRUE,Table 4 cell m1_r2,
+t4_m2_r2,"Table 4, p. 5",pipeline,0.8356,TRUE,Table 4 cell m2_r2,
+t4_m3_r2,"Table 4, p. 5",pipeline,0.0100,TRUE,Table 4 cell m3_r2,
+t4_m4_r2,"Table 4, p. 5",pipeline,0.8357,TRUE,Table 4 cell m4_r2,
+t4_m1_nobs,"Table 4, p. 5",pipeline,853,TRUE,Table 4 cell m1_nobs,
+t4_m2_nobs,"Table 4, p. 5",pipeline,853,TRUE,Table 4 cell m2_nobs,
+t4_m3_nobs,"Table 4, p. 5",pipeline,853,TRUE,Table 4 cell m3_nobs,
+t4_m4_nobs,"Table 4, p. 5",pipeline,853,TRUE,Table 4 cell m4_nobs,
+t4_m1_nclust,"Table 4, p. 5",pipeline,154,TRUE,Table 4 cell m1_nclust,
+t4_m2_nclust,"Table 4, p. 5",pipeline,154,TRUE,Table 4 cell m2_nclust,
+t4_m3_nclust,"Table 4, p. 5",pipeline,154,TRUE,Table 4 cell m3_nclust,
+t4_m4_nclust,"Table 4, p. 5",pipeline,154,TRUE,Table 4 cell m4_nclust,
+f1_prior_mu,"Figure 1, p. 5",definitional,0.000,TRUE,Prior mean,
+f1_prior_sd,"Figure 1, p. 5",definitional,0.050,TRUE,Prior standard deviation,
+f1_bg_est,"Figure 1, p. 5",transcribed,0.016,FALSE,Broockman and Green (2014) estimate on the panel face,"An input to the Bayesian updating, typed from the cited study"
+f1_bg_se,"Figure 1, p. 5",transcribed,0.014,FALSE,Broockman and Green (2014) standard error on the panel face,"An input to the Bayesian updating, typed from the cited study"
+f1_bg_post_mu,"Figure 1, p. 5",pipeline,0.015,TRUE,Posterior mean after Broockman and Green (2014),
+f1_bg_post_sd,"Figure 1, p. 5",pipeline,0.013,TRUE,Posterior standard deviation after Broockman and Green (2014),
+f1_tur_est,"Figure 1, p. 5",transcribed,0.011,FALSE,Turitto et al. (2014) estimate on the panel face,"An input to the Bayesian updating, typed from the cited study"
+f1_tur_se,"Figure 1, p. 5",transcribed,0.021,FALSE,Turitto et al. (2014) standard error on the panel face,"An input to the Bayesian updating, typed from the cited study"
+f1_tur_post_mu,"Figure 1, p. 5",pipeline,0.014,TRUE,Posterior mean after Turitto et al. (2014),
+f1_tur_post_sd,"Figure 1, p. 5",pipeline,0.011,TRUE,Posterior standard deviation after Turitto et al. (2014),
+f1_hag_est,"Figure 1, p. 5",transcribed,0.009,FALSE,Hager (2019) estimate on the panel face,"An input to the Bayesian updating, typed from the cited study"
+f1_hag_se,"Figure 1, p. 5",transcribed,0.006,FALSE,Hager (2019) standard error on the panel face,"An input to the Bayesian updating, typed from the cited study"
+f1_hag_post_mu,"Figure 1, p. 5",pipeline,0.010,TRUE,Posterior mean after Hager (2019),
+f1_hag_post_sd,"Figure 1, p. 5",pipeline,0.005,TRUE,Posterior standard deviation after Hager (2019),
+f1_pres_est,"Figure 1, p. 5",pipeline,-0.000,TRUE,The present study's estimate on the panel face,
+f1_pres_se,"Figure 1, p. 5",pipeline,0.009,TRUE,The present study's standard error on the panel face,
+f1_pres_post_mu,"Figure 1, p. 5",pipeline,0.007,TRUE,Posterior mean after the present study,
+f1_pres_post_sd,"Figure 1, p. 5",pipeline,0.004,TRUE,Posterior standard deviation after the present study,
+f1_axis_neg0p03,"Figure 1, p. 5",structural,-0.03,FALSE,"x-axis break at -0.03, repeated in all five panels","A plotting default, not an estimate"
+f1_axis_0p00,"Figure 1, p. 5",structural,0.00,FALSE,"x-axis break at 0.00, repeated in all five panels","A plotting default, not an estimate"
+f1_axis_0p03,"Figure 1, p. 5",structural,0.03,FALSE,"x-axis break at 0.03, repeated in all five panels","A plotting default, not an estimate"
+bayes_prior_sd_pp,"Bayesian integration, pp. 5-6",definitional,5,TRUE,"Prior standard deviation stated in the text, percentage points",
+bayes_studies_to_date,"Bayesian integration, pp. 5-6",structural,3,FALSE,Field experiments on the topic to date (spelled out as 'The three field experiments'),Spelled-out number
+bayes_panel4_mean,"Bayesian integration, pp. 5-6",pipeline,1.0,TRUE,"Posterior mean after the first three studies, percentage points",
+bayes_panel4_sd,"Bayesian integration, pp. 5-6",pipeline,0.5,TRUE,"Posterior standard deviation after the first three studies, percentage points",
+bayes_panel_ref_4a,"Bayesian integration, pp. 5-6",structural,4,FALSE,Cross-reference to Figure 1 panel 4,A pointer to a float
+bayes_panel_ref_4b,"Bayesian integration, pp. 5-6",structural,4,FALSE,Second cross-reference to Figure 1 panel 4,A pointer to a float
+bayes_panel_ref_5,"Bayesian integration, pp. 5-6",structural,5,FALSE,Cross-reference to Figure 1 panel 5,A pointer to a float
+bayes_final_mean,"Bayesian integration, pp. 5-6",pipeline,0.7,TRUE,"Posterior mean after all four studies, percentage points",
+bayes_final_sd,"Bayesian integration, pp. 5-6",pipeline,0.4,TRUE,"Posterior standard deviation after all four studies, percentage points",
+bayes_four_studies,"Bayesian integration, pp. 5-6",structural,4,FALSE,Studies in the accumulation (spelled out as 'each of the four studies'),Spelled-out number
+bayes_all_insignificant,"Bayesian integration, pp. 5-6",descriptive,,TRUE,Each of the four studies returned a statistically insignificant result,
+power_pate_pp,"Bayesian integration, pp. 5-6",pipeline,1.0,TRUE,"Average effect implied by the previous literature, percentage points",
+power_own_pct,"Bayesian integration, pp. 5-6",pipeline,21,TRUE,"Power of the experiment on its own, per cent, as stated in the main text",
+power_combined_pct,"Bayesian integration, pp. 5-6",pipeline,89,TRUE,"Power of the Bayesian posterior estimator, per cent, as stated in the main text",
+disc_explanations,"Discussion, pp. 6-7",structural,4,FALSE,Possible explanations offered (spelled out as 'four possible explanations'),Spelled-out number
+disc_posterior_mean,"Discussion, pp. 6-7",pipeline,0.7,TRUE,"Mean of the final Bayesian posterior restated in the discussion, percentage points",
+disc_cost_per_vote,"Discussion, pp. 6-7",pipeline,8.68,TRUE,"Implied cost per vote, dollars",
+disc_skip_ratio,"Discussion, pp. 6-7",descriptive,10,TRUE,Viewers who skipped after three seconds for every viewer who watched an ad through,
+disc_skip_seconds,"Discussion, pp. 6-7",definitional,3,FALSE,Seconds after which viewers skipped,A platform setting carried by no deposited file
+fn_voters,"Note 1, p. 7",pipeline,822783,TRUE,Voters in targeted ZIP codes used in the cost-per-vote calculation,
+fn_total_cost,"Note 1, p. 7",definitional,100000,FALSE,"Total cost in dollars, inclusive of production and distribution",A spending fact carried by no deposited file
+fn_calc_cost,"Note 1, p. 7",definitional,100000,FALSE,Numerator of the printed cost-per-vote expression,"The same spending fact, restated inside the expression"
+fn_calc_voters,"Note 1, p. 7",pipeline,822783,TRUE,Voter total inside the printed cost-per-vote expression,
+fn_calc_posterior,"Note 1, p. 7",pipeline,0.007,TRUE,Posterior mean inside the printed cost-per-vote expression,
+fn_calc_two,"Note 1, p. 7",definitional,2,FALSE,"Factor of two in the cost-per-vote expression, converting a vote share shift into net votes",A modelling convention stated in the expression
+fn_calc_result,"Note 1, p. 7",pipeline,8.68,TRUE,"Result of the printed cost-per-vote expression, dollars",
+app_a_small_insignificant,"Appendix A, p. 2",descriptive,,TRUE,Effects on vote margin and turnout are small and statistically insignificant,
+app_c_tol_02,"Appendix C, p. 7",definitional,0.2,FALSE,Equivalence tolerance in standard units,A stated tolerance; visible in the p_eq_0.2 column of the equivalence script
+app_c_tol_01,"Appendix C, p. 7",definitional,0.1,FALSE,Second equivalence tolerance in standard units,A stated tolerance; visible in the p_eq_0.1 column of the equivalence script
+app_c_dim_none_below,"Appendix C, p. 7",descriptive,0.05,TRUE,No difference-in-means equivalence p-value is smaller than 0.05,
+app_c_ols_02_all,"Appendix C, p. 7",descriptive,0.05,TRUE,All three outcomes can be affirmed equivalent at p < 0.05 under the 0.2 SD tolerance using the covariate-adjusted models,
+app_c_ols_01_total_only,"Appendix C, p. 7",descriptive,,TRUE,Under the 0.1 SD tolerance only the OLS estimate on vote total can be affirmed equivalent,
+app_d_mapped_zips,"Appendix D, p. 8",structural,148,FALSE,ZIP codes with geographic boundaries shown on the map,"The deposit ships no shapefiles, so the map and its count are not recoverable"
+app_d_all_zips,"Appendix D, p. 8",pipeline,210,TRUE,"ZIP codes in the experiment, restated in the map section",
+app_d_lat_25,"Figure D.1, p. 9",structural,25,FALSE,Latitude graticule label 25 degrees north,A map axis label
+app_d_lat_26,"Figure D.1, p. 9",structural,26,FALSE,Latitude graticule label 26 degrees north,A map axis label
+app_d_lat_27,"Figure D.1, p. 9",structural,27,FALSE,Latitude graticule label 27 degrees north,A map axis label
+app_d_lat_28,"Figure D.1, p. 9",structural,28,FALSE,Latitude graticule label 28 degrees north,A map axis label
+app_d_lat_29,"Figure D.1, p. 9",structural,29,FALSE,Latitude graticule label 29 degrees north,A map axis label
+app_d_lat_30,"Figure D.1, p. 9",structural,30,FALSE,Latitude graticule label 30 degrees north,A map axis label
+app_d_lat_31,"Figure D.1, p. 9",structural,31,FALSE,Latitude graticule label 31 degrees north,A map axis label
+app_d_lon_80,"Figure D.1, p. 9",structural,80,FALSE,Longitude graticule label 80 degrees west,A map axis label
+app_d_lon_82,"Figure D.1, p. 9",structural,82,FALSE,Longitude graticule label 82 degrees west,A map axis label
+app_d_lon_84,"Figure D.1, p. 9",structural,84,FALSE,Longitude graticule label 84 degrees west,A map axis label
+app_d_lon_86,"Figure D.1, p. 9",structural,86,FALSE,Longitude graticule label 86 degrees west,A map axis label
+app_d_lon_88,"Figure D.1, p. 9",structural,88,FALSE,Longitude graticule label 88 degrees west,A map axis label
+app_e_coefs_nonsig,"Appendix E, p. 10",descriptive,,TRUE,Each individual balance coefficient is nonsignificant,
+app_e_joint_p,"Appendix E, p. 10",pipeline,0.33,TRUE,"Joint significance test p-value, precinct-level balance",
+app_f_zips,"Appendix F, p. 10",pipeline,210,TRUE,"ZIP codes block-randomized, restated in the aggregation section",
+app_f_example_pct,"Appendix F, p. 10",definitional,30,FALSE,Illustrative percentage of a precinct lying within a ZIP code,"A worked illustration, not an estimate"
+app_f_example_frac,"Appendix F, p. 10",definitional,0.3,FALSE,The same illustrative fraction written as a decimal,"A worked illustration, not an estimate"
+app_f8_joint_p,"Appendix F.1, p. 11",pipeline,0.328,TRUE,"Joint significance test p-value, ZIP-level balance",
+app_f_small_effects,"Appendix F.1, p. 11",descriptive,,TRUE,ZIP-level analysis returns very small effects that cannot be distinguished from zero,
+app_g_pate_center,"Appendix G, p. 15",definitional,0.01,TRUE,Centre of the distribution simulated treatment effects are drawn from,
+app_g_pate_sd,"Appendix G, p. 15",definitional,0.005,TRUE,Standard deviation of the distribution simulated treatment effects are drawn from,
+app_g_power_own,"Appendix G, p. 15",pipeline,21.0,TRUE,"Power of the study on its own, per cent, as stated in the appendix",
+app_g_power_combined,"Appendix G, p. 15",pipeline,89.3,TRUE,"Power of the Bayesian posterior estimator, per cent, as stated in the appendix",
+fg2_ols_pate_label,"Figure G.2, p. 15",pipeline,0.1,TRUE,PATE named in the left panel annotation,
+fg2_post_pate_label,"Figure G.2, p. 15",pipeline,0.1,TRUE,PATE named in the right panel annotation,
+fg2_ols_power,"Figure G.2, p. 15",pipeline,0.210,TRUE,Power printed in the left panel,
+fg2_post_power,"Figure G.2, p. 15",pipeline,0.893,TRUE,Power printed in the right panel,
+fg2_axis_neg0p05,"Figure G.2, p. 15",structural,-0.05,FALSE,"x-axis break at -0.05, in both panels","A plotting default, not an estimate"
+fg2_axis_0p00,"Figure G.2, p. 15",structural,0.00,FALSE,"x-axis break at 0.00, in both panels","A plotting default, not an estimate"
+fg2_axis_0p05,"Figure G.2, p. 15",structural,0.05,FALSE,"x-axis break at 0.05, in both panels","A plotting default, not an estimate"
+app_toc_A,"Appendix contents, p. 1",structural,2,FALSE,Contents entry: appendix section A begins on page 2,Front matter
+app_toc_B,"Appendix contents, p. 1",structural,4,FALSE,Contents entry: appendix section B begins on page 4,Front matter
+app_toc_C,"Appendix contents, p. 1",structural,7,FALSE,Contents entry: appendix section C begins on page 7,Front matter
+app_toc_D,"Appendix contents, p. 1",structural,8,FALSE,Contents entry: appendix section D begins on page 8,Front matter
+app_toc_E,"Appendix contents, p. 1",structural,10,FALSE,Contents entry: appendix section E begins on page 10,Front matter
+app_toc_F,"Appendix contents, p. 1",structural,10,FALSE,Contents entry: appendix section F begins on page 10,Front matter
+app_toc_F1,"Appendix contents, p. 1",structural,11,FALSE,Contents entry: appendix section F1 begins on page 11,Front matter
+app_toc_F2,"Appendix contents, p. 1",structural,11,FALSE,Contents entry: appendix section F2 begins on page 11,Front matter
+app_toc_G,"Appendix contents, p. 1",structural,15,FALSE,Contents entry: appendix section G begins on page 15,Front matter
+app_toc_H,"Appendix contents, p. 1",structural,16,FALSE,Contents entry: appendix section H begins on page 16,Front matter
+ta1_m1_any_est,"Table A.1, p. 2",pipeline,47.15,TRUE,Table A.1 cell m1_any_est,
+ta1_m2_any_est,"Table A.1, p. 2",pipeline,6.54,TRUE,Table A.1 cell m2_any_est,
+ta1_m1_any_se,"Table A.1, p. 2",pipeline,56.74,TRUE,Table A.1 cell m1_any_se,
+ta1_m2_any_se,"Table A.1, p. 2",pipeline,18.70,TRUE,Table A.1 cell m2_any_se,
+ta1_m3_tv1_est,"Table A.1, p. 2",pipeline,18.07,TRUE,Table A.1 cell m3_tv1_est,
+ta1_m4_tv1_est,"Table A.1, p. 2",pipeline,-14.52,TRUE,Table A.1 cell m4_tv1_est,
+ta1_m3_tv1_se,"Table A.1, p. 2",pipeline,53.37,TRUE,Table A.1 cell m3_tv1_se,
+ta1_m4_tv1_se,"Table A.1, p. 2",pipeline,21.94,TRUE,Table A.1 cell m4_tv1_se,
+ta1_m3_tv2_est,"Table A.1, p. 2",pipeline,77.45,TRUE,Table A.1 cell m3_tv2_est,
+ta1_m4_tv2_est,"Table A.1, p. 2",pipeline,26.70,TRUE,Table A.1 cell m4_tv2_est,
+ta1_m3_tv2_se,"Table A.1, p. 2",pipeline,84.91,TRUE,Table A.1 cell m3_tv2_se,
+ta1_m4_tv2_se,"Table A.1, p. 2",pipeline,22.81,TRUE,Table A.1 cell m4_tv2_se,
+ta1_m2_x2016_est,"Table A.1, p. 2",pipeline,0.73,TRUE,Table A.1 cell m2_x2016_est,
+ta1_m4_x2016_est,"Table A.1, p. 2",pipeline,0.73,TRUE,Table A.1 cell m4_x2016_est,
+ta1_m2_x2016_se,"Table A.1, p. 2",pipeline,0.04,TRUE,Table A.1 cell m2_x2016_se,
+ta1_m4_x2016_se,"Table A.1, p. 2",pipeline,0.04,TRUE,Table A.1 cell m4_x2016_se,
+ta1_m2_m2016_est,"Table A.1, p. 2",pipeline,-66.23,TRUE,Table A.1 cell m2_m2016_est,
+ta1_m4_m2016_est,"Table A.1, p. 2",pipeline,-60.47,TRUE,Table A.1 cell m4_m2016_est,
+ta1_m2_m2016_se,"Table A.1, p. 2",pipeline,70.20,TRUE,Table A.1 cell m2_m2016_se,
+ta1_m4_m2016_se,"Table A.1, p. 2",pipeline,65.58,TRUE,Table A.1 cell m4_m2016_se,
+ta1_m2_x2014_est,"Table A.1, p. 2",pipeline,0.07,TRUE,Table A.1 cell m2_x2014_est,
+ta1_m4_x2014_est,"Table A.1, p. 2",pipeline,0.07,TRUE,Table A.1 cell m4_x2014_est,
+ta1_m2_x2014_se,"Table A.1, p. 2",pipeline,0.04,TRUE,Table A.1 cell m2_x2014_se,
+ta1_m4_x2014_se,"Table A.1, p. 2",pipeline,0.04,TRUE,Table A.1 cell m4_x2014_se,
+ta1_m2_m2014_est,"Table A.1, p. 2",pipeline,10.77,TRUE,Table A.1 cell m2_m2014_est,
+ta1_m4_m2014_est,"Table A.1, p. 2",pipeline,15.15,TRUE,Table A.1 cell m4_m2014_est,
+ta1_m2_m2014_se,"Table A.1, p. 2",pipeline,20.48,TRUE,Table A.1 cell m2_m2014_se,
+ta1_m4_m2014_se,"Table A.1, p. 2",pipeline,20.69,TRUE,Table A.1 cell m4_m2014_se,
+ta1_m2_x2012_est,"Table A.1, p. 2",pipeline,0.03,TRUE,Table A.1 cell m2_x2012_est,
+ta1_m4_x2012_est,"Table A.1, p. 2",pipeline,0.02,TRUE,Table A.1 cell m4_x2012_est,
+ta1_m2_x2012_se,"Table A.1, p. 2",pipeline,0.05,TRUE,Table A.1 cell m2_x2012_se,
+ta1_m4_x2012_se,"Table A.1, p. 2",pipeline,0.06,TRUE,Table A.1 cell m4_x2012_se,
+ta1_m2_m2012_est,"Table A.1, p. 2",pipeline,33.90,TRUE,Table A.1 cell m2_m2012_est,
+ta1_m4_m2012_est,"Table A.1, p. 2",pipeline,29.43,TRUE,Table A.1 cell m4_m2012_est,
+ta1_m2_m2012_se,"Table A.1, p. 2",pipeline,17.93,TRUE,Table A.1 cell m2_m2012_se,
+ta1_m4_m2012_se,"Table A.1, p. 2",pipeline,18.37,TRUE,Table A.1 cell m4_m2012_se,
+ta1_m1_int_est,"Table A.1, p. 2",pipeline,-72.16,TRUE,Table A.1 cell m1_int_est,
+ta1_m1_int_se,"Table A.1, p. 2",pipeline,37.75,TRUE,Table A.1 cell m1_int_se,
+ta1_m2_int_est,"Table A.1, p. 2",pipeline,88.28,TRUE,Table A.1 cell m2_int_est,
+ta1_m2_int_se,"Table A.1, p. 2",pipeline,17.70,TRUE,Table A.1 cell m2_int_se,
+ta1_m3_int_est,"Table A.1, p. 2",pipeline,-72.16,TRUE,Table A.1 cell m3_int_est,
+ta1_m3_int_se,"Table A.1, p. 2",pipeline,37.75,TRUE,Table A.1 cell m3_int_se,
+ta1_m4_int_est,"Table A.1, p. 2",pipeline,89.62,TRUE,Table A.1 cell m4_int_est,
+ta1_m4_int_se,"Table A.1, p. 2",pipeline,17.51,TRUE,Table A.1 cell m4_int_se,
+ta1_m1_r2,"Table A.1, p. 2",pipeline,0.00,TRUE,Table A.1 cell m1_r2,
+ta1_m1_nobs,"Table A.1, p. 2",pipeline,857,TRUE,Table A.1 cell m1_nobs,
+ta1_m2_r2,"Table A.1, p. 2",pipeline,0.86,TRUE,Table A.1 cell m2_r2,
+ta1_m2_nobs,"Table A.1, p. 2",pipeline,857,TRUE,Table A.1 cell m2_nobs,
+ta1_m3_r2,"Table A.1, p. 2",pipeline,0.01,TRUE,Table A.1 cell m3_r2,
+ta1_m3_nobs,"Table A.1, p. 2",pipeline,857,TRUE,Table A.1 cell m3_nobs,
+ta1_m4_r2,"Table A.1, p. 2",pipeline,0.86,TRUE,Table A.1 cell m4_r2,
+ta1_m4_nobs,"Table A.1, p. 2",pipeline,857,TRUE,Table A.1 cell m4_nobs,
+ta1_m1_nclust,"Table A.1, p. 2",pipeline,154,TRUE,Table A.1 cell m1_nclust,
+ta1_m2_nclust,"Table A.1, p. 2",pipeline,154,TRUE,Table A.1 cell m2_nclust,
+ta1_m3_nclust,"Table A.1, p. 2",pipeline,154,TRUE,Table A.1 cell m3_nclust,
+ta1_m4_nclust,"Table A.1, p. 2",pipeline,154,TRUE,Table A.1 cell m4_nclust,
+ta2_m1_any_est,"Table A.2, p. 3",pipeline,-23.59,TRUE,Table A.2 cell m1_any_est,
+ta2_m2_any_est,"Table A.2, p. 3",pipeline,10.19,TRUE,Table A.2 cell m2_any_est,
+ta2_m1_any_se,"Table A.2, p. 3",pipeline,103.35,TRUE,Table A.2 cell m1_any_se,
+ta2_m2_any_se,"Table A.2, p. 3",pipeline,23.68,TRUE,Table A.2 cell m2_any_se,
+ta2_m3_tv1_est,"Table A.2, p. 3",pipeline,-115.52,TRUE,Table A.2 cell m3_tv1_est,
+ta2_m4_tv1_est,"Table A.2, p. 3",pipeline,15.63,TRUE,Table A.2 cell m4_tv1_est,
+ta2_m3_tv1_se,"Table A.2, p. 3",pipeline,140.93,TRUE,Table A.2 cell m3_tv1_se,
+ta2_m4_tv1_se,"Table A.2, p. 3",pipeline,29.01,TRUE,Table A.2 cell m4_tv1_se,
+ta2_m3_tv2_est,"Table A.2, p. 3",pipeline,72.22,TRUE,Table A.2 cell m3_tv2_est,
+ta2_m4_tv2_est,"Table A.2, p. 3",pipeline,4.98,TRUE,Table A.2 cell m4_tv2_est,
+ta2_m3_tv2_se,"Table A.2, p. 3",pipeline,112.06,TRUE,Table A.2 cell m3_tv2_se,
+ta2_m4_tv2_se,"Table A.2, p. 3",pipeline,28.28,TRUE,Table A.2 cell m4_tv2_se,
+ta2_m2_x2016_est,"Table A.2, p. 3",pipeline,0.87,TRUE,Table A.2 cell m2_x2016_est,
+ta2_m4_x2016_est,"Table A.2, p. 3",pipeline,0.87,TRUE,Table A.2 cell m4_x2016_est,
+ta2_m2_x2016_se,"Table A.2, p. 3",pipeline,0.02,TRUE,Table A.2 cell m2_x2016_se,
+ta2_m4_x2016_se,"Table A.2, p. 3",pipeline,0.02,TRUE,Table A.2 cell m4_x2016_se,
+ta2_m2_m2016_est,"Table A.2, p. 3",pipeline,858.20,TRUE,Table A.2 cell m2_m2016_est,
+ta2_m4_m2016_est,"Table A.2, p. 3",pipeline,857.18,TRUE,Table A.2 cell m4_m2016_est,
+ta2_m2_m2016_se,"Table A.2, p. 3",pipeline,124.46,TRUE,Table A.2 cell m2_m2016_se,
+ta2_m4_m2016_se,"Table A.2, p. 3",pipeline,123.83,TRUE,Table A.2 cell m4_m2016_se,
+ta2_m2_x2014_est,"Table A.2, p. 3",pipeline,0.02,TRUE,Table A.2 cell m2_x2014_est,
+ta2_m4_x2014_est,"Table A.2, p. 3",pipeline,0.02,TRUE,Table A.2 cell m4_x2014_est,
+ta2_m2_x2014_se,"Table A.2, p. 3",pipeline,0.02,TRUE,Table A.2 cell m2_x2014_se,
+ta2_m4_x2014_se,"Table A.2, p. 3",pipeline,0.02,TRUE,Table A.2 cell m4_x2014_se,
+ta2_m2_m2014_est,"Table A.2, p. 3",pipeline,-8.21,TRUE,Table A.2 cell m2_m2014_est,
+ta2_m4_m2014_est,"Table A.2, p. 3",pipeline,-9.20,TRUE,Table A.2 cell m4_m2014_est,
+ta2_m2_m2014_se,"Table A.2, p. 3",pipeline,36.72,TRUE,Table A.2 cell m2_m2014_se,
+ta2_m4_m2014_se,"Table A.2, p. 3",pipeline,36.16,TRUE,Table A.2 cell m4_m2014_se,
+ta2_m2_x2012_est,"Table A.2, p. 3",pipeline,-0.00,TRUE,Table A.2 cell m2_x2012_est,
+ta2_m4_x2012_est,"Table A.2, p. 3",pipeline,-0.00,TRUE,Table A.2 cell m4_x2012_est,
+ta2_m2_x2012_se,"Table A.2, p. 3",pipeline,0.04,TRUE,Table A.2 cell m2_x2012_se,
+ta2_m4_x2012_se,"Table A.2, p. 3",pipeline,0.04,TRUE,Table A.2 cell m4_x2012_se,
+ta2_m2_m2012_est,"Table A.2, p. 3",pipeline,-66.11,TRUE,Table A.2 cell m2_m2012_est,
+ta2_m4_m2012_est,"Table A.2, p. 3",pipeline,-65.34,TRUE,Table A.2 cell m4_m2012_est,
+ta2_m2_m2012_se,"Table A.2, p. 3",pipeline,49.82,TRUE,Table A.2 cell m2_m2012_se,
+ta2_m4_m2012_se,"Table A.2, p. 3",pipeline,48.82,TRUE,Table A.2 cell m4_m2012_se,
+ta2_m1_int_est,"Table A.2, p. 3",pipeline,1348.33,TRUE,Table A.2 cell m1_int_est,
+ta2_m1_int_se,"Table A.2, p. 3",pipeline,69.36,TRUE,Table A.2 cell m1_int_se,
+ta2_m2_int_est,"Table A.2, p. 3",pipeline,42.55,TRUE,Table A.2 cell m2_int_est,
+ta2_m2_int_se,"Table A.2, p. 3",pipeline,48.37,TRUE,Table A.2 cell m2_int_se,
+ta2_m3_int_est,"Table A.2, p. 3",pipeline,1348.33,TRUE,Table A.2 cell m3_int_est,
+ta2_m3_int_se,"Table A.2, p. 3",pipeline,69.36,TRUE,Table A.2 cell m3_int_se,
+ta2_m4_int_est,"Table A.2, p. 3",pipeline,41.89,TRUE,Table A.2 cell m4_int_est,
+ta2_m4_int_se,"Table A.2, p. 3",pipeline,47.81,TRUE,Table A.2 cell m4_int_se,
+ta2_m1_r2,"Table A.2, p. 3",pipeline,0.00,TRUE,Table A.2 cell m1_r2,
+ta2_m1_nobs,"Table A.2, p. 3",pipeline,857,TRUE,Table A.2 cell m1_nobs,
+ta2_m2_r2,"Table A.2, p. 3",pipeline,0.91,TRUE,Table A.2 cell m2_r2,
+ta2_m2_nobs,"Table A.2, p. 3",pipeline,857,TRUE,Table A.2 cell m2_nobs,
+ta2_m3_r2,"Table A.2, p. 3",pipeline,0.00,TRUE,Table A.2 cell m3_r2,
+ta2_m3_nobs,"Table A.2, p. 3",pipeline,857,TRUE,Table A.2 cell m3_nobs,
+ta2_m4_r2,"Table A.2, p. 3",pipeline,0.91,TRUE,Table A.2 cell m4_r2,
+ta2_m4_nobs,"Table A.2, p. 3",pipeline,857,TRUE,Table A.2 cell m4_nobs,
+ta2_m1_nclust,"Table A.2, p. 3",pipeline,154,TRUE,Table A.2 cell m1_nclust,
+ta2_m2_nclust,"Table A.2, p. 3",pipeline,154,TRUE,Table A.2 cell m2_nclust,
+ta2_m3_nclust,"Table A.2, p. 3",pipeline,154,TRUE,Table A.2 cell m3_nclust,
+ta2_m4_nclust,"Table A.2, p. 3",pipeline,154,TRUE,Table A.2 cell m4_nclust,
+tb3_m1_any_est,"Table B.3, p. 4",pipeline,51.94,TRUE,Table B.3 cell m1_any_est,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+tb3_m2_any_est,"Table B.3, p. 4",pipeline,3.62,TRUE,Table B.3 cell m2_any_est,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+tb3_m1_any_se,"Table B.3, p. 4",pipeline,55.15,TRUE,Table B.3 cell m1_any_se,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+tb3_m2_any_se,"Table B.3, p. 4",pipeline,18.95,TRUE,Table B.3 cell m2_any_se,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+tb3_m3_tv1_est,"Table B.3, p. 4",pipeline,31.94,TRUE,Table B.3 cell m3_tv1_est,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+tb3_m4_tv1_est,"Table B.3, p. 4",pipeline,-21.37,TRUE,Table B.3 cell m4_tv1_est,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+tb3_m3_tv1_se,"Table B.3, p. 4",pipeline,53.25,TRUE,Table B.3 cell m3_tv1_se,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+tb3_m4_tv1_se,"Table B.3, p. 4",pipeline,22.62,TRUE,Table B.3 cell m4_tv1_se,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+tb3_m3_tv2_est,"Table B.3, p. 4",pipeline,71.72,TRUE,Table B.3 cell m3_tv2_est,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+tb3_m4_tv2_est,"Table B.3, p. 4",pipeline,26.63,TRUE,Table B.3 cell m4_tv2_est,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+tb3_m3_tv2_se,"Table B.3, p. 4",pipeline,80.34,TRUE,Table B.3 cell m3_tv2_se,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+tb3_m4_tv2_se,"Table B.3, p. 4",pipeline,22.79,TRUE,Table B.3 cell m4_tv2_se,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+tb3_m2_x2016_est,"Table B.3, p. 4",pipeline,0.74,TRUE,Table B.3 cell m2_x2016_est,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+tb3_m4_x2016_est,"Table B.3, p. 4",pipeline,0.74,TRUE,Table B.3 cell m4_x2016_est,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+tb3_m2_x2016_se,"Table B.3, p. 4",pipeline,0.04,TRUE,Table B.3 cell m2_x2016_se,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+tb3_m4_x2016_se,"Table B.3, p. 4",pipeline,0.04,TRUE,Table B.3 cell m4_x2016_se,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+tb3_m2_m2016_est,"Table B.3, p. 4",pipeline,-76.80,TRUE,Table B.3 cell m2_m2016_est,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+tb3_m4_m2016_est,"Table B.3, p. 4",pipeline,-73.27,TRUE,Table B.3 cell m4_m2016_est,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+tb3_m2_m2016_se,"Table B.3, p. 4",pipeline,68.68,TRUE,Table B.3 cell m2_m2016_se,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+tb3_m4_m2016_se,"Table B.3, p. 4",pipeline,64.05,TRUE,Table B.3 cell m4_m2016_se,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+tb3_m2_x2014_est,"Table B.3, p. 4",pipeline,0.05,TRUE,Table B.3 cell m2_x2014_est,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+tb3_m4_x2014_est,"Table B.3, p. 4",pipeline,0.05,TRUE,Table B.3 cell m4_x2014_est,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+tb3_m2_x2014_se,"Table B.3, p. 4",pipeline,0.04,TRUE,Table B.3 cell m2_x2014_se,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+tb3_m4_x2014_se,"Table B.3, p. 4",pipeline,0.04,TRUE,Table B.3 cell m4_x2014_se,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+tb3_m2_m2014_est,"Table B.3, p. 4",pipeline,10.24,TRUE,Table B.3 cell m2_m2014_est,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+tb3_m4_m2014_est,"Table B.3, p. 4",pipeline,15.22,TRUE,Table B.3 cell m4_m2014_est,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+tb3_m2_m2014_se,"Table B.3, p. 4",pipeline,18.08,TRUE,Table B.3 cell m2_m2014_se,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+tb3_m4_m2014_se,"Table B.3, p. 4",pipeline,18.50,TRUE,Table B.3 cell m4_m2014_se,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+tb3_m2_x2012_est,"Table B.3, p. 4",pipeline,0.03,TRUE,Table B.3 cell m2_x2012_est,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+tb3_m4_x2012_est,"Table B.3, p. 4",pipeline,0.02,TRUE,Table B.3 cell m4_x2012_est,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+tb3_m2_x2012_se,"Table B.3, p. 4",pipeline,0.05,TRUE,Table B.3 cell m2_x2012_se,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+tb3_m4_x2012_se,"Table B.3, p. 4",pipeline,0.05,TRUE,Table B.3 cell m4_x2012_se,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+tb3_m2_m2012_est,"Table B.3, p. 4",pipeline,30.59,TRUE,Table B.3 cell m2_m2012_est,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+tb3_m4_m2012_est,"Table B.3, p. 4",pipeline,26.69,TRUE,Table B.3 cell m4_m2012_est,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+tb3_m2_m2012_se,"Table B.3, p. 4",pipeline,19.24,TRUE,Table B.3 cell m2_m2012_se,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+tb3_m4_m2012_se,"Table B.3, p. 4",pipeline,19.45,TRUE,Table B.3 cell m4_m2012_se,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+tb3_m1_int_est,"Table B.3, p. 4",pipeline,-126.10,TRUE,Table B.3 cell m1_int_est,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+tb3_m1_int_se,"Table B.3, p. 4",pipeline,64.62,TRUE,Table B.3 cell m1_int_se,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+tb3_m2_int_est,"Table B.3, p. 4",pipeline,62.96,TRUE,Table B.3 cell m2_int_est,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+tb3_m2_int_se,"Table B.3, p. 4",pipeline,19.54,TRUE,Table B.3 cell m2_int_se,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+tb3_m3_int_est,"Table B.3, p. 4",pipeline,-127.86,TRUE,Table B.3 cell m3_int_est,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+tb3_m3_int_se,"Table B.3, p. 4",pipeline,64.25,TRUE,Table B.3 cell m3_int_se,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+tb3_m4_int_est,"Table B.3, p. 4",pipeline,61.80,TRUE,Table B.3 cell m4_int_est,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+tb3_m4_int_se,"Table B.3, p. 4",pipeline,19.75,TRUE,Table B.3 cell m4_int_se,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+tb3_m1_r2,"Table B.3, p. 4",pipeline,0.06,TRUE,Table B.3 cell m1_r2,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+tb3_m1_nobs,"Table B.3, p. 4",pipeline,857,TRUE,Table B.3 cell m1_nobs,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+tb3_m2_r2,"Table B.3, p. 4",pipeline,0.86,TRUE,Table B.3 cell m2_r2,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+tb3_m2_nobs,"Table B.3, p. 4",pipeline,857,TRUE,Table B.3 cell m2_nobs,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+tb3_m3_r2,"Table B.3, p. 4",pipeline,0.06,TRUE,Table B.3 cell m3_r2,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+tb3_m3_nobs,"Table B.3, p. 4",pipeline,857,TRUE,Table B.3 cell m3_nobs,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+tb3_m4_r2,"Table B.3, p. 4",pipeline,0.86,TRUE,Table B.3 cell m4_r2,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+tb3_m4_nobs,"Table B.3, p. 4",pipeline,857,TRUE,Table B.3 cell m4_nobs,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+tb3_m1_nclust,"Table B.3, p. 4",pipeline,154,TRUE,Table B.3 cell m1_nclust,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+tb3_m2_nclust,"Table B.3, p. 4",pipeline,154,TRUE,Table B.3 cell m2_nclust,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+tb3_m3_nclust,"Table B.3, p. 4",pipeline,154,TRUE,Table B.3 cell m3_nclust,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+tb3_m4_nclust,"Table B.3, p. 4",pipeline,154,TRUE,Table B.3 cell m4_nclust,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+tb4_m1_any_est,"Table B.4, p. 5",pipeline,51.94,TRUE,Table B.4 cell m1_any_est,
+tb4_m2_any_est,"Table B.4, p. 5",pipeline,3.62,TRUE,Table B.4 cell m2_any_est,
+tb4_m1_any_se,"Table B.4, p. 5",pipeline,55.15,TRUE,Table B.4 cell m1_any_se,
+tb4_m2_any_se,"Table B.4, p. 5",pipeline,18.95,TRUE,Table B.4 cell m2_any_se,
+tb4_m3_tv1_est,"Table B.4, p. 5",pipeline,31.94,TRUE,Table B.4 cell m3_tv1_est,
+tb4_m4_tv1_est,"Table B.4, p. 5",pipeline,-21.37,TRUE,Table B.4 cell m4_tv1_est,
+tb4_m3_tv1_se,"Table B.4, p. 5",pipeline,53.25,TRUE,Table B.4 cell m3_tv1_se,
+tb4_m4_tv1_se,"Table B.4, p. 5",pipeline,22.62,TRUE,Table B.4 cell m4_tv1_se,
+tb4_m3_tv2_est,"Table B.4, p. 5",pipeline,71.72,TRUE,Table B.4 cell m3_tv2_est,
+tb4_m4_tv2_est,"Table B.4, p. 5",pipeline,26.63,TRUE,Table B.4 cell m4_tv2_est,
+tb4_m3_tv2_se,"Table B.4, p. 5",pipeline,80.34,TRUE,Table B.4 cell m3_tv2_se,
+tb4_m4_tv2_se,"Table B.4, p. 5",pipeline,22.79,TRUE,Table B.4 cell m4_tv2_se,
+tb4_m2_x2016_est,"Table B.4, p. 5",pipeline,0.74,TRUE,Table B.4 cell m2_x2016_est,
+tb4_m4_x2016_est,"Table B.4, p. 5",pipeline,0.74,TRUE,Table B.4 cell m4_x2016_est,
+tb4_m2_x2016_se,"Table B.4, p. 5",pipeline,0.04,TRUE,Table B.4 cell m2_x2016_se,
+tb4_m4_x2016_se,"Table B.4, p. 5",pipeline,0.04,TRUE,Table B.4 cell m4_x2016_se,
+tb4_m2_m2016_est,"Table B.4, p. 5",pipeline,-76.80,TRUE,Table B.4 cell m2_m2016_est,
+tb4_m4_m2016_est,"Table B.4, p. 5",pipeline,-73.27,TRUE,Table B.4 cell m4_m2016_est,
+tb4_m2_m2016_se,"Table B.4, p. 5",pipeline,68.68,TRUE,Table B.4 cell m2_m2016_se,
+tb4_m4_m2016_se,"Table B.4, p. 5",pipeline,64.05,TRUE,Table B.4 cell m4_m2016_se,
+tb4_m2_x2014_est,"Table B.4, p. 5",pipeline,0.05,TRUE,Table B.4 cell m2_x2014_est,
+tb4_m4_x2014_est,"Table B.4, p. 5",pipeline,0.05,TRUE,Table B.4 cell m4_x2014_est,
+tb4_m2_x2014_se,"Table B.4, p. 5",pipeline,0.04,TRUE,Table B.4 cell m2_x2014_se,
+tb4_m4_x2014_se,"Table B.4, p. 5",pipeline,0.04,TRUE,Table B.4 cell m4_x2014_se,
+tb4_m2_m2014_est,"Table B.4, p. 5",pipeline,10.24,TRUE,Table B.4 cell m2_m2014_est,
+tb4_m4_m2014_est,"Table B.4, p. 5",pipeline,15.22,TRUE,Table B.4 cell m4_m2014_est,
+tb4_m2_m2014_se,"Table B.4, p. 5",pipeline,18.08,TRUE,Table B.4 cell m2_m2014_se,
+tb4_m4_m2014_se,"Table B.4, p. 5",pipeline,18.50,TRUE,Table B.4 cell m4_m2014_se,
+tb4_m2_x2012_est,"Table B.4, p. 5",pipeline,0.03,TRUE,Table B.4 cell m2_x2012_est,
+tb4_m4_x2012_est,"Table B.4, p. 5",pipeline,0.02,TRUE,Table B.4 cell m4_x2012_est,
+tb4_m2_x2012_se,"Table B.4, p. 5",pipeline,0.05,TRUE,Table B.4 cell m2_x2012_se,
+tb4_m4_x2012_se,"Table B.4, p. 5",pipeline,0.05,TRUE,Table B.4 cell m4_x2012_se,
+tb4_m2_m2012_est,"Table B.4, p. 5",pipeline,30.59,TRUE,Table B.4 cell m2_m2012_est,
+tb4_m4_m2012_est,"Table B.4, p. 5",pipeline,26.69,TRUE,Table B.4 cell m4_m2012_est,
+tb4_m2_m2012_se,"Table B.4, p. 5",pipeline,19.24,TRUE,Table B.4 cell m2_m2012_se,
+tb4_m4_m2012_se,"Table B.4, p. 5",pipeline,19.45,TRUE,Table B.4 cell m4_m2012_se,
+tb4_m1_int_est,"Table B.4, p. 5",pipeline,-126.10,TRUE,Table B.4 cell m1_int_est,
+tb4_m1_int_se,"Table B.4, p. 5",pipeline,64.62,TRUE,Table B.4 cell m1_int_se,
+tb4_m2_int_est,"Table B.4, p. 5",pipeline,62.96,TRUE,Table B.4 cell m2_int_est,
+tb4_m2_int_se,"Table B.4, p. 5",pipeline,19.54,TRUE,Table B.4 cell m2_int_se,
+tb4_m3_int_est,"Table B.4, p. 5",pipeline,-127.86,TRUE,Table B.4 cell m3_int_est,
+tb4_m3_int_se,"Table B.4, p. 5",pipeline,64.25,TRUE,Table B.4 cell m3_int_se,
+tb4_m4_int_est,"Table B.4, p. 5",pipeline,61.80,TRUE,Table B.4 cell m4_int_est,
+tb4_m4_int_se,"Table B.4, p. 5",pipeline,19.75,TRUE,Table B.4 cell m4_int_se,
+tb4_m1_r2,"Table B.4, p. 5",pipeline,0.06,TRUE,Table B.4 cell m1_r2,
+tb4_m1_nobs,"Table B.4, p. 5",pipeline,857,TRUE,Table B.4 cell m1_nobs,
+tb4_m2_r2,"Table B.4, p. 5",pipeline,0.86,TRUE,Table B.4 cell m2_r2,
+tb4_m2_nobs,"Table B.4, p. 5",pipeline,857,TRUE,Table B.4 cell m2_nobs,
+tb4_m3_r2,"Table B.4, p. 5",pipeline,0.06,TRUE,Table B.4 cell m3_r2,
+tb4_m3_nobs,"Table B.4, p. 5",pipeline,857,TRUE,Table B.4 cell m3_nobs,
+tb4_m4_r2,"Table B.4, p. 5",pipeline,0.86,TRUE,Table B.4 cell m4_r2,
+tb4_m4_nobs,"Table B.4, p. 5",pipeline,857,TRUE,Table B.4 cell m4_nobs,
+tb4_m1_nclust,"Table B.4, p. 5",pipeline,154,TRUE,Table B.4 cell m1_nclust,
+tb4_m2_nclust,"Table B.4, p. 5",pipeline,154,TRUE,Table B.4 cell m2_nclust,
+tb4_m3_nclust,"Table B.4, p. 5",pipeline,154,TRUE,Table B.4 cell m3_nclust,
+tb4_m4_nclust,"Table B.4, p. 5",pipeline,154,TRUE,Table B.4 cell m4_nclust,
+tb5_m1_any_est,"Table B.5, p. 6",pipeline,-27.54,TRUE,Table B.5 cell m1_any_est,
+tb5_m2_any_est,"Table B.5, p. 6",pipeline,9.18,TRUE,Table B.5 cell m2_any_est,
+tb5_m1_any_se,"Table B.5, p. 6",pipeline,95.65,TRUE,Table B.5 cell m1_any_se,
+tb5_m2_any_se,"Table B.5, p. 6",pipeline,23.16,TRUE,Table B.5 cell m2_any_se,
+tb5_m3_tv1_est,"Table B.5, p. 6",pipeline,-159.45,TRUE,Table B.5 cell m3_tv1_est,
+tb5_m4_tv1_est,"Table B.5, p. 6",pipeline,3.50,TRUE,Table B.5 cell m4_tv1_est,
+tb5_m3_tv1_se,"Table B.5, p. 6",pipeline,142.82,TRUE,Table B.5 cell m3_tv1_se,
+tb5_m4_tv1_se,"Table B.5, p. 6",pipeline,30.62,TRUE,Table B.5 cell m4_tv1_se,
+tb5_m3_tv2_est,"Table B.5, p. 6",pipeline,102.95,TRUE,Table B.5 cell m3_tv2_est,
+tb5_m4_tv2_est,"Table B.5, p. 6",pipeline,14.44,TRUE,Table B.5 cell m4_tv2_est,
+tb5_m3_tv2_se,"Table B.5, p. 6",pipeline,90.25,TRUE,Table B.5 cell m3_tv2_se,
+tb5_m4_tv2_se,"Table B.5, p. 6",pipeline,26.76,TRUE,Table B.5 cell m4_tv2_se,
+tb5_m2_x2016_est,"Table B.5, p. 6",pipeline,0.87,TRUE,Table B.5 cell m2_x2016_est,
+tb5_m4_x2016_est,"Table B.5, p. 6",pipeline,0.87,TRUE,Table B.5 cell m4_x2016_est,
+tb5_m2_x2016_se,"Table B.5, p. 6",pipeline,0.02,TRUE,Table B.5 cell m2_x2016_se,
+tb5_m4_x2016_se,"Table B.5, p. 6",pipeline,0.02,TRUE,Table B.5 cell m4_x2016_se,
+tb5_m2_m2016_est,"Table B.5, p. 6",pipeline,781.56,TRUE,Table B.5 cell m2_m2016_est,
+tb5_m4_m2016_est,"Table B.5, p. 6",pipeline,781.60,TRUE,Table B.5 cell m4_m2016_est,
+tb5_m2_m2016_se,"Table B.5, p. 6",pipeline,137.19,TRUE,Table B.5 cell m2_m2016_se,
+tb5_m4_m2016_se,"Table B.5, p. 6",pipeline,137.28,TRUE,Table B.5 cell m4_m2016_se,
+tb5_m2_x2014_est,"Table B.5, p. 6",pipeline,0.01,TRUE,Table B.5 cell m2_x2014_est,
+tb5_m4_x2014_est,"Table B.5, p. 6",pipeline,0.01,TRUE,Table B.5 cell m4_x2014_est,
+tb5_m2_x2014_se,"Table B.5, p. 6",pipeline,0.03,TRUE,Table B.5 cell m2_x2014_se,
+tb5_m4_x2014_se,"Table B.5, p. 6",pipeline,0.03,TRUE,Table B.5 cell m4_x2014_se,
+tb5_m2_m2014_est,"Table B.5, p. 6",pipeline,-1.74,TRUE,Table B.5 cell m2_m2014_est,
+tb5_m4_m2014_est,"Table B.5, p. 6",pipeline,-0.66,TRUE,Table B.5 cell m4_m2014_est,
+tb5_m2_m2014_se,"Table B.5, p. 6",pipeline,41.36,TRUE,Table B.5 cell m2_m2014_se,
+tb5_m4_m2014_se,"Table B.5, p. 6",pipeline,41.43,TRUE,Table B.5 cell m4_m2014_se,
+tb5_m2_x2012_est,"Table B.5, p. 6",pipeline,-0.00,TRUE,Table B.5 cell m2_x2012_est,
+tb5_m4_x2012_est,"Table B.5, p. 6",pipeline,-0.00,TRUE,Table B.5 cell m4_x2012_est,
+tb5_m2_x2012_se,"Table B.5, p. 6",pipeline,0.04,TRUE,Table B.5 cell m2_x2012_se,
+tb5_m4_x2012_se,"Table B.5, p. 6",pipeline,0.04,TRUE,Table B.5 cell m4_x2012_se,
+tb5_m2_m2012_est,"Table B.5, p. 6",pipeline,-26.88,TRUE,Table B.5 cell m2_m2012_est,
+tb5_m4_m2012_est,"Table B.5, p. 6",pipeline,-27.40,TRUE,Table B.5 cell m4_m2012_est,
+tb5_m2_m2012_se,"Table B.5, p. 6",pipeline,49.84,TRUE,Table B.5 cell m2_m2012_se,
+tb5_m4_m2012_se,"Table B.5, p. 6",pipeline,49.19,TRUE,Table B.5 cell m4_m2012_se,
+tb5_m1_int_est,"Table B.5, p. 6",pipeline,1580.42,TRUE,Table B.5 cell m1_int_est,
+tb5_m1_int_se,"Table B.5, p. 6",pipeline,90.56,TRUE,Table B.5 cell m1_int_se,
+tb5_m2_int_est,"Table B.5, p. 6",pipeline,45.07,TRUE,Table B.5 cell m2_int_est,
+tb5_m2_int_se,"Table B.5, p. 6",pipeline,56.87,TRUE,Table B.5 cell m2_int_se,
+tb5_m3_int_est,"Table B.5, p. 6",pipeline,1568.81,TRUE,Table B.5 cell m3_int_est,
+tb5_m3_int_se,"Table B.5, p. 6",pipeline,91.60,TRUE,Table B.5 cell m3_int_se,
+tb5_m4_int_est,"Table B.5, p. 6",pipeline,45.31,TRUE,Table B.5 cell m4_int_est,
+tb5_m4_int_se,"Table B.5, p. 6",pipeline,56.78,TRUE,Table B.5 cell m4_int_se,
+tb5_m1_r2,"Table B.5, p. 6",pipeline,0.08,TRUE,Table B.5 cell m1_r2,
+tb5_m1_nobs,"Table B.5, p. 6",pipeline,857,TRUE,Table B.5 cell m1_nobs,
+tb5_m2_r2,"Table B.5, p. 6",pipeline,0.91,TRUE,Table B.5 cell m2_r2,
+tb5_m2_nobs,"Table B.5, p. 6",pipeline,857,TRUE,Table B.5 cell m2_nobs,
+tb5_m3_r2,"Table B.5, p. 6",pipeline,0.09,TRUE,Table B.5 cell m3_r2,
+tb5_m3_nobs,"Table B.5, p. 6",pipeline,857,TRUE,Table B.5 cell m3_nobs,
+tb5_m4_r2,"Table B.5, p. 6",pipeline,0.91,TRUE,Table B.5 cell m4_r2,
+tb5_m4_nobs,"Table B.5, p. 6",pipeline,857,TRUE,Table B.5 cell m4_nobs,
+tb5_m1_nclust,"Table B.5, p. 6",pipeline,154,TRUE,Table B.5 cell m1_nclust,
+tb5_m2_nclust,"Table B.5, p. 6",pipeline,154,TRUE,Table B.5 cell m2_nclust,
+tb5_m3_nclust,"Table B.5, p. 6",pipeline,154,TRUE,Table B.5 cell m3_nclust,
+tb5_m4_nclust,"Table B.5, p. 6",pipeline,154,TRUE,Table B.5 cell m4_nclust,
+te7_m1_int_est,"Table E.7, p. 10",pipeline,0.553,TRUE,Table E.7 cell m1_int_est,
+te7_m1_int_se,"Table E.7, p. 10",pipeline,0.083,TRUE,Table E.7 cell m1_int_se,
+te7_m1_x2016_est,"Table E.7, p. 10",pipeline,0.000,TRUE,Table E.7 cell m1_x2016_est,
+te7_m1_x2016_se,"Table E.7, p. 10",pipeline,0.000,TRUE,Table E.7 cell m1_x2016_se,
+te7_m1_m2016_est,"Table E.7, p. 10",pipeline,0.083,TRUE,Table E.7 cell m1_m2016_est,
+te7_m1_m2016_se,"Table E.7, p. 10",pipeline,0.158,TRUE,Table E.7 cell m1_m2016_se,
+te7_m1_x2014_est,"Table E.7, p. 10",pipeline,-0.000,TRUE,Table E.7 cell m1_x2014_est,
+te7_m1_x2014_se,"Table E.7, p. 10",pipeline,0.000,TRUE,Table E.7 cell m1_x2014_se,
+te7_m1_m2014_est,"Table E.7, p. 10",pipeline,0.096,TRUE,Table E.7 cell m1_m2014_est,
+te7_m1_m2014_se,"Table E.7, p. 10",pipeline,0.080,TRUE,Table E.7 cell m1_m2014_se,
+te7_m1_x2012_est,"Table E.7, p. 10",pipeline,-0.000,TRUE,Table E.7 cell m1_x2012_est,
+te7_m1_x2012_se,"Table E.7, p. 10",pipeline,0.000,TRUE,Table E.7 cell m1_x2012_se,
+te7_m1_m2012_est,"Table E.7, p. 10",pipeline,-0.122,TRUE,Table E.7 cell m1_m2012_est,
+te7_m1_m2012_se,"Table E.7, p. 10",pipeline,0.087,TRUE,Table E.7 cell m1_m2012_se,
+te7_m1_r2,"Table E.7, p. 10",pipeline,0.035,TRUE,Table E.7 cell m1_r2,
+te7_m1_nobs,"Table E.7, p. 10",pipeline,1096,TRUE,Table E.7 cell m1_nobs,
+te7_m1_nclust,"Table E.7, p. 10",pipeline,169,TRUE,Table E.7 cell m1_nclust,
+tf8_m1_int_est,"Table F.8, p. 11",pipeline,0.500,TRUE,Table F.8 cell m1_int_est,
+tf8_m1_int_se,"Table F.8, p. 11",pipeline,0.039,TRUE,Table F.8 cell m1_int_se,
+tf8_m1_x2016_est,"Table F.8, p. 11",pipeline,0.000,TRUE,Table F.8 cell m1_x2016_est,
+tf8_m1_x2016_se,"Table F.8, p. 11",pipeline,0.000,TRUE,Table F.8 cell m1_x2016_se,
+tf8_m1_x2014_est,"Table F.8, p. 11",pipeline,-0.000,TRUE,Table F.8 cell m1_x2014_est,
+tf8_m1_x2014_se,"Table F.8, p. 11",pipeline,0.000,TRUE,Table F.8 cell m1_x2014_se,
+tf8_m1_x2012_est,"Table F.8, p. 11",pipeline,0.000,TRUE,Table F.8 cell m1_x2012_est,
+tf8_m1_x2012_se,"Table F.8, p. 11",pipeline,0.000,TRUE,Table F.8 cell m1_x2012_se,
+tf8_m1_r2,"Table F.8, p. 11",pipeline,0.009,TRUE,Table F.8 cell m1_r2,
+tf8_m1_nobs,"Table F.8, p. 11",pipeline,210,TRUE,Table F.8 cell m1_nobs,
+tf9_m1_any_est,"Table F.9, p. 12",pipeline,0.0099,TRUE,Table F.9 cell m1_any_est,
+tf9_m2_any_est,"Table F.9, p. 12",pipeline,0.0015,TRUE,Table F.9 cell m2_any_est,
+tf9_m1_any_se,"Table F.9, p. 12",pipeline,0.0145,TRUE,Table F.9 cell m1_any_se,
+tf9_m2_any_se,"Table F.9, p. 12",pipeline,0.0088,TRUE,Table F.9 cell m2_any_se,
+tf9_m3_tv1_est,"Table F.9, p. 12",pipeline,0.0167,TRUE,Table F.9 cell m3_tv1_est,
+tf9_m4_tv1_est,"Table F.9, p. 12",pipeline,0.0055,TRUE,Table F.9 cell m4_tv1_est,
+tf9_m3_tv1_se,"Table F.9, p. 12",pipeline,0.0178,TRUE,Table F.9 cell m3_tv1_se,
+tf9_m4_tv1_se,"Table F.9, p. 12",pipeline,0.0086,TRUE,Table F.9 cell m4_tv1_se,
+tf9_m3_tv2_est,"Table F.9, p. 12",pipeline,0.0030,TRUE,Table F.9 cell m3_tv2_est,
+tf9_m4_tv2_est,"Table F.9, p. 12",pipeline,-0.0025,TRUE,Table F.9 cell m4_tv2_est,
+tf9_m3_tv2_se,"Table F.9, p. 12",pipeline,0.0181,TRUE,Table F.9 cell m3_tv2_se,
+tf9_m4_tv2_se,"Table F.9, p. 12",pipeline,0.0128,TRUE,Table F.9 cell m4_tv2_se,
+tf9_m2_x2016_est,"Table F.9, p. 12",pipeline,0.7451,TRUE,Table F.9 cell m2_x2016_est,
+tf9_m4_x2016_est,"Table F.9, p. 12",pipeline,0.7449,TRUE,Table F.9 cell m4_x2016_est,
+tf9_m2_x2016_se,"Table F.9, p. 12",pipeline,0.0593,TRUE,Table F.9 cell m2_x2016_se,
+tf9_m4_x2016_se,"Table F.9, p. 12",pipeline,0.0592,TRUE,Table F.9 cell m4_x2016_se,
+tf9_m2_x2014_est,"Table F.9, p. 12",pipeline,0.0476,TRUE,Table F.9 cell m2_x2014_est,
+tf9_m4_x2014_est,"Table F.9, p. 12",pipeline,0.0463,TRUE,Table F.9 cell m4_x2014_est,
+tf9_m2_x2014_se,"Table F.9, p. 12",pipeline,0.0235,TRUE,Table F.9 cell m2_x2014_se,
+tf9_m4_x2014_se,"Table F.9, p. 12",pipeline,0.0238,TRUE,Table F.9 cell m4_x2014_se,
+tf9_m2_m2014_est,"Table F.9, p. 12",pipeline,4.8184,TRUE,Table F.9 cell m2_m2014_est,
+tf9_m4_m2014_est,"Table F.9, p. 12",pipeline,4.6876,TRUE,Table F.9 cell m4_m2014_est,
+tf9_m2_m2014_se,"Table F.9, p. 12",pipeline,2.3429,TRUE,Table F.9 cell m2_m2014_se,
+tf9_m4_m2014_se,"Table F.9, p. 12",pipeline,2.3766,TRUE,Table F.9 cell m4_m2014_se,
+tf9_m2_x2012_est,"Table F.9, p. 12",pipeline,-0.0031,TRUE,Table F.9 cell m2_x2012_est,
+tf9_m4_x2012_est,"Table F.9, p. 12",pipeline,-0.0006,TRUE,Table F.9 cell m4_x2012_est,
+tf9_m2_x2012_se,"Table F.9, p. 12",pipeline,0.0444,TRUE,Table F.9 cell m2_x2012_se,
+tf9_m4_x2012_se,"Table F.9, p. 12",pipeline,0.0453,TRUE,Table F.9 cell m4_x2012_se,
+tf9_m2_m2012_est,"Table F.9, p. 12",pipeline,-0.2794,TRUE,Table F.9 cell m2_m2012_est,
+tf9_m4_m2012_est,"Table F.9, p. 12",pipeline,-0.0337,TRUE,Table F.9 cell m4_m2012_est,
+tf9_m2_m2012_se,"Table F.9, p. 12",pipeline,4.4175,TRUE,Table F.9 cell m2_m2012_se,
+tf9_m4_m2012_se,"Table F.9, p. 12",pipeline,4.5047,TRUE,Table F.9 cell m4_m2012_se,
+tf9_m1_int_est,"Table F.9, p. 12",pipeline,0.4652,TRUE,Table F.9 cell m1_int_est,
+tf9_m1_int_se,"Table F.9, p. 12",pipeline,0.0099,TRUE,Table F.9 cell m1_int_se,
+tf9_m2_int_est,"Table F.9, p. 12",pipeline,0.1101,TRUE,Table F.9 cell m2_int_est,
+tf9_m2_int_se,"Table F.9, p. 12",pipeline,0.0210,TRUE,Table F.9 cell m2_int_se,
+tf9_m3_int_est,"Table F.9, p. 12",pipeline,0.4652,TRUE,Table F.9 cell m3_int_est,
+tf9_m3_int_se,"Table F.9, p. 12",pipeline,0.0099,TRUE,Table F.9 cell m3_int_se,
+tf9_m4_int_est,"Table F.9, p. 12",pipeline,0.1097,TRUE,Table F.9 cell m4_int_est,
+tf9_m4_int_se,"Table F.9, p. 12",pipeline,0.0209,TRUE,Table F.9 cell m4_int_se,
+tf9_m1_r2,"Table F.9, p. 12",pipeline,0.0022,TRUE,Table F.9 cell m1_r2,
+tf9_m1_nobs,"Table F.9, p. 12",pipeline,210,TRUE,Table F.9 cell m1_nobs,
+tf9_m2_r2,"Table F.9, p. 12",pipeline,0.6607,TRUE,Table F.9 cell m2_r2,
+tf9_m2_nobs,"Table F.9, p. 12",pipeline,210,TRUE,Table F.9 cell m2_nobs,
+tf9_m3_r2,"Table F.9, p. 12",pipeline,0.0044,TRUE,Table F.9 cell m3_r2,
+tf9_m3_nobs,"Table F.9, p. 12",pipeline,210,TRUE,Table F.9 cell m3_nobs,
+tf9_m4_r2,"Table F.9, p. 12",pipeline,0.6614,TRUE,Table F.9 cell m4_r2,
+tf9_m4_nobs,"Table F.9, p. 12",pipeline,210,TRUE,Table F.9 cell m4_nobs,
+tf10_m1_any_est,"Table F.10, p. 13",pipeline,68.5920,TRUE,Table F.10 cell m1_any_est,
+tf10_m2_any_est,"Table F.10, p. 13",pipeline,-77.2672,TRUE,Table F.10 cell m2_any_est,
+tf10_m1_any_se,"Table F.10, p. 13",pipeline,269.4097,TRUE,Table F.10 cell m1_any_se,
+tf10_m2_any_se,"Table F.10, p. 13",pipeline,156.3489,TRUE,Table F.10 cell m2_any_se,
+tf10_m3_tv1_est,"Table F.10, p. 13",pipeline,9.3438,TRUE,Table F.10 cell m3_tv1_est,
+tf10_m4_tv1_est,"Table F.10, p. 13",pipeline,-132.2842,TRUE,Table F.10 cell m4_tv1_est,
+tf10_m3_tv1_se,"Table F.10, p. 13",pipeline,275.9061,TRUE,Table F.10 cell m3_tv1_se,
+tf10_m4_tv1_se,"Table F.10, p. 13",pipeline,177.3083,TRUE,Table F.10 cell m4_tv1_se,
+tf10_m3_tv2_est,"Table F.10, p. 13",pipeline,127.8401,TRUE,Table F.10 cell m3_tv2_est,
+tf10_m4_tv2_est,"Table F.10, p. 13",pipeline,-23.5587,TRUE,Table F.10 cell m4_tv2_est,
+tf10_m3_tv2_se,"Table F.10, p. 13",pipeline,384.5197,TRUE,Table F.10 cell m3_tv2_se,
+tf10_m4_tv2_se,"Table F.10, p. 13",pipeline,211.4121,TRUE,Table F.10 cell m4_tv2_se,
+tf10_m2_x2016_est,"Table F.10, p. 13",pipeline,0.5251,TRUE,Table F.10 cell m2_x2016_est,
+tf10_m4_x2016_est,"Table F.10, p. 13",pipeline,0.5242,TRUE,Table F.10 cell m4_x2016_est,
+tf10_m2_x2016_se,"Table F.10, p. 13",pipeline,0.0550,TRUE,Table F.10 cell m2_x2016_se,
+tf10_m4_x2016_se,"Table F.10, p. 13",pipeline,0.0554,TRUE,Table F.10 cell m4_x2016_se,
+tf10_m2_x2014_est,"Table F.10, p. 13",pipeline,0.1689,TRUE,Table F.10 cell m2_x2014_est,
+tf10_m4_x2014_est,"Table F.10, p. 13",pipeline,0.1703,TRUE,Table F.10 cell m4_x2014_est,
+tf10_m2_x2014_se,"Table F.10, p. 13",pipeline,0.0567,TRUE,Table F.10 cell m2_x2014_se,
+tf10_m4_x2014_se,"Table F.10, p. 13",pipeline,0.0576,TRUE,Table F.10 cell m4_x2014_se,
+tf10_m2_m2014_est,"Table F.10, p. 13",pipeline,-255.9467,TRUE,Table F.10 cell m2_m2014_est,
+tf10_m4_m2014_est,"Table F.10, p. 13",pipeline,-246.7978,TRUE,Table F.10 cell m4_m2014_est,
+tf10_m2_m2014_se,"Table F.10, p. 13",pipeline,113.4945,TRUE,Table F.10 cell m2_m2014_se,
+tf10_m4_m2014_se,"Table F.10, p. 13",pipeline,130.5084,TRUE,Table F.10 cell m4_m2014_se,
+tf10_m2_x2012_est,"Table F.10, p. 13",pipeline,-0.2590,TRUE,Table F.10 cell m2_x2012_est,
+tf10_m4_x2012_est,"Table F.10, p. 13",pipeline,-0.2587,TRUE,Table F.10 cell m4_x2012_est,
+tf10_m2_x2012_se,"Table F.10, p. 13",pipeline,0.1175,TRUE,Table F.10 cell m2_x2012_se,
+tf10_m4_x2012_se,"Table F.10, p. 13",pipeline,0.1173,TRUE,Table F.10 cell m4_x2012_se,
+tf10_m2_m2012_est,"Table F.10, p. 13",pipeline,91.8170,TRUE,Table F.10 cell m2_m2012_est,
+tf10_m4_m2012_est,"Table F.10, p. 13",pipeline,112.0516,TRUE,Table F.10 cell m4_m2012_est,
+tf10_m2_m2012_se,"Table F.10, p. 13",pipeline,136.4758,TRUE,Table F.10 cell m2_m2012_se,
+tf10_m4_m2012_se,"Table F.10, p. 13",pipeline,139.7764,TRUE,Table F.10 cell m4_m2012_se,
+tf10_m1_int_est,"Table F.10, p. 13",pipeline,-408.7512,TRUE,Table F.10 cell m1_int_est,
+tf10_m1_int_se,"Table F.10, p. 13",pipeline,183.9857,TRUE,Table F.10 cell m1_int_se,
+tf10_m2_int_est,"Table F.10, p. 13",pipeline,203.0807,TRUE,Table F.10 cell m2_int_est,
+tf10_m2_int_se,"Table F.10, p. 13",pipeline,136.3052,TRUE,Table F.10 cell m2_int_se,
+tf10_m3_int_est,"Table F.10, p. 13",pipeline,-408.7512,TRUE,Table F.10 cell m3_int_est,
+tf10_m3_int_se,"Table F.10, p. 13",pipeline,183.9857,TRUE,Table F.10 cell m3_int_se,
+tf10_m4_int_est,"Table F.10, p. 13",pipeline,201.2060,TRUE,Table F.10 cell m4_int_est,
+tf10_m4_int_se,"Table F.10, p. 13",pipeline,136.3445,TRUE,Table F.10 cell m4_int_se,
+tf10_m1_r2,"Table F.10, p. 13",pipeline,0.0003,TRUE,Table F.10 cell m1_r2,
+tf10_m1_nobs,"Table F.10, p. 13",pipeline,210,TRUE,Table F.10 cell m1_nobs,
+tf10_m2_r2,"Table F.10, p. 13",pipeline,0.6543,TRUE,Table F.10 cell m2_r2,
+tf10_m2_nobs,"Table F.10, p. 13",pipeline,210,TRUE,Table F.10 cell m2_nobs,
+tf10_m3_r2,"Table F.10, p. 13",pipeline,0.0008,TRUE,Table F.10 cell m3_r2,
+tf10_m3_nobs,"Table F.10, p. 13",pipeline,210,TRUE,Table F.10 cell m3_nobs,
+tf10_m4_r2,"Table F.10, p. 13",pipeline,0.6547,TRUE,Table F.10 cell m4_r2,
+tf10_m4_nobs,"Table F.10, p. 13",pipeline,210,TRUE,Table F.10 cell m4_nobs,
+tf11_m1_any_est,"Table F.11, p. 14",pipeline,-89.8289,TRUE,Table F.11 cell m1_any_est,
+tf11_m2_any_est,"Table F.11, p. 14",pipeline,195.6585,TRUE,Table F.11 cell m2_any_est,
+tf11_m1_any_se,"Table F.11, p. 14",pipeline,953.4329,TRUE,Table F.11 cell m1_any_se,
+tf11_m2_any_se,"Table F.11, p. 14",pipeline,526.4417,TRUE,Table F.11 cell m2_any_se,
+tf11_m3_tv1_est,"Table F.11, p. 14",pipeline,-439.0957,TRUE,Table F.11 cell m3_tv1_est,
+tf11_m4_tv1_est,"Table F.11, p. 14",pipeline,1018.5754,TRUE,Table F.11 cell m4_tv1_est,
+tf11_m3_tv1_se,"Table F.11, p. 14",pipeline,1125.3363,TRUE,Table F.11 cell m3_tv1_se,
+tf11_m4_tv1_se,"Table F.11, p. 14",pipeline,685.7638,TRUE,Table F.11 cell m4_tv1_se,
+tf11_m3_tv2_est,"Table F.11, p. 14",pipeline,259.4380,TRUE,Table F.11 cell m3_tv2_est,
+tf11_m4_tv2_est,"Table F.11, p. 14",pipeline,-590.5218,TRUE,Table F.11 cell m4_tv2_est,
+tf11_m3_tv2_se,"Table F.11, p. 14",pipeline,1182.4407,TRUE,Table F.11 cell m3_tv2_se,
+tf11_m4_tv2_se,"Table F.11, p. 14",pipeline,631.3777,TRUE,Table F.11 cell m4_tv2_se,
+tf11_m2_x2016_est,"Table F.11, p. 14",pipeline,0.5533,TRUE,Table F.11 cell m2_x2016_est,
+tf11_m4_x2016_est,"Table F.11, p. 14",pipeline,0.5594,TRUE,Table F.11 cell m4_x2016_est,
+tf11_m2_x2016_se,"Table F.11, p. 14",pipeline,0.0735,TRUE,Table F.11 cell m2_x2016_se,
+tf11_m4_x2016_se,"Table F.11, p. 14",pipeline,0.0716,TRUE,Table F.11 cell m4_x2016_se,
+tf11_m2_x2014_est,"Table F.11, p. 14",pipeline,0.3027,TRUE,Table F.11 cell m2_x2014_est,
+tf11_m4_x2014_est,"Table F.11, p. 14",pipeline,0.3062,TRUE,Table F.11 cell m4_x2014_est,
+tf11_m2_x2014_se,"Table F.11, p. 14",pipeline,0.0840,TRUE,Table F.11 cell m2_x2014_se,
+tf11_m4_x2014_se,"Table F.11, p. 14",pipeline,0.0817,TRUE,Table F.11 cell m4_x2014_se,
+tf11_m2_m2014_est,"Table F.11, p. 14",pipeline,-711.4928,TRUE,Table F.11 cell m2_m2014_est,
+tf11_m4_m2014_est,"Table F.11, p. 14",pipeline,-810.5134,TRUE,Table F.11 cell m4_m2014_est,
+tf11_m2_m2014_se,"Table F.11, p. 14",pipeline,393.1901,TRUE,Table F.11 cell m2_m2014_se,
+tf11_m4_m2014_se,"Table F.11, p. 14",pipeline,664.3380,TRUE,Table F.11 cell m4_m2014_se,
+tf11_m2_x2012_est,"Table F.11, p. 14",pipeline,-0.4790,TRUE,Table F.11 cell m2_x2012_est,
+tf11_m4_x2012_est,"Table F.11, p. 14",pipeline,-0.4852,TRUE,Table F.11 cell m4_x2012_est,
+tf11_m2_x2012_se,"Table F.11, p. 14",pipeline,0.1361,TRUE,Table F.11 cell m2_x2012_se,
+tf11_m4_x2012_se,"Table F.11, p. 14",pipeline,0.1344,TRUE,Table F.11 cell m4_x2012_se,
+tf11_m2_m2012_est,"Table F.11, p. 14",pipeline,-1718.2381,TRUE,Table F.11 cell m2_m2012_est,
+tf11_m4_m2012_est,"Table F.11, p. 14",pipeline,-1990.3628,TRUE,Table F.11 cell m4_m2012_est,
+tf11_m2_m2012_se,"Table F.11, p. 14",pipeline,865.2703,TRUE,Table F.11 cell m2_m2012_se,
+tf11_m4_m2012_se,"Table F.11, p. 14",pipeline,924.3390,TRUE,Table F.11 cell m4_m2012_se,
+tf11_m1_int_est,"Table F.11, p. 14",pipeline,7811.4898,TRUE,Table F.11 cell m1_int_est,
+tf11_m1_int_se,"Table F.11, p. 14",pipeline,701.0554,TRUE,Table F.11 cell m1_int_se,
+tf11_m2_int_est,"Table F.11, p. 14",pipeline,2332.4258,TRUE,Table F.11 cell m2_int_est,
+tf11_m2_int_se,"Table F.11, p. 14",pipeline,1138.7188,TRUE,Table F.11 cell m2_int_se,
+tf11_m3_int_est,"Table F.11, p. 14",pipeline,7811.4898,TRUE,Table F.11 cell m3_int_est,
+tf11_m3_int_se,"Table F.11, p. 14",pipeline,701.0554,TRUE,Table F.11 cell m3_int_se,
+tf11_m4_int_est,"Table F.11, p. 14",pipeline,2292.1032,TRUE,Table F.11 cell m4_int_est,
+tf11_m4_int_se,"Table F.11, p. 14",pipeline,1112.1093,TRUE,Table F.11 cell m4_int_se,
+tf11_m1_r2,"Table F.11, p. 14",pipeline,0.0000,TRUE,Table F.11 cell m1_r2,
+tf11_m1_nobs,"Table F.11, p. 14",pipeline,210,TRUE,Table F.11 cell m1_nobs,
+tf11_m2_r2,"Table F.11, p. 14",pipeline,0.6781,TRUE,Table F.11 cell m2_r2,
+tf11_m2_nobs,"Table F.11, p. 14",pipeline,210,TRUE,Table F.11 cell m2_nobs,
+tf11_m3_r2,"Table F.11, p. 14",pipeline,0.0013,TRUE,Table F.11 cell m3_r2,
+tf11_m3_nobs,"Table F.11, p. 14",pipeline,210,TRUE,Table F.11 cell m3_nobs,
+tf11_m4_r2,"Table F.11, p. 14",pipeline,0.6848,TRUE,Table F.11 cell m4_r2,
+tf11_m4_nobs,"Table F.11, p. 14",pipeline,210,TRUE,Table F.11 cell m4_nobs,
+tc6_share_dim_sd,"Table C.6, p. 7",pipeline,0.165,TRUE,Table C.6 share DIM sd,
+tc6_share_dim_est,"Table C.6, p. 7",pipeline,-0.046,TRUE,Table C.6 share DIM est,
+tc6_share_dim_se,"Table C.6, p. 7",pipeline,0.031,TRUE,Table C.6 share DIM se,
+tc6_share_dim_p02,"Table C.6, p. 7",pipeline,0.663,TRUE,Table C.6 share DIM p02,
+tc6_share_dim_p01,"Table C.6, p. 7",pipeline,0.828,TRUE,Table C.6 share DIM p01,
+tc6_share_ols_sd,"Table C.6, p. 7",pipeline,0.165,TRUE,Table C.6 share OLS sd,
+tc6_share_ols_est,"Table C.6, p. 7",pipeline,-0.002,TRUE,Table C.6 share OLS est,
+tc6_share_ols_se,"Table C.6, p. 7",pipeline,0.011,TRUE,Table C.6 share OLS se,
+tc6_share_ols_p02,"Table C.6, p. 7",pipeline,0.004,TRUE,Table C.6 share OLS p02,
+tc6_share_ols_p01,"Table C.6, p. 7",pipeline,0.106,TRUE,Table C.6 share OLS p01,
+tc6_margin_dim_sd,"Table C.6, p. 7",pipeline,433.178,TRUE,Table C.6 margin DIM sd,
+tc6_margin_dim_est,"Table C.6, p. 7",pipeline,-59.386,TRUE,Table C.6 margin DIM est,
+tc6_margin_dim_se,"Table C.6, p. 7",pipeline,84.907,TRUE,Table C.6 margin DIM se,
+tc6_margin_dim_p02,"Table C.6, p. 7",pipeline,0.374,TRUE,Table C.6 margin DIM p02,
+tc6_margin_dim_p01,"Table C.6, p. 7",pipeline,0.575,TRUE,Table C.6 margin DIM p01,
+tc6_margin_ols_sd,"Table C.6, p. 7",pipeline,433.178,TRUE,Table C.6 margin OLS sd,
+tc6_margin_ols_est,"Table C.6, p. 7",pipeline,-41.226,TRUE,Table C.6 margin OLS est,
+tc6_margin_ols_se,"Table C.6, p. 7",pipeline,25.443,TRUE,Table C.6 margin OLS se,
+tc6_margin_ols_p02,"Table C.6, p. 7",pipeline,0.037,TRUE,Table C.6 margin OLS p02,
+tc6_margin_ols_p01,"Table C.6, p. 7",pipeline,0.467,TRUE,Table C.6 margin OLS p01,
+tc6_total_dim_sd,"Table C.6, p. 7",pipeline,982.813,TRUE,Table C.6 total DIM sd,
+tc6_total_dim_est,"Table C.6, p. 7",pipeline,-187.748,TRUE,Table C.6 total DIM est,
+tc6_total_dim_se,"Table C.6, p. 7",pipeline,150.990,TRUE,Table C.6 total DIM se,
+tc6_total_dim_p02,"Table C.6, p. 7",pipeline,0.477,TRUE,Table C.6 total DIM p02,
+tc6_total_dim_p01,"Table C.6, p. 7",pipeline,0.723,TRUE,Table C.6 total DIM p01,
+tc6_total_ols_sd,"Table C.6, p. 7",pipeline,982.813,TRUE,Table C.6 total OLS sd,
+tc6_total_ols_est,"Table C.6, p. 7",pipeline,10.654,TRUE,Table C.6 total OLS est,
+tc6_total_ols_se,"Table C.6, p. 7",pipeline,32.177,TRUE,Table C.6 total OLS se,
+tc6_total_ols_p02,"Table C.6, p. 7",pipeline,0.000,TRUE,Table C.6 total OLS p02,
+tc6_total_ols_p01,"Table C.6, p. 7",pipeline,0.003,TRUE,Table C.6 total OLS p01,
+pap_alpha,"Appendix H (pre-analysis plan), pp. 17-20",definitional,0.05,FALSE,One-tailed test level named in the pre-analysis plan,"A pre-registered decision rule, not a computed quantity"
+pap_ci,"Appendix H (pre-analysis plan), pp. 17-20",definitional,95,FALSE,Confidence interval coverage named in the pre-analysis plan,"A pre-registered decision rule, not a computed quantity"
+pap_zips,"Appendix H (pre-analysis plan), pp. 17-20",pipeline,210,TRUE,ZIP codes named in the pre-analysis plan,
+pap_control,"Appendix H (pre-analysis plan), pp. 17-20",pipeline,104,TRUE,ZIP codes assigned to control in the pre-analysis plan's assignment table,
+pap_v1,"Appendix H (pre-analysis plan), pp. 17-20",pipeline,53,TRUE,ZIP codes assigned to video 1 in the pre-analysis plan's assignment table,
+pap_v2,"Appendix H (pre-analysis plan), pp. 17-20",pipeline,53,TRUE,ZIP codes assigned to video 2 in the pre-analysis plan's assignment table,
+pap_zero_1,"Appendix H (pre-analysis plan), pp. 17-20",structural,0,FALSE,Structural zero 1 in the pre-analysis plan's assignment cross-tabulation,An empty cell of a two-way table
+pap_zero_2,"Appendix H (pre-analysis plan), pp. 17-20",structural,0,FALSE,Structural zero 2 in the pre-analysis plan's assignment cross-tabulation,An empty cell of a two-way table
+pap_zero_3,"Appendix H (pre-analysis plan), pp. 17-20",structural,0,FALSE,Structural zero 3 in the pre-analysis plan's assignment cross-tabulation,An empty cell of a two-way table
+pap_z_levels_0,"Appendix H (pre-analysis plan), pp. 17-20",structural,0,FALSE,Row label 0 of the pre-analysis plan's assignment cross-tabulation,A row label
+pap_z_levels_1,"Appendix H (pre-analysis plan), pp. 17-20",structural,1,FALSE,Row label 1 of the pre-analysis plan's assignment cross-tabulation,A row label
+pap_budget,"Appendix H (pre-analysis plan), pp. 17-20",definitional,30000,FALSE,"Budget in dollars for each ad, restated in the pre-analysis plan",A spending fact carried by no deposited file
+pap_seconds,"Appendix H (pre-analysis plan), pp. 17-20",definitional,3,FALSE,"Seconds a viewer had to watch, restated in the pre-analysis plan (spelled out as 'three seconds', twice)",Spelled-out number; a platform setting
+pap_divisible,"Appendix H (pre-analysis plan), pp. 17-20",definitional,3,FALSE,Divisor used when block sizes did not divide evenly,A randomization rule
+pap_offices,"Appendix H (pre-analysis plan), pp. 17-20",definitional,3,FALSE,"Partisan offices averaged into the outcome (spelled out as 'House, Senate, and Governor', 'three partisan offices')",Spelled-out number defining the outcome
+pap_results_day,"Appendix H (pre-analysis plan), pp. 17-20",structural,20,FALSE,November date the certified results were scheduled for release,A field-period fact
+pap_date_year,"Appendix H (pre-analysis plan), pp. 17-20",structural,2018,FALSE,Year the pre-analysis plan was filed,Front matter
+pap_date_day,"Appendix H (pre-analysis plan), pp. 17-20",structural,19,FALSE,Day of November the pre-analysis plan was filed,Front matter
+pap_start_day,"Appendix H (pre-analysis plan), pp. 17-20",definitional,25,FALSE,"Day of October the ads began, restated in the pre-analysis plan",A field-period fact
+pap_ads_count,"Appendix H (pre-analysis plan), pp. 17-20",structural,2,FALSE,Advertisements described in the pre-analysis plan (spelled out as 'The two ads'),Spelled-out number
+pap_districts,"Appendix H (pre-analysis plan), pp. 17-20",definitional,4,FALSE,Congressional districts named in the pre-analysis plan (spelled out as 'four Florida congressional districts'),Spelled-out number
+pap_ad1_clicks,"Appendix H (pre-analysis plan), pp. 17-20",transcribed,24832,FALSE,"Advertisement 1 clicks, restated in the pre-analysis plan",Table 3's exposure counts come from the advertisement vendor and appear in no deposited file
+pap_ad1_full,"Appendix H (pre-analysis plan), pp. 17-20",transcribed,70266,FALSE,"Advertisement 1 full views, restated in the pre-analysis plan",Table 3's exposure counts come from the advertisement vendor and appear in no deposited file
+pap_ad1_three,"Appendix H (pre-analysis plan), pp. 17-20",transcribed,611732,FALSE,"Advertisement 1 three-second views, restated in the pre-analysis plan",Table 3's exposure counts come from the advertisement vendor and appear in no deposited file
+pap_ad2_clicks,"Appendix H (pre-analysis plan), pp. 17-20",transcribed,17185,FALSE,"Advertisement 2 clicks, restated in the pre-analysis plan",Table 3's exposure counts come from the advertisement vendor and appear in no deposited file
+pap_ad2_full,"Appendix H (pre-analysis plan), pp. 17-20",transcribed,47647,FALSE,"Advertisement 2 full views, restated in the pre-analysis plan",Table 3's exposure counts come from the advertisement vendor and appear in no deposited file
+pap_ad2_three,"Appendix H (pre-analysis plan), pp. 17-20",transcribed,516746,FALSE,"Advertisement 2 three-second views, restated in the pre-analysis plan",Table 3's exposure counts come from the advertisement vendor and appear in no deposited file
+pap_appendix_page,"Appendix H (pre-analysis plan), pp. 17-20",structural,20,FALSE,Final page number of the appended pre-analysis plan,Front matter
+lit_2020_election,"The challenge of political persuasion, pp. 2-3",structural,2020,FALSE,Election year in which nearly a quarter of political advertising spending was digital,"A fact about another election, copied from the cited source"
+lit_digital_share_quarter,"The challenge of political persuasion, pp. 2-3",transcribed,,FALSE,"Share of 2020 political advertising spending devoted to digital, stated as 'nearly a quarter'","Spelled-out fraction, copied from Media Project (2021); no digits are printed"
+lit_collins_2012,"The challenge of political persuasion, pp. 2-3",structural,2012,FALSE,First of the two turnout-advertising study years reported by Collins et al.,A fact about the cited studies
+lit_collins_2013,"The challenge of political persuasion, pp. 2-3",structural,2013,FALSE,Second of the two turnout-advertising study years reported by Collins et al.,A fact about the cited studies
+lit_bg_experiments,"The challenge of political persuasion, pp. 2-3",transcribed,2,FALSE,Experiments Broockman and Green report (spelled out as 'In two experiments'),Spelled-out number copied from the cited study
+design_pap_registration,"Field experiment: Florida advertisements, p. 3",structural,5312,FALSE,EGAP registration number of the pre-analysis plan,A registry identifier
+app_date_day,"Appendix front matter, p. 1",structural,16,FALSE,Day of January the online appendix is dated,Front matter
+app_date_year,"Appendix front matter, p. 1",structural,2022,FALSE,Year the online appendix is dated,Front matter

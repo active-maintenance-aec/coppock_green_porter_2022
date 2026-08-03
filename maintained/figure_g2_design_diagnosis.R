@@ -88,6 +88,8 @@ simulations <- simulations |>
 diagnosands <- simulations |>
   summarise(
     sims = n(),
+    pate_center = prior_estimate,
+    pate_sd = prior_std_error,
     mean_data_estimate = mean(data_estimate),
     sd_data_estimate = sd(data_estimate),
     mean_posterior_estimate = mean(posterior_estimate),
@@ -119,7 +121,7 @@ gg_df <- simulations |>
 
 label_df <- gg_df |>
   summarise(power = mean(significant == 1), .by = facet) |>
-  mutate(label = str_glue("Power when\nPATE = 0.01\n{sprintf('%.3f', power)}"))
+  mutate(label = str_glue("Power when\nPATE = {prior_estimate}\n{sprintf('%.3f', power)}"))
 
 g <- ggplot(gg_df) +
   aes(estimate, sim_ID, color = significant) +
@@ -129,7 +131,7 @@ g <- ggplot(gg_df) +
     data = label_df,
     aes(x = 0.035, y = sims, label = label, color = NULL),
     hjust = 0, vjust = 1, size = 3.5,
-    fill = "white", alpha = 0.85, label.size = 0
+    fill = "white", alpha = 0.85, linewidth = 0
   ) +
   geom_vline(xintercept = 0, linetype = "dashed", alpha = 0.5) +
   geom_vline(xintercept = prior_estimate, linetype = "dotted", alpha = 0.5) +

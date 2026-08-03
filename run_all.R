@@ -1,6 +1,7 @@
 # coppock_green_porter_2022/run_all.R
 # Runs the whole reproduction in order: fetch and verify the deposited archive, then
-# every published table, then the figures, then the in-text quantities.
+# every published table, then the figures, then the in-text quantities, then the ground
+# truth and its gates.
 # Every script is self-contained and can also be run on its own, with the exception of
 # figure_1_bayesian_learning.R, which reads the Table 4 output, and
 # text_in_text_calculations.R, which reads the Figure 1 output.
@@ -39,6 +40,18 @@ source(here::here("maintained", "figure_g2_design_diagnosis.R"))
 # half a minute.
 source(here::here("maintained", "text_in_text_calculations.R"))
 source(here::here("maintained", "text_randomization_inference.R"))
+
+# Ground truth ----
+# Rebuilds ground_truth/coppock_green_porter_2022_ground_truth.csv from the outputs above
+# and the published extraction, and runs the gates: every claim the extraction says needs a
+# block has one, every block names a claim the extraction declares, every adverse verdict
+# carries a locus, and the two instruments agree value by value.
+source(here::here("ground_truth", "build_ground_truth.R"))
+
+# In-text claims ----
+# The gate above already runs this file under capture.output. It runs again here for the
+# human-readable log: every published number beside the sentence that prints it.
+source(here::here("maintained", "in_text_claims.R"))
 
 # Deposited archive, again ----
 # The check at the top of this file is a precondition: it says original/ was intact

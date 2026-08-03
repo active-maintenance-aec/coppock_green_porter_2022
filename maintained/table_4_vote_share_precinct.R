@@ -1,5 +1,6 @@
 # coppock_green_porter_2022/maintained/table_4_vote_share_precinct.R
-# Output: output/table_4_vote_share_precinct.csv, output/table_4_vote_share_precinct.tex
+# Output: output/table_4_vote_share_precinct.csv, output/table_4_vote_share_precinct.tex,
+#   output/table_4_vote_share_precinct_gof.csv
 # Depends on: CGP_2022_precinct_level.rds, helpers.R
 # Description: Reproduces Table 4, the effects of the advertisements on Democratic
 #   two-party vote share at the precinct level, with CR2 standard errors clustered
@@ -54,6 +55,19 @@ results <- fits |>
   list_rbind(names_to = "model")
 
 write_csv(results, here::here("maintained", "output", "table_4_vote_share_precinct.csv"))
+
+# The published table's foot carries R2, the number of observations and, at the precinct
+# level, the number of clusters. Those cells are estimates too, so they are written out
+# unrounded beside the coefficients rather than being read back off the formatted table.
+gof <- fits |>
+  map(\(fit) tibble(
+    r.squared = glance(fit)$r.squared,
+    nobs = glance(fit)$nobs,
+    nclusters = if (is.null(fit$nclusters)) NA_integer_ else fit$nclusters
+  )) |>
+  list_rbind(names_to = "model")
+
+write_csv(gof, here::here("maintained", "output", "table_4_vote_share_precinct_gof.csv"))
 
 coef_labels <- c(
   "Z" = "Any Treatment Video",

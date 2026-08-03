@@ -27,6 +27,8 @@ t4 <- read_csv(here("maintained", "output", "table_4_vote_share_precinct.csv"),
 b3 <- read_csv(here("maintained", "output", "table_b3_vote_share_precinct_cd.csv"),
                show_col_types = FALSE) |>
   filter(term == "Z")
+fg2 <- read_csv(here("maintained", "output", "figure_g2_design_diagnosis.csv"),
+                show_col_types = FALSE)
 ```
 
 This note lists four errors in "Does digital advertising affect vote choice? Evidence from a randomized field experiment," published in *Research & Politics* 9(1), doi [10.1177/20531680221076901](https://doi.org/10.1177/20531680221076901). **None of them changes a conclusion of the paper.** They are recorded because the numbers themselves are wrong and a reader who quoted them would be misled.
@@ -41,9 +43,9 @@ Published, p. 5:
 
 Corrected:
 
-> ...a **`r sprintf("%.2f", t4$estimate*100)` percentage point** increase in Democratic vote share, though this estimate is uncertain, as evidenced by its large **standard error of `r sprintf("%.2f", t4$std.error*100)` percentage points**.
+> ...a **`r sprintf("%.1f", t4$estimate*100)` percentage point** increase in Democratic vote share, though this estimate is uncertain, as evidenced by its large **standard error of `r sprintf("%.1f", t4$std.error*100)` percentage points**.
 
-Table 4 reports `r sprintf("%.4f", t4$estimate)` with a standard error of `r sprintf("%.4f", t4$std.error)`, and the next sentence applies percentage point units correctly to the adjusted estimate. The published standard error of 3.0 corresponds to no model in the paper or the appendix. The claim the sentence makes is unaffected: on either reading the unadjusted estimate is small and swamped by its standard error, and the paper's conclusion rests on the covariate-adjusted estimate in column 2, which is reported and interpreted correctly throughout.
+Table 4 reports `r sprintf("%.4f", t4$estimate)` with a standard error of `r sprintf("%.4f", t4$std.error)`, which is `r sprintf("%.2f", t4$estimate*100)` and `r sprintf("%.2f", t4$std.error*100)` percentage points; the corrected sentence carries them at the one decimal the published sentence uses. The next sentence in the article applies percentage point units correctly to the adjusted estimate. The published standard error of 3.0 corresponds to no model in the paper or the appendix. The claim the sentence makes is unaffected: on either reading the unadjusted estimate is small and swamped by its standard error, and the paper's conclusion rests on the covariate-adjusted estimate in column 2, which is reported and interpreted correctly throughout.
 
 ## 2. Figure G.2 names the wrong effect size
 
@@ -53,9 +55,9 @@ Published, panel annotation:
 
 Corrected:
 
-> Power when PATE = **0.01**
+> Power when PATE = **`r fg2$pate_center`**
 
-The simulated effects are drawn from a normal distribution centred at 0.01, which is what the appendix text says two paragraphs earlier. The label is a hardcoded string in the analysis script; nothing plotted is affected. The corrected figure:
+The simulated effects are drawn from a normal distribution centred at `r fg2$pate_center`, which is what the appendix text says two paragraphs earlier. The label is a hardcoded string in the analysis script; nothing plotted is affected. The corrected figure:
 
 ```{r fig-g2}
 #| out-width: 100%
@@ -68,7 +70,9 @@ knitr::include_graphics("maintained/output/figure_g2_design_diagnosis.pdf")
 
 ## 3. Covariate row labels are wrong in five appendix tables
 
-Published, Tables E.7 and F.8, covariate row:
+Thirteen covariate rows across Tables E.7, F.8, F.9, F.10 and F.11 name a variable the model does not contain. No coefficient, standard error or summary statistic is affected; the estimates beside the wrong labels are the ones the caption describes.
+
+Published, Tables E.7 and F.8, each of the three lagged covariate rows:
 
 > **Two Party Vote Share**
 
@@ -76,11 +80,19 @@ Corrected:
 
 > **Two Party Vote Margin**
 
-Those models regress on lagged two-party vote *margins*, not shares.
+Both balance models regress the treatment indicator on lagged two-party vote *margins*, not shares.
 
-In Tables F.9, F.10 and F.11 a vector of coefficient names one element shorter than the model shifts every covariate row from 2016 downward onto the label belonging to the row above it. The 2016 vote share coefficient is printed as **Missingness Indicator (2016)**.
+Published, Tables F.9, F.10 and F.11, the first covariate row:
 
-No coefficient is affected in any of the five tables; only the labels are wrong. All five are reprinted below with corrected labels and otherwise unchanged.
+> **Missingness Indicator (2016)**
+
+Corrected, respectively:
+
+> **Two Party Vote Share (2016)**, **Two Party Vote Margin (2016)**, **Two Party Vote Total (2016)**
+
+No ZIP code is missing 2016 returns, so the ZIP-level models carry no 2016 missingness indicator, and the label vector in the analysis script names one anyway. The same vector is reused for all three outcomes, which is also why the 2014 and 2012 covariate rows of Tables F.10 and F.11 read **Two Party Vote Share** where the regressors are vote margins and vote totals. The 2014 and 2012 rows of Table F.9 are correct as published.
+
+All five tables are reprinted below with corrected labels and otherwise unchanged.
 
 \begingroup
 \input{maintained/output/table_e7_balance_precinct.tex}

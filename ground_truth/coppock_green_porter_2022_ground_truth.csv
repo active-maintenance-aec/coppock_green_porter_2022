@@ -1,211 +1,628 @@
-paper_id,table_figure,claim,value_script,value_paper,match,notes,value_rewrite,match_rewrite,defect_locus
-coppock_green_porter_2022,table_4,m1_any_video_est,0.00211445890447404,0.0021,1,,0.00211445890447404,1,
-coppock_green_porter_2022,table_4,m2_any_video_est,-4.4332328582928296e-4,-4e-4,1,,-4.4332328582928296e-4,1,
-coppock_green_porter_2022,table_4,m3_video1_est,-0.02054151711593248,-0.0205,1,,-0.02054151711593248,1,
-coppock_green_porter_2022,table_4,m3_video2_est,0.02551499751710058,0.0255,1,,0.02551499751710058,1,
-coppock_green_porter_2022,table_4,m4_video1_est,-0.00161931034712876,-0.0016,1,,-0.00161931034712876,1,
-coppock_green_porter_2022,table_4,m4_video2_est,6.758475674641944e-4,7e-4,1,,6.758475674641944e-4,1,
-coppock_green_porter_2022,table_4,m1_any_video_se,0.02248729557733574,0.0225,1,,0.02248729557733574,1,
-coppock_green_porter_2022,table_4,m2_any_video_se,0.00847596925939286,0.0085,1,,0.00847596925939286,1,
-coppock_green_porter_2022,table_4,m3_video1_se,0.0249779396651857,0.025,1,,0.0249779396651857,1,
-coppock_green_porter_2022,table_4,m3_video2_se,0.0291181584918253,0.0291,1,,0.0291181584918253,1,
-coppock_green_porter_2022,table_4,m4_video1_se,0.01086087176269422,0.0109,1,,0.01086087176269422,1,
-coppock_green_porter_2022,table_4,m4_video2_se,0.00960570277980645,0.0096,1,,0.00960570277980645,1,
-coppock_green_porter_2022,table_a1,m1_any_video_est,47.14504548673529,47.15,1,,47.14504548673529,1,
-coppock_green_porter_2022,table_a1,m2_any_video_est,6.537417274466778,6.54,1,,6.537417274466778,1,
-coppock_green_porter_2022,table_a1,m3_video1_est,18.066542846163777,18.07,1,,18.066542846163777,1,
-coppock_green_porter_2022,table_a1,m3_video2_est,77.45221725296497,77.45,1,,77.45221725296497,1,
-coppock_green_porter_2022,table_a1,m4_video1_est,-14.522192596932932,-14.52,1,,-14.522192596932932,1,
-coppock_green_porter_2022,table_a1,m4_video2_est,26.70337066473266,26.7,1,,26.70337066473266,1,
-coppock_green_porter_2022,table_a1,m1_any_video_se,56.74410432699257,56.74,1,,56.74410432699257,1,
-coppock_green_porter_2022,table_a1,m2_any_video_se,18.69691935822568,18.7,1,,18.69691935822568,1,
-coppock_green_porter_2022,table_a1,m3_video1_se,53.36957704512563,53.37,1,,53.36957704512563,1,
-coppock_green_porter_2022,table_a1,m3_video2_se,84.914914470095,84.91,1,,84.914914470095,1,
-coppock_green_porter_2022,table_a1,m4_video1_se,21.94449045561022,21.94,1,,21.94449045561022,1,
-coppock_green_porter_2022,table_a1,m4_video2_se,22.81222828610203,22.81,1,,22.81222828610203,1,
-coppock_green_porter_2022,table_a2,m1_any_video_est,-23.591594487116556,-23.59,1,,-23.591594487116556,1,
-coppock_green_porter_2022,table_a2,m2_any_video_est,10.186389960237149,10.19,1,,10.186389960237149,1,
-coppock_green_porter_2022,table_a2,m3_video1_est,-115.5233124119383,-115.52,1,,-115.5233124119383,1,
-coppock_green_porter_2022,table_a2,m3_video2_est,72.22456222326072,72.22,1,,72.22456222326072,1,
-coppock_green_porter_2022,table_a2,m4_video1_est,15.632883176789813,15.63,1,,15.632883176789813,1,
-coppock_green_porter_2022,table_a2,m4_video2_est,4.978948376139224,4.98,1,,4.978948376139224,1,
-coppock_green_porter_2022,table_a2,m1_any_video_se,103.35115006129978,103.35,1,,103.35115006129978,1,
-coppock_green_porter_2022,table_a2,m2_any_video_se,23.67650930379425,23.68,1,,23.67650930379425,1,
-coppock_green_porter_2022,table_a2,m3_video1_se,140.9333352820469,140.93,1,,140.9333352820469,1,
-coppock_green_porter_2022,table_a2,m3_video2_se,112.05587295378326,112.06,1,,112.05587295378326,1,
-coppock_green_porter_2022,table_a2,m4_video1_se,29.013936367844305,29.01,1,,29.013936367844305,1,
-coppock_green_porter_2022,table_a2,m4_video2_se,28.28167314961479,28.28,1,,28.28167314961479,1,
-coppock_green_porter_2022,table_b3,m1_any_video_est,0.00424102545744664,,,"Published Table B.3 reprints the Table B.4 vote margin models under the vote share caption, so these vote share estimates appear nowhere in the appendix.",0.00424102545744664,,
-coppock_green_porter_2022,table_b3,m2_any_video_est,-0.00179900361535011,,,"Published Table B.3 reprints the Table B.4 vote margin models under the vote share caption, so these vote share estimates appear nowhere in the appendix.",-0.00179900361535011,,
-coppock_green_porter_2022,table_b3,m3_video1_est,-0.01540767189425262,,,"Published Table B.3 reprints the Table B.4 vote margin models under the vote share caption, so these vote share estimates appear nowhere in the appendix.",-0.01540767189425262,,
-coppock_green_porter_2022,table_b3,m3_video2_est,0.02350049426000227,,,"Published Table B.3 reprints the Table B.4 vote margin models under the vote share caption, so these vote share estimates appear nowhere in the appendix.",0.02350049426000227,,
-coppock_green_porter_2022,table_b3,m4_video1_est,-0.00388299268233914,,,"Published Table B.3 reprints the Table B.4 vote margin models under the vote share caption, so these vote share estimates appear nowhere in the appendix.",-0.00388299268233914,,
-coppock_green_porter_2022,table_b3,m4_video2_est,1.0737788774877615e-4,,,"Published Table B.3 reprints the Table B.4 vote margin models under the vote share caption, so these vote share estimates appear nowhere in the appendix.",1.0737788774877615e-4,,
-coppock_green_porter_2022,table_b3,m1_any_video_se,0.02171048858825918,,,"Published Table B.3 reprints the Table B.4 vote margin models under the vote share caption, so these vote share estimates appear nowhere in the appendix.",0.02171048858825918,,
-coppock_green_porter_2022,table_b3,m2_any_video_se,0.00882331010534093,,,"Published Table B.3 reprints the Table B.4 vote margin models under the vote share caption, so these vote share estimates appear nowhere in the appendix.",0.00882331010534093,,
-coppock_green_porter_2022,table_b3,m3_video1_se,0.02444246906606207,,,"Published Table B.3 reprints the Table B.4 vote margin models under the vote share caption, so these vote share estimates appear nowhere in the appendix.",0.02444246906606207,,
-coppock_green_porter_2022,table_b3,m3_video2_se,0.0272377971422544,,,"Published Table B.3 reprints the Table B.4 vote margin models under the vote share caption, so these vote share estimates appear nowhere in the appendix.",0.0272377971422544,,
-coppock_green_porter_2022,table_b3,m4_video1_se,0.01156632152205259,,,"Published Table B.3 reprints the Table B.4 vote margin models under the vote share caption, so these vote share estimates appear nowhere in the appendix.",0.01156632152205259,,
-coppock_green_porter_2022,table_b3,m4_video2_se,0.00994055780639916,,,"Published Table B.3 reprints the Table B.4 vote margin models under the vote share caption, so these vote share estimates appear nowhere in the appendix.",0.00994055780639916,,
-coppock_green_porter_2022,table_b4,m1_any_video_est,51.94003608999533,51.94,1,,51.94003608999533,1,
-coppock_green_porter_2022,table_b4,m2_any_video_est,3.620607291284251,3.62,1,,3.620607291284251,1,
-coppock_green_porter_2022,table_b4,m3_video1_est,31.94489326114893,31.94,1,,31.94489326114893,1,
-coppock_green_porter_2022,table_b4,m3_video2_est,71.72008423122978,71.72,1,,71.72008423122978,1,
-coppock_green_porter_2022,table_b4,m4_video1_est,-21.367516584053423,-21.37,1,,-21.367516584053423,1,
-coppock_green_porter_2022,table_b4,m4_video2_est,26.631009953546908,26.63,1,,26.631009953546908,1,
-coppock_green_porter_2022,table_b4,m1_any_video_se,55.15257829619377,55.15,1,,55.15257829619377,1,
-coppock_green_porter_2022,table_b4,m2_any_video_se,18.94736841476798,18.95,1,,18.94736841476798,1,
-coppock_green_porter_2022,table_b4,m3_video1_se,53.246071085433805,53.25,1,,53.246071085433805,1,
-coppock_green_porter_2022,table_b4,m3_video2_se,80.34377407240518,80.34,1,,80.34377407240518,1,
-coppock_green_porter_2022,table_b4,m4_video1_se,22.61607513395567,22.62,1,,22.61607513395567,1,
-coppock_green_porter_2022,table_b4,m4_video2_se,22.7883889158653,22.79,1,,22.7883889158653,1,
-coppock_green_porter_2022,table_b5,m1_any_video_est,-27.539633034278985,-27.54,1,,-27.539633034278985,1,
-coppock_green_porter_2022,table_b5,m2_any_video_est,9.176570629363654,9.18,1,,9.176570629363654,1,
-coppock_green_porter_2022,table_b5,m3_video1_est,-159.44585637169507,-159.45,1,,-159.44585637169507,1,
-coppock_green_porter_2022,table_b5,m3_video2_est,102.94762930116796,102.95,1,,102.94762930116796,1,
-coppock_green_porter_2022,table_b5,m4_video1_est,3.500956430176096,3.5,1,,3.500956430176096,1,
-coppock_green_porter_2022,table_b5,m4_video2_est,14.439900124496443,14.44,1,,14.439900124496443,1,
-coppock_green_porter_2022,table_b5,m1_any_video_se,95.65243499506208,95.65,1,,95.65243499506208,1,
-coppock_green_porter_2022,table_b5,m2_any_video_se,23.163937034582144,23.16,1,,23.163937034582144,1,
-coppock_green_porter_2022,table_b5,m3_video1_se,142.8199242185158,142.82,1,,142.8199242185158,1,
-coppock_green_porter_2022,table_b5,m3_video2_se,90.25316399835982,90.25,1,,90.25316399835982,1,
-coppock_green_porter_2022,table_b5,m4_video1_se,30.617428910821552,30.62,1,,30.617428910821552,1,
-coppock_green_porter_2022,table_b5,m4_video2_se,26.763512191064105,26.76,1,,26.763512191064105,1,
-coppock_green_porter_2022,table_f9,m1_any_video_est,0.00985458813345355,0.0099,1,,0.00985458813345355,1,
-coppock_green_porter_2022,table_f9,m2_any_video_est,0.001494794878072,0.0015,1,,0.001494794878072,1,
-coppock_green_porter_2022,table_f9,m3_video1_est,0.01671408460282777,0.0167,1,,0.01671408460282777,1,
-coppock_green_porter_2022,table_f9,m3_video2_est,0.00299509166407935,0.003,1,,0.00299509166407935,1,
-coppock_green_porter_2022,table_f9,m4_video1_est,0.005482479358447,0.0055,1,,0.005482479358447,1,
-coppock_green_porter_2022,table_f9,m4_video2_est,-0.00245711888495072,-0.0025,1,,-0.00245711888495072,1,
-coppock_green_porter_2022,table_f9,m1_any_video_se,0.01448034336347406,0.0145,1,,0.01448034336347406,1,
-coppock_green_porter_2022,table_f9,m2_any_video_se,0.00879754283818571,0.0088,1,,0.00879754283818571,1,
-coppock_green_porter_2022,table_f9,m3_video1_se,0.01784546092514657,0.0178,1,,0.01784546092514657,1,
-coppock_green_porter_2022,table_f9,m3_video2_se,0.01809158505430489,0.0181,1,,0.01809158505430489,1,
-coppock_green_porter_2022,table_f9,m4_video1_se,0.00855046173703903,0.0086,1,,0.00855046173703903,1,
-coppock_green_porter_2022,table_f9,m4_video2_se,0.01278053151891731,0.0128,1,,0.01278053151891731,1,
-coppock_green_porter_2022,table_f10,m1_any_video_est,68.59196024679093,68.592,1,,68.59196024679093,1,
-coppock_green_porter_2022,table_f10,m2_any_video_est,-77.26722783851457,-77.2672,1,,-77.26722783851457,1,
-coppock_green_porter_2022,table_f10,m3_video1_est,9.34382726443521,9.3438,1,,9.34382726443521,1,
-coppock_green_porter_2022,table_f10,m3_video2_est,127.84009322914687,127.8401,1,,127.84009322914687,1,
-coppock_green_porter_2022,table_f10,m4_video1_est,-132.28417994945687,-132.2842,1,,-132.28417994945687,1,
-coppock_green_porter_2022,table_f10,m4_video2_est,-23.55872275403127,-23.5587,1,,-23.55872275403127,1,
-coppock_green_porter_2022,table_f10,m1_any_video_se,269.40973755205994,269.4097,1,,269.40973755205994,1,
-coppock_green_porter_2022,table_f10,m2_any_video_se,156.34892143047512,156.3489,1,,156.34892143047512,1,
-coppock_green_porter_2022,table_f10,m3_video1_se,275.9061329158996,275.9061,1,,275.9061329158996,1,
-coppock_green_porter_2022,table_f10,m3_video2_se,384.5197385131535,384.5197,1,,384.5197385131535,1,
-coppock_green_porter_2022,table_f10,m4_video1_se,177.3082762231606,177.3083,1,,177.3082762231606,1,
-coppock_green_porter_2022,table_f10,m4_video2_se,211.41213868011167,211.4121,1,,211.41213868011167,1,
-coppock_green_porter_2022,table_f11,m1_any_video_est,-89.82885631182347,-89.8289,1,,-89.82885631182347,1,
-coppock_green_porter_2022,table_f11,m2_any_video_est,195.6585496839684,195.6585,1,,195.6585496839684,1,
-coppock_green_porter_2022,table_f11,m3_video1_est,-439.0957478018704,-439.0957,1,,-439.0957478018704,1,
-coppock_green_porter_2022,table_f11,m3_video2_est,259.4380351782236,259.438,1,,259.4380351782236,1,
-coppock_green_porter_2022,table_f11,m4_video1_est,1018.57542627657,1018.5754,1,,1018.57542627657,1,
-coppock_green_porter_2022,table_f11,m4_video2_est,-590.521797449917,-590.5218,1,,-590.521797449917,1,
-coppock_green_porter_2022,table_f11,m1_any_video_se,953.4329157462817,953.4329,1,,953.4329157462817,1,
-coppock_green_porter_2022,table_f11,m2_any_video_se,526.4416784228432,526.4417,1,,526.4416784228432,1,
-coppock_green_porter_2022,table_f11,m3_video1_se,1125.3363245077278,1125.3363,1,,1125.3363245077278,1,
-coppock_green_porter_2022,table_f11,m3_video2_se,1182.4407478854894,1182.4407,1,,1182.4407478854894,1,
-coppock_green_porter_2022,table_f11,m4_video1_se,685.7638188243877,685.7638,1,,685.7638188243877,1,
-coppock_green_porter_2022,table_f11,m4_video2_se,631.3777433267358,631.3777,1,,631.3777433267358,1,
-coppock_green_porter_2022,table_4,n_obs,853,853,1,,853,1,
-coppock_green_porter_2022,table_4,n_clusters,154,154,1,,154,1,
-coppock_green_porter_2022,table_a1,n_obs,857,857,1,,857,1,
-coppock_green_porter_2022,table_a1,n_clusters,154,154,1,,154,1,
-coppock_green_porter_2022,table_a2,n_obs,857,857,1,,857,1,
-coppock_green_porter_2022,table_b4,n_obs,857,857,1,,857,1,
-coppock_green_porter_2022,table_b5,n_obs,857,857,1,,857,1,
-coppock_green_porter_2022,table_f9,n_obs,210,210,1,,210,1,
-coppock_green_porter_2022,table_f10,n_obs,210,210,1,,210,1,
-coppock_green_porter_2022,table_f11,n_obs,210,210,1,,210,1,
-coppock_green_porter_2022,table_1,no_exclusions_control_zip_codes,104,104,1,,104,1,
-coppock_green_porter_2022,table_1,no_exclusions_treatment_video_1_zip_codes,53,53,1,,53,1,
-coppock_green_porter_2022,table_1,no_exclusions_treatment_video_2_zip_codes,53,53,1,,53,1,
-coppock_green_porter_2022,table_1,no_exclusions_total_zip_codes,210,210,1,,210,1,
-coppock_green_porter_2022,table_1,no_exclusions_control_precincts,,4683,,"The deposit holds only the 1096 precincts nested within a single ZIP code, so the unrestricted precinct counts cannot be recomputed.",,,
-coppock_green_porter_2022,table_1,no_exclusions_treatment_video_1_precincts,,2246,,"The deposit holds only the 1096 precincts nested within a single ZIP code, so the unrestricted precinct counts cannot be recomputed.",,,
-coppock_green_porter_2022,table_1,no_exclusions_treatment_video_2_precincts,,2306,,"The deposit holds only the 1096 precincts nested within a single ZIP code, so the unrestricted precinct counts cannot be recomputed.",,,
-coppock_green_porter_2022,table_1,no_exclusions_total_precincts,,9235,,"The deposit holds only the 1096 precincts nested within a single ZIP code, so the unrestricted precinct counts cannot be recomputed.",,,
-coppock_green_porter_2022,table_1,only_nested_precincts_control_precincts,524,524,1,,524,1,
-coppock_green_porter_2022,table_1,only_nested_precincts_treatment_video_1_precincts,285,285,1,,285,1,
-coppock_green_porter_2022,table_1,only_nested_precincts_treatment_video_2_precincts,287,287,1,,287,1,
-coppock_green_porter_2022,table_1,only_nested_precincts_total_precincts,1096,1096,1,,1096,1,
-coppock_green_porter_2022,table_1,only_nested_precincts_control_zip_codes,84,84,1,,84,1,
-coppock_green_porter_2022,table_1,only_nested_precincts_treatment_video_1_zip_codes,43,43,1,,43,1,
-coppock_green_porter_2022,table_1,only_nested_precincts_treatment_video_2_zip_codes,42,42,1,,42,1,
-coppock_green_porter_2022,table_1,only_nested_precincts_total_zip_codes,169,169,1,,169,1,
-coppock_green_porter_2022,table_1,with_outcome_data_control_precincts,420,420,1,,420,1,
-coppock_green_porter_2022,table_1,with_outcome_data_treatment_video_1_precincts,220,220,1,,220,1,
-coppock_green_porter_2022,table_1,with_outcome_data_treatment_video_2_precincts,213,213,1,,213,1,
-coppock_green_porter_2022,table_1,with_outcome_data_total_precincts,853,853,1,,853,1,
-coppock_green_porter_2022,table_1,with_outcome_data_control_zip_codes,76,76,1,,76,1,
-coppock_green_porter_2022,table_1,with_outcome_data_treatment_video_1_zip_codes,41,41,1,,41,1,
-coppock_green_porter_2022,table_1,with_outcome_data_treatment_video_2_zip_codes,37,37,1,,37,1,
-coppock_green_porter_2022,table_1,with_outcome_data_total_zip_codes,154,154,1,,154,1,
-coppock_green_porter_2022,table_c6,vote_share_dim_sd_1.0,,0.165,,The archive's CGP_2022_equivalence_tests.R stops under current estimatr: lh_robust() has no CR2 path when clusters are supplied. The rewrite recovers the contrast from the fitted CR2 variance-covariance matrix.,0.1645746137815807,1,
-coppock_green_porter_2022,table_c6,vote_share_dim_estimate,,-0.046,,The archive's CGP_2022_equivalence_tests.R stops under current estimatr: lh_robust() has no CR2 path when clusters are supplied. The rewrite recovers the contrast from the fitted CR2 variance-covariance matrix.,-0.04605651463303306,1,
-coppock_green_porter_2022,table_c6,vote_share_dim_std.error,,0.031,,The archive's CGP_2022_equivalence_tests.R stops under current estimatr: lh_robust() has no CR2 path when clusters are supplied. The rewrite recovers the contrast from the fitted CR2 variance-covariance matrix.,0.03126043091996563,1,
-coppock_green_porter_2022,table_c6,vote_share_dim_p_eq_0.2,,0.663,,The archive's CGP_2022_equivalence_tests.R stops under current estimatr: lh_robust() has no CR2 path when clusters are supplied. The rewrite recovers the contrast from the fitted CR2 variance-covariance matrix.,0.662899939658417,1,
-coppock_green_porter_2022,table_c6,vote_share_dim_p_eq_0.1,,0.828,,The archive's CGP_2022_equivalence_tests.R stops under current estimatr: lh_robust() has no CR2 path when clusters are supplied. The rewrite recovers the contrast from the fitted CR2 variance-covariance matrix.,0.8281433215779932,1,
-coppock_green_porter_2022,table_c6,vote_share_ols_sd_1.0,,0.165,,The archive's CGP_2022_equivalence_tests.R stops under current estimatr: lh_robust() has no CR2 path when clusters are supplied. The rewrite recovers the contrast from the fitted CR2 variance-covariance matrix.,0.1645746137815807,1,
-coppock_green_porter_2022,table_c6,vote_share_ols_estimate,,-0.002,,The archive's CGP_2022_equivalence_tests.R stops under current estimatr: lh_robust() has no CR2 path when clusters are supplied. The rewrite recovers the contrast from the fitted CR2 variance-covariance matrix.,-0.00229515791459295,1,
-coppock_green_porter_2022,table_c6,vote_share_ols_std.error,,0.011,,The archive's CGP_2022_equivalence_tests.R stops under current estimatr: lh_robust() has no CR2 path when clusters are supplied. The rewrite recovers the contrast from the fitted CR2 variance-covariance matrix.,0.01136316110124855,1,
-coppock_green_porter_2022,table_c6,vote_share_ols_p_eq_0.2,,0.004,,The archive's CGP_2022_equivalence_tests.R stops under current estimatr: lh_robust() has no CR2 path when clusters are supplied. The rewrite recovers the contrast from the fitted CR2 variance-covariance matrix.,0.00352310895521738,1,
-coppock_green_porter_2022,table_c6,vote_share_ols_p_eq_0.1,,0.106,,The archive's CGP_2022_equivalence_tests.R stops under current estimatr: lh_robust() has no CR2 path when clusters are supplied. The rewrite recovers the contrast from the fitted CR2 variance-covariance matrix.,0.1063207478953106,1,
-coppock_green_porter_2022,table_c6,vote_margin_dim_sd_1.0,,433.178,,The archive's CGP_2022_equivalence_tests.R stops under current estimatr: lh_robust() has no CR2 path when clusters are supplied. The rewrite recovers the contrast from the fitted CR2 variance-covariance matrix.,433.17804914351865,1,
-coppock_green_porter_2022,table_c6,vote_margin_dim_estimate,,-59.386,,The archive's CGP_2022_equivalence_tests.R stops under current estimatr: lh_robust() has no CR2 path when clusters are supplied. The rewrite recovers the contrast from the fitted CR2 variance-covariance matrix.,-59.3856744068012,1,
-coppock_green_porter_2022,table_c6,vote_margin_dim_std.error,,84.907,,The archive's CGP_2022_equivalence_tests.R stops under current estimatr: lh_robust() has no CR2 path when clusters are supplied. The rewrite recovers the contrast from the fitted CR2 variance-covariance matrix.,84.90738918159616,1,
-coppock_green_porter_2022,table_c6,vote_margin_dim_p_eq_0.2,,0.374,,The archive's CGP_2022_equivalence_tests.R stops under current estimatr: lh_robust() has no CR2 path when clusters are supplied. The rewrite recovers the contrast from the fitted CR2 variance-covariance matrix.,0.3741290104662065,1,
-coppock_green_porter_2022,table_c6,vote_margin_dim_p_eq_0.1,,0.575,,The archive's CGP_2022_equivalence_tests.R stops under current estimatr: lh_robust() has no CR2 path when clusters are supplied. The rewrite recovers the contrast from the fitted CR2 variance-covariance matrix.,0.5750476184048949,1,
-coppock_green_porter_2022,table_c6,vote_margin_ols_sd_1.0,,433.178,,The archive's CGP_2022_equivalence_tests.R stops under current estimatr: lh_robust() has no CR2 path when clusters are supplied. The rewrite recovers the contrast from the fitted CR2 variance-covariance matrix.,433.17804914351865,1,
-coppock_green_porter_2022,table_c6,vote_margin_ols_estimate,,-41.226,,The archive's CGP_2022_equivalence_tests.R stops under current estimatr: lh_robust() has no CR2 path when clusters are supplied. The rewrite recovers the contrast from the fitted CR2 variance-covariance matrix.,-41.22556326166559,1,
-coppock_green_porter_2022,table_c6,vote_margin_ols_std.error,,25.443,,The archive's CGP_2022_equivalence_tests.R stops under current estimatr: lh_robust() has no CR2 path when clusters are supplied. The rewrite recovers the contrast from the fitted CR2 variance-covariance matrix.,25.44264487032406,1,
-coppock_green_porter_2022,table_c6,vote_margin_ols_p_eq_0.2,,0.037,,The archive's CGP_2022_equivalence_tests.R stops under current estimatr: lh_robust() has no CR2 path when clusters are supplied. The rewrite recovers the contrast from the fitted CR2 variance-covariance matrix.,0.03714683703081702,1,
-coppock_green_porter_2022,table_c6,vote_margin_ols_p_eq_0.1,,0.467,,The archive's CGP_2022_equivalence_tests.R stops under current estimatr: lh_robust() has no CR2 path when clusters are supplied. The rewrite recovers the contrast from the fitted CR2 variance-covariance matrix.,0.46723045605851593,1,
-coppock_green_porter_2022,table_c6,vote_total_dim_sd_1.0,,982.813,,The archive's CGP_2022_equivalence_tests.R stops under current estimatr: lh_robust() has no CR2 path when clusters are supplied. The rewrite recovers the contrast from the fitted CR2 variance-covariance matrix.,982.813030266344,1,
-coppock_green_porter_2022,table_c6,vote_total_dim_estimate,,-187.748,,The archive's CGP_2022_equivalence_tests.R stops under current estimatr: lh_robust() has no CR2 path when clusters are supplied. The rewrite recovers the contrast from the fitted CR2 variance-covariance matrix.,-187.74787463519905,1,
-coppock_green_porter_2022,table_c6,vote_total_dim_std.error,,150.99,,The archive's CGP_2022_equivalence_tests.R stops under current estimatr: lh_robust() has no CR2 path when clusters are supplied. The rewrite recovers the contrast from the fitted CR2 variance-covariance matrix.,150.98982860987078,1,
-coppock_green_porter_2022,table_c6,vote_total_dim_p_eq_0.2,,0.477,,The archive's CGP_2022_equivalence_tests.R stops under current estimatr: lh_robust() has no CR2 path when clusters are supplied. The rewrite recovers the contrast from the fitted CR2 variance-covariance matrix.,0.476723117124747,1,
-coppock_green_porter_2022,table_c6,vote_total_dim_p_eq_0.1,,0.723,,The archive's CGP_2022_equivalence_tests.R stops under current estimatr: lh_robust() has no CR2 path when clusters are supplied. The rewrite recovers the contrast from the fitted CR2 variance-covariance matrix.,0.7232533912387584,1,
-coppock_green_porter_2022,table_c6,vote_total_ols_sd_1.0,,982.813,,The archive's CGP_2022_equivalence_tests.R stops under current estimatr: lh_robust() has no CR2 path when clusters are supplied. The rewrite recovers the contrast from the fitted CR2 variance-covariance matrix.,982.813030266344,1,
-coppock_green_porter_2022,table_c6,vote_total_ols_estimate,,10.654,,The archive's CGP_2022_equivalence_tests.R stops under current estimatr: lh_robust() has no CR2 path when clusters are supplied. The rewrite recovers the contrast from the fitted CR2 variance-covariance matrix.,10.653934800650587,1,
-coppock_green_porter_2022,table_c6,vote_total_ols_std.error,,32.177,,The archive's CGP_2022_equivalence_tests.R stops under current estimatr: lh_robust() has no CR2 path when clusters are supplied. The rewrite recovers the contrast from the fitted CR2 variance-covariance matrix.,32.17699526161328,1,
-coppock_green_porter_2022,table_c6,vote_total_ols_p_eq_0.2,,0,,The archive's CGP_2022_equivalence_tests.R stops under current estimatr: lh_robust() has no CR2 path when clusters are supplied. The rewrite recovers the contrast from the fitted CR2 variance-covariance matrix.,3.786681639530645e-9,1,
-coppock_green_porter_2022,table_c6,vote_total_ols_p_eq_0.1,,0.003,,The archive's CGP_2022_equivalence_tests.R stops under current estimatr: lh_robust() has no CR2 path when clusters are supplied. The rewrite recovers the contrast from the fitted CR2 variance-covariance matrix.,0.00323174069823089,1,
-coppock_green_porter_2022,table_e7,joint_f_p_value,0.3335685705573611,0.33,1,,0.3335685705573611,1,
-coppock_green_porter_2022,table_e7,intercept_est,0.553059771850728,0.553,1,,0.553059771850728,1,
-coppock_green_porter_2022,table_e7,intercept_se,0.08309170382047601,0.083,1,,0.08309170382047601,1,
-coppock_green_porter_2022,table_e7,r_squared,0.0347554080253486,0.035,1,,0.0347554080253486,1,
-coppock_green_porter_2022,table_e7,n_obs,1096,1096,1,,1096,1,
-coppock_green_porter_2022,table_e7,n_clusters,169,169,1,,169,1,
-coppock_green_porter_2022,table_f8,joint_f_p_value,0.3284604392860449,0.328,1,,0.3284604392860449,1,
-coppock_green_porter_2022,table_f8,intercept_est,0.49965554403635726,0.5,1,,0.49965554403635726,1,
-coppock_green_porter_2022,table_f8,intercept_se,0.03900731696002892,0.039,1,,0.03900731696002892,1,
-coppock_green_porter_2022,table_f8,r_squared,0.00892627884588936,0.009,1,,0.00892627884588936,1,
-coppock_green_porter_2022,table_f8,n_obs,210,210,1,,210,1,
-coppock_green_porter_2022,figure_1,prior_mu,0,0,1,,0,1,
-coppock_green_porter_2022,figure_1,prior_sigma,0.05,0.05,1,,0.05,1,
-coppock_green_porter_2022,figure_1,posterior_1_broockman_green_mu,0.01483679525222552,0.015,1,,0.01483679525222552,1,
-coppock_green_porter_2022,figure_1,posterior_1_broockman_green_sigma,0.01348149627599854,0.013,1,,0.01348149627599854,1,
-coppock_green_porter_2022,figure_1,posterior_2_turitto_mu,0.01371702077982722,0.014,1,,0.01371702077982722,1,
-coppock_green_porter_2022,figure_1,posterior_2_turitto_sigma,0.01134488933950494,0.011,1,,0.01134488933950494,1,
-coppock_green_porter_2022,figure_1,posterior_3_hager_mu,0.01003100201576892,0.01,1,,0.01003100201576892,1,
-coppock_green_porter_2022,figure_1,posterior_3_hager_sigma,0.0053039097610428,0.005,1,,0.0053039097610428,1,
-coppock_green_porter_2022,figure_1,posterior_4_present_study_mu,0.00708364086516408,0.007,1,,0.00708364086516408,1,
-coppock_green_porter_2022,figure_1,posterior_4_present_study_sigma,0.00449617308465873,0.004,1,,0.00449617308465873,1,
-coppock_green_porter_2022,figure_1,present_study_estimate_label,-4.4332328582928296e-4,0,1,,-4.4332328582928296e-4,1,
-coppock_green_porter_2022,figure_1,present_study_se_label,0.0085,0.009,1,"The published panel label reads SE 0.009 because the archive typed the table's rounded 0.0085 into the figure. The rewrite feeds the estimate itself, 0.0084760, whose label rounds to 0.008. Every posterior is unchanged.",0.00847596925939286,0,archive
-coppock_green_porter_2022,figure_g2,power_ols,0.23,0.21,0,Simulation based. The archive sets no seed and shipped sims = 500 with the published sims = 5000 commented out. Rerun at 5000 draws with a seed; the gap is under one Monte Carlo standard error.,0.20719999999999977,0,archive
-coppock_green_porter_2022,figure_g2,power_posterior,0.89,0.893,0,Simulation based. The archive sets no seed and shipped sims = 500 with the published sims = 5000 commented out. Rerun at 5000 draws with a seed; the gap is under one Monte Carlo standard error.,0.8866000000000002,0,archive
-coppock_green_porter_2022,text,total_two_party_votes_treated_zips,822782.7733194007,822783,1,,822782.7733194007,1,
-coppock_green_porter_2022,text,cost_per_vote_usd,8.681337780261797,8.68,1,,8.681337780261797,1,
-coppock_green_porter_2022,text,posterior_mean_after_three_studies_pp,1.003100201576892,1,1,,1.003100201576892,1,
-coppock_green_porter_2022,text,posterior_mean_all_four_studies_pp,0.7083640865164079,0.7,1,,0.7083640865164079,1,
-coppock_green_porter_2022,text,posterior_sd_all_four_studies_pp,0.44961730846587294,0.4,1,,0.44961730846587294,1,
-coppock_green_porter_2022,text,unadjusted_estimate_pp,0.211445890447404,2.1,0,"The text says 2.1 percentage points. Table 4 Model 1 is 0.0021, which is 0.21 percentage points. The text is off by a factor of ten.",0.211445890447404,0,paper_internal
-coppock_green_porter_2022,text,unadjusted_se_pp,2.248729557733574,3,0,"The text says 3.0 percentage points. Table 4 Model 1's standard error is 0.0225, which is 2.25 percentage points.",2.248729557733574,0,paper_internal
-coppock_green_porter_2022,text,adjusted_estimate_pp,-0.04433232858292829,-0.04,1,,-0.04433232858292829,1,
-coppock_green_porter_2022,text,adjusted_se_pp,0.8475969259392859,0.85,1,,0.8475969259392859,1,
-coppock_green_porter_2022,text,ri_p_unadjusted,0.48,0.471,0,Randomization inference. The archive sets no seed and shipped sims = 500 with the published sims = 2000 commented out. Rerun at 2000 draws with a seed; the gap is under one Monte Carlo standard error.,0.4585,0,archive
-coppock_green_porter_2022,text,ri_p_adjusted,0.51,0.508,0,Randomization inference. The archive sets no seed and shipped sims = 500 with the published sims = 2000 commented out. Rerun at 2000 draws with a seed; the gap is under one Monte Carlo standard error.,0.505,0,archive
-coppock_green_porter_2022,text,three_second_views,,1128478,,Table 3's exposure counts come from the advertisement vendor and are not in the deposit.,,,
-coppock_green_porter_2022,text,full_views,,117913,,Table 3's exposure counts come from the advertisement vendor and are not in the deposit.,,,
+paper_id,claim_id,table_figure,claim,claim_type,value_script,value_paper,match,value_rewrite,match_rewrite,holds,defect_locus,notes
+coppock_green_porter_2022,abs_adjusted_est,Abstract,"Covariate-adjusted effect on Democratic vote share, percentage points",pipeline,-0.04433232858292829,-0.04,1,-0.04433232858292829,1,NA,NA,NA
+coppock_green_porter_2022,abs_adjusted_se,Abstract,"Standard error of the covariate-adjusted effect, percentage points",pipeline,0.8475969259392859,0.85,1,0.8475969259392859,1,NA,NA,NA
+coppock_green_porter_2022,app_a_small_insignificant,Appendix A,Effects on vote margin and turnout are small and statistically insignificant,descriptive,NA,NA,NA,NA,NA,TRUE,NA,NA
+coppock_green_porter_2022,app_c_dim_none_below,Appendix C,No difference-in-means equivalence p-value is smaller than 0.05,descriptive,NA,0.05,NA,NA,NA,TRUE,NA,NA
+coppock_green_porter_2022,app_c_ols_01_total_only,Appendix C,Under the 0.1 SD tolerance only the OLS estimate on vote total can be affirmed equivalent,descriptive,NA,NA,NA,NA,NA,TRUE,NA,NA
+coppock_green_porter_2022,app_c_ols_02_all,Appendix C,All three outcomes can be affirmed equivalent at p < 0.05 under the 0.2 SD tolerance using the covariate-adjusted models,descriptive,NA,0.05,NA,NA,NA,TRUE,NA,NA
+coppock_green_porter_2022,app_d_all_zips,Appendix D,"ZIP codes in the experiment, restated in the map section",pipeline,NA,210,NA,210,1,NA,NA,NA
+coppock_green_porter_2022,app_e_coefs_nonsig,Appendix E,Each individual balance coefficient is nonsignificant,descriptive,NA,NA,NA,NA,NA,TRUE,NA,NA
+coppock_green_porter_2022,app_e_joint_p,Appendix E,"Joint significance test p-value, precinct-level balance",pipeline,0.3335685705573611,0.33,1,0.3335685705573611,1,NA,NA,NA
+coppock_green_porter_2022,app_f_small_effects,Appendix F.1,ZIP-level analysis returns very small effects that cannot be distinguished from zero,descriptive,NA,NA,NA,NA,NA,TRUE,NA,NA
+coppock_green_porter_2022,app_f_zips,Appendix F,"ZIP codes block-randomized, restated in the aggregation section",pipeline,NA,210,NA,210,1,NA,NA,NA
+coppock_green_porter_2022,app_f8_joint_p,Appendix F.1,"Joint significance test p-value, ZIP-level balance",pipeline,0.3284604392860449,0.328,1,0.3284604392860449,1,NA,NA,NA
+coppock_green_porter_2022,app_g_pate_center,Appendix G,Centre of the distribution simulated treatment effects are drawn from,definitional,NA,0.01,NA,0.01,1,NA,NA,NA
+coppock_green_porter_2022,app_g_pate_sd,Appendix G,Standard deviation of the distribution simulated treatment effects are drawn from,definitional,NA,0.005,NA,0.005,1,NA,NA,NA
+coppock_green_porter_2022,app_g_power_combined,Appendix G,"Power of the Bayesian posterior estimator, per cent, as stated in the appendix",pipeline,89,89.3,0,88.66000000000001,0,NA,archive,NA
+coppock_green_porter_2022,app_g_power_own,Appendix G,"Power of the study on its own, per cent, as stated in the appendix",pipeline,23,21.0,0,20.719999999999978,0,NA,archive,NA
+coppock_green_porter_2022,bayes_all_insignificant,Bayesian integration,Each of the four studies returned a statistically insignificant result,descriptive,NA,NA,NA,NA,NA,TRUE,NA,NA
+coppock_green_porter_2022,bayes_final_mean,Bayesian integration,"Posterior mean after all four studies, percentage points",pipeline,0.7083640865164079,0.7,1,0.7083640865164079,1,NA,NA,NA
+coppock_green_porter_2022,bayes_final_sd,Bayesian integration,"Posterior standard deviation after all four studies, percentage points",pipeline,0.44961730846587294,0.4,1,0.44961730846587294,1,NA,NA,NA
+coppock_green_porter_2022,bayes_panel4_mean,Bayesian integration,"Posterior mean after the first three studies, percentage points",pipeline,1.003100201576892,1.0,1,1.003100201576892,1,NA,NA,NA
+coppock_green_porter_2022,bayes_panel4_sd,Bayesian integration,"Posterior standard deviation after the first three studies, percentage points",pipeline,NA,0.5,NA,0.53039097610428,1,NA,NA,NA
+coppock_green_porter_2022,bayes_prior_sd_pp,Bayesian integration,"Prior standard deviation stated in the text, percentage points",definitional,NA,5,NA,5,1,NA,NA,NA
+coppock_green_porter_2022,design_control_zips,Field experiment: Florida advertisements,ZIP codes assigned to control,pipeline,NA,104,NA,104,1,NA,NA,NA
+coppock_green_porter_2022,design_precincts,Field experiment: Florida advertisements,Voting precincts in the analysis sample,pipeline,NA,853,NA,853,1,NA,NA,NA
+coppock_green_porter_2022,design_precincts_per_zip_high,Field experiment: Florida advertisements,Upper end of the stated typical number of voting precincts per ZIP code,descriptive,NA,20,NA,6.485207100591716,NA,NA,archive,NA
+coppock_green_porter_2022,design_precincts_per_zip_low,Field experiment: Florida advertisements,Lower end of the stated typical number of voting precincts per ZIP code,descriptive,NA,10,NA,6.485207100591716,NA,NA,archive,NA
+coppock_green_porter_2022,design_treatment_zips,Field experiment: Florida advertisements,ZIP codes assigned to each advertisement condition,pipeline,NA,53,NA,53,1,NA,NA,NA
+coppock_green_porter_2022,design_zip_codes,Field experiment: Florida advertisements,ZIP codes randomized,pipeline,NA,210,NA,210,1,NA,NA,NA
+coppock_green_porter_2022,design_zips_analysis,Field experiment: Florida advertisements,ZIP codes in the analysis sample,pipeline,NA,154,NA,154,1,NA,NA,NA
+coppock_green_porter_2022,disc_cost_per_vote,Discussion,"Implied cost per vote, dollars",pipeline,8.681337780261797,8.68,1,8.681337780261797,1,NA,NA,NA
+coppock_green_porter_2022,disc_posterior_mean,Discussion,"Mean of the final Bayesian posterior restated in the discussion, percentage points",pipeline,0.7083640865164079,0.7,1,0.7083640865164079,1,NA,NA,NA
+coppock_green_porter_2022,disc_skip_ratio,Discussion,Viewers who skipped after three seconds for every viewer who watched an ad through,descriptive,NA,10,NA,9.570429045143452,NA,TRUE,NA,NA
+coppock_green_porter_2022,f1_bg_post_mu,Figure 1,Posterior mean after Broockman and Green (2014),pipeline,0.01483679525222552,0.015,1,0.01483679525222552,1,NA,NA,NA
+coppock_green_porter_2022,f1_bg_post_sd,Figure 1,Posterior standard deviation after Broockman and Green (2014),pipeline,0.01348149627599854,0.013,1,0.01348149627599854,1,NA,NA,NA
+coppock_green_porter_2022,f1_hag_post_mu,Figure 1,Posterior mean after Hager (2019),pipeline,0.01003100201576892,0.010,1,0.01003100201576892,1,NA,NA,NA
+coppock_green_porter_2022,f1_hag_post_sd,Figure 1,Posterior standard deviation after Hager (2019),pipeline,0.0053039097610428,0.005,1,0.0053039097610428,1,NA,NA,NA
+coppock_green_porter_2022,f1_pres_est,Figure 1,The present study's estimate on the panel face,pipeline,-4.4332328582928296e-4,-0.000,1,-4.4332328582928296e-4,1,NA,NA,NA
+coppock_green_porter_2022,f1_pres_post_mu,Figure 1,Posterior mean after the present study,pipeline,0.00708364086516408,0.007,1,0.00708364086516408,1,NA,NA,NA
+coppock_green_porter_2022,f1_pres_post_sd,Figure 1,Posterior standard deviation after the present study,pipeline,0.00449617308465873,0.004,1,0.00449617308465873,1,NA,NA,NA
+coppock_green_porter_2022,f1_pres_se,Figure 1,The present study's standard error on the panel face,pipeline,0.0085,0.009,1,0.00847596925939286,0,NA,archive,NA
+coppock_green_porter_2022,f1_prior_mu,Figure 1,Prior mean,definitional,0,0.000,1,0,1,NA,NA,NA
+coppock_green_porter_2022,f1_prior_sd,Figure 1,Prior standard deviation,definitional,0.05,0.050,1,0.05,1,NA,NA,NA
+coppock_green_porter_2022,f1_tur_post_mu,Figure 1,Posterior mean after Turitto et al. (2014),pipeline,0.01371702077982722,0.014,1,0.01371702077982722,1,NA,NA,NA
+coppock_green_porter_2022,f1_tur_post_sd,Figure 1,Posterior standard deviation after Turitto et al. (2014),pipeline,0.01134488933950494,0.011,1,0.01134488933950494,1,NA,NA,NA
+coppock_green_porter_2022,fg2_ols_pate_label,Figure G.2,PATE named in the left panel annotation,pipeline,NA,0.1,NA,0.01,0,NA,archive,NA
+coppock_green_porter_2022,fg2_ols_power,Figure G.2,Power printed in the left panel,pipeline,0.23,0.210,0,0.20719999999999977,0,NA,archive,NA
+coppock_green_porter_2022,fg2_post_pate_label,Figure G.2,PATE named in the right panel annotation,pipeline,NA,0.1,NA,0.01,0,NA,archive,NA
+coppock_green_porter_2022,fg2_post_power,Figure G.2,Power printed in the right panel,pipeline,0.89,0.893,0,0.8866000000000002,0,NA,archive,NA
+coppock_green_porter_2022,fn_calc_posterior,Note 1,Posterior mean inside the printed cost-per-vote expression,pipeline,0.00708364086516408,0.007,1,0.00708364086516408,1,NA,NA,NA
+coppock_green_porter_2022,fn_calc_result,Note 1,"Result of the printed cost-per-vote expression, dollars",pipeline,8.681337780261797,8.68,1,8.681337780261797,1,NA,NA,NA
+coppock_green_porter_2022,fn_calc_voters,Note 1,Voter total inside the printed cost-per-vote expression,pipeline,822782.7733194007,822783,1,822782.7733194007,1,NA,NA,NA
+coppock_green_porter_2022,fn_voters,Note 1,Voters in targeted ZIP codes used in the cost-per-vote calculation,pipeline,822782.7733194007,822783,1,822782.7733194007,1,NA,NA,NA
+coppock_green_porter_2022,pap_control,Appendix H (pre-analysis plan),ZIP codes assigned to control in the pre-analysis plan's assignment table,pipeline,NA,104,NA,104,1,NA,NA,NA
+coppock_green_porter_2022,pap_v1,Appendix H (pre-analysis plan),ZIP codes assigned to video 1 in the pre-analysis plan's assignment table,pipeline,NA,53,NA,53,1,NA,NA,NA
+coppock_green_porter_2022,pap_v2,Appendix H (pre-analysis plan),ZIP codes assigned to video 2 in the pre-analysis plan's assignment table,pipeline,NA,53,NA,53,1,NA,NA,NA
+coppock_green_porter_2022,pap_zips,Appendix H (pre-analysis plan),ZIP codes named in the pre-analysis plan,pipeline,NA,210,NA,210,1,NA,NA,NA
+coppock_green_porter_2022,power_combined_pct,Bayesian integration,"Power of the Bayesian posterior estimator, per cent, as stated in the main text",pipeline,89,89,1,88.66000000000001,1,NA,NA,NA
+coppock_green_porter_2022,power_own_pct,Bayesian integration,"Power of the experiment on its own, per cent, as stated in the main text",pipeline,23,21,0,20.719999999999978,1,NA,archive,NA
+coppock_green_porter_2022,power_pate_pp,Bayesian integration,"Average effect implied by the previous literature, percentage points",pipeline,1.003100201576892,1.0,1,1.003100201576892,1,NA,NA,NA
+coppock_green_porter_2022,results_adj_est,Results,"Covariate-adjusted effect on vote share, percentage points",pipeline,-0.04433232858292829,-0.04,1,-0.04433232858292829,1,NA,NA,NA
+coppock_green_porter_2022,results_adj_se,Results,"Standard error of the covariate-adjusted effect, percentage points",pipeline,0.8475969259392859,0.85,1,0.8475969259392859,1,NA,NA,NA
+coppock_green_porter_2022,results_ri_p_adj,Results,"One-tailed randomization inference p-value, covariate-adjusted model",pipeline,0.51,0.508,0,0.505,0,NA,archive,NA
+coppock_green_porter_2022,results_ri_p_unadj,Results,"One-tailed randomization inference p-value, unadjusted model",pipeline,0.48,0.471,0,0.4585,0,NA,archive,NA
+coppock_green_porter_2022,results_unadj_est,Results,"Unadjusted effect on Democratic vote share as stated in the text, percentage points",pipeline,0.211445890447404,2.1,0,0.211445890447404,0,NA,paper_internal,NA
+coppock_green_porter_2022,results_unadj_se,Results,"Standard error of the unadjusted effect as stated in the text, percentage points",pipeline,2.248729557733574,3.0,0,2.248729557733574,0,NA,paper_internal,NA
+coppock_green_porter_2022,results_zip_all,Results,ZIP codes included in the ZIP-level analysis,pipeline,NA,210,NA,210,1,NA,NA,NA
+coppock_green_porter_2022,t1_nested_control_prec,Table 1,"Only nested precincts, Control: precincts",pipeline,524,524,1,524,1,NA,NA,NA
+coppock_green_porter_2022,t1_nested_control_zip,Table 1,"Only nested precincts, Control: ZIP codes",pipeline,84,84,1,84,1,NA,NA,NA
+coppock_green_porter_2022,t1_nested_total_prec,Table 1,"Only nested precincts, Total: precincts",pipeline,1096,1096,1,1096,1,NA,NA,NA
+coppock_green_porter_2022,t1_nested_total_zip,Table 1,"Only nested precincts, Total: ZIP codes",pipeline,169,169,1,169,1,NA,NA,NA
+coppock_green_porter_2022,t1_nested_v1_prec,Table 1,"Only nested precincts, Treatment video 1: precincts",pipeline,285,285,1,285,1,NA,NA,NA
+coppock_green_porter_2022,t1_nested_v1_zip,Table 1,"Only nested precincts, Treatment video 1: ZIP codes",pipeline,43,43,1,43,1,NA,NA,NA
+coppock_green_porter_2022,t1_nested_v2_prec,Table 1,"Only nested precincts, Treatment video 2: precincts",pipeline,287,287,1,287,1,NA,NA,NA
+coppock_green_porter_2022,t1_nested_v2_zip,Table 1,"Only nested precincts, Treatment video 2: ZIP codes",pipeline,42,42,1,42,1,NA,NA,NA
+coppock_green_porter_2022,t1_noex_control_prec,Table 1,"No exclusions, Control: precincts",pipeline,NA,4683,NA,NA,NA,NA,archive,"The deposit holds only the precincts nested within a single ZIP code, so the unrestricted precinct count is not recoverable"
+coppock_green_porter_2022,t1_noex_control_zip,Table 1,"No exclusions, Control: ZIP codes",pipeline,104,104,1,104,1,NA,NA,NA
+coppock_green_porter_2022,t1_noex_total_prec,Table 1,"No exclusions, Total: precincts",pipeline,NA,9235,NA,NA,NA,NA,archive,"The deposit holds only the precincts nested within a single ZIP code, so the unrestricted precinct count is not recoverable"
+coppock_green_porter_2022,t1_noex_total_zip,Table 1,"No exclusions, Total: ZIP codes",pipeline,210,210,1,210,1,NA,NA,NA
+coppock_green_porter_2022,t1_noex_v1_prec,Table 1,"No exclusions, Treatment video 1: precincts",pipeline,NA,2246,NA,NA,NA,NA,archive,"The deposit holds only the precincts nested within a single ZIP code, so the unrestricted precinct count is not recoverable"
+coppock_green_porter_2022,t1_noex_v1_zip,Table 1,"No exclusions, Treatment video 1: ZIP codes",pipeline,53,53,1,53,1,NA,NA,NA
+coppock_green_porter_2022,t1_noex_v2_prec,Table 1,"No exclusions, Treatment video 2: precincts",pipeline,NA,2306,NA,NA,NA,NA,archive,"The deposit holds only the precincts nested within a single ZIP code, so the unrestricted precinct count is not recoverable"
+coppock_green_porter_2022,t1_noex_v2_zip,Table 1,"No exclusions, Treatment video 2: ZIP codes",pipeline,53,53,1,53,1,NA,NA,NA
+coppock_green_porter_2022,t1_outcome_control_prec,Table 1,"With outcome data, Control: precincts",pipeline,420,420,1,420,1,NA,NA,NA
+coppock_green_porter_2022,t1_outcome_control_zip,Table 1,"With outcome data, Control: ZIP codes",pipeline,76,76,1,76,1,NA,NA,NA
+coppock_green_porter_2022,t1_outcome_total_prec,Table 1,"With outcome data, Total: precincts",pipeline,853,853,1,853,1,NA,NA,NA
+coppock_green_porter_2022,t1_outcome_total_zip,Table 1,"With outcome data, Total: ZIP codes",pipeline,154,154,1,154,1,NA,NA,NA
+coppock_green_porter_2022,t1_outcome_v1_prec,Table 1,"With outcome data, Treatment video 1: precincts",pipeline,220,220,1,220,1,NA,NA,NA
+coppock_green_porter_2022,t1_outcome_v1_zip,Table 1,"With outcome data, Treatment video 1: ZIP codes",pipeline,41,41,1,41,1,NA,NA,NA
+coppock_green_porter_2022,t1_outcome_v2_prec,Table 1,"With outcome data, Treatment video 2: precincts",pipeline,213,213,1,213,1,NA,NA,NA
+coppock_green_porter_2022,t1_outcome_v2_zip,Table 1,"With outcome data, Treatment video 2: ZIP codes",pipeline,37,37,1,37,1,NA,NA,NA
+coppock_green_porter_2022,t4_m1_any_est,Table 4,Table 4 cell m1_any_est,pipeline,0.00211445890447404,0.0021,1,0.00211445890447404,1,NA,NA,NA
+coppock_green_porter_2022,t4_m1_any_se,Table 4,Table 4 cell m1_any_se,pipeline,0.02248729557733574,0.0225,1,0.02248729557733574,1,NA,NA,NA
+coppock_green_porter_2022,t4_m1_int_est,Table 4,Table 4 cell m1_int_est,pipeline,NA,0.4937,NA,0.4936848432725968,1,NA,NA,NA
+coppock_green_porter_2022,t4_m1_int_se,Table 4,Table 4 cell m1_int_se,pipeline,NA,0.0157,NA,0.01572498143990582,1,NA,NA,NA
+coppock_green_porter_2022,t4_m1_nclust,Table 4,Table 4 cell m1_nclust,pipeline,154,154,1,154,1,NA,NA,NA
+coppock_green_porter_2022,t4_m1_nobs,Table 4,Table 4 cell m1_nobs,pipeline,853,853,1,853,1,NA,NA,NA
+coppock_green_porter_2022,t4_m1_r2,Table 4,Table 4 cell m1_r2,pipeline,NA,0.0000,NA,4.130678263847276e-5,1,NA,NA,NA
+coppock_green_porter_2022,t4_m2_any_est,Table 4,Table 4 cell m2_any_est,pipeline,-4.4332328582928296e-4,-0.0004,1,-4.4332328582928296e-4,1,NA,NA,NA
+coppock_green_porter_2022,t4_m2_any_se,Table 4,Table 4 cell m2_any_se,pipeline,0.00847596925939286,0.0085,1,0.00847596925939286,1,NA,NA,NA
+coppock_green_porter_2022,t4_m2_int_est,Table 4,Table 4 cell m2_int_est,pipeline,NA,0.0135,NA,0.01345519101137816,1,NA,NA,NA
+coppock_green_porter_2022,t4_m2_int_se,Table 4,Table 4 cell m2_int_se,pipeline,NA,0.0122,NA,0.01220499527217374,1,NA,NA,NA
+coppock_green_porter_2022,t4_m2_m2012_est,Table 4,Table 4 cell m2_m2012_est,pipeline,NA,5.3026,NA,5.30261305563563,1,NA,NA,NA
+coppock_green_porter_2022,t4_m2_m2012_se,Table 4,Table 4 cell m2_m2012_se,pipeline,NA,3.0541,NA,3.054093775963637,1,NA,NA,NA
+coppock_green_porter_2022,t4_m2_m2014_est,Table 4,Table 4 cell m2_m2014_est,pipeline,NA,14.8150,NA,14.814961475279809,1,NA,NA,NA
+coppock_green_porter_2022,t4_m2_m2014_se,Table 4,Table 4 cell m2_m2014_se,pipeline,NA,5.0869,NA,5.08686546734517,1,NA,NA,NA
+coppock_green_porter_2022,t4_m2_m2016_est,Table 4,Table 4 cell m2_m2016_est,pipeline,NA,84.3343,NA,84.33430971027256,1,NA,NA,NA
+coppock_green_porter_2022,t4_m2_m2016_se,Table 4,Table 4 cell m2_m2016_se,pipeline,NA,6.0944,NA,6.094409893469628,1,NA,NA,NA
+coppock_green_porter_2022,t4_m2_nclust,Table 4,Table 4 cell m2_nclust,pipeline,154,154,1,154,1,NA,NA,NA
+coppock_green_porter_2022,t4_m2_nobs,Table 4,Table 4 cell m2_nobs,pipeline,853,853,1,853,1,NA,NA,NA
+coppock_green_porter_2022,t4_m2_r2,Table 4,Table 4 cell m2_r2,pipeline,NA,0.8356,NA,0.8356498606214334,1,NA,NA,NA
+coppock_green_porter_2022,t4_m2_x2012_est,Table 4,Table 4 cell m2_x2012_est,pipeline,NA,0.0531,NA,0.0531267448157959,1,NA,NA,NA
+coppock_green_porter_2022,t4_m2_x2012_se,Table 4,Table 4 cell m2_x2012_se,pipeline,NA,0.0307,NA,0.03069851998752346,1,NA,NA,NA
+coppock_green_porter_2022,t4_m2_x2014_est,Table 4,Table 4 cell m2_x2014_est,pipeline,NA,0.1489,NA,0.1489294156468032,1,NA,NA,NA
+coppock_green_porter_2022,t4_m2_x2014_se,Table 4,Table 4 cell m2_x2014_se,pipeline,NA,0.0511,NA,0.05113641198004157,1,NA,NA,NA
+coppock_green_porter_2022,t4_m2_x2016_est,Table 4,Table 4 cell m2_x2016_est,pipeline,NA,0.8482,NA,0.8482380661471884,1,NA,NA,NA
+coppock_green_porter_2022,t4_m2_x2016_se,Table 4,Table 4 cell m2_x2016_se,pipeline,NA,0.0613,NA,0.06128426850858724,1,NA,NA,NA
+coppock_green_porter_2022,t4_m3_int_est,Table 4,Table 4 cell m3_int_est,pipeline,NA,0.4937,NA,0.4936848432725968,1,NA,NA,NA
+coppock_green_porter_2022,t4_m3_int_se,Table 4,Table 4 cell m3_int_se,pipeline,NA,0.0157,NA,0.01572498143990586,1,NA,NA,NA
+coppock_green_porter_2022,t4_m3_nclust,Table 4,Table 4 cell m3_nclust,pipeline,154,154,1,154,1,NA,NA,NA
+coppock_green_porter_2022,t4_m3_nobs,Table 4,Table 4 cell m3_nobs,pipeline,853,853,1,853,1,NA,NA,NA
+coppock_green_porter_2022,t4_m3_r2,Table 4,Table 4 cell m3_r2,pipeline,NA,0.0100,NA,0.00998920292465166,1,NA,NA,NA
+coppock_green_porter_2022,t4_m3_tv1_est,Table 4,Table 4 cell m3_tv1_est,pipeline,-0.02054151711593248,-0.0205,1,-0.02054151711593248,1,NA,NA,NA
+coppock_green_porter_2022,t4_m3_tv1_se,Table 4,Table 4 cell m3_tv1_se,pipeline,0.0249779396651857,0.0250,1,0.0249779396651857,1,NA,NA,NA
+coppock_green_porter_2022,t4_m3_tv2_est,Table 4,Table 4 cell m3_tv2_est,pipeline,0.02551499751710058,0.0255,1,0.02551499751710058,1,NA,NA,NA
+coppock_green_porter_2022,t4_m3_tv2_se,Table 4,Table 4 cell m3_tv2_se,pipeline,0.0291181584918253,0.0291,1,0.0291181584918253,1,NA,NA,NA
+coppock_green_porter_2022,t4_m4_int_est,Table 4,Table 4 cell m4_int_est,pipeline,NA,0.0140,NA,0.01404791761235433,1,NA,NA,NA
+coppock_green_porter_2022,t4_m4_int_se,Table 4,Table 4 cell m4_int_se,pipeline,NA,0.0128,NA,0.01279770841177339,1,NA,NA,NA
+coppock_green_porter_2022,t4_m4_m2012_est,Table 4,Table 4 cell m4_m2012_est,pipeline,NA,5.2424,NA,5.2423796444737105,1,NA,NA,NA
+coppock_green_porter_2022,t4_m4_m2012_se,Table 4,Table 4 cell m4_m2012_se,pipeline,NA,3.1297,NA,3.129722655189911,1,NA,NA,NA
+coppock_green_porter_2022,t4_m4_m2014_est,Table 4,Table 4 cell m4_m2014_est,pipeline,NA,14.7661,NA,14.76614274441265,1,NA,NA,NA
+coppock_green_porter_2022,t4_m4_m2014_se,Table 4,Table 4 cell m4_m2014_se,pipeline,NA,5.1776,NA,5.177596661715906,1,NA,NA,NA
+coppock_green_porter_2022,t4_m4_m2016_est,Table 4,Table 4 cell m4_m2016_est,pipeline,NA,84.3359,NA,84.33588314466297,1,NA,NA,NA
+coppock_green_porter_2022,t4_m4_m2016_se,Table 4,Table 4 cell m4_m2016_se,pipeline,NA,6.1268,NA,6.1267635698501515,1,NA,NA,NA
+coppock_green_porter_2022,t4_m4_nclust,Table 4,Table 4 cell m4_nclust,pipeline,154,154,1,154,1,NA,NA,NA
+coppock_green_porter_2022,t4_m4_nobs,Table 4,Table 4 cell m4_nobs,pipeline,853,853,1,853,1,NA,NA,NA
+coppock_green_porter_2022,t4_m4_r2,Table 4,Table 4 cell m4_r2,pipeline,NA,0.8357,NA,0.8356733487234991,1,NA,NA,NA
+coppock_green_porter_2022,t4_m4_tv1_est,Table 4,Table 4 cell m4_tv1_est,pipeline,-0.00161931034712876,-0.0016,1,-0.00161931034712876,1,NA,NA,NA
+coppock_green_porter_2022,t4_m4_tv1_se,Table 4,Table 4 cell m4_tv1_se,pipeline,0.01086087176269422,0.0109,1,0.01086087176269422,1,NA,NA,NA
+coppock_green_porter_2022,t4_m4_tv2_est,Table 4,Table 4 cell m4_tv2_est,pipeline,6.758475674641944e-4,0.0007,1,6.758475674641944e-4,1,NA,NA,NA
+coppock_green_porter_2022,t4_m4_tv2_se,Table 4,Table 4 cell m4_tv2_se,pipeline,0.00960570277980645,0.0096,1,0.00960570277980645,1,NA,NA,NA
+coppock_green_porter_2022,t4_m4_x2012_est,Table 4,Table 4 cell m4_x2012_est,pipeline,NA,0.0525,NA,0.05252361899971209,1,NA,NA,NA
+coppock_green_porter_2022,t4_m4_x2012_se,Table 4,Table 4 cell m4_x2012_se,pipeline,NA,0.0315,NA,0.03145610558432272,1,NA,NA,NA
+coppock_green_porter_2022,t4_m4_x2014_est,Table 4,Table 4 cell m4_x2014_est,pipeline,NA,0.1484,NA,0.14843609087432594,1,NA,NA,NA
+coppock_green_porter_2022,t4_m4_x2014_se,Table 4,Table 4 cell m4_x2014_se,pipeline,NA,0.0521,NA,0.05205268032640306,1,NA,NA,NA
+coppock_green_porter_2022,t4_m4_x2016_est,Table 4,Table 4 cell m4_x2016_est,pipeline,NA,0.8483,NA,0.8482512409432976,1,NA,NA,NA
+coppock_green_porter_2022,t4_m4_x2016_se,Table 4,Table 4 cell m4_x2016_se,pipeline,NA,0.0616,NA,0.06160606873804404,1,NA,NA,NA
+coppock_green_porter_2022,ta1_m1_any_est,Table A.1,Table A.1 cell m1_any_est,pipeline,47.14504548673529,47.15,1,47.14504548673529,1,NA,NA,NA
+coppock_green_porter_2022,ta1_m1_any_se,Table A.1,Table A.1 cell m1_any_se,pipeline,56.74410432699257,56.74,1,56.74410432699257,1,NA,NA,NA
+coppock_green_porter_2022,ta1_m1_int_est,Table A.1,Table A.1 cell m1_int_est,pipeline,NA,-72.16,NA,-72.1611374407583,1,NA,NA,NA
+coppock_green_porter_2022,ta1_m1_int_se,Table A.1,Table A.1 cell m1_int_se,pipeline,NA,37.75,NA,37.746454905090765,1,NA,NA,NA
+coppock_green_porter_2022,ta1_m1_nclust,Table A.1,Table A.1 cell m1_nclust,pipeline,154,154,1,154,1,NA,NA,NA
+coppock_green_porter_2022,ta1_m1_nobs,Table A.1,Table A.1 cell m1_nobs,pipeline,857,857,1,857,1,NA,NA,NA
+coppock_green_porter_2022,ta1_m1_r2,Table A.1,Table A.1 cell m1_r2,pipeline,NA,0.00,NA,0.00296405567796542,1,NA,NA,NA
+coppock_green_porter_2022,ta1_m2_any_est,Table A.1,Table A.1 cell m2_any_est,pipeline,6.537417274466778,6.54,1,6.537417274466778,1,NA,NA,NA
+coppock_green_porter_2022,ta1_m2_any_se,Table A.1,Table A.1 cell m2_any_se,pipeline,18.69691935822568,18.70,1,18.69691935822568,1,NA,NA,NA
+coppock_green_porter_2022,ta1_m2_int_est,Table A.1,Table A.1 cell m2_int_est,pipeline,NA,88.28,NA,88.2823654307877,1,NA,NA,NA
+coppock_green_porter_2022,ta1_m2_int_se,Table A.1,Table A.1 cell m2_int_se,pipeline,NA,17.70,NA,17.701542157245612,1,NA,NA,NA
+coppock_green_porter_2022,ta1_m2_m2012_est,Table A.1,Table A.1 cell m2_m2012_est,pipeline,NA,33.90,NA,33.90085657745437,1,NA,NA,NA
+coppock_green_porter_2022,ta1_m2_m2012_se,Table A.1,Table A.1 cell m2_m2012_se,pipeline,NA,17.93,NA,17.925640372766143,1,NA,NA,NA
+coppock_green_porter_2022,ta1_m2_m2014_est,Table A.1,Table A.1 cell m2_m2014_est,pipeline,NA,10.77,NA,10.765701337657005,1,NA,NA,NA
+coppock_green_porter_2022,ta1_m2_m2014_se,Table A.1,Table A.1 cell m2_m2014_se,pipeline,NA,20.48,NA,20.481467739691073,1,NA,NA,NA
+coppock_green_porter_2022,ta1_m2_m2016_est,Table A.1,Table A.1 cell m2_m2016_est,pipeline,NA,-66.23,NA,-66.23274053506735,1,NA,NA,NA
+coppock_green_porter_2022,ta1_m2_m2016_se,Table A.1,Table A.1 cell m2_m2016_se,pipeline,NA,70.20,NA,70.1974117208774,1,NA,NA,NA
+coppock_green_porter_2022,ta1_m2_nclust,Table A.1,Table A.1 cell m2_nclust,pipeline,154,154,1,154,1,NA,NA,NA
+coppock_green_porter_2022,ta1_m2_nobs,Table A.1,Table A.1 cell m2_nobs,pipeline,857,857,1,857,1,NA,NA,NA
+coppock_green_porter_2022,ta1_m2_r2,Table A.1,Table A.1 cell m2_r2,pipeline,NA,0.86,NA,0.8550490149820257,1,NA,NA,NA
+coppock_green_porter_2022,ta1_m2_x2012_est,Table A.1,Table A.1 cell m2_x2012_est,pipeline,NA,0.03,NA,0.02561424561963636,1,NA,NA,NA
+coppock_green_porter_2022,ta1_m2_x2012_se,Table A.1,Table A.1 cell m2_x2012_se,pipeline,NA,0.05,NA,0.05485937956226283,1,NA,NA,NA
+coppock_green_porter_2022,ta1_m2_x2014_est,Table A.1,Table A.1 cell m2_x2014_est,pipeline,NA,0.07,NA,0.06673658067734319,1,NA,NA,NA
+coppock_green_porter_2022,ta1_m2_x2014_se,Table A.1,Table A.1 cell m2_x2014_se,pipeline,NA,0.04,NA,0.03910459198091881,1,NA,NA,NA
+coppock_green_porter_2022,ta1_m2_x2016_est,Table A.1,Table A.1 cell m2_x2016_est,pipeline,NA,0.73,NA,0.7329485818060855,1,NA,NA,NA
+coppock_green_porter_2022,ta1_m2_x2016_se,Table A.1,Table A.1 cell m2_x2016_se,pipeline,NA,0.04,NA,0.03971945690850367,1,NA,NA,NA
+coppock_green_porter_2022,ta1_m3_int_est,Table A.1,Table A.1 cell m3_int_est,pipeline,NA,-72.16,NA,-72.16113744075834,1,NA,NA,NA
+coppock_green_porter_2022,ta1_m3_int_se,Table A.1,Table A.1 cell m3_int_se,pipeline,NA,37.75,NA,37.7464549050908,1,NA,NA,NA
+coppock_green_porter_2022,ta1_m3_nclust,Table A.1,Table A.1 cell m3_nclust,pipeline,154,154,1,154,1,NA,NA,NA
+coppock_green_porter_2022,ta1_m3_nobs,Table A.1,Table A.1 cell m3_nobs,pipeline,857,857,1,857,1,NA,NA,NA
+coppock_green_porter_2022,ta1_m3_r2,Table A.1,Table A.1 cell m3_r2,pipeline,NA,0.01,NA,0.00535076791495769,1,NA,NA,NA
+coppock_green_porter_2022,ta1_m3_tv1_est,Table A.1,Table A.1 cell m3_tv1_est,pipeline,18.066542846163777,18.07,1,18.066542846163777,1,NA,NA,NA
+coppock_green_porter_2022,ta1_m3_tv1_se,Table A.1,Table A.1 cell m3_tv1_se,pipeline,53.36957704512563,53.37,1,53.36957704512563,1,NA,NA,NA
+coppock_green_porter_2022,ta1_m3_tv2_est,Table A.1,Table A.1 cell m3_tv2_est,pipeline,77.45221725296497,77.45,1,77.45221725296497,1,NA,NA,NA
+coppock_green_porter_2022,ta1_m3_tv2_se,Table A.1,Table A.1 cell m3_tv2_se,pipeline,84.914914470095,84.91,1,84.914914470095,1,NA,NA,NA
+coppock_green_porter_2022,ta1_m4_int_est,Table A.1,Table A.1 cell m4_int_est,pipeline,NA,89.62,NA,89.62233220715076,1,NA,NA,NA
+coppock_green_porter_2022,ta1_m4_int_se,Table A.1,Table A.1 cell m4_int_se,pipeline,NA,17.51,NA,17.50940958741884,1,NA,NA,NA
+coppock_green_porter_2022,ta1_m4_m2012_est,Table A.1,Table A.1 cell m4_m2012_est,pipeline,NA,29.43,NA,29.43146612923162,1,NA,NA,NA
+coppock_green_porter_2022,ta1_m4_m2012_se,Table A.1,Table A.1 cell m4_m2012_se,pipeline,NA,18.37,NA,18.36868483331929,1,NA,NA,NA
+coppock_green_porter_2022,ta1_m4_m2014_est,Table A.1,Table A.1 cell m4_m2014_est,pipeline,NA,15.15,NA,15.15327942993692,1,NA,NA,NA
+coppock_green_porter_2022,ta1_m4_m2014_se,Table A.1,Table A.1 cell m4_m2014_se,pipeline,NA,20.69,NA,20.692148413085153,1,NA,NA,NA
+coppock_green_porter_2022,ta1_m4_m2016_est,Table A.1,Table A.1 cell m4_m2016_est,pipeline,NA,-60.47,NA,-60.47043171157949,1,NA,NA,NA
+coppock_green_porter_2022,ta1_m4_m2016_se,Table A.1,Table A.1 cell m4_m2016_se,pipeline,NA,65.58,NA,65.57817505119627,1,NA,NA,NA
+coppock_green_porter_2022,ta1_m4_nclust,Table A.1,Table A.1 cell m4_nclust,pipeline,154,154,1,154,1,NA,NA,NA
+coppock_green_porter_2022,ta1_m4_nobs,Table A.1,Table A.1 cell m4_nobs,pipeline,857,857,1,857,1,NA,NA,NA
+coppock_green_porter_2022,ta1_m4_r2,Table A.1,Table A.1 cell m4_r2,pipeline,NA,0.86,NA,0.8561524079671016,1,NA,NA,NA
+coppock_green_porter_2022,ta1_m4_tv1_est,Table A.1,Table A.1 cell m4_tv1_est,pipeline,-14.522192596932932,-14.52,1,-14.522192596932932,1,NA,NA,NA
+coppock_green_porter_2022,ta1_m4_tv1_se,Table A.1,Table A.1 cell m4_tv1_se,pipeline,21.94449045561022,21.94,1,21.94449045561022,1,NA,NA,NA
+coppock_green_porter_2022,ta1_m4_tv2_est,Table A.1,Table A.1 cell m4_tv2_est,pipeline,26.70337066473266,26.70,1,26.70337066473266,1,NA,NA,NA
+coppock_green_porter_2022,ta1_m4_tv2_se,Table A.1,Table A.1 cell m4_tv2_se,pipeline,22.81222828610203,22.81,1,22.81222828610203,1,NA,NA,NA
+coppock_green_porter_2022,ta1_m4_x2012_est,Table A.1,Table A.1 cell m4_x2012_est,pipeline,NA,0.02,NA,0.02180547792195974,1,NA,NA,NA
+coppock_green_porter_2022,ta1_m4_x2012_se,Table A.1,Table A.1 cell m4_x2012_se,pipeline,NA,0.06,NA,0.05591916995284426,1,NA,NA,NA
+coppock_green_porter_2022,ta1_m4_x2014_est,Table A.1,Table A.1 cell m4_x2014_est,pipeline,NA,0.07,NA,0.06515851443584238,1,NA,NA,NA
+coppock_green_porter_2022,ta1_m4_x2014_se,Table A.1,Table A.1 cell m4_x2014_se,pipeline,NA,0.04,NA,0.03864357527608896,1,NA,NA,NA
+coppock_green_porter_2022,ta1_m4_x2016_est,Table A.1,Table A.1 cell m4_x2016_est,pipeline,NA,0.73,NA,0.7344357593070239,1,NA,NA,NA
+coppock_green_porter_2022,ta1_m4_x2016_se,Table A.1,Table A.1 cell m4_x2016_se,pipeline,NA,0.04,NA,0.039361695761248,1,NA,NA,NA
+coppock_green_porter_2022,ta2_m1_any_est,Table A.2,Table A.2 cell m1_any_est,pipeline,-23.591594487116556,-23.59,1,-23.591594487116556,1,NA,NA,NA
+coppock_green_porter_2022,ta2_m1_any_se,Table A.2,Table A.2 cell m1_any_se,pipeline,103.35115006129978,103.35,1,103.35115006129978,1,NA,NA,NA
+coppock_green_porter_2022,ta2_m1_int_est,Table A.2,Table A.2 cell m1_int_est,pipeline,NA,1348.33,NA,1348.3341232227483,1,NA,NA,NA
+coppock_green_porter_2022,ta2_m1_int_se,Table A.2,Table A.2 cell m1_int_se,pipeline,NA,69.36,NA,69.35703033405497,1,NA,NA,NA
+coppock_green_porter_2022,ta2_m1_nclust,Table A.2,Table A.2 cell m1_nclust,pipeline,NA,154,NA,154,1,NA,NA,NA
+coppock_green_porter_2022,ta2_m1_nobs,Table A.2,Table A.2 cell m1_nobs,pipeline,857,857,1,857,1,NA,NA,NA
+coppock_green_porter_2022,ta2_m1_r2,Table A.2,Table A.2 cell m1_r2,pipeline,NA,0.00,NA,1.4418493929069243e-4,1,NA,NA,NA
+coppock_green_porter_2022,ta2_m2_any_est,Table A.2,Table A.2 cell m2_any_est,pipeline,10.186389960237149,10.19,1,10.186389960237149,1,NA,NA,NA
+coppock_green_porter_2022,ta2_m2_any_se,Table A.2,Table A.2 cell m2_any_se,pipeline,23.67650930379425,23.68,1,23.67650930379425,1,NA,NA,NA
+coppock_green_porter_2022,ta2_m2_int_est,Table A.2,Table A.2 cell m2_int_est,pipeline,NA,42.55,NA,42.550778798918856,1,NA,NA,NA
+coppock_green_porter_2022,ta2_m2_int_se,Table A.2,Table A.2 cell m2_int_se,pipeline,NA,48.37,NA,48.37354327770107,1,NA,NA,NA
+coppock_green_porter_2022,ta2_m2_m2012_est,Table A.2,Table A.2 cell m2_m2012_est,pipeline,NA,-66.11,NA,-66.11410331552163,1,NA,NA,NA
+coppock_green_porter_2022,ta2_m2_m2012_se,Table A.2,Table A.2 cell m2_m2012_se,pipeline,NA,49.82,NA,49.820541435511906,1,NA,NA,NA
+coppock_green_porter_2022,ta2_m2_m2014_est,Table A.2,Table A.2 cell m2_m2014_est,pipeline,NA,-8.21,NA,-8.213650883533408,1,NA,NA,NA
+coppock_green_porter_2022,ta2_m2_m2014_se,Table A.2,Table A.2 cell m2_m2014_se,pipeline,NA,36.72,NA,36.723072868190215,1,NA,NA,NA
+coppock_green_porter_2022,ta2_m2_m2016_est,Table A.2,Table A.2 cell m2_m2016_est,pipeline,NA,858.20,NA,858.1963707085789,1,NA,NA,NA
+coppock_green_porter_2022,ta2_m2_m2016_se,Table A.2,Table A.2 cell m2_m2016_se,pipeline,NA,124.46,NA,124.45820769949566,1,NA,NA,NA
+coppock_green_porter_2022,ta2_m2_nclust,Table A.2,Table A.2 cell m2_nclust,pipeline,NA,154,NA,154,1,NA,NA,NA
+coppock_green_porter_2022,ta2_m2_nobs,Table A.2,Table A.2 cell m2_nobs,pipeline,857,857,1,857,1,NA,NA,NA
+coppock_green_porter_2022,ta2_m2_r2,Table A.2,Table A.2 cell m2_r2,pipeline,NA,0.91,NA,0.9060310213863484,1,NA,NA,NA
+coppock_green_porter_2022,ta2_m2_x2012_est,Table A.2,Table A.2 cell m2_x2012_est,pipeline,NA,-0.00,NA,-0.0046186689251092,1,NA,NA,NA
+coppock_green_porter_2022,ta2_m2_x2012_se,Table A.2,Table A.2 cell m2_x2012_se,pipeline,NA,0.04,NA,0.03537227320002428,1,NA,NA,NA
+coppock_green_porter_2022,ta2_m2_x2014_est,Table A.2,Table A.2 cell m2_x2014_est,pipeline,NA,0.02,NA,0.0198285061312846,1,NA,NA,NA
+coppock_green_porter_2022,ta2_m2_x2014_se,Table A.2,Table A.2 cell m2_x2014_se,pipeline,NA,0.02,NA,0.02437197410273155,1,NA,NA,NA
+coppock_green_porter_2022,ta2_m2_x2016_est,Table A.2,Table A.2 cell m2_x2016_est,pipeline,NA,0.87,NA,0.8711731484738563,1,NA,NA,NA
+coppock_green_porter_2022,ta2_m2_x2016_se,Table A.2,Table A.2 cell m2_x2016_se,pipeline,NA,0.02,NA,0.02096986573047609,1,NA,NA,NA
+coppock_green_porter_2022,ta2_m3_int_est,Table A.2,Table A.2 cell m3_int_est,pipeline,NA,1348.33,NA,1348.3341232227483,1,NA,NA,NA
+coppock_green_porter_2022,ta2_m3_int_se,Table A.2,Table A.2 cell m3_int_se,pipeline,NA,69.36,NA,69.35703033405503,1,NA,NA,NA
+coppock_green_porter_2022,ta2_m3_nclust,Table A.2,Table A.2 cell m3_nclust,pipeline,NA,154,NA,154,1,NA,NA,NA
+coppock_green_porter_2022,ta2_m3_nobs,Table A.2,Table A.2 cell m3_nobs,pipeline,857,857,1,857,1,NA,NA,NA
+coppock_green_porter_2022,ta2_m3_r2,Table A.2,Table A.2 cell m3_r2,pipeline,NA,0.00,NA,0.00477841727708161,1,NA,NA,NA
+coppock_green_porter_2022,ta2_m3_tv1_est,Table A.2,Table A.2 cell m3_tv1_est,pipeline,-115.5233124119383,-115.52,1,-115.5233124119383,1,NA,NA,NA
+coppock_green_porter_2022,ta2_m3_tv1_se,Table A.2,Table A.2 cell m3_tv1_se,pipeline,140.9333352820469,140.93,1,140.9333352820469,1,NA,NA,NA
+coppock_green_porter_2022,ta2_m3_tv2_est,Table A.2,Table A.2 cell m3_tv2_est,pipeline,72.22456222326072,72.22,1,72.22456222326072,1,NA,NA,NA
+coppock_green_porter_2022,ta2_m3_tv2_se,Table A.2,Table A.2 cell m3_tv2_se,pipeline,112.05587295378326,112.06,1,112.05587295378326,1,NA,NA,NA
+coppock_green_porter_2022,ta2_m4_int_est,Table A.2,Table A.2 cell m4_int_est,pipeline,NA,41.89,NA,41.89024322425242,1,NA,NA,NA
+coppock_green_porter_2022,ta2_m4_int_se,Table A.2,Table A.2 cell m4_int_se,pipeline,NA,47.81,NA,47.80857340484046,1,NA,NA,NA
+coppock_green_porter_2022,ta2_m4_m2012_est,Table A.2,Table A.2 cell m4_m2012_est,pipeline,NA,-65.34,NA,-65.34446918447024,1,NA,NA,NA
+coppock_green_porter_2022,ta2_m4_m2012_se,Table A.2,Table A.2 cell m4_m2012_se,pipeline,NA,48.82,NA,48.82359245532777,1,NA,NA,NA
+coppock_green_porter_2022,ta2_m4_m2014_est,Table A.2,Table A.2 cell m4_m2014_est,pipeline,NA,-9.20,NA,-9.197284926964096,1,NA,NA,NA
+coppock_green_porter_2022,ta2_m4_m2014_se,Table A.2,Table A.2 cell m4_m2014_se,pipeline,NA,36.16,NA,36.15671155944108,1,NA,NA,NA
+coppock_green_porter_2022,ta2_m4_m2016_est,Table A.2,Table A.2 cell m4_m2016_est,pipeline,NA,857.18,NA,857.1803012536847,1,NA,NA,NA
+coppock_green_porter_2022,ta2_m4_m2016_se,Table A.2,Table A.2 cell m4_m2016_se,pipeline,NA,123.83,NA,123.8339333603292,1,NA,NA,NA
+coppock_green_porter_2022,ta2_m4_nclust,Table A.2,Table A.2 cell m4_nclust,pipeline,NA,154,NA,154,1,NA,NA,NA
+coppock_green_porter_2022,ta2_m4_nobs,Table A.2,Table A.2 cell m4_nobs,pipeline,857,857,1,857,1,NA,NA,NA
+coppock_green_porter_2022,ta2_m4_r2,Table A.2,Table A.2 cell m4_r2,pipeline,NA,0.91,NA,0.9060453034328192,1,NA,NA,NA
+coppock_green_porter_2022,ta2_m4_tv1_est,Table A.2,Table A.2 cell m4_tv1_est,pipeline,15.632883176789813,15.63,1,15.632883176789813,1,NA,NA,NA
+coppock_green_porter_2022,ta2_m4_tv1_se,Table A.2,Table A.2 cell m4_tv1_se,pipeline,29.013936367844305,29.01,1,29.013936367844305,1,NA,NA,NA
+coppock_green_porter_2022,ta2_m4_tv2_est,Table A.2,Table A.2 cell m4_tv2_est,pipeline,4.978948376139224,4.98,1,4.978948376139224,1,NA,NA,NA
+coppock_green_porter_2022,ta2_m4_tv2_se,Table A.2,Table A.2 cell m4_tv2_se,pipeline,28.28167314961479,28.28,1,28.28167314961479,1,NA,NA,NA
+coppock_green_porter_2022,ta2_m4_x2012_est,Table A.2,Table A.2 cell m4_x2012_est,pipeline,NA,-0.00,NA,-0.00490926461099961,1,NA,NA,NA
+coppock_green_porter_2022,ta2_m4_x2012_se,Table A.2,Table A.2 cell m4_x2012_se,pipeline,NA,0.04,NA,0.03568486692614172,1,NA,NA,NA
+coppock_green_porter_2022,ta2_m4_x2014_est,Table A.2,Table A.2 cell m4_x2014_est,pipeline,NA,0.02,NA,0.01986345759708549,1,NA,NA,NA
+coppock_green_porter_2022,ta2_m4_x2014_se,Table A.2,Table A.2 cell m4_x2014_se,pipeline,NA,0.02,NA,0.02436426749612527,1,NA,NA,NA
+coppock_green_porter_2022,ta2_m4_x2016_est,Table A.2,Table A.2 cell m4_x2016_est,pipeline,NA,0.87,NA,0.871523026111797,1,NA,NA,NA
+coppock_green_porter_2022,ta2_m4_x2016_se,Table A.2,Table A.2 cell m4_x2016_se,pipeline,NA,0.02,NA,0.02112775875481496,1,NA,NA,NA
+coppock_green_porter_2022,tb3_m1_any_est,Table B.3,Table B.3 cell m1_any_est,pipeline,0.00424102545744664,51.94,0,0.00424102545744664,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+coppock_green_porter_2022,tb3_m1_any_se,Table B.3,Table B.3 cell m1_any_se,pipeline,0.02171048858825918,55.15,0,0.02171048858825918,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+coppock_green_porter_2022,tb3_m1_int_est,Table B.3,Table B.3 cell m1_int_est,pipeline,NA,-126.10,NA,0.4805410733673358,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+coppock_green_porter_2022,tb3_m1_int_se,Table B.3,Table B.3 cell m1_int_se,pipeline,NA,64.62,NA,0.02284753119522624,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+coppock_green_porter_2022,tb3_m1_nclust,Table B.3,Table B.3 cell m1_nclust,pipeline,NA,154,NA,154,1,NA,NA,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+coppock_green_porter_2022,tb3_m1_nobs,Table B.3,Table B.3 cell m1_nobs,pipeline,NA,857,NA,853,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+coppock_green_porter_2022,tb3_m1_r2,Table B.3,Table B.3 cell m1_r2,pipeline,NA,0.06,NA,0.0420078591048475,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+coppock_green_porter_2022,tb3_m2_any_est,Table B.3,Table B.3 cell m2_any_est,pipeline,-0.00179900361535011,3.62,0,-0.00179900361535011,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+coppock_green_porter_2022,tb3_m2_any_se,Table B.3,Table B.3 cell m2_any_se,pipeline,0.00882331010534093,18.95,0,0.00882331010534093,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+coppock_green_porter_2022,tb3_m2_int_est,Table B.3,Table B.3 cell m2_int_est,pipeline,NA,62.96,NA,0.0082692585442524,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+coppock_green_porter_2022,tb3_m2_int_se,Table B.3,Table B.3 cell m2_int_se,pipeline,NA,19.54,NA,0.01228517463294699,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+coppock_green_porter_2022,tb3_m2_m2012_est,Table B.3,Table B.3 cell m2_m2012_est,pipeline,NA,30.59,NA,5.469558672272175,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+coppock_green_porter_2022,tb3_m2_m2012_se,Table B.3,Table B.3 cell m2_m2012_se,pipeline,NA,19.24,NA,2.990784419163976,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+coppock_green_porter_2022,tb3_m2_m2014_est,Table B.3,Table B.3 cell m2_m2014_est,pipeline,NA,10.24,NA,12.801581849819792,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+coppock_green_porter_2022,tb3_m2_m2014_se,Table B.3,Table B.3 cell m2_m2014_se,pipeline,NA,18.08,NA,5.740548037436434,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+coppock_green_porter_2022,tb3_m2_m2016_est,Table B.3,Table B.3 cell m2_m2016_est,pipeline,NA,-76.80,NA,85.5648171402089,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+coppock_green_porter_2022,tb3_m2_m2016_se,Table B.3,Table B.3 cell m2_m2016_se,pipeline,NA,68.68,NA,6.470946535628647,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+coppock_green_porter_2022,tb3_m2_nclust,Table B.3,Table B.3 cell m2_nclust,pipeline,NA,154,NA,154,1,NA,NA,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+coppock_green_porter_2022,tb3_m2_nobs,Table B.3,Table B.3 cell m2_nobs,pipeline,NA,857,NA,853,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+coppock_green_porter_2022,tb3_m2_r2,Table B.3,Table B.3 cell m2_r2,pipeline,NA,0.86,NA,0.8378296221381131,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+coppock_green_porter_2022,tb3_m2_x2012_est,Table B.3,Table B.3 cell m2_x2012_est,pipeline,NA,0.03,NA,0.05484953136094138,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+coppock_green_porter_2022,tb3_m2_x2012_se,Table B.3,Table B.3 cell m2_x2012_se,pipeline,NA,0.05,NA,0.03005662952592486,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+coppock_green_porter_2022,tb3_m2_x2014_est,Table B.3,Table B.3 cell m2_x2014_est,pipeline,NA,0.05,NA,0.12871649356720538,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+coppock_green_porter_2022,tb3_m2_x2014_se,Table B.3,Table B.3 cell m2_x2014_se,pipeline,NA,0.04,NA,0.0577099386274003,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+coppock_green_porter_2022,tb3_m2_x2016_est,Table B.3,Table B.3 cell m2_x2016_est,pipeline,NA,0.74,NA,0.860576131168245,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+coppock_green_porter_2022,tb3_m2_x2016_se,Table B.3,Table B.3 cell m2_x2016_se,pipeline,NA,0.04,NA,0.06504962510864067,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+coppock_green_porter_2022,tb3_m3_int_est,Table B.3,Table B.3 cell m3_int_est,pipeline,NA,-127.86,NA,0.47885921217354266,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+coppock_green_porter_2022,tb3_m3_int_se,Table B.3,Table B.3 cell m3_int_se,pipeline,NA,64.25,NA,0.02279299927612105,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+coppock_green_porter_2022,tb3_m3_nclust,Table B.3,Table B.3 cell m3_nclust,pipeline,NA,154,NA,154,1,NA,NA,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+coppock_green_porter_2022,tb3_m3_nobs,Table B.3,Table B.3 cell m3_nobs,pipeline,NA,857,NA,853,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+coppock_green_porter_2022,tb3_m3_r2,Table B.3,Table B.3 cell m3_r2,pipeline,NA,0.06,NA,0.04867558784031078,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+coppock_green_porter_2022,tb3_m3_tv1_est,Table B.3,Table B.3 cell m3_tv1_est,pipeline,-0.01540767189425262,31.94,0,-0.01540767189425262,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+coppock_green_porter_2022,tb3_m3_tv1_se,Table B.3,Table B.3 cell m3_tv1_se,pipeline,0.02444246906606207,53.25,0,0.02444246906606207,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+coppock_green_porter_2022,tb3_m3_tv2_est,Table B.3,Table B.3 cell m3_tv2_est,pipeline,0.02350049426000227,71.72,0,0.02350049426000227,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+coppock_green_porter_2022,tb3_m3_tv2_se,Table B.3,Table B.3 cell m3_tv2_se,pipeline,0.0272377971422544,80.34,0,0.0272377971422544,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+coppock_green_porter_2022,tb3_m4_int_est,Table B.3,Table B.3 cell m4_int_est,pipeline,NA,61.80,NA,0.00884342563628767,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+coppock_green_porter_2022,tb3_m4_int_se,Table B.3,Table B.3 cell m4_int_se,pipeline,NA,19.75,NA,0.0126877551985673,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+coppock_green_porter_2022,tb3_m4_m2012_est,Table B.3,Table B.3 cell m4_m2012_est,pipeline,NA,26.69,NA,5.42543416337572,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+coppock_green_porter_2022,tb3_m4_m2012_se,Table B.3,Table B.3 cell m4_m2012_se,pipeline,NA,19.45,NA,3.0439819563941737,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+coppock_green_porter_2022,tb3_m4_m2014_est,Table B.3,Table B.3 cell m4_m2014_est,pipeline,NA,15.22,NA,12.684141834843343,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+coppock_green_porter_2022,tb3_m4_m2014_se,Table B.3,Table B.3 cell m4_m2014_se,pipeline,NA,18.50,NA,5.919734646319222,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+coppock_green_porter_2022,tb3_m4_m2016_est,Table B.3,Table B.3 cell m4_m2016_est,pipeline,NA,-73.27,NA,85.5855929932182,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+coppock_green_porter_2022,tb3_m4_m2016_se,Table B.3,Table B.3 cell m4_m2016_se,pipeline,NA,64.05,NA,6.543554008972877,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+coppock_green_porter_2022,tb3_m4_nclust,Table B.3,Table B.3 cell m4_nclust,pipeline,NA,154,NA,154,1,NA,NA,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+coppock_green_porter_2022,tb3_m4_nobs,Table B.3,Table B.3 cell m4_nobs,pipeline,NA,857,NA,853,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+coppock_green_porter_2022,tb3_m4_r2,Table B.3,Table B.3 cell m4_r2,pipeline,NA,0.86,NA,0.837897282229852,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+coppock_green_porter_2022,tb3_m4_tv1_est,Table B.3,Table B.3 cell m4_tv1_est,pipeline,-0.00388299268233914,-21.37,0,-0.00388299268233914,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+coppock_green_porter_2022,tb3_m4_tv1_se,Table B.3,Table B.3 cell m4_tv1_se,pipeline,0.01156632152205259,22.62,0,0.01156632152205259,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+coppock_green_porter_2022,tb3_m4_tv2_est,Table B.3,Table B.3 cell m4_tv2_est,pipeline,1.0737788774877615e-4,26.63,0,1.0737788774877615e-4,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+coppock_green_porter_2022,tb3_m4_tv2_se,Table B.3,Table B.3 cell m4_tv2_se,pipeline,0.00994055780639916,22.79,0,0.00994055780639916,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+coppock_green_porter_2022,tb3_m4_x2012_est,Table B.3,Table B.3 cell m4_x2012_est,pipeline,NA,0.02,NA,0.05440910281981367,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+coppock_green_porter_2022,tb3_m4_x2012_se,Table B.3,Table B.3 cell m4_x2012_se,pipeline,NA,0.05,NA,0.03058942756309801,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+coppock_green_porter_2022,tb3_m4_x2014_est,Table B.3,Table B.3 cell m4_x2014_est,pipeline,NA,0.05,NA,0.12753178505407495,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+coppock_green_porter_2022,tb3_m4_x2014_se,Table B.3,Table B.3 cell m4_x2014_se,pipeline,NA,0.04,NA,0.05951742348206402,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+coppock_green_porter_2022,tb3_m4_x2016_est,Table B.3,Table B.3 cell m4_x2016_est,pipeline,NA,0.74,NA,0.8607826963057996,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+coppock_green_porter_2022,tb3_m4_x2016_se,Table B.3,Table B.3 cell m4_x2016_se,pipeline,NA,0.04,NA,0.06577769003139478,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+coppock_green_porter_2022,tb4_m1_any_est,Table B.4,Table B.4 cell m1_any_est,pipeline,51.94003608999533,51.94,1,51.94003608999533,1,NA,NA,NA
+coppock_green_porter_2022,tb4_m1_any_se,Table B.4,Table B.4 cell m1_any_se,pipeline,55.15257829619377,55.15,1,55.15257829619377,1,NA,NA,NA
+coppock_green_porter_2022,tb4_m1_int_est,Table B.4,Table B.4 cell m1_int_est,pipeline,NA,-126.10,NA,-126.10056153099748,1,NA,NA,NA
+coppock_green_porter_2022,tb4_m1_int_se,Table B.4,Table B.4 cell m1_int_se,pipeline,NA,64.62,NA,64.61943751560888,1,NA,NA,NA
+coppock_green_porter_2022,tb4_m1_nclust,Table B.4,Table B.4 cell m1_nclust,pipeline,NA,154,NA,154,1,NA,NA,NA
+coppock_green_porter_2022,tb4_m1_nobs,Table B.4,Table B.4 cell m1_nobs,pipeline,857,857,1,857,1,NA,NA,NA
+coppock_green_porter_2022,tb4_m1_r2,Table B.4,Table B.4 cell m1_r2,pipeline,NA,0.06,NA,0.05583973600294112,1,NA,NA,NA
+coppock_green_porter_2022,tb4_m2_any_est,Table B.4,Table B.4 cell m2_any_est,pipeline,3.620607291284251,3.62,1,3.620607291284251,1,NA,NA,NA
+coppock_green_porter_2022,tb4_m2_any_se,Table B.4,Table B.4 cell m2_any_se,pipeline,18.94736841476798,18.95,1,18.94736841476798,1,NA,NA,NA
+coppock_green_porter_2022,tb4_m2_int_est,Table B.4,Table B.4 cell m2_int_est,pipeline,NA,62.96,NA,62.95911048684904,1,NA,NA,NA
+coppock_green_porter_2022,tb4_m2_int_se,Table B.4,Table B.4 cell m2_int_se,pipeline,NA,19.54,NA,19.539970436477,1,NA,NA,NA
+coppock_green_porter_2022,tb4_m2_m2012_est,Table B.4,Table B.4 cell m2_m2012_est,pipeline,NA,30.59,NA,30.59493232744013,1,NA,NA,NA
+coppock_green_porter_2022,tb4_m2_m2012_se,Table B.4,Table B.4 cell m2_m2012_se,pipeline,NA,19.24,NA,19.24237874391625,1,NA,NA,NA
+coppock_green_porter_2022,tb4_m2_m2014_est,Table B.4,Table B.4 cell m2_m2014_est,pipeline,NA,10.24,NA,10.242131517744706,1,NA,NA,NA
+coppock_green_porter_2022,tb4_m2_m2014_se,Table B.4,Table B.4 cell m2_m2014_se,pipeline,NA,18.08,NA,18.08200430844908,1,NA,NA,NA
+coppock_green_porter_2022,tb4_m2_m2016_est,Table B.4,Table B.4 cell m2_m2016_est,pipeline,NA,-76.80,NA,-76.7963789727275,1,NA,NA,NA
+coppock_green_porter_2022,tb4_m2_m2016_se,Table B.4,Table B.4 cell m2_m2016_se,pipeline,NA,68.68,NA,68.68414808349735,1,NA,NA,NA
+coppock_green_porter_2022,tb4_m2_nclust,Table B.4,Table B.4 cell m2_nclust,pipeline,NA,154,NA,154,1,NA,NA,NA
+coppock_green_porter_2022,tb4_m2_nobs,Table B.4,Table B.4 cell m2_nobs,pipeline,857,857,1,857,1,NA,NA,NA
+coppock_green_porter_2022,tb4_m2_r2,Table B.4,Table B.4 cell m2_r2,pipeline,NA,0.86,NA,0.8569993188292102,1,NA,NA,NA
+coppock_green_porter_2022,tb4_m2_x2012_est,Table B.4,Table B.4 cell m2_x2012_est,pipeline,NA,0.03,NA,0.02509552998443238,1,NA,NA,NA
+coppock_green_porter_2022,tb4_m2_x2012_se,Table B.4,Table B.4 cell m2_x2012_se,pipeline,NA,0.05,NA,0.05373755508239445,1,NA,NA,NA
+coppock_green_porter_2022,tb4_m2_x2014_est,Table B.4,Table B.4 cell m2_x2014_est,pipeline,NA,0.05,NA,0.05233368659984412,1,NA,NA,NA
+coppock_green_porter_2022,tb4_m2_x2014_se,Table B.4,Table B.4 cell m2_x2014_se,pipeline,NA,0.04,NA,0.03855225381427617,1,NA,NA,NA
+coppock_green_porter_2022,tb4_m2_x2016_est,Table B.4,Table B.4 cell m2_x2016_est,pipeline,NA,0.74,NA,0.7413258455784884,1,NA,NA,NA
+coppock_green_porter_2022,tb4_m2_x2016_se,Table B.4,Table B.4 cell m2_x2016_se,pipeline,NA,0.04,NA,0.03948624693092065,1,NA,NA,NA
+coppock_green_porter_2022,tb4_m3_int_est,Table B.4,Table B.4 cell m3_int_est,pipeline,NA,-127.86,NA,-127.86061730376052,1,NA,NA,NA
+coppock_green_porter_2022,tb4_m3_int_se,Table B.4,Table B.4 cell m3_int_se,pipeline,NA,64.25,NA,64.25148422911361,1,NA,NA,NA
+coppock_green_porter_2022,tb4_m3_nclust,Table B.4,Table B.4 cell m3_nclust,pipeline,NA,154,NA,154,1,NA,NA,NA
+coppock_green_porter_2022,tb4_m3_nobs,Table B.4,Table B.4 cell m3_nobs,pipeline,857,857,1,857,1,NA,NA,NA
+coppock_green_porter_2022,tb4_m3_r2,Table B.4,Table B.4 cell m3_r2,pipeline,NA,0.06,NA,0.05684499747221216,1,NA,NA,NA
+coppock_green_porter_2022,tb4_m3_tv1_est,Table B.4,Table B.4 cell m3_tv1_est,pipeline,31.94489326114893,31.94,1,31.94489326114893,1,NA,NA,NA
+coppock_green_porter_2022,tb4_m3_tv1_se,Table B.4,Table B.4 cell m3_tv1_se,pipeline,53.246071085433805,53.25,1,53.246071085433805,1,NA,NA,NA
+coppock_green_porter_2022,tb4_m3_tv2_est,Table B.4,Table B.4 cell m3_tv2_est,pipeline,71.72008423122978,71.72,1,71.72008423122978,1,NA,NA,NA
+coppock_green_porter_2022,tb4_m3_tv2_se,Table B.4,Table B.4 cell m3_tv2_se,pipeline,80.34377407240518,80.34,1,80.34377407240518,1,NA,NA,NA
+coppock_green_porter_2022,tb4_m4_int_est,Table B.4,Table B.4 cell m4_int_est,pipeline,NA,61.80,NA,61.79964164400448,1,NA,NA,NA
+coppock_green_porter_2022,tb4_m4_int_se,Table B.4,Table B.4 cell m4_int_se,pipeline,NA,19.75,NA,19.74643110651501,1,NA,NA,NA
+coppock_green_porter_2022,tb4_m4_m2012_est,Table B.4,Table B.4 cell m4_m2012_est,pipeline,NA,26.69,NA,26.690404229080627,1,NA,NA,NA
+coppock_green_porter_2022,tb4_m4_m2012_se,Table B.4,Table B.4 cell m4_m2012_se,pipeline,NA,19.45,NA,19.453206928521585,1,NA,NA,NA
+coppock_green_porter_2022,tb4_m4_m2014_est,Table B.4,Table B.4 cell m4_m2014_est,pipeline,NA,15.22,NA,15.2155824507153,1,NA,NA,NA
+coppock_green_porter_2022,tb4_m4_m2014_se,Table B.4,Table B.4 cell m4_m2014_se,pipeline,NA,18.50,NA,18.499234562402965,1,NA,NA,NA
+coppock_green_porter_2022,tb4_m4_m2016_est,Table B.4,Table B.4 cell m4_m2016_est,pipeline,NA,-73.27,NA,-73.27030781181381,1,NA,NA,NA
+coppock_green_porter_2022,tb4_m4_m2016_se,Table B.4,Table B.4 cell m4_m2016_se,pipeline,NA,64.05,NA,64.04688539583883,1,NA,NA,NA
+coppock_green_porter_2022,tb4_m4_nclust,Table B.4,Table B.4 cell m4_nclust,pipeline,NA,154,NA,154,1,NA,NA,NA
+coppock_green_porter_2022,tb4_m4_nobs,Table B.4,Table B.4 cell m4_nobs,pipeline,857,857,1,857,1,NA,NA,NA
+coppock_green_porter_2022,tb4_m4_r2,Table B.4,Table B.4 cell m4_r2,pipeline,NA,0.86,NA,0.8584226072323794,1,NA,NA,NA
+coppock_green_porter_2022,tb4_m4_tv1_est,Table B.4,Table B.4 cell m4_tv1_est,pipeline,-21.367516584053423,-21.37,1,-21.367516584053423,1,NA,NA,NA
+coppock_green_porter_2022,tb4_m4_tv1_se,Table B.4,Table B.4 cell m4_tv1_se,pipeline,22.61607513395567,22.62,1,22.61607513395567,1,NA,NA,NA
+coppock_green_porter_2022,tb4_m4_tv2_est,Table B.4,Table B.4 cell m4_tv2_est,pipeline,26.631009953546908,26.63,1,26.631009953546908,1,NA,NA,NA
+coppock_green_porter_2022,tb4_m4_tv2_se,Table B.4,Table B.4 cell m4_tv2_se,pipeline,22.7883889158653,22.79,1,22.7883889158653,1,NA,NA,NA
+coppock_green_porter_2022,tb4_m4_x2012_est,Table B.4,Table B.4 cell m4_x2012_est,pipeline,NA,0.02,NA,0.02230057885404554,1,NA,NA,NA
+coppock_green_porter_2022,tb4_m4_x2012_se,Table B.4,Table B.4 cell m4_x2012_se,pipeline,NA,0.05,NA,0.05432454302875536,1,NA,NA,NA
+coppock_green_porter_2022,tb4_m4_x2014_est,Table B.4,Table B.4 cell m4_x2014_est,pipeline,NA,0.05,NA,0.04985656625378956,1,NA,NA,NA
+coppock_green_porter_2022,tb4_m4_x2014_se,Table B.4,Table B.4 cell m4_x2014_se,pipeline,NA,0.04,NA,0.03844963514553658,1,NA,NA,NA
+coppock_green_porter_2022,tb4_m4_x2016_est,Table B.4,Table B.4 cell m4_x2016_est,pipeline,NA,0.74,NA,0.7435726271263935,1,NA,NA,NA
+coppock_green_porter_2022,tb4_m4_x2016_se,Table B.4,Table B.4 cell m4_x2016_se,pipeline,NA,0.04,NA,0.03913650838016356,1,NA,NA,NA
+coppock_green_porter_2022,tb5_m1_any_est,Table B.5,Table B.5 cell m1_any_est,pipeline,-27.539633034278985,-27.54,1,-27.539633034278985,1,NA,NA,NA
+coppock_green_porter_2022,tb5_m1_any_se,Table B.5,Table B.5 cell m1_any_se,pipeline,95.65243499506208,95.65,1,95.65243499506208,1,NA,NA,NA
+coppock_green_porter_2022,tb5_m1_int_est,Table B.5,Table B.5 cell m1_int_est,pipeline,NA,1580.42,NA,1580.4176547152686,1,NA,NA,NA
+coppock_green_porter_2022,tb5_m1_int_se,Table B.5,Table B.5 cell m1_int_se,pipeline,NA,90.56,NA,90.55873996303526,1,NA,NA,NA
+coppock_green_porter_2022,tb5_m1_nclust,Table B.5,Table B.5 cell m1_nclust,pipeline,NA,154,NA,154,1,NA,NA,NA
+coppock_green_porter_2022,tb5_m1_nobs,Table B.5,Table B.5 cell m1_nobs,pipeline,857,857,1,857,1,NA,NA,NA
+coppock_green_porter_2022,tb5_m1_r2,Table B.5,Table B.5 cell m1_r2,pipeline,NA,0.08,NA,0.08453304992587651,1,NA,NA,NA
+coppock_green_porter_2022,tb5_m2_any_est,Table B.5,Table B.5 cell m2_any_est,pipeline,9.176570629363654,9.18,1,9.176570629363654,1,NA,NA,NA
+coppock_green_porter_2022,tb5_m2_any_se,Table B.5,Table B.5 cell m2_any_se,pipeline,23.163937034582144,23.16,1,23.163937034582144,1,NA,NA,NA
+coppock_green_porter_2022,tb5_m2_int_est,Table B.5,Table B.5 cell m2_int_est,pipeline,NA,45.07,NA,45.0733933193626,1,NA,NA,NA
+coppock_green_porter_2022,tb5_m2_int_se,Table B.5,Table B.5 cell m2_int_se,pipeline,NA,56.87,NA,56.86511234176836,1,NA,NA,NA
+coppock_green_porter_2022,tb5_m2_m2012_est,Table B.5,Table B.5 cell m2_m2012_est,pipeline,NA,-26.88,NA,-26.884513919632347,1,NA,NA,NA
+coppock_green_porter_2022,tb5_m2_m2012_se,Table B.5,Table B.5 cell m2_m2012_se,pipeline,NA,49.84,NA,49.83504082196698,1,NA,NA,NA
+coppock_green_porter_2022,tb5_m2_m2014_est,Table B.5,Table B.5 cell m2_m2014_est,pipeline,NA,-1.74,NA,-1.7367612290427523,1,NA,NA,NA
+coppock_green_porter_2022,tb5_m2_m2014_se,Table B.5,Table B.5 cell m2_m2014_se,pipeline,NA,41.36,NA,41.35865097677697,1,NA,NA,NA
+coppock_green_porter_2022,tb5_m2_m2016_est,Table B.5,Table B.5 cell m2_m2016_est,pipeline,NA,781.56,NA,781.5577257120697,1,NA,NA,NA
+coppock_green_porter_2022,tb5_m2_m2016_se,Table B.5,Table B.5 cell m2_m2016_se,pipeline,NA,137.19,NA,137.1946033684196,1,NA,NA,NA
+coppock_green_porter_2022,tb5_m2_nclust,Table B.5,Table B.5 cell m2_nclust,pipeline,NA,154,NA,154,1,NA,NA,NA
+coppock_green_porter_2022,tb5_m2_nobs,Table B.5,Table B.5 cell m2_nobs,pipeline,857,857,1,857,1,NA,NA,NA
+coppock_green_porter_2022,tb5_m2_r2,Table B.5,Table B.5 cell m2_r2,pipeline,NA,0.91,NA,0.9077302534850727,1,NA,NA,NA
+coppock_green_porter_2022,tb5_m2_x2012_est,Table B.5,Table B.5 cell m2_x2012_est,pipeline,NA,-0.00,NA,-0.0037667149714707,1,NA,NA,NA
+coppock_green_porter_2022,tb5_m2_x2012_se,Table B.5,Table B.5 cell m2_x2012_se,pipeline,NA,0.04,NA,0.03510921622963858,1,NA,NA,NA
+coppock_green_porter_2022,tb5_m2_x2014_est,Table B.5,Table B.5 cell m2_x2014_est,pipeline,NA,0.01,NA,0.00935631970559267,1,NA,NA,NA
+coppock_green_porter_2022,tb5_m2_x2014_se,Table B.5,Table B.5 cell m2_x2014_se,pipeline,NA,0.03,NA,0.0252133180728726,1,NA,NA,NA
+coppock_green_porter_2022,tb5_m2_x2016_est,Table B.5,Table B.5 cell m2_x2016_est,pipeline,NA,0.87,NA,0.8691585308790493,1,NA,NA,NA
+coppock_green_porter_2022,tb5_m2_x2016_se,Table B.5,Table B.5 cell m2_x2016_se,pipeline,NA,0.02,NA,0.02074097397537028,1,NA,NA,NA
+coppock_green_porter_2022,tb5_m3_int_est,Table B.5,Table B.5 cell m3_int_est,pipeline,NA,1568.81,NA,1568.8067194078494,1,NA,NA,NA
+coppock_green_porter_2022,tb5_m3_int_se,Table B.5,Table B.5 cell m3_int_se,pipeline,NA,91.60,NA,91.5977032682506,1,NA,NA,NA
+coppock_green_porter_2022,tb5_m3_nclust,Table B.5,Table B.5 cell m3_nclust,pipeline,NA,154,NA,154,1,NA,NA,NA
+coppock_green_porter_2022,tb5_m3_nobs,Table B.5,Table B.5 cell m3_nobs,pipeline,857,857,1,857,1,NA,NA,NA
+coppock_green_porter_2022,tb5_m3_r2,Table B.5,Table B.5 cell m3_r2,pipeline,NA,0.09,NA,0.09303173346643669,1,NA,NA,NA
+coppock_green_porter_2022,tb5_m3_tv1_est,Table B.5,Table B.5 cell m3_tv1_est,pipeline,-159.44585637169507,-159.45,1,-159.44585637169507,1,NA,NA,NA
+coppock_green_porter_2022,tb5_m3_tv1_se,Table B.5,Table B.5 cell m3_tv1_se,pipeline,142.8199242185158,142.82,1,142.8199242185158,1,NA,NA,NA
+coppock_green_porter_2022,tb5_m3_tv2_est,Table B.5,Table B.5 cell m3_tv2_est,pipeline,102.94762930116796,102.95,1,102.94762930116796,1,NA,NA,NA
+coppock_green_porter_2022,tb5_m3_tv2_se,Table B.5,Table B.5 cell m3_tv2_se,pipeline,90.25316399835982,90.25,1,90.25316399835982,1,NA,NA,NA
+coppock_green_porter_2022,tb5_m4_int_est,Table B.5,Table B.5 cell m4_int_est,pipeline,NA,45.31,NA,45.31109015915394,1,NA,NA,NA
+coppock_green_porter_2022,tb5_m4_int_se,Table B.5,Table B.5 cell m4_int_se,pipeline,NA,56.78,NA,56.77620611327,1,NA,NA,NA
+coppock_green_porter_2022,tb5_m4_m2012_est,Table B.5,Table B.5 cell m4_m2012_est,pipeline,NA,-27.40,NA,-27.401719027183667,1,NA,NA,NA
+coppock_green_porter_2022,tb5_m4_m2012_se,Table B.5,Table B.5 cell m4_m2012_se,pipeline,NA,49.19,NA,49.191684198219264,1,NA,NA,NA
+coppock_green_porter_2022,tb5_m4_m2014_est,Table B.5,Table B.5 cell m4_m2014_est,pipeline,NA,-0.66,NA,-0.6606189511232183,1,NA,NA,NA
+coppock_green_porter_2022,tb5_m4_m2014_se,Table B.5,Table B.5 cell m4_m2014_se,pipeline,NA,41.43,NA,41.425694742785105,1,NA,NA,NA
+coppock_green_porter_2022,tb5_m4_m2016_est,Table B.5,Table B.5 cell m4_m2016_est,pipeline,NA,781.60,NA,781.6035808723351,1,NA,NA,NA
+coppock_green_porter_2022,tb5_m4_m2016_se,Table B.5,Table B.5 cell m4_m2016_se,pipeline,NA,137.28,NA,137.28276714007924,1,NA,NA,NA
+coppock_green_porter_2022,tb5_m4_nclust,Table B.5,Table B.5 cell m4_nclust,pipeline,NA,154,NA,154,1,NA,NA,NA
+coppock_green_porter_2022,tb5_m4_nobs,Table B.5,Table B.5 cell m4_nobs,pipeline,857,857,1,857,1,NA,NA,NA
+coppock_green_porter_2022,tb5_m4_r2,Table B.5,Table B.5 cell m4_r2,pipeline,NA,0.91,NA,0.907744530562388,1,NA,NA,NA
+coppock_green_porter_2022,tb5_m4_tv1_est,Table B.5,Table B.5 cell m4_tv1_est,pipeline,3.500956430176096,3.50,1,3.500956430176096,1,NA,NA,NA
+coppock_green_porter_2022,tb5_m4_tv1_se,Table B.5,Table B.5 cell m4_tv1_se,pipeline,30.617428910821552,30.62,1,30.617428910821552,1,NA,NA,NA
+coppock_green_porter_2022,tb5_m4_tv2_est,Table B.5,Table B.5 cell m4_tv2_est,pipeline,14.439900124496443,14.44,1,14.439900124496443,1,NA,NA,NA
+coppock_green_porter_2022,tb5_m4_tv2_se,Table B.5,Table B.5 cell m4_tv2_se,pipeline,26.763512191064105,26.76,1,26.763512191064105,1,NA,NA,NA
+coppock_green_porter_2022,tb5_m4_x2012_est,Table B.5,Table B.5 cell m4_x2012_est,pipeline,NA,-0.00,NA,-0.00355961223507759,1,NA,NA,NA
+coppock_green_porter_2022,tb5_m4_x2012_se,Table B.5,Table B.5 cell m4_x2012_se,pipeline,NA,0.04,NA,0.03537065586278205,1,NA,NA,NA
+coppock_green_porter_2022,tb5_m4_x2014_est,Table B.5,Table B.5 cell m4_x2014_est,pipeline,NA,0.01,NA,0.00933314184676451,1,NA,NA,NA
+coppock_green_porter_2022,tb5_m4_x2014_se,Table B.5,Table B.5 cell m4_x2014_se,pipeline,NA,0.03,NA,0.02524258930075214,1,NA,NA,NA
+coppock_green_porter_2022,tb5_m4_x2016_est,Table B.5,Table B.5 cell m4_x2016_est,pipeline,NA,0.87,NA,0.8687621397422308,1,NA,NA,NA
+coppock_green_porter_2022,tb5_m4_x2016_se,Table B.5,Table B.5 cell m4_x2016_se,pipeline,NA,0.02,NA,0.02080551929003887,1,NA,NA,NA
+coppock_green_porter_2022,tc6_margin_dim_est,Table C.6,Table C.6 margin DIM est,pipeline,NA,-59.386,NA,-59.3856744068012,1,NA,environment,NA
+coppock_green_porter_2022,tc6_margin_dim_p01,Table C.6,Table C.6 margin DIM p01,pipeline,NA,0.575,NA,0.5750476184048949,1,NA,environment,NA
+coppock_green_porter_2022,tc6_margin_dim_p02,Table C.6,Table C.6 margin DIM p02,pipeline,NA,0.374,NA,0.3741290104662065,1,NA,environment,NA
+coppock_green_porter_2022,tc6_margin_dim_sd,Table C.6,Table C.6 margin DIM sd,pipeline,NA,433.178,NA,433.17804914351865,1,NA,environment,NA
+coppock_green_porter_2022,tc6_margin_dim_se,Table C.6,Table C.6 margin DIM se,pipeline,NA,84.907,NA,84.90738918159616,1,NA,environment,NA
+coppock_green_porter_2022,tc6_margin_ols_est,Table C.6,Table C.6 margin OLS est,pipeline,NA,-41.226,NA,-41.22556326166559,1,NA,environment,NA
+coppock_green_porter_2022,tc6_margin_ols_p01,Table C.6,Table C.6 margin OLS p01,pipeline,NA,0.467,NA,0.46723045605851593,1,NA,environment,NA
+coppock_green_porter_2022,tc6_margin_ols_p02,Table C.6,Table C.6 margin OLS p02,pipeline,NA,0.037,NA,0.03714683703081702,1,NA,environment,NA
+coppock_green_porter_2022,tc6_margin_ols_sd,Table C.6,Table C.6 margin OLS sd,pipeline,NA,433.178,NA,433.17804914351865,1,NA,environment,NA
+coppock_green_porter_2022,tc6_margin_ols_se,Table C.6,Table C.6 margin OLS se,pipeline,NA,25.443,NA,25.44264487032406,1,NA,environment,NA
+coppock_green_porter_2022,tc6_share_dim_est,Table C.6,Table C.6 share DIM est,pipeline,NA,-0.046,NA,-0.04605651463303306,1,NA,environment,NA
+coppock_green_porter_2022,tc6_share_dim_p01,Table C.6,Table C.6 share DIM p01,pipeline,NA,0.828,NA,0.8281433215779932,1,NA,environment,NA
+coppock_green_porter_2022,tc6_share_dim_p02,Table C.6,Table C.6 share DIM p02,pipeline,NA,0.663,NA,0.662899939658417,1,NA,environment,NA
+coppock_green_porter_2022,tc6_share_dim_sd,Table C.6,Table C.6 share DIM sd,pipeline,NA,0.165,NA,0.1645746137815807,1,NA,environment,NA
+coppock_green_porter_2022,tc6_share_dim_se,Table C.6,Table C.6 share DIM se,pipeline,NA,0.031,NA,0.03126043091996563,1,NA,environment,NA
+coppock_green_porter_2022,tc6_share_ols_est,Table C.6,Table C.6 share OLS est,pipeline,NA,-0.002,NA,-0.00229515791459295,1,NA,environment,NA
+coppock_green_porter_2022,tc6_share_ols_p01,Table C.6,Table C.6 share OLS p01,pipeline,NA,0.106,NA,0.1063207478953106,1,NA,environment,NA
+coppock_green_porter_2022,tc6_share_ols_p02,Table C.6,Table C.6 share OLS p02,pipeline,NA,0.004,NA,0.00352310895521738,1,NA,environment,NA
+coppock_green_porter_2022,tc6_share_ols_sd,Table C.6,Table C.6 share OLS sd,pipeline,NA,0.165,NA,0.1645746137815807,1,NA,environment,NA
+coppock_green_porter_2022,tc6_share_ols_se,Table C.6,Table C.6 share OLS se,pipeline,NA,0.011,NA,0.01136316110124855,1,NA,environment,NA
+coppock_green_porter_2022,tc6_total_dim_est,Table C.6,Table C.6 total DIM est,pipeline,NA,-187.748,NA,-187.74787463519905,1,NA,environment,NA
+coppock_green_porter_2022,tc6_total_dim_p01,Table C.6,Table C.6 total DIM p01,pipeline,NA,0.723,NA,0.7232533912387584,1,NA,environment,NA
+coppock_green_porter_2022,tc6_total_dim_p02,Table C.6,Table C.6 total DIM p02,pipeline,NA,0.477,NA,0.476723117124747,1,NA,environment,NA
+coppock_green_porter_2022,tc6_total_dim_sd,Table C.6,Table C.6 total DIM sd,pipeline,NA,982.813,NA,982.813030266344,1,NA,environment,NA
+coppock_green_porter_2022,tc6_total_dim_se,Table C.6,Table C.6 total DIM se,pipeline,NA,150.990,NA,150.98982860987078,1,NA,environment,NA
+coppock_green_porter_2022,tc6_total_ols_est,Table C.6,Table C.6 total OLS est,pipeline,NA,10.654,NA,10.653934800650587,1,NA,environment,NA
+coppock_green_porter_2022,tc6_total_ols_p01,Table C.6,Table C.6 total OLS p01,pipeline,NA,0.003,NA,0.00323174069823089,1,NA,environment,NA
+coppock_green_porter_2022,tc6_total_ols_p02,Table C.6,Table C.6 total OLS p02,pipeline,NA,0.000,NA,3.786681639530645e-9,1,NA,environment,NA
+coppock_green_porter_2022,tc6_total_ols_sd,Table C.6,Table C.6 total OLS sd,pipeline,NA,982.813,NA,982.813030266344,1,NA,environment,NA
+coppock_green_porter_2022,tc6_total_ols_se,Table C.6,Table C.6 total OLS se,pipeline,NA,32.177,NA,32.17699526161328,1,NA,environment,NA
+coppock_green_porter_2022,te7_m1_int_est,Table E.7,Table E.7 cell m1_int_est,pipeline,0.553059771850728,0.553,1,0.553059771850728,1,NA,NA,NA
+coppock_green_porter_2022,te7_m1_int_se,Table E.7,Table E.7 cell m1_int_se,pipeline,0.08309170382047601,0.083,1,0.08309170382047601,1,NA,NA,NA
+coppock_green_porter_2022,te7_m1_m2012_est,Table E.7,Table E.7 cell m1_m2012_est,pipeline,NA,-0.122,NA,-0.12214573799131705,1,NA,NA,NA
+coppock_green_porter_2022,te7_m1_m2012_se,Table E.7,Table E.7 cell m1_m2012_se,pipeline,NA,0.087,NA,0.08651887726112868,1,NA,NA,NA
+coppock_green_porter_2022,te7_m1_m2014_est,Table E.7,Table E.7 cell m1_m2014_est,pipeline,NA,0.096,NA,0.09628905872420555,1,NA,NA,NA
+coppock_green_porter_2022,te7_m1_m2014_se,Table E.7,Table E.7 cell m1_m2014_se,pipeline,NA,0.080,NA,0.08013355632457504,1,NA,NA,NA
+coppock_green_porter_2022,te7_m1_m2016_est,Table E.7,Table E.7 cell m1_m2016_est,pipeline,NA,0.083,NA,0.08280327415884213,1,NA,NA,NA
+coppock_green_porter_2022,te7_m1_m2016_se,Table E.7,Table E.7 cell m1_m2016_se,pipeline,NA,0.158,NA,0.15767731069849197,1,NA,NA,NA
+coppock_green_porter_2022,te7_m1_nclust,Table E.7,Table E.7 cell m1_nclust,pipeline,169,169,1,169,1,NA,NA,NA
+coppock_green_porter_2022,te7_m1_nobs,Table E.7,Table E.7 cell m1_nobs,pipeline,1096,1096,1,1096,1,NA,NA,NA
+coppock_green_porter_2022,te7_m1_r2,Table E.7,Table E.7 cell m1_r2,pipeline,0.0347554080253486,0.035,1,0.0347554080253486,1,NA,NA,NA
+coppock_green_porter_2022,te7_m1_x2012_est,Table E.7,Table E.7 cell m1_x2012_est,pipeline,NA,-0.000,NA,-1.42920267090872e-5,1,NA,NA,NA
+coppock_green_porter_2022,te7_m1_x2012_se,Table E.7,Table E.7 cell m1_x2012_se,pipeline,NA,0.000,NA,1.0138587623530237e-4,1,NA,NA,NA
+coppock_green_porter_2022,te7_m1_x2014_est,Table E.7,Table E.7 cell m1_x2014_est,pipeline,NA,-0.000,NA,-1.3940659660906484e-4,1,NA,NA,NA
+coppock_green_porter_2022,te7_m1_x2014_se,Table E.7,Table E.7 cell m1_x2014_se,pipeline,NA,0.000,NA,1.154259316881114e-4,1,NA,NA,NA
+coppock_green_porter_2022,te7_m1_x2016_est,Table E.7,Table E.7 cell m1_x2016_est,pipeline,NA,0.000,NA,1.26899794021942e-4,1,NA,NA,NA
+coppock_green_porter_2022,te7_m1_x2016_se,Table E.7,Table E.7 cell m1_x2016_se,pipeline,NA,0.000,NA,1.148981806457387e-4,1,NA,NA,NA
+coppock_green_porter_2022,tf10_m1_any_est,Table F.10,Table F.10 cell m1_any_est,pipeline,68.59196024679093,68.5920,1,68.59196024679093,1,NA,NA,NA
+coppock_green_porter_2022,tf10_m1_any_se,Table F.10,Table F.10 cell m1_any_se,pipeline,269.40973755205994,269.4097,1,269.40973755205994,1,NA,NA,NA
+coppock_green_porter_2022,tf10_m1_int_est,Table F.10,Table F.10 cell m1_int_est,pipeline,NA,-408.7512,NA,-408.75117993409447,1,NA,NA,NA
+coppock_green_porter_2022,tf10_m1_int_se,Table F.10,Table F.10 cell m1_int_se,pipeline,NA,183.9857,NA,183.9856511174464,1,NA,NA,NA
+coppock_green_porter_2022,tf10_m1_nobs,Table F.10,Table F.10 cell m1_nobs,pipeline,210,210,1,210,1,NA,NA,NA
+coppock_green_porter_2022,tf10_m1_r2,Table F.10,Table F.10 cell m1_r2,pipeline,NA,0.0003,NA,3.110883608931081e-4,1,NA,NA,NA
+coppock_green_porter_2022,tf10_m2_any_est,Table F.10,Table F.10 cell m2_any_est,pipeline,-77.26722783851457,-77.2672,1,-77.26722783851457,1,NA,NA,NA
+coppock_green_porter_2022,tf10_m2_any_se,Table F.10,Table F.10 cell m2_any_se,pipeline,156.34892143047512,156.3489,1,156.34892143047512,1,NA,NA,NA
+coppock_green_porter_2022,tf10_m2_int_est,Table F.10,Table F.10 cell m2_int_est,pipeline,NA,203.0807,NA,203.080730347222,1,NA,NA,NA
+coppock_green_porter_2022,tf10_m2_int_se,Table F.10,Table F.10 cell m2_int_se,pipeline,NA,136.3052,NA,136.30517374812646,1,NA,NA,NA
+coppock_green_porter_2022,tf10_m2_m2012_est,Table F.10,Table F.10 cell m2_m2012_est,pipeline,NA,91.8170,NA,91.8169902456866,1,NA,NA,NA
+coppock_green_porter_2022,tf10_m2_m2012_se,Table F.10,Table F.10 cell m2_m2012_se,pipeline,NA,136.4758,NA,136.47581498844275,1,NA,NA,NA
+coppock_green_porter_2022,tf10_m2_m2014_est,Table F.10,Table F.10 cell m2_m2014_est,pipeline,NA,-255.9467,NA,-255.94672073966703,1,NA,NA,NA
+coppock_green_porter_2022,tf10_m2_m2014_se,Table F.10,Table F.10 cell m2_m2014_se,pipeline,NA,113.4945,NA,113.49453122133885,1,NA,NA,NA
+coppock_green_porter_2022,tf10_m2_nobs,Table F.10,Table F.10 cell m2_nobs,pipeline,210,210,1,210,1,NA,NA,NA
+coppock_green_porter_2022,tf10_m2_r2,Table F.10,Table F.10 cell m2_r2,pipeline,NA,0.6543,NA,0.6542886338961373,1,NA,NA,NA
+coppock_green_porter_2022,tf10_m2_x2012_est,Table F.10,Table F.10 cell m2_x2012_est,pipeline,NA,-0.2590,NA,-0.25902955989102183,1,NA,NA,NA
+coppock_green_porter_2022,tf10_m2_x2012_se,Table F.10,Table F.10 cell m2_x2012_se,pipeline,NA,0.1175,NA,0.11754444771514276,1,NA,NA,NA
+coppock_green_porter_2022,tf10_m2_x2014_est,Table F.10,Table F.10 cell m2_x2014_est,pipeline,NA,0.1689,NA,0.1688845672219352,1,NA,NA,NA
+coppock_green_porter_2022,tf10_m2_x2014_se,Table F.10,Table F.10 cell m2_x2014_se,pipeline,NA,0.0567,NA,0.05667978535909879,1,NA,NA,NA
+coppock_green_porter_2022,tf10_m2_x2016_est,Table F.10,Table F.10 cell m2_x2016_est,pipeline,NA,0.5251,NA,0.5250891978225497,1,NA,NA,NA
+coppock_green_porter_2022,tf10_m2_x2016_se,Table F.10,Table F.10 cell m2_x2016_se,pipeline,NA,0.0550,NA,0.05498361074675939,1,NA,NA,NA
+coppock_green_porter_2022,tf10_m3_int_est,Table F.10,Table F.10 cell m3_int_est,pipeline,NA,-408.7512,NA,-408.7511799340945,1,NA,NA,NA
+coppock_green_porter_2022,tf10_m3_int_se,Table F.10,Table F.10 cell m3_int_se,pipeline,NA,183.9857,NA,183.98565111744645,1,NA,NA,NA
+coppock_green_porter_2022,tf10_m3_nobs,Table F.10,Table F.10 cell m3_nobs,pipeline,210,210,1,210,1,NA,NA,NA
+coppock_green_porter_2022,tf10_m3_r2,Table F.10,Table F.10 cell m3_r2,pipeline,NA,0.0008,NA,7.797642674514105e-4,1,NA,NA,NA
+coppock_green_porter_2022,tf10_m3_tv1_est,Table F.10,Table F.10 cell m3_tv1_est,pipeline,9.34382726443521,9.3438,1,9.34382726443521,1,NA,NA,NA
+coppock_green_porter_2022,tf10_m3_tv1_se,Table F.10,Table F.10 cell m3_tv1_se,pipeline,275.9061329158996,275.9061,1,275.9061329158996,1,NA,NA,NA
+coppock_green_porter_2022,tf10_m3_tv2_est,Table F.10,Table F.10 cell m3_tv2_est,pipeline,127.84009322914687,127.8401,1,127.84009322914687,1,NA,NA,NA
+coppock_green_porter_2022,tf10_m3_tv2_se,Table F.10,Table F.10 cell m3_tv2_se,pipeline,384.5197385131535,384.5197,1,384.5197385131535,1,NA,NA,NA
+coppock_green_porter_2022,tf10_m4_int_est,Table F.10,Table F.10 cell m4_int_est,pipeline,NA,201.2060,NA,201.20601158865384,1,NA,NA,NA
+coppock_green_porter_2022,tf10_m4_int_se,Table F.10,Table F.10 cell m4_int_se,pipeline,NA,136.3445,NA,136.3444766887427,1,NA,NA,NA
+coppock_green_porter_2022,tf10_m4_m2012_est,Table F.10,Table F.10 cell m4_m2012_est,pipeline,NA,112.0516,NA,112.05156975887532,1,NA,NA,NA
+coppock_green_porter_2022,tf10_m4_m2012_se,Table F.10,Table F.10 cell m4_m2012_se,pipeline,NA,139.7764,NA,139.77639454565124,1,NA,NA,NA
+coppock_green_porter_2022,tf10_m4_m2014_est,Table F.10,Table F.10 cell m4_m2014_est,pipeline,NA,-246.7978,NA,-246.79784802648,1,NA,NA,NA
+coppock_green_porter_2022,tf10_m4_m2014_se,Table F.10,Table F.10 cell m4_m2014_se,pipeline,NA,130.5084,NA,130.50835919840395,1,NA,NA,NA
+coppock_green_porter_2022,tf10_m4_nobs,Table F.10,Table F.10 cell m4_nobs,pipeline,210,210,1,210,1,NA,NA,NA
+coppock_green_porter_2022,tf10_m4_r2,Table F.10,Table F.10 cell m4_r2,pipeline,NA,0.6547,NA,0.6546688792000613,1,NA,NA,NA
+coppock_green_porter_2022,tf10_m4_tv1_est,Table F.10,Table F.10 cell m4_tv1_est,pipeline,-132.28417994945687,-132.2842,1,-132.28417994945687,1,NA,NA,NA
+coppock_green_porter_2022,tf10_m4_tv1_se,Table F.10,Table F.10 cell m4_tv1_se,pipeline,177.3082762231606,177.3083,1,177.3082762231606,1,NA,NA,NA
+coppock_green_porter_2022,tf10_m4_tv2_est,Table F.10,Table F.10 cell m4_tv2_est,pipeline,-23.55872275403127,-23.5587,1,-23.55872275403127,1,NA,NA,NA
+coppock_green_porter_2022,tf10_m4_tv2_se,Table F.10,Table F.10 cell m4_tv2_se,pipeline,211.41213868011167,211.4121,1,211.41213868011167,1,NA,NA,NA
+coppock_green_porter_2022,tf10_m4_x2012_est,Table F.10,Table F.10 cell m4_x2012_est,pipeline,NA,-0.2587,NA,-0.25874887316834416,1,NA,NA,NA
+coppock_green_porter_2022,tf10_m4_x2012_se,Table F.10,Table F.10 cell m4_x2012_se,pipeline,NA,0.1173,NA,0.11727420394507204,1,NA,NA,NA
+coppock_green_porter_2022,tf10_m4_x2014_est,Table F.10,Table F.10 cell m4_x2014_est,pipeline,NA,0.1703,NA,0.17034947014758406,1,NA,NA,NA
+coppock_green_porter_2022,tf10_m4_x2014_se,Table F.10,Table F.10 cell m4_x2014_se,pipeline,NA,0.0576,NA,0.05764661448586585,1,NA,NA,NA
+coppock_green_porter_2022,tf10_m4_x2016_est,Table F.10,Table F.10 cell m4_x2016_est,pipeline,NA,0.5242,NA,0.5241871734251375,1,NA,NA,NA
+coppock_green_porter_2022,tf10_m4_x2016_se,Table F.10,Table F.10 cell m4_x2016_se,pipeline,NA,0.0554,NA,0.05540279806966686,1,NA,NA,NA
+coppock_green_porter_2022,tf11_m1_any_est,Table F.11,Table F.11 cell m1_any_est,pipeline,-89.82885631182347,-89.8289,1,-89.82885631182347,1,NA,NA,NA
+coppock_green_porter_2022,tf11_m1_any_se,Table F.11,Table F.11 cell m1_any_se,pipeline,953.4329157462817,953.4329,1,953.4329157462817,1,NA,NA,NA
+coppock_green_porter_2022,tf11_m1_int_est,Table F.11,Table F.11 cell m1_int_est,pipeline,NA,7811.4898,NA,7811.48980366216,1,NA,NA,NA
+coppock_green_porter_2022,tf11_m1_int_se,Table F.11,Table F.11 cell m1_int_se,pipeline,NA,701.0554,NA,701.0553990176663,1,NA,NA,NA
+coppock_green_porter_2022,tf11_m1_nobs,Table F.11,Table F.11 cell m1_nobs,pipeline,210,210,1,210,1,NA,NA,NA
+coppock_green_porter_2022,tf11_m1_r2,Table F.11,Table F.11 cell m1_r2,pipeline,NA,0.0000,NA,4.273333675097746e-5,1,NA,NA,NA
+coppock_green_porter_2022,tf11_m2_any_est,Table F.11,Table F.11 cell m2_any_est,pipeline,195.6585496839684,195.6585,1,195.6585496839684,1,NA,NA,NA
+coppock_green_porter_2022,tf11_m2_any_se,Table F.11,Table F.11 cell m2_any_se,pipeline,526.4416784228432,526.4417,1,526.4416784228432,1,NA,NA,NA
+coppock_green_porter_2022,tf11_m2_int_est,Table F.11,Table F.11 cell m2_int_est,pipeline,NA,2332.4258,NA,2332.4258026051357,1,NA,NA,NA
+coppock_green_porter_2022,tf11_m2_int_se,Table F.11,Table F.11 cell m2_int_se,pipeline,NA,1138.7188,NA,1138.718793451304,1,NA,NA,NA
+coppock_green_porter_2022,tf11_m2_m2012_est,Table F.11,Table F.11 cell m2_m2012_est,pipeline,NA,-1718.2381,NA,-1718.2381395037416,1,NA,NA,NA
+coppock_green_porter_2022,tf11_m2_m2012_se,Table F.11,Table F.11 cell m2_m2012_se,pipeline,NA,865.2703,NA,865.2702595465175,1,NA,NA,NA
+coppock_green_porter_2022,tf11_m2_m2014_est,Table F.11,Table F.11 cell m2_m2014_est,pipeline,NA,-711.4928,NA,-711.4928004370296,1,NA,NA,NA
+coppock_green_porter_2022,tf11_m2_m2014_se,Table F.11,Table F.11 cell m2_m2014_se,pipeline,NA,393.1901,NA,393.19010202410465,1,NA,NA,NA
+coppock_green_porter_2022,tf11_m2_nobs,Table F.11,Table F.11 cell m2_nobs,pipeline,210,210,1,210,1,NA,NA,NA
+coppock_green_porter_2022,tf11_m2_r2,Table F.11,Table F.11 cell m2_r2,pipeline,NA,0.6781,NA,0.6781247890169335,1,NA,NA,NA
+coppock_green_porter_2022,tf11_m2_x2012_est,Table F.11,Table F.11 cell m2_x2012_est,pipeline,NA,-0.4790,NA,-0.4790065195335008,1,NA,NA,NA
+coppock_green_porter_2022,tf11_m2_x2012_se,Table F.11,Table F.11 cell m2_x2012_se,pipeline,NA,0.1361,NA,0.136105071533671,1,NA,NA,NA
+coppock_green_porter_2022,tf11_m2_x2014_est,Table F.11,Table F.11 cell m2_x2014_est,pipeline,NA,0.3027,NA,0.30271929986186613,1,NA,NA,NA
+coppock_green_porter_2022,tf11_m2_x2014_se,Table F.11,Table F.11 cell m2_x2014_se,pipeline,NA,0.0840,NA,0.08404990677978331,1,NA,NA,NA
+coppock_green_porter_2022,tf11_m2_x2016_est,Table F.11,Table F.11 cell m2_x2016_est,pipeline,NA,0.5533,NA,0.5533053474028331,1,NA,NA,NA
+coppock_green_porter_2022,tf11_m2_x2016_se,Table F.11,Table F.11 cell m2_x2016_se,pipeline,NA,0.0735,NA,0.0734560990682481,1,NA,NA,NA
+coppock_green_porter_2022,tf11_m3_int_est,Table F.11,Table F.11 cell m3_int_est,pipeline,NA,7811.4898,NA,7811.48980366216,1,NA,NA,NA
+coppock_green_porter_2022,tf11_m3_int_se,Table F.11,Table F.11 cell m3_int_se,pipeline,NA,701.0554,NA,701.0553990176669,1,NA,NA,NA
+coppock_green_porter_2022,tf11_m3_nobs,Table F.11,Table F.11 cell m3_nobs,pipeline,210,210,1,210,1,NA,NA,NA
+coppock_green_porter_2022,tf11_m3_r2,Table F.11,Table F.11 cell m3_r2,pipeline,NA,0.0013,NA,0.00134720862958037,1,NA,NA,NA
+coppock_green_porter_2022,tf11_m3_tv1_est,Table F.11,Table F.11 cell m3_tv1_est,pipeline,-439.0957478018704,-439.0957,1,-439.0957478018704,1,NA,NA,NA
+coppock_green_porter_2022,tf11_m3_tv1_se,Table F.11,Table F.11 cell m3_tv1_se,pipeline,1125.3363245077278,1125.3363,1,1125.3363245077278,1,NA,NA,NA
+coppock_green_porter_2022,tf11_m3_tv2_est,Table F.11,Table F.11 cell m3_tv2_est,pipeline,259.4380351782236,259.4380,1,259.4380351782236,1,NA,NA,NA
+coppock_green_porter_2022,tf11_m3_tv2_se,Table F.11,Table F.11 cell m3_tv2_se,pipeline,1182.4407478854894,1182.4407,1,1182.4407478854894,1,NA,NA,NA
+coppock_green_porter_2022,tf11_m4_int_est,Table F.11,Table F.11 cell m4_int_est,pipeline,NA,2292.1032,NA,2292.1031846266756,1,NA,NA,NA
+coppock_green_porter_2022,tf11_m4_int_se,Table F.11,Table F.11 cell m4_int_se,pipeline,NA,1112.1093,NA,1112.1092540903717,1,NA,NA,NA
+coppock_green_porter_2022,tf11_m4_m2012_est,Table F.11,Table F.11 cell m4_m2012_est,pipeline,NA,-1990.3628,NA,-1990.362756011059,1,NA,NA,NA
+coppock_green_porter_2022,tf11_m4_m2012_se,Table F.11,Table F.11 cell m4_m2012_se,pipeline,NA,924.3390,NA,924.3390055869836,1,NA,NA,NA
+coppock_green_porter_2022,tf11_m4_m2014_est,Table F.11,Table F.11 cell m4_m2014_est,pipeline,NA,-810.5134,NA,-810.513394342392,1,NA,NA,NA
+coppock_green_porter_2022,tf11_m4_m2014_se,Table F.11,Table F.11 cell m4_m2014_se,pipeline,NA,664.3380,NA,664.3379748983781,1,NA,NA,NA
+coppock_green_porter_2022,tf11_m4_nobs,Table F.11,Table F.11 cell m4_nobs,pipeline,210,210,1,210,1,NA,NA,NA
+coppock_green_porter_2022,tf11_m4_r2,Table F.11,Table F.11 cell m4_r2,pipeline,NA,0.6848,NA,0.6847922048494711,1,NA,NA,NA
+coppock_green_porter_2022,tf11_m4_tv1_est,Table F.11,Table F.11 cell m4_tv1_est,pipeline,1018.57542627657,1018.5754,1,1018.57542627657,1,NA,NA,NA
+coppock_green_porter_2022,tf11_m4_tv1_se,Table F.11,Table F.11 cell m4_tv1_se,pipeline,685.7638188243877,685.7638,1,685.7638188243877,1,NA,NA,NA
+coppock_green_porter_2022,tf11_m4_tv2_est,Table F.11,Table F.11 cell m4_tv2_est,pipeline,-590.521797449917,-590.5218,1,-590.521797449917,1,NA,NA,NA
+coppock_green_porter_2022,tf11_m4_tv2_se,Table F.11,Table F.11 cell m4_tv2_se,pipeline,631.3777433267358,631.3777,1,631.3777433267358,1,NA,NA,NA
+coppock_green_porter_2022,tf11_m4_x2012_est,Table F.11,Table F.11 cell m4_x2012_est,pipeline,NA,-0.4852,NA,-0.485179346427044,1,NA,NA,NA
+coppock_green_porter_2022,tf11_m4_x2012_se,Table F.11,Table F.11 cell m4_x2012_se,pipeline,NA,0.1344,NA,0.13444146949665312,1,NA,NA,NA
+coppock_green_porter_2022,tf11_m4_x2014_est,Table F.11,Table F.11 cell m4_x2014_est,pipeline,NA,0.3062,NA,0.30618212578198545,1,NA,NA,NA
+coppock_green_porter_2022,tf11_m4_x2014_se,Table F.11,Table F.11 cell m4_x2014_se,pipeline,NA,0.0817,NA,0.08168366372642803,1,NA,NA,NA
+coppock_green_porter_2022,tf11_m4_x2016_est,Table F.11,Table F.11 cell m4_x2016_est,pipeline,NA,0.5594,NA,0.5594384154335401,1,NA,NA,NA
+coppock_green_porter_2022,tf11_m4_x2016_se,Table F.11,Table F.11 cell m4_x2016_se,pipeline,NA,0.0716,NA,0.0715701663811136,1,NA,NA,NA
+coppock_green_porter_2022,tf8_m1_int_est,Table F.8,Table F.8 cell m1_int_est,pipeline,0.49965554403635726,0.500,1,0.49965554403635726,1,NA,NA,NA
+coppock_green_porter_2022,tf8_m1_int_se,Table F.8,Table F.8 cell m1_int_se,pipeline,0.03900731696002892,0.039,1,0.03900731696002892,1,NA,NA,NA
+coppock_green_porter_2022,tf8_m1_nobs,Table F.8,Table F.8 cell m1_nobs,pipeline,210,210,1,210,1,NA,NA,NA
+coppock_green_porter_2022,tf8_m1_r2,Table F.8,Table F.8 cell m1_r2,pipeline,0.00892627884588936,0.009,1,0.00892627884588936,1,NA,NA,NA
+coppock_green_porter_2022,tf8_m1_x2012_est,Table F.8,Table F.8 cell m1_x2012_est,pipeline,NA,0.000,NA,1.710188485295843e-5,1,NA,NA,NA
+coppock_green_porter_2022,tf8_m1_x2012_se,Table F.8,Table F.8 cell m1_x2012_se,pipeline,NA,0.000,NA,2.0782624442340635e-5,1,NA,NA,NA
+coppock_green_porter_2022,tf8_m1_x2014_est,Table F.8,Table F.8 cell m1_x2014_est,pipeline,NA,-0.000,NA,-7.2229716166468465e-6,1,NA,NA,NA
+coppock_green_porter_2022,tf8_m1_x2014_se,Table F.8,Table F.8 cell m1_x2014_se,pipeline,NA,0.000,NA,1.3736688807245186e-5,1,NA,NA,NA
+coppock_green_porter_2022,tf8_m1_x2016_est,Table F.8,Table F.8 cell m1_x2016_est,pipeline,NA,0.000,NA,5.136265369536353e-6,1,NA,NA,NA
+coppock_green_porter_2022,tf8_m1_x2016_se,Table F.8,Table F.8 cell m1_x2016_se,pipeline,NA,0.000,NA,1.4579687007538158e-5,1,NA,NA,NA
+coppock_green_porter_2022,tf9_m1_any_est,Table F.9,Table F.9 cell m1_any_est,pipeline,0.00985458813345355,0.0099,1,0.00985458813345355,1,NA,NA,NA
+coppock_green_porter_2022,tf9_m1_any_se,Table F.9,Table F.9 cell m1_any_se,pipeline,0.01448034336347406,0.0145,1,0.01448034336347406,1,NA,NA,NA
+coppock_green_porter_2022,tf9_m1_int_est,Table F.9,Table F.9 cell m1_int_est,pipeline,NA,0.4652,NA,0.46518626011797143,1,NA,NA,NA
+coppock_green_porter_2022,tf9_m1_int_se,Table F.9,Table F.9 cell m1_int_se,pipeline,NA,0.0099,NA,0.00988563791435499,1,NA,NA,NA
+coppock_green_porter_2022,tf9_m1_nobs,Table F.9,Table F.9 cell m1_nobs,pipeline,210,210,1,210,1,NA,NA,NA
+coppock_green_porter_2022,tf9_m1_r2,Table F.9,Table F.9 cell m1_r2,pipeline,NA,0.0022,NA,0.00221844456681397,1,NA,NA,NA
+coppock_green_porter_2022,tf9_m2_any_est,Table F.9,Table F.9 cell m2_any_est,pipeline,0.001494794878072,0.0015,1,0.001494794878072,1,NA,NA,NA
+coppock_green_porter_2022,tf9_m2_any_se,Table F.9,Table F.9 cell m2_any_se,pipeline,0.00879754283818571,0.0088,1,0.00879754283818571,1,NA,NA,NA
+coppock_green_porter_2022,tf9_m2_int_est,Table F.9,Table F.9 cell m2_int_est,pipeline,NA,0.1101,NA,0.11010815084606322,1,NA,NA,NA
+coppock_green_porter_2022,tf9_m2_int_se,Table F.9,Table F.9 cell m2_int_se,pipeline,NA,0.0210,NA,0.02096130291859382,1,NA,NA,NA
+coppock_green_porter_2022,tf9_m2_m2012_est,Table F.9,Table F.9 cell m2_m2012_est,pipeline,NA,-0.2794,NA,-0.2793522535324615,1,NA,NA,NA
+coppock_green_porter_2022,tf9_m2_m2012_se,Table F.9,Table F.9 cell m2_m2012_se,pipeline,NA,4.4175,NA,4.417544161895071,1,NA,NA,NA
+coppock_green_porter_2022,tf9_m2_m2014_est,Table F.9,Table F.9 cell m2_m2014_est,pipeline,NA,4.8184,NA,4.818393382452939,1,NA,NA,NA
+coppock_green_porter_2022,tf9_m2_m2014_se,Table F.9,Table F.9 cell m2_m2014_se,pipeline,NA,2.3429,NA,2.342857278617672,1,NA,NA,NA
+coppock_green_porter_2022,tf9_m2_nobs,Table F.9,Table F.9 cell m2_nobs,pipeline,210,210,1,210,1,NA,NA,NA
+coppock_green_porter_2022,tf9_m2_r2,Table F.9,Table F.9 cell m2_r2,pipeline,NA,0.6607,NA,0.6607330006314907,1,NA,NA,NA
+coppock_green_porter_2022,tf9_m2_x2012_est,Table F.9,Table F.9 cell m2_x2012_est,pipeline,NA,-0.0031,NA,-0.00311510584701478,1,NA,NA,NA
+coppock_green_porter_2022,tf9_m2_x2012_se,Table F.9,Table F.9 cell m2_x2012_se,pipeline,NA,0.0444,NA,0.0443734133952114,1,NA,NA,NA
+coppock_green_porter_2022,tf9_m2_x2014_est,Table F.9,Table F.9 cell m2_x2014_est,pipeline,NA,0.0476,NA,0.04760123440115654,1,NA,NA,NA
+coppock_green_porter_2022,tf9_m2_x2014_se,Table F.9,Table F.9 cell m2_x2014_se,pipeline,NA,0.0235,NA,0.02347726885760194,1,NA,NA,NA
+coppock_green_porter_2022,tf9_m2_x2016_est,Table F.9,Table F.9 cell m2_x2016_est,pipeline,NA,0.7451,NA,0.7450760178089098,1,NA,NA,NA
+coppock_green_porter_2022,tf9_m2_x2016_se,Table F.9,Table F.9 cell m2_x2016_se,pipeline,NA,0.0593,NA,0.05930020566660334,1,NA,NA,NA
+coppock_green_porter_2022,tf9_m3_int_est,Table F.9,Table F.9 cell m3_int_est,pipeline,NA,0.4652,NA,0.46518626011797143,1,NA,NA,NA
+coppock_green_porter_2022,tf9_m3_int_se,Table F.9,Table F.9 cell m3_int_se,pipeline,NA,0.0099,NA,0.009885637914355,1,NA,NA,NA
+coppock_green_porter_2022,tf9_m3_nobs,Table F.9,Table F.9 cell m3_nobs,pipeline,210,210,1,210,1,NA,NA,NA
+coppock_green_porter_2022,tf9_m3_r2,Table F.9,Table F.9 cell m3_r2,pipeline,NA,0.0044,NA,0.0043888559309293,1,NA,NA,NA
+coppock_green_porter_2022,tf9_m3_tv1_est,Table F.9,Table F.9 cell m3_tv1_est,pipeline,0.01671408460282777,0.0167,1,0.01671408460282777,1,NA,NA,NA
+coppock_green_porter_2022,tf9_m3_tv1_se,Table F.9,Table F.9 cell m3_tv1_se,pipeline,0.01784546092514657,0.0178,1,0.01784546092514657,1,NA,NA,NA
+coppock_green_porter_2022,tf9_m3_tv2_est,Table F.9,Table F.9 cell m3_tv2_est,pipeline,0.00299509166407935,0.0030,1,0.00299509166407935,1,NA,NA,NA
+coppock_green_porter_2022,tf9_m3_tv2_se,Table F.9,Table F.9 cell m3_tv2_se,pipeline,0.01809158505430489,0.0181,1,0.01809158505430489,1,NA,NA,NA
+coppock_green_porter_2022,tf9_m4_int_est,Table F.9,Table F.9 cell m4_int_est,pipeline,NA,0.1097,NA,0.10968930043088812,1,NA,NA,NA
+coppock_green_porter_2022,tf9_m4_int_se,Table F.9,Table F.9 cell m4_int_se,pipeline,NA,0.0209,NA,0.02087542946289326,1,NA,NA,NA
+coppock_green_porter_2022,tf9_m4_m2012_est,Table F.9,Table F.9 cell m4_m2012_est,pipeline,NA,-0.0337,NA,-0.03370489159453509,1,NA,NA,NA
+coppock_green_porter_2022,tf9_m4_m2012_se,Table F.9,Table F.9 cell m4_m2012_se,pipeline,NA,4.5047,NA,4.504733886813676,1,NA,NA,NA
+coppock_green_porter_2022,tf9_m4_m2014_est,Table F.9,Table F.9 cell m4_m2014_est,pipeline,NA,4.6876,NA,4.687642899892755,1,NA,NA,NA
+coppock_green_porter_2022,tf9_m4_m2014_se,Table F.9,Table F.9 cell m4_m2014_se,pipeline,NA,2.3766,NA,2.376594606531617,1,NA,NA,NA
+coppock_green_porter_2022,tf9_m4_nobs,Table F.9,Table F.9 cell m4_nobs,pipeline,210,210,1,210,1,NA,NA,NA
+coppock_green_porter_2022,tf9_m4_r2,Table F.9,Table F.9 cell m4_r2,pipeline,NA,0.6614,NA,0.6614318596877959,1,NA,NA,NA
+coppock_green_porter_2022,tf9_m4_tv1_est,Table F.9,Table F.9 cell m4_tv1_est,pipeline,0.005482479358447,0.0055,1,0.005482479358447,1,NA,NA,NA
+coppock_green_porter_2022,tf9_m4_tv1_se,Table F.9,Table F.9 cell m4_tv1_se,pipeline,0.00855046173703903,0.0086,1,0.00855046173703903,1,NA,NA,NA
+coppock_green_porter_2022,tf9_m4_tv2_est,Table F.9,Table F.9 cell m4_tv2_est,pipeline,-0.00245711888495072,-0.0025,1,-0.00245711888495072,1,NA,NA,NA
+coppock_green_porter_2022,tf9_m4_tv2_se,Table F.9,Table F.9 cell m4_tv2_se,pipeline,0.01278053151891731,0.0128,1,0.01278053151891731,1,NA,NA,NA
+coppock_green_porter_2022,tf9_m4_x2012_est,Table F.9,Table F.9 cell m4_x2012_est,pipeline,NA,-0.0006,NA,-6.335835885140954e-4,1,NA,NA,NA
+coppock_green_porter_2022,tf9_m4_x2012_se,Table F.9,Table F.9 cell m4_x2012_se,pipeline,NA,0.0453,NA,0.04525483609673973,1,NA,NA,NA
+coppock_green_porter_2022,tf9_m4_x2014_est,Table F.9,Table F.9 cell m4_x2014_est,pipeline,NA,0.0463,NA,0.04629502158078043,1,NA,NA,NA
+coppock_green_porter_2022,tf9_m4_x2014_se,Table F.9,Table F.9 cell m4_x2014_se,pipeline,NA,0.0238,NA,0.02381580790125795,1,NA,NA,NA
+coppock_green_porter_2022,tf9_m4_x2016_est,Table F.9,Table F.9 cell m4_x2016_est,pipeline,NA,0.7449,NA,0.7448686545920334,1,NA,NA,NA
+coppock_green_porter_2022,tf9_m4_x2016_se,Table F.9,Table F.9 cell m4_x2016_se,pipeline,NA,0.0592,NA,0.05921886215144508,1,NA,NA,NA

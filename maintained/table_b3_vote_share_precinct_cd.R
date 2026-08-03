@@ -1,5 +1,6 @@
 # coppock_green_porter_2022/maintained/table_b3_vote_share_precinct_cd.R
-# Output: output/table_b3_vote_share_precinct_cd.csv, output/table_b3_vote_share_precinct_cd.tex
+# Output: output/table_b3_vote_share_precinct_cd.csv, output/table_b3_vote_share_precinct_cd.tex,
+#   output/table_b3_vote_share_precinct_cd_gof.csv
 # Depends on: CGP_2022_precinct_level.rds, helpers.R
 # Description: Reproduces appendix Table B.3, the vote share models with fixed effects
 #   for congressional district. The published Table B.3 prints the vote margin models
@@ -53,6 +54,19 @@ results <- fits |>
   list_rbind(names_to = "model")
 
 write_csv(results, here::here("maintained", "output", "table_b3_vote_share_precinct_cd.csv"))
+
+# The published table's foot carries R2, the number of observations and, at the precinct
+# level, the number of clusters. Those cells are estimates too, so they are written out
+# unrounded beside the coefficients rather than being read back off the formatted table.
+gof <- fits |>
+  map(\(fit) tibble(
+    r.squared = glance(fit)$r.squared,
+    nobs = glance(fit)$nobs,
+    nclusters = if (is.null(fit$nclusters)) NA_integer_ else fit$nclusters
+  )) |>
+  list_rbind(names_to = "model")
+
+write_csv(gof, here::here("maintained", "output", "table_b3_vote_share_precinct_cd_gof.csv"))
 
 coef_labels <- c(
   "Z" = "Any Treatment Video",
