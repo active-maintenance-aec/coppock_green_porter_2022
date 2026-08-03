@@ -73,7 +73,8 @@ modelsummary(
   fmt = 2,
   stars = c("*" = 0.05),
   title = "Table B.5: Effects on turnout (CD fixed effects)",
-  notes = "CR2 cluster-robust standard errors are in parentheses. All models include fixed effects for congressional district."
+  notes = c("CR2 cluster-robust standard errors are in parentheses.",
+            "All models include fixed effects for congressional district.")
 )
 
 print(results |> filter(term %in% c("Z", "treatmentvideo_1", "treatmentvideo_2")))

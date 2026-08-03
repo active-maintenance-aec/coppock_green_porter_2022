@@ -125,10 +125,11 @@ g <- ggplot(gg_df) +
   aes(estimate, sim_ID, color = significant) +
   geom_linerange(aes(xmin = conf.low, xmax = conf.high), alpha = 0.4) +
   geom_point(alpha = 0.5, stroke = 0, size = 1) +
-  geom_text(
+  geom_label(
     data = label_df,
     aes(x = 0.035, y = sims, label = label, color = NULL),
-    hjust = 0, size = 4
+    hjust = 0, vjust = 1, size = 3.5,
+    fill = "white", alpha = 0.85, label.size = 0
   ) +
   geom_vline(xintercept = 0, linetype = "dashed", alpha = 0.5) +
   geom_vline(xintercept = prior_estimate, linetype = "dotted", alpha = 0.5) +
