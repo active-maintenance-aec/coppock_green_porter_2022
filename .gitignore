@@ -20,3 +20,12 @@ original/
 
 # RStudio project state
 .Rproj.user/
+
+# Remastered edition: NOT PUBLIC. Alex, 2026-08-10: "not ready for the
+# remasters to be public." The whole build directory stays out of the repo,
+# which is public on GitHub. Do not remove this rule to "make the build
+# reproducible" without asking: publishing a corrected edition of a coauthored
+# paper is a decision that belongs to Alex and inherits the coauthor
+# notification deferred until the corpus settles.
+remaster/
+.DS_Store

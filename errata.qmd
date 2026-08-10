@@ -31,33 +31,175 @@ fg2 <- read_csv(here("maintained", "output", "figure_g2_design_diagnosis.csv"),
                 show_col_types = FALSE)
 ```
 
-This note lists four errors in "Does digital advertising affect vote choice? Evidence from a randomized field experiment," published in *Research & Politics* 9(1), doi [10.1177/20531680221076901](https://doi.org/10.1177/20531680221076901). **None of them changes a conclusion of the paper.** They are recorded because the numbers themselves are wrong and a reader who quoted them would be misled.
+```{r entries}
+# THE ERRATA SPINE. Every entry is defined once, here, and rendered twice: into this
+# document, and into the remastered edition, which reads the errata_entries.csv written
+# at the bottom of this file. Before the spine existed the two carried separate hand-typed
+# copies of the same corrections and had already diverged, this note holding four entries
+# while the remaster held thirteen.
+#
+# [[...]] marks the span that changes. Each renderer supplies its own markup for it:
+# bold here, \was{} in the edition. Nothing else in a field is markup, so the same string
+# can be set by either.
+#
+# Numbering is the published note's and is APPEND-ONLY: entry 5 can already have been
+# cited, so a later finding is added at the end and never interleaved.
+# `form` is the edition's choice of macro for the entry: "full" where the published and
+# corrected fields are whole sentences that need setting as blocks, "brief" where the entry
+# is a token replacement. It lives here because it is an editorial judgment about the entry
+# rather than a fact about the typesetting, and because the alternative is a second list.
+entries <- tribble(
+  ~entry, ~class, ~source, ~form, ~title, ~location, ~published, ~corrected, ~note,
 
-Item 1 is a misstated number in the text. Items 2 through 4 are errors in the appendix: two of labelling, one of a table printed in place of another. Every corrected value below is computed from the deposited replication archive ([10.7910/DVN/UH2NQW](https://doi.org/10.7910/DVN/UH2NQW)) at the time this document is rendered. The maintained code is at [github.com/active-maintenance-aec/coppock_green_porter_2022](https://github.com/active-maintenance-aec/coppock_green_porter_2022).
+  1, "quantity", "pipeline", "full",
+  "The unadjusted estimate is misstated by a factor of ten",
+  "published p. 5",
+  "...a [[2.1 percentage point]] increase in Democratic vote share, though this estimate is uncertain, as evidenced by its large [[standard error of 3.0 percentage points]].",
+  str_glue("...a [[{sprintf('%.1f', t4$estimate * 100)} percentage point]] increase in Democratic vote share, though this estimate is uncertain, as evidenced by its large [[standard error of {sprintf('%.1f', t4$std.error * 100)} percentage points]]."),
+  str_glue(
+    "Table 4 reports {sprintf('%.4f', t4$estimate)} with a standard error of ",
+    "{sprintf('%.4f', t4$std.error)}, which is {sprintf('%.2f', t4$estimate * 100)} and ",
+    "{sprintf('%.2f', t4$std.error * 100)} percentage points; the corrected sentence carries ",
+    "them at the one decimal the published sentence uses. The next sentence in the article ",
+    "applies percentage point units correctly to the adjusted estimate. The published ",
+    "standard error of 3.0 corresponds to no model in the paper or the appendix. The claim ",
+    "the sentence makes is unaffected: on either reading the unadjusted estimate is small ",
+    "and swamped by its standard error, and the paper's conclusion rests on the ",
+    "covariate-adjusted estimate in column 2, which is reported and interpreted correctly ",
+    "throughout."),
 
-## 1. The unadjusted estimate is misstated by a factor of ten
+  2, "label", "pipeline", "brief",
+  "Figure G.2 names the wrong effect size",
+  "published app. 15",
+  "Power when PATE = [[0.1]]",
+  str_glue("Power when PATE = [[{fg2$pate_center}]]"),
+  str_glue(
+    "The simulated effects are drawn from a normal distribution centred at ",
+    "{fg2$pate_center}, which is what the appendix text says two paragraphs earlier. The ",
+    "label is a hardcoded string in the analysis script; nothing plotted is affected."),
 
-Published, p. 5:
+  3, "label", "pipeline", "brief",
+  "Covariate row labels are wrong in five appendix tables",
+  "published app. 10--14",
+  "[[thirteen covariate rows across Tables E.7, F.8, F.9, F.10 and F.11 naming a variable the model does not contain]]",
+  "[[the variables the models do contain]]",
+  paste(
+    "No coefficient, standard error or summary statistic is affected: the estimates beside",
+    "the wrong labels are the ones the caption describes. Both balance models regress the",
+    "treatment indicator on lagged two-party vote margins, not shares. No ZIP code is",
+    "missing 2016 returns, so the ZIP-level models carry no 2016 missingness indicator, and",
+    "the label vector in the analysis script names one anyway. The same vector is reused for",
+    "all three outcomes, which is also why the 2014 and 2012 covariate rows of Tables F.10",
+    "and F.11 read Two Party Vote Share where the regressors are vote margins and vote",
+    "totals. The 2014 and 2012 rows of Table F.9 are correct as published."),
 
-> ...a **2.1 percentage point** increase in Democratic vote share, though this estimate is uncertain, as evidenced by its large **standard error of 3.0 percentage points**.
+  4, "float", "pipeline", "full",
+  "Appendix Table B.3 reprints Table B.4",
+  "published app. 6",
+  "Table B.3 is captioned \"Effects on vote share (CD fixed effects).\" Every cell beneath that caption is [[identical to Table B.4]], \"Effects on vote margin (CD fixed effects)\": the same coefficients, standard errors, R-squared values and covariate labels, all on the vote margin scale. The vote share models with congressional district fixed effects appear nowhere in the appendix.",
+  str_glue(
+    "Those models are estimable from the deposited data, and [[this edition prints them]] ",
+    "in place of the duplicated table. The effect of any treatment video on vote share with ",
+    "district fixed effects is {sprintf('%.4f', b3$estimate[1])} ",
+    "({sprintf('%.4f', b3$std.error[1])}) without covariates, the same substantive result as ",
+    "Table 4."),
+  paste(
+    "This is the one entry where the corrected artifact is a float rather than a token: the",
+    "sentence around it was never wrong, and the table is what changed."),
 
-Corrected:
+  5, "bibliographic", "reference_audit", "brief",
+  "Seven authors of Bond et al. (2012) are mangled in the reference list",
+  "published p. 7",
+  "Bond RM, Fariss CJ, [[JonesJonesKramer JJ]], et al. (2012) [[Cameron Marlow, Jaime E. Settle and James H. Fowler]]A 61-million-person experiment",
+  "Bond RM, Fariss CJ, Jones JJ, Kramer ADI, et al. (2012) A 61-million-person experiment",
+  paste("Three surnames were run together and four more authors were carried into the title.",
+        "Crossref, doi 10.1038/nature11421: Bond, Fariss, Jones, Kramer, Marlow, Settle,",
+        "Fowler."),
 
-> ...a **`r sprintf("%.1f", t4$estimate*100)` percentage point** increase in Democratic vote share, though this estimate is uncertain, as evidenced by its large **standard error of `r sprintf("%.1f", t4$std.error*100)` percentage points**.
+  6, "bibliographic", "reference_audit", "brief",
+  "Coppock, Hill and Vavreck (2020) is given the wrong third author and the wrong title",
+  "published p. 7",
+  "Coppock A, Hill SJ and [[Lynn V]] (2020) [[Persuasive Effects of Presidential Campaign Advertising: Results of 53 Real-Time Experiments in 2016. Science Advances.]]",
+  "Coppock A, Hill SJ and Vavreck L (2020) The small effects of political advertising are small regardless of context, message, sender, or receiver: Evidence from 59 real-time randomized experiments. Science Advances 6(36): eabc4046.",
+  paste("Lynn Vavreck's given name was taken for her surname, and the title is the working",
+        "paper's rather than the published article's; the entry carried no volume or article",
+        "number. Crossref, doi 10.1126/sciadv.abc4046."),
 
-Table 4 reports `r sprintf("%.4f", t4$estimate)` with a standard error of `r sprintf("%.4f", t4$std.error)`, which is `r sprintf("%.2f", t4$estimate*100)` and `r sprintf("%.2f", t4$std.error*100)` percentage points; the corrected sentence carries them at the one decimal the published sentence uses. The next sentence in the article applies percentage point units correctly to the adjusted estimate. The published standard error of 3.0 corresponds to no model in the paper or the appendix. The claim the sentence makes is unaffected: on either reading the unadjusted estimate is small and swamped by its standard error, and the paper's conclusion rests on the covariate-adjusted estimate in column 2, which is reported and interpreted correctly throughout.
+  7, "bibliographic", "reference_audit", "brief",
+  "Two authors of Fowler et al. (2021) are run together",
+  "published p. 7",
+  "Fowler EF, [[FranzMartin MM, Gregory J]], et al. (2021)",
+  "Fowler EF, Franz MM, Martin GJ, et al. (2021)",
+  "Crossref, doi 10.1017/S0003055420000696: Fowler, Franz, Martin, Peskowitz, Ridout.",
 
-## 2. Figure G.2 names the wrong effect size
+  8, "bibliographic", "reference_audit", "brief",
+  "The third author of Turitto et al. (2014) is given by his first name",
+  "published p. 7",
+  "Turitto C, Green DP, [[Brian S]], et al. (2014)",
+  "Turitto C, Green DP, Stobie B, et al. (2014)",
+  "Crossref, doi 10.2139/ssrn.3537287: Turitto, Green, Stobie, Tranter.",
 
-Published, panel annotation:
+  9, "bibliographic", "reference_audit", "brief",
+  "Spenkuch and Toniatti (2018) lists its second author twice",
+  "published p. 7",
+  "Spenkuch JL, [[Toniatti D and Toniatti D]] (2018)",
+  "Spenkuch JL and Toniatti D (2018)",
+  "Crossref, doi 10.1093/qje/qjy010: two authors.",
 
-> Power when PATE = **0.1**
+  10, "bibliographic", "reference_audit", "brief",
+  "Moore (2012) prints its page range without a dash",
+  "published p. 7",
+  "Political Analysis [[20(4): 460479]]",
+  "Political Analysis 20(4): 460--479",
+  "Crossref, doi 10.1093/pan/mps025: pages 460--479.",
 
-Corrected:
+  11, "bibliographic", "reference_audit", "brief",
+  "The Wesleyan Media Project's name is inverted",
+  "published p. 7",
+  "[[Media Project Wesleyan]] (2021)",
+  "Wesleyan Media Project (2021)",
+  paste("The organization is the Wesleyan Media Project, as its own address",
+        "(mediaproject.wesleyan.edu) gives it; the reference processor read \"Wesleyan\" as a",
+        "given name."),
 
-> Power when PATE = **`r fg2$pate_center`**
+  12, "bibliographic", "reference_audit", "brief",
+  "A stray comma inside an author name",
+  "published p. 7",
+  "Coppock A, Guess A and [[Ternovski, J]] (2016)",
+  "Coppock A, Guess A and Ternovski J (2016)",
+  "",
 
-The simulated effects are drawn from a normal distribution centred at `r fg2$pate_center`, which is what the appendix text says two paragraphs earlier. The label is a hardcoded string in the analysis script; nothing plotted is affected. The corrected figure:
+  13, "bibliographic", "reference_audit", "brief",
+  "Green and Gerber (2019) is given the wrong place of publication",
+  "published p. 7",
+  "[[New York, NY:]] Brookings Institution Press",
+  "Washington, DC: Brookings Institution Press",
+  "Brookings Institution Press is in Washington, DC."
+) |>
+  mutate(across(c(title, published, corrected, note), as.character))
+
+stopifnot(nrow(entries) == max(entries$entry), !anyDuplicated(entries$entry))
+
+# The spine's markup, resolved for this document. The edition resolves it differently.
+bold <- function(x) str_replace_all(x, "\\[\\[(.*?)\\]\\]", "**\\1**")
+```
+
+This note lists `r nrow(entries)` errors in "Does digital advertising affect vote choice? Evidence from a randomized field experiment," published in *Research & Politics* 9(1), doi [10.1177/20531680221076901](https://doi.org/10.1177/20531680221076901). **None of them changes a conclusion of the paper.** They are recorded because the published record is wrong and a reader who quoted it would be misled.
+
+Entry 1 is a misstated number in the text. Entries 2 through 4 are errors in the appendix: two of labelling, one of a table printed in place of another. Entries 5 through `r max(entries$entry)` are errors in the reference list, nearly all of them introduced by the publisher's reference processing rather than by the authors, and each verified against the authoritative record at Crossref. Every corrected value in entries 1 to 4 is computed from the deposited replication archive ([10.7910/DVN/UH2NQW](https://doi.org/10.7910/DVN/UH2NQW)) at the time this document is rendered. The maintained code is at [github.com/active-maintenance-aec/coppock_green_porter_2022](https://github.com/active-maintenance-aec/coppock_green_porter_2022).
+
+```{r entry-1, results="asis"}
+e <- entries |> filter(entry == 1)
+cat("## 1. ", e$title, "\n\nPublished, ", str_remove(e$location, "^published "), ":\n\n> ",
+    bold(e$published), "\n\nCorrected:\n\n> ", bold(e$corrected), "\n\n", e$note, "\n", sep = "")
+```
+
+```{r entry-2, results="asis"}
+e <- entries |> filter(entry == 2)
+cat("## 2. ", e$title, "\n\nPublished, panel annotation:\n\n> ", bold(e$published),
+    "\n\nCorrected:\n\n> ", bold(e$corrected), "\n\n", e$note,
+    " The corrected figure:\n", sep = "")
+```
 
 ```{r fig-g2}
 #| out-width: 100%
@@ -70,7 +212,10 @@ knitr::include_graphics("maintained/output/figure_g2_design_diagnosis.pdf")
 
 ## 3. Covariate row labels are wrong in five appendix tables
 
-Thirteen covariate rows across Tables E.7, F.8, F.9, F.10 and F.11 name a variable the model does not contain. No coefficient, standard error or summary statistic is affected; the estimates beside the wrong labels are the ones the caption describes.
+```{r entry-3, results="asis"}
+e <- entries |> filter(entry == 3)
+cat(e$note, "\n", sep = "")
+```
 
 Published, Tables E.7 and F.8, each of the three lagged covariate rows:
 
@@ -80,8 +225,6 @@ Corrected:
 
 > **Two Party Vote Margin**
 
-Both balance models regress the treatment indicator on lagged two-party vote *margins*, not shares.
-
 Published, Tables F.9, F.10 and F.11, the first covariate row:
 
 > **Missingness Indicator (2016)**
@@ -89,8 +232,6 @@ Published, Tables F.9, F.10 and F.11, the first covariate row:
 Corrected, respectively:
 
 > **Two Party Vote Share (2016)**, **Two Party Vote Margin (2016)**, **Two Party Vote Total (2016)**
-
-No ZIP code is missing 2016 returns, so the ZIP-level models carry no 2016 missingness indicator, and the label vector in the analysis script names one anyway. The same vector is reused for all three outcomes, which is also why the 2014 and 2012 covariate rows of Tables F.10 and F.11 read **Two Party Vote Share** where the regressors are vote margins and vote totals. The 2014 and 2012 rows of Table F.9 are correct as published.
 
 All five tables are reprinted below with corrected labels and otherwise unchanged.
 
@@ -104,14 +245,37 @@ All five tables are reprinted below with corrected labels and otherwise unchange
 
 \parbox{\linewidth}{\footnotesize\raggedright \textit{Note:} Tables E.7, F.8, F.9, F.10 and F.11 as published, with covariate row labels corrected. Every coefficient, standard error and summary statistic is unchanged. Estimated from the deposited replication archive by the correspondingly named scripts under \texttt{maintained/}.}
 
-## 4. Appendix Table B.3 reprints Table B.4
-
-Table B.3 is captioned "Effects on vote share (CD fixed effects)." Every cell beneath that caption is identical to Table B.4, "Effects on vote margin (CD fixed effects)": the same coefficients, standard errors, R-squared values and covariate labels, all on the vote margin scale. The vote share models with congressional district fixed effects appear nowhere in the appendix.
-
-Those models are estimable from the deposited data. The effect of any treatment video on vote share with district fixed effects is `r sprintf("%.4f", b3$estimate[1])` (`r sprintf("%.4f", b3$std.error[1])`) without covariates, the same substantive result as Table 4. The table that should have appeared:
+```{r entry-4, results="asis"}
+e <- entries |> filter(entry == 4)
+cat("## 4. ", e$title, "\n\n", str_remove_all(e$published, "\\[\\[|\\]\\]"), "\n\n",
+    str_remove_all(e$corrected, "\\[\\[|\\]\\]"), " The table that should have appeared:\n",
+    sep = "")
+```
 
 \begingroup
 \input{maintained/output/table_b3_vote_share_precinct_cd.tex}
 \endgroup
 
 \parbox{\linewidth}{\footnotesize\raggedright \textit{Note:} Estimated from the deposited replication archive by \texttt{maintained/table\_b3\_vote\_share\_precinct\_cd.R}, which fits the vote share models with congressional district fixed effects that Table B.3 was captioned for. Standard errors in parentheses; $*$ denotes $p < 0.05$.}
+
+# The reference list
+
+The nine entries below correct the article's reference list. Each was found by an audit that sends every printed entry whole to Crossref and checks the authoritative record back into it, and each is verified against the record named in its note. None affects a citation in the text, and no cited work is missing or misattributed in the body of the article: the errors are in how the reference list prints the works, and nearly all of them entered through the publisher's reference processing rather than through the manuscript.
+
+```{r reference-entries, results="asis"}
+# A heading is only a heading when a blank line precedes it. Emitting one straight after
+# the previous entry's note put "## 10. Moore (2012)..." into the page as literal text.
+walk(which(entries$entry >= 5), function(i) {
+  e <- entries[i, ]
+  cat("\n\n## ", e$entry, ". ", e$title, "\n\nPublished, ",
+      str_remove(e$location, "^published "), ":\n\n> ", bold(e$published),
+      "\n\nCorrected:\n\n> ", e$corrected, "\n\n",
+      if (e$note != "") paste0(e$note, "\n\n") else "", sep = "")
+})
+```
+
+```{r emit-spine}
+# The machine-readable spine, written wherever this document is rendered. The remastered
+# edition reads it rather than keeping its own copy, so the two cannot drift.
+write_csv(entries, here("errata_entries.csv"))
+```

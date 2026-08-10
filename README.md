@@ -228,12 +228,18 @@ actually run in.
 
 # Errata
 
-Four defects in the published record, none of which changes a
-substantive conclusion, all of which the rewrite corrects or flags. They
-are also published as a standalone note,
-`coppock_green_porter_2022_errata.pdf`, rendered from `errata.qmd` in
-this repository, which quotes each published sentence beside its
-correction and reprints the six floats that need reprinting.
+13 defects in the published record, none of which changes a substantive
+conclusion. They are published as a standalone note,
+`coppock_green_porter_2022_errata.pdf`, rendered from `errata.qmd`,
+which is the single definition of every entry: the note, this section
+and the remastered edition all read the same `errata_entries.csv` rather
+than keeping copies, because when they kept copies they diverged.
+
+The 4 below are the ones the rewrite corrects or flags, numbered as the
+note numbers them. The remaining 9 are errors in the reference list,
+nearly all introduced by the publisher’s reference processing, found by
+an audit that checks every printed entry against Crossref; they are set
+out in the note and do not bear on the reproduction.
 
 **1. The text misstates the unadjusted estimate by a factor of ten.**
 “The first column shows the unadjusted difference-in-means estimate of
@@ -247,17 +253,11 @@ sentence’s conclusion is unaffected, since both readings describe an
 estimate that is small and swamped by its standard error, but the number
 itself is wrong.
 
-**2. Appendix Table B.3 prints Table B.4.** The caption of B.3 reads
-“Effects on vote share (CD fixed effects)”, and every cell beneath it is
-identical to Table B.4, “Effects on vote margin (CD fixed effects)”: the
-same coefficients, standard errors, R-squared values and covariate
-labels, all on the vote margin scale. The vote share models with
-congressional district fixed effects are in the archive but appear
-nowhere in the appendix. The rewrite computes them;
-`maintained/output/table_b3_vote_share_precinct_cd.csv` is where they
-live. The estimate on any treatment video is 0.0042 (0.0217) unadjusted
-and -0.0018 (0.0088) adjusted, which is the same substantive story as
-Table 4.
+**2. Figure G.2’s panel annotation names the wrong effect size.** The
+label reads “Power when PATE = 0.1”. The simulated effects are drawn
+from a normal centred at 0.01, which is also what the appendix text says
+two paragraphs above. The string is hardcoded in the archive script. The
+rewrite prints 0.01.
 
 **3. Covariate row labels are wrong in five appendix tables.** Thirteen
 covariate rows name a variable their model does not contain. Tables E.7
@@ -273,11 +273,17 @@ vote margins and vote totals. The 2014 and 2012 rows of F.9 are correct
 as published. No coefficient moves; only its name does. The rewrite
 labels each row with the variable actually in the model.
 
-**4. Figure G.2’s panel annotation names the wrong effect size.** The
-label reads “Power when PATE = 0.1”. The simulated effects are drawn
-from a normal centred at 0.01, which is also what the appendix text says
-two paragraphs above. The string is hardcoded in the archive script. The
-rewrite prints 0.01.
+**4. Appendix Table B.3 prints Table B.4.** The caption of B.3 reads
+“Effects on vote share (CD fixed effects)”, and every cell beneath it is
+identical to Table B.4, “Effects on vote margin (CD fixed effects)”: the
+same coefficients, standard errors, R-squared values and covariate
+labels, all on the vote margin scale. The vote share models with
+congressional district fixed effects are in the archive but appear
+nowhere in the appendix. The rewrite computes them;
+`maintained/output/table_b3_vote_share_precinct_cd.csv` is where they
+live. The estimate on any treatment video is 0.0042 (0.0217) unadjusted
+and -0.0018 (0.0088) adjusted, which is the same substantive story as
+Table 4.
 
 # Ground truth
 
