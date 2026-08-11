@@ -48,8 +48,17 @@ fg2 <- read_csv(here("maintained", "output", "figure_g2_design_diagnosis.csv"),
 # corrected fields are whole sentences that need setting as blocks, "brief" where the entry
 # is a token replacement. It lives here because it is an editorial judgment about the entry
 # rather than a fact about the typesetting, and because the alternative is a second list.
+#
+# claim_ids names the ground-truth rows an entry corrects, semicolon-separated, so that
+# "is this finding published?" is a query rather than a judgment. It is empty where the
+# entry has no ground-truth row: the nine reference-list entries, because a reference list
+# is not an extraction claim, and entry 3, whose subject is a row label rather than a
+# number. Entry 4 replaces a whole float, so it names every cell printed beneath the
+# caption, including the four cluster counts the corrected table happens to reprint
+# unchanged. Every id listed here is checked against the ground truth by
+# build_ground_truth.R.
 entries <- tribble(
-  ~entry, ~class, ~source, ~form, ~title, ~location, ~published, ~corrected, ~note,
+  ~entry, ~class, ~source, ~form, ~title, ~location, ~published, ~corrected, ~note, ~claim_ids,
 
   1, "quantity", "pipeline", "full",
   "The unadjusted estimate is misstated by a factor of ten",
@@ -67,6 +76,7 @@ entries <- tribble(
     "and swamped by its standard error, and the paper's conclusion rests on the ",
     "covariate-adjusted estimate in column 2, which is reported and interpreted correctly ",
     "throughout."),
+  "results_unadj_est;results_unadj_se",
 
   2, "label", "pipeline", "brief",
   "Figure G.2 names the wrong effect size",
@@ -77,6 +87,7 @@ entries <- tribble(
     "The simulated effects are drawn from a normal distribution centred at ",
     "{fg2$pate_center}, which is what the appendix text says two paragraphs earlier. The ",
     "label is a hardcoded string in the analysis script; nothing plotted is affected."),
+  "fg2_ols_pate_label;fg2_post_pate_label",
 
   3, "label", "pipeline", "brief",
   "Covariate row labels are wrong in five appendix tables",
@@ -92,6 +103,7 @@ entries <- tribble(
     "all three outcomes, which is also why the 2014 and 2012 covariate rows of Tables F.10",
     "and F.11 read Two Party Vote Share where the regressors are vote margins and vote",
     "totals. The 2014 and 2012 rows of Table F.9 are correct as published."),
+  "",
 
   4, "float", "pipeline", "full",
   "Appendix Table B.3 reprints Table B.4",
@@ -106,6 +118,20 @@ entries <- tribble(
   paste(
     "This is the one entry where the corrected artifact is a float rather than a token: the",
     "sentence around it was never wrong, and the table is what changed."),
+  str_c(
+    "tb3_m1_any_est;tb3_m1_any_se;tb3_m1_int_est;tb3_m1_int_se;tb3_m1_nclust;",
+    "tb3_m1_nobs;tb3_m1_r2;tb3_m2_any_est;tb3_m2_any_se;tb3_m2_int_est;",
+    "tb3_m2_int_se;tb3_m2_m2012_est;tb3_m2_m2012_se;tb3_m2_m2014_est;",
+    "tb3_m2_m2014_se;tb3_m2_m2016_est;tb3_m2_m2016_se;tb3_m2_nclust;",
+    "tb3_m2_nobs;tb3_m2_r2;tb3_m2_x2012_est;tb3_m2_x2012_se;tb3_m2_x2014_est;",
+    "tb3_m2_x2014_se;tb3_m2_x2016_est;tb3_m2_x2016_se;tb3_m3_int_est;",
+    "tb3_m3_int_se;tb3_m3_nclust;tb3_m3_nobs;tb3_m3_r2;tb3_m3_tv1_est;",
+    "tb3_m3_tv1_se;tb3_m3_tv2_est;tb3_m3_tv2_se;tb3_m4_int_est;tb3_m4_int_se;",
+    "tb3_m4_m2012_est;tb3_m4_m2012_se;tb3_m4_m2014_est;tb3_m4_m2014_se;",
+    "tb3_m4_m2016_est;tb3_m4_m2016_se;tb3_m4_nclust;tb3_m4_nobs;tb3_m4_r2;",
+    "tb3_m4_tv1_est;tb3_m4_tv1_se;tb3_m4_tv2_est;tb3_m4_tv2_se;",
+    "tb3_m4_x2012_est;tb3_m4_x2012_se;tb3_m4_x2014_est;tb3_m4_x2014_se;",
+    "tb3_m4_x2016_est;tb3_m4_x2016_se"),
 
   5, "bibliographic", "reference_audit", "brief",
   "Seven authors of Bond et al. (2012) are mangled in the reference list",
@@ -115,6 +141,7 @@ entries <- tribble(
   paste("Three surnames were run together and four more authors were carried into the title.",
         "Crossref, doi 10.1038/nature11421: Bond, Fariss, Jones, Kramer, Marlow, Settle,",
         "Fowler."),
+  "",
 
   6, "bibliographic", "reference_audit", "brief",
   "Coppock, Hill and Vavreck (2020) is given the wrong third author and the wrong title",
@@ -124,6 +151,7 @@ entries <- tribble(
   paste("Lynn Vavreck's given name was taken for her surname, and the title is the working",
         "paper's rather than the published article's; the entry carried no volume or article",
         "number. Crossref, doi 10.1126/sciadv.abc4046."),
+  "",
 
   7, "bibliographic", "reference_audit", "brief",
   "Two authors of Fowler et al. (2021) are run together",
@@ -131,6 +159,7 @@ entries <- tribble(
   "Fowler EF, [[FranzMartin MM, Gregory J]], et al. (2021)",
   "Fowler EF, Franz MM, Martin GJ, et al. (2021)",
   "Crossref, doi 10.1017/S0003055420000696: Fowler, Franz, Martin, Peskowitz, Ridout.",
+  "",
 
   8, "bibliographic", "reference_audit", "brief",
   "The third author of Turitto et al. (2014) is given by his first name",
@@ -138,6 +167,7 @@ entries <- tribble(
   "Turitto C, Green DP, [[Brian S]], et al. (2014)",
   "Turitto C, Green DP, Stobie B, et al. (2014)",
   "Crossref, doi 10.2139/ssrn.3537287: Turitto, Green, Stobie, Tranter.",
+  "",
 
   9, "bibliographic", "reference_audit", "brief",
   "Spenkuch and Toniatti (2018) lists its second author twice",
@@ -145,6 +175,7 @@ entries <- tribble(
   "Spenkuch JL, [[Toniatti D and Toniatti D]] (2018)",
   "Spenkuch JL and Toniatti D (2018)",
   "Crossref, doi 10.1093/qje/qjy010: two authors.",
+  "",
 
   10, "bibliographic", "reference_audit", "brief",
   "Moore (2012) prints its page range without a dash",
@@ -152,6 +183,7 @@ entries <- tribble(
   "Political Analysis [[20(4): 460479]]",
   "Political Analysis 20(4): 460--479",
   "Crossref, doi 10.1093/pan/mps025: pages 460--479.",
+  "",
 
   11, "bibliographic", "reference_audit", "brief",
   "The Wesleyan Media Project's name is inverted",
@@ -161,6 +193,7 @@ entries <- tribble(
   paste("The organization is the Wesleyan Media Project, as its own address",
         "(mediaproject.wesleyan.edu) gives it; the reference processor read \"Wesleyan\" as a",
         "given name."),
+  "",
 
   12, "bibliographic", "reference_audit", "brief",
   "A stray comma inside an author name",
@@ -168,15 +201,17 @@ entries <- tribble(
   "Coppock A, Guess A and [[Ternovski, J]] (2016)",
   "Coppock A, Guess A and Ternovski J (2016)",
   "",
+  "",
 
   13, "bibliographic", "reference_audit", "brief",
   "Green and Gerber (2019) is given the wrong place of publication",
   "published p. 7",
   "[[New York, NY:]] Brookings Institution Press",
   "Washington, DC: Brookings Institution Press",
-  "Brookings Institution Press is in Washington, DC."
+  "Brookings Institution Press is in Washington, DC.",
+  ""
 ) |>
-  mutate(across(c(title, published, corrected, note), as.character))
+  mutate(across(c(title, published, corrected, note, claim_ids), as.character))
 
 stopifnot(nrow(entries) == max(entries$entry), !anyDuplicated(entries$entry))
 

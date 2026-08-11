@@ -582,6 +582,24 @@ gt <- gt |>
   select(paper_id, claim_id, table_figure, claim, claim_type, value_script, value_paper,
          match, value_rewrite, match_rewrite, holds, defect_locus, notes)
 
+# Errata spine gate ----
+# Every claim id an errata entry names has to exist here. A missing one is a typo or a
+# claim that has since been renamed, and a published correction pointing at a row that is
+# not in the table is a dangling reference the build should refuse to carry.
+errata_path <- here::here("errata_entries.csv")
+if (file.exists(errata_path)) {
+  errata_spine <- read_csv(errata_path, show_col_types = FALSE)
+  cited_claim_ids <- errata_spine$claim_ids |>
+    str_split(";") |>
+    unlist() |>
+    str_trim()
+  cited_claim_ids <- cited_claim_ids[!is.na(cited_claim_ids) & cited_claim_ids != ""]
+  if (length(setdiff(cited_claim_ids, gt$claim_id)) > 0) {
+    print(setdiff(cited_claim_ids, gt$claim_id))
+  }
+  stopifnot(length(setdiff(cited_claim_ids, gt$claim_id)) == 0)
+}
+
 write_csv(gt, here::here("ground_truth", "coppock_green_porter_2022_ground_truth.csv"))
 
 print(count(gt, table_figure, match_rewrite), n = 60)
