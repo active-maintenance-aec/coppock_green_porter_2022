@@ -209,6 +209,38 @@ entries <- tribble(
   "[[New York, NY:]] Brookings Institution Press",
   "Washington, DC: Brookings Institution Press",
   "Brookings Institution Press is in Washington, DC.",
+  "",
+
+  # 14 to 16 come from setting Table 2 for the remastered edition rather than
+  # cropping it, which meant reading every cell against the published page.
+  # `source` is "published_page": the defects are the compositor's and neither
+  # the pipeline nor the reference audit could have seen them.
+  14, "label", "published_page", "brief",
+  "Table 2 prints three words the advertisement does not contain",
+  "published p. 4",
+  "Trump audio: \u201cWe\u2019re getting rid of gun-free [[on lock down ]]zones\u2019",
+  "Trump audio: \u201cWe\u2019re getting rid of gun-free zones\u2019",
+  paste("The words migrated in from the adjacent cell, which reads \"they\u2019re putting us on",
+        "lock down\" two lines above. Confirmed three ways: the extracted words sit at",
+        "x 0.1030 to 0.2308, inside the left column and at its own continuation indent; the",
+        "region renders and reads that way at 200 dpi; and the authors\u2019 own source sets the",
+        "cell as \"gun-free zones\". The advertisement\u2019s line is \"gun-free zones\"."),
+  "",
+
+  15, "label", "published_page", "brief",
+  "A colon in Table 2 has lost the space after it",
+  "published p. 4",
+  "On-screen text [[messages:Mom.]] I\u2019m in social studies",
+  "On-screen text messages: Mom. I\u2019m in social studies",
+  "The authors\u2019 source sets the label and the message as separate cells.",
+  "",
+
+  16, "label", "published_page", "brief",
+  "A sentence in Table 2 has lost its full stop",
+  "published p. 4",
+  "I wish you were [[here]]",
+  "I wish you were here.",
+  "Every other line of the transcript ends in its own punctuation.",
   ""
 ) |>
   mutate(across(c(title, published, corrected, note, claim_ids), as.character))
