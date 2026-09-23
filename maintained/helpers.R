@@ -16,9 +16,14 @@ library(DeclareDesign)
 
 here::i_am("maintained/helpers.R")
 
+# modelsummary's default extractor recomputes p-values from the residual df, which
+# for a clustered lm_robust fit ignores the CR2 Satterthwaite df the fit reports and
+# moves stars near the threshold (Table B.4, Model 3 intercept: 0.047 against 0.055).
+# broom's tidy() returns the fit's own p-values.
 options(
   modelsummary_factory_latex = "kableExtra",
-  modelsummary_format_numeric_latex = "plain"
+  modelsummary_format_numeric_latex = "plain",
+  modelsummary_get = "broom"
 )
 
 # lm_robust reports the number of clusters on the fit object but not in glance().
