@@ -102,9 +102,9 @@ line above.
 
 ## Does the maintained rewrite reproduce the paper?
 
-Yes, with the exceptions that are the point of the exercise. 550 of the
+Yes, with the exceptions that are the point of the exercise. 549 of the
 613 verifiable ground truth claims match the published values to
-reported precision. The 63 that do not fall into four groups:
+reported precision. The 64 that do not fall into four groups:
 
 - **52 are cells of appendix Table B.3, which is a reprint of Table
   B.4.** Every cell beneath a vote share caption is a vote margin cell,
@@ -119,12 +119,16 @@ reported precision. The 63 that do not fall into four groups:
   factor of ten and the standard error does not correspond to any model
   in the paper, and it inflates the reported effect tenfold in the only
   place a reader meets it in prose.
-- **Six are simulation draws.** The two randomization inference
-  p-values, the two power figures as the appendix states them, and the
-  two as Figure G.2 prints them, all differ from the published values by
-  less than one Monte Carlo standard error. They cannot be matched
-  exactly, because the archive sets no seed. The same power figures
-  rounded to whole per cent, as the main text states them, do match.
+- **Seven are simulation draws.** The two randomization inference
+  p-values, the two power figures as the appendix states them, the two
+  as Figure G.2 prints them, and the posterior power as the main text
+  states it. The published values and the rewrite’s are two independent
+  draws, and every pair differs by less than two standard errors of that
+  difference; the largest gap, 0.508 against 0.534 for the adjusted
+  randomization inference p-value, is 1.7. They cannot be matched
+  exactly, because the archive sets no seed. Rounded to whole per cent,
+  as the main text states them, the OLS power matches at 21 and the
+  posterior power of 89.9 rounds to 90 against the text’s 89.
 - **Three are figure labels.** Figure G.2’s two panels annotate the
   simulated effect as `PATE = 0.1` where the design draws from a normal
   centred on 0.01, and the published Figure 1 annotates this study’s
@@ -228,15 +232,15 @@ actually run in.
 
 # Errata
 
-13 defects in the published record, none of which changes a substantive
+18 defects in the published record, none of which changes a substantive
 conclusion. They are published as a standalone note,
 `coppock_green_porter_2022_errata.pdf`, rendered from `errata.qmd`,
 which is the single definition of every entry: the note, this section
 and the remastered edition all read the same `errata_entries.csv` rather
 than keeping copies, because when they kept copies they diverged.
 
-The 4 below are the ones the rewrite corrects or flags, numbered as the
-note numbers them. The remaining 9 are errors in the reference list,
+The 7 below are the ones the rewrite corrects or flags, numbered as the
+note numbers them. The remaining 11 are errors in the reference list,
 nearly all introduced by the publisher’s reference processing, found by
 an audit that checks every printed entry against Crossref; they are set
 out in the note and do not bear on the reproduction.
@@ -298,7 +302,7 @@ Table 4.
 | Appendix F.1 | 2 | 1 | 1 | 1 | 1 |
 | Appendix G | 4 | 2 | 0 | 4 | 2 |
 | Appendix H (pre-analysis plan) | 4 | 0 | 0 | 4 | 4 |
-| Bayesian integration | 9 | 6 | 5 | 8 | 8 |
+| Bayesian integration | 9 | 6 | 5 | 8 | 7 |
 | Discussion | 3 | 2 | 2 | 2 | 2 |
 | Field experiment: Florida advertisements | 7 | 0 | 0 | 5 | 5 |
 | Figure 1 | 12 | 12 | 12 | 12 | 11 |
@@ -337,19 +341,20 @@ carry `match = NA` rather than a verdict.
 
 | Claim | Published | Rewrite | Locus |
 |:---|:---|---:|:---|
-| Appendix G: Power of the Bayesian posterior estimator, per cent, as stated in the appendix | 89.3 | 88.6600 | archive |
-| Appendix G: Power of the study on its own, per cent, as stated in the appendix | 21.0 | 20.7200 | archive |
+| Appendix G: Power of the Bayesian posterior estimator, per cent, as stated in the appendix | 89.3 | 89.9000 | archive |
+| Appendix G: Power of the study on its own, per cent, as stated in the appendix | 21.0 | 21.2400 | archive |
 | Figure 1: The present study’s standard error on the panel face | 0.009 | 0.0085 | archive |
 | Figure G.2: PATE named in the left panel annotation | 0.1 | 0.0100 | archive |
-| Figure G.2: Power printed in the left panel | 0.210 | 0.2072 | archive |
+| Figure G.2: Power printed in the left panel | 0.210 | 0.2124 | archive |
 | Figure G.2: PATE named in the right panel annotation | 0.1 | 0.0100 | archive |
-| Figure G.2: Power printed in the right panel | 0.893 | 0.8866 | archive |
-| Results: One-tailed randomization inference p-value, covariate-adjusted model | 0.508 | 0.5050 | archive |
-| Results: One-tailed randomization inference p-value, unadjusted model | 0.471 | 0.4585 | archive |
+| Figure G.2: Power printed in the right panel | 0.893 | 0.8990 | archive |
+| Bayesian integration: Power of the Bayesian posterior estimator, per cent, as stated in the main text | 89 | 89.9000 | archive |
+| Results: One-tailed randomization inference p-value, covariate-adjusted model | 0.508 | 0.5340 | archive |
+| Results: One-tailed randomization inference p-value, unadjusted model | 0.471 | 0.4875 | archive |
 | Results: Unadjusted effect on Democratic vote share as stated in the text, percentage points | 2.1 | 0.2114 | paper_internal |
 | Results: Standard error of the unadjusted effect as stated in the text, percentage points | 3.0 | 2.2487 | paper_internal |
 
-The 11 claims outside Table B.3 the rewrite does not match
+The 12 claims outside Table B.3 the rewrite does not match
 
 `defect_locus` records where the fault lies, because a mismatch
 otherwise reads as a failure of the rewrite and here never is.
@@ -359,7 +364,7 @@ that a package moved underneath the deposited code.
 
 | Defect locus   | Rows |
 |:---------------|-----:|
-| archive        |   16 |
+| archive        |   17 |
 | environment    |   30 |
 | paper_internal |   54 |
 
@@ -416,7 +421,7 @@ row.
 | Appendix front matter | 2 | 0 | 0 |
 | Appendix G | 4 | 4 | 2 |
 | Appendix H (pre-analysis plan) | 28 | 4 | 4 |
-| Bayesian integration | 14 | 9 | 9 |
+| Bayesian integration | 14 | 9 | 8 |
 | Discussion | 5 | 3 | 3 |
 | Field experiment: Florida advertisements | 26 | 7 | 5 |
 | Figure 1 | 21 | 12 | 11 |
@@ -571,13 +576,14 @@ simulations.](maintained/output/figure_g2_design_diagnosis.png)
 
 | Simulations | Mean OLS estimate | Power, OLS | Power, posterior |
 |------------:|:------------------|:-----------|:-----------------|
-|        5000 | 0.0097            | 0.207      | 0.887            |
+|        5000 | 0.0101            | 0.212      | 0.899            |
 
 Figure G.2 diagnosands
 
 The appendix reports power of 0.210 for the OLS estimator and 0.893 for
-the posterior. Both are within one Monte Carlo standard error of the
-values above, which is as close as an unseeded simulation permits.
+the posterior. Treating the published figures and these as two
+independent draws of 5000, the gaps are 0.3 and 1.0 standard errors of
+their difference, which is as close as an unseeded simulation permits.
 
 # Rewrite verification
 
@@ -590,7 +596,7 @@ values above, which is as close as an unseeded simulation permits.
 | Appendix F.1                             |      1 |        1 |            0 |
 | Appendix G                               |      4 |        2 |            2 |
 | Appendix H (pre-analysis plan)           |      4 |        4 |            0 |
-| Bayesian integration                     |      8 |        8 |            0 |
+| Bayesian integration                     |      8 |        7 |            1 |
 | Discussion                               |      2 |        2 |            0 |
 | Field experiment: Florida advertisements |      5 |        5 |            0 |
 | Figure 1                                 |     12 |       11 |            1 |
@@ -630,7 +636,7 @@ they are not reproducible against the archive, which set no seed.
 |:--------------|:--------|
 | R             | 4.6.0   |
 | tidyverse     | 2.0.0   |
-| estimatr      | 1.0.6   |
+| estimatr      | 2.0.1   |
 | modelsummary  | 2.6.0   |
 | DeclareDesign | 1.1.1   |
 | knitr         | 1.51    |

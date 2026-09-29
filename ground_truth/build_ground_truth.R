@@ -444,6 +444,11 @@ locus <- c(
   # The archive's single unseeded draw put the power at 23 per cent against a published
   # 21; the rewrite's seeded run at the published number of draws rounds to 21.
   power_own_pct = "archive",
+  # The same holds for the posterior power. The rewrite's seeded run rounded to the
+  # published 89 until estimatr 2.0 and fabricatr 2.0, both of which consume the random
+  # stream differently, moved it to 89.9. The published figure is one unseeded draw of a
+  # Monte Carlo quantity whose standard error at 5000 draws is about 0.4 points.
+  power_combined_pct = "archive",
   # The deposited script types Table 4's rounded standard error into the Figure 1 label
   # instead of passing the fitted one.
   f1_pres_se = "archive",

@@ -96,7 +96,7 @@ Yes, with the exceptions that are the point of the exercise. `r n_rewrite_match`
 
 - **`r n_b3` are cells of appendix Table B.3, which is a reprint of Table B.4.** Every cell beneath a vote share caption is a vote margin cell, so the rewrite's vote share models disagree with all of them. The four that do agree are the cluster counts, which a table printed in the wrong place still gets right. See the errata.
 - **Two are errors in the published text.** Describing Table 4's first column, the article says the unadjusted estimate is "a 2.1 percentage point increase" with "a standard error of 3.0 percentage points". Table 4 gives 0.0021 with a standard error of 0.0225, which is 0.21 and 2.25 percentage points. The estimate in the text is off by a factor of ten and the standard error does not correspond to any model in the paper, and it inflates the reported effect tenfold in the only place a reader meets it in prose.
-- **Six are simulation draws.** The two randomization inference p-values, the two power figures as the appendix states them, and the two as Figure G.2 prints them, all differ from the published values by less than one Monte Carlo standard error. They cannot be matched exactly, because the archive sets no seed. The same power figures rounded to whole per cent, as the main text states them, do match.
+- **Seven are simulation draws.** The two randomization inference p-values, the two power figures as the appendix states them, the two as Figure G.2 prints them, and the posterior power as the main text states it. The published values and the rewrite's are two independent draws, and every pair differs by less than two standard errors of that difference; the largest gap, 0.508 against 0.534 for the adjusted randomization inference p-value, is 1.7. They cannot be matched exactly, because the archive sets no seed. Rounded to whole per cent, as the main text states them, the OLS power matches at 21 and the posterior power of 89.9 rounds to 90 against the text's 89.
 - **Three are figure labels.** Figure G.2's two panels annotate the simulated effect as `PATE = 0.1` where the design draws from a normal centred on 0.01, and the published Figure 1 annotates this study's standard error as 0.009 because the archive typed the table's rounded 0.0085 into the figure. The rewrite reads the estimate from the Table 4 output instead, and 0.0084760 rounds to 0.008. Nothing plotted in either figure is affected.
 
 The remaining `r n_unverifiable` recorded quantities are unverifiable rather than unmatched: four are precinct counts for a sample the deposit does not contain, and two are the range in "approximately 10 to 20 voting precincts", which describes the same absent mapping.
@@ -398,7 +398,7 @@ out("figure_g2_design_diagnosis.csv") |>
   latex_only(\(k) kable_styling(k, latex_options = c("striped", "hold_position")))
 ```
 
-The appendix reports power of 0.210 for the OLS estimator and 0.893 for the posterior. Both are within one Monte Carlo standard error of the values above, which is as close as an unseeded simulation permits.
+The appendix reports power of 0.210 for the OLS estimator and 0.893 for the posterior. Treating the published figures and these as two independent draws of 5000, the gaps are 0.3 and 1.0 standard errors of their difference, which is as close as an unseeded simulation permits.
 
 # Rewrite verification
 
