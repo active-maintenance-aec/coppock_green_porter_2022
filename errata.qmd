@@ -57,14 +57,22 @@ fg2 <- read_csv(here("maintained", "output", "figure_g2_design_diagnosis.csv"),
 # caption, including the four cluster counts the corrected table happens to reprint
 # unchanged. Every id listed here is checked against the ground truth by
 # build_ground_truth.R.
+# corrected_values runs parallel to claim_ids, one value per id in the same order, on the
+# claim's scale, carrying the corrected quantity as a number rather than as a sentence. Each
+# value is computed once, here, and the corrected sentence below is glued from the same
+# object, so the two cannot be written apart; the gate after the spine re-checks that each
+# value sits inside the [[...]] span it belongs to. An entry of a class that changes no
+# quantity, a note-form entry, and an entry with no claim_ids carry NA.
+cv1 <- c(sprintf('%.1f', t4$estimate * 100), sprintf('%.1f', t4$std.error * 100))
+
 entries <- tribble(
-  ~entry, ~class, ~source, ~form, ~title, ~location, ~published, ~corrected, ~note, ~claim_ids,
+  ~entry, ~class, ~source, ~form, ~title, ~location, ~published, ~corrected, ~note, ~claim_ids, ~corrected_values,
 
   1, "quantity", "pipeline", "full",
   "The unadjusted estimate is misstated by a factor of ten",
   "published p. 5",
   "...a [[2.1 percentage point]] increase in Democratic vote share, though this estimate is uncertain, as evidenced by its large [[standard error of 3.0 percentage points]].",
-  str_glue("...a [[{sprintf('%.1f', t4$estimate * 100)} percentage point]] increase in Democratic vote share, though this estimate is uncertain, as evidenced by its large [[standard error of {sprintf('%.1f', t4$std.error * 100)} percentage points]]."),
+  str_glue("...a [[{cv1[1]} percentage point]] increase in Democratic vote share, though this estimate is uncertain, as evidenced by its large [[standard error of {cv1[2]} percentage points]]."),
   str_glue(
     "Table 4 reports {sprintf('%.4f', t4$estimate)} with a standard error of ",
     "{sprintf('%.4f', t4$std.error)}, which is {sprintf('%.2f', t4$estimate * 100)} and ",
@@ -77,6 +85,7 @@ entries <- tribble(
     "covariate-adjusted estimate in column 2, which is reported and interpreted correctly ",
     "throughout."),
   "results_unadj_est;results_unadj_se",
+  str_c(cv1, collapse = ";"),
 
   2, "label", "pipeline", "brief",
   "Figure G.2 names the wrong effect size",
@@ -88,6 +97,7 @@ entries <- tribble(
     "{fg2$pate_center}, which is what the appendix text says two paragraphs earlier. The ",
     "label is a hardcoded string in the analysis script; nothing plotted is affected."),
   "fg2_ols_pate_label;fg2_post_pate_label",
+  NA_character_,
 
   3, "label", "pipeline", "brief",
   "Covariate row labels are wrong in five appendix tables",
@@ -104,6 +114,7 @@ entries <- tribble(
     "and F.11 read Two Party Vote Share where the regressors are vote margins and vote",
     "totals. The 2014 and 2012 rows of Table F.9 are correct as published."),
   "",
+  NA_character_,
 
   4, "float", "pipeline", "full",
   "Appendix Table B.3 reprints Table B.4",
@@ -132,6 +143,7 @@ entries <- tribble(
     "tb3_m4_tv1_est;tb3_m4_tv1_se;tb3_m4_tv2_est;tb3_m4_tv2_se;",
     "tb3_m4_x2012_est;tb3_m4_x2012_se;tb3_m4_x2014_est;tb3_m4_x2014_se;",
     "tb3_m4_x2016_est;tb3_m4_x2016_se"),
+  NA_character_,
 
   5, "bibliographic", "reference_audit", "brief",
   "Seven authors of Bond et al. (2012) are mangled in the reference list",
@@ -142,6 +154,7 @@ entries <- tribble(
         "Crossref, doi 10.1038/nature11421: Bond, Fariss, Jones, Kramer, Marlow, Settle,",
         "Fowler."),
   "",
+  NA_character_,
 
   6, "bibliographic", "reference_audit", "brief",
   "Coppock, Hill and Vavreck (2020) is given the wrong third author and the wrong title",
@@ -152,6 +165,7 @@ entries <- tribble(
         "paper's rather than the published article's; the entry carried no volume or article",
         "number. Crossref, doi 10.1126/sciadv.abc4046."),
   "",
+  NA_character_,
 
   7, "bibliographic", "reference_audit", "brief",
   "Two authors of Fowler et al. (2021) are run together",
@@ -160,6 +174,7 @@ entries <- tribble(
   "Fowler EF, Franz MM, Martin GJ, et al. (2021)",
   "Crossref, doi 10.1017/S0003055420000696: Fowler, Franz, Martin, Peskowitz, Ridout.",
   "",
+  NA_character_,
 
   8, "bibliographic", "reference_audit", "brief",
   "The third author of Turitto et al. (2014) is given by his first name",
@@ -168,6 +183,7 @@ entries <- tribble(
   "Turitto C, Green DP, Stobie B, et al. (2014)",
   "Crossref, doi 10.2139/ssrn.3537287: Turitto, Green, Stobie, Tranter.",
   "",
+  NA_character_,
 
   9, "bibliographic", "reference_audit", "brief",
   "Spenkuch and Toniatti (2018) lists its second author twice",
@@ -176,6 +192,7 @@ entries <- tribble(
   "Spenkuch JL and Toniatti D (2018)",
   "Crossref, doi 10.1093/qje/qjy010: two authors.",
   "",
+  NA_character_,
 
   10, "bibliographic", "reference_audit", "brief",
   "Moore (2012) prints its page range without a dash",
@@ -184,6 +201,7 @@ entries <- tribble(
   "Political Analysis 20(4): 460--479",
   "Crossref, doi 10.1093/pan/mps025: pages 460--479.",
   "",
+  NA_character_,
 
   11, "bibliographic", "reference_audit", "brief",
   "The Wesleyan Media Project's name is inverted",
@@ -194,6 +212,7 @@ entries <- tribble(
         "(mediaproject.wesleyan.edu) gives it; the reference processor read \"Wesleyan\" as a",
         "given name."),
   "",
+  NA_character_,
 
   12, "bibliographic", "reference_audit", "brief",
   "A stray comma inside an author name",
@@ -202,6 +221,7 @@ entries <- tribble(
   "Coppock A, Guess A and Ternovski J (2016)",
   "",
   "",
+  NA_character_,
 
   13, "bibliographic", "reference_audit", "brief",
   "Green and Gerber (2019) is given the wrong place of publication",
@@ -210,6 +230,7 @@ entries <- tribble(
   "Washington, DC: Brookings Institution Press",
   "Brookings Institution Press is in Washington, DC.",
   "",
+  NA_character_,
 
   # 14 to 16 come from setting Table 2 for the remastered edition rather than
   # cropping it, which meant reading every cell against the published page.
@@ -226,6 +247,7 @@ entries <- tribble(
         "region renders and reads that way at 200 dpi; and the authors\u2019 own source sets the",
         "cell as \"gun-free zones\". The advertisement\u2019s line is \"gun-free zones\"."),
   "",
+  NA_character_,
 
   15, "label", "published_page", "brief",
   "A colon in Table 2 has lost the space after it",
@@ -234,6 +256,7 @@ entries <- tribble(
   "On-screen text messages: Mom. I\u2019m in social studies",
   "The authors\u2019 source sets the label and the message as separate cells.",
   "",
+  NA_character_,
 
   16, "label", "published_page", "brief",
   "A sentence in Table 2 has lost its full stop",
@@ -242,6 +265,7 @@ entries <- tribble(
   "I wish you were here.",
   "Every other line of the transcript ends in its own punctuation.",
   "",
+  NA_character_,
 
   # 17 and 18 come from reading the reference list against the page for the
   # remastered edition. Like 14 to 16 they are the compositor's: the reference
@@ -256,6 +280,7 @@ entries <- tribble(
         "was then title-cased as though it were a word of its own. The New York Times",
         "headline reads \"Candidates\"."),
   "",
+  NA_character_,
 
   18, "bibliographic", "published_page", "brief",
   "Three reference URLs are printed with a space in them, so as printed they do not resolve",
@@ -271,10 +296,65 @@ entries <- tribble(
         "underscore. The corrected Guardian URL resolves; the New York Times and SSRN",
         "addresses refuse automated requests and resolve in the Internet Archive."),
   ""
-) |>
-  mutate(across(c(title, published, corrected, note, claim_ids), as.character))
+,
+  NA_character_) |>
+  mutate(across(c(title, published, corrected, note, claim_ids, corrected_values),
+                as.character))
 
 stopifnot(nrow(entries) == max(entries$entry), !anyDuplicated(entries$entry))
+
+# Gate: corrected_values agrees with the sentence it was glued into ----
+# The column and the sentence are written from one object, so they begin in agreement and
+# this gate exists for the edit that separates them: a value moved from one marked span to
+# another, a span reworded to carry a second number, a claim id appended without its value.
+# Each value has to be inside the span it belongs to, matched by position where the counts
+# line up, and inside SOME span where an entry marks a label as well as a number and its
+# spans outnumber its values. A count the sentence spells out is accepted in its spelled form.
+marked_spans <- function(x) str_match_all(x, "\\[\\[(.*?)\\]\\]")[[1]][, 2]
+
+in_span <- function(v, s) {
+  s <- str_remove_all(s, ",")
+  str_detect(s, fixed(v)) ||
+    (str_detect(v, "^[0-9]+$") && as.integer(v) %in% seq_len(25) &&
+       str_detect(s, fixed(as.character(as.integer(v)))))
+}
+
+quantified <- entries |>
+  filter(!is.na(corrected_values)) |>
+  mutate(ids = str_split(claim_ids, ";"), values = str_split(corrected_values, ";"),
+         spans = map(corrected, marked_spans))
+
+stopifnot(all(lengths(quantified$ids) == lengths(quantified$values)))
+
+value_placed <- pmap_lgl(quantified, function(...) {
+  e <- list(...)
+  if (length(e$values) == length(e$spans)) {
+    all(map2_lgl(e$values, e$spans, in_span))
+  } else {
+    all(map_lgl(e$values, \(v) any(map_lgl(e$spans, \(s) in_span(v, s)))))
+  }
+})
+
+if (!all(value_placed)) {
+  print(quantified |> filter(!value_placed) |> select(entry, title, corrected_values, corrected))
+  stop("An entry's corrected_values are not in the spans of its corrected sentence.")
+}
+
+# An entry that changes a quantity has to say which one, and an entry that changes none may
+# not carry a value. The class is the declaration and this is where it binds. A note-form
+# entry corrects nothing and carries NA even where its class is quantity, and an entry with
+# no claim_ids has no claim to carry a value for.
+has_ids <- !is.na(entries$claim_ids) & entries$claim_ids != ""
+# Entries whose claim id names something no corrected token states as a number carry NA by
+# name, and the list is the only exemption.
+no_numeric_claim <- integer(0)
+stopifnot(
+  all(!is.na(entries$corrected_values[entries$class == "quantity" & entries$form != "note" &
+                                        has_ids & !entries$entry %in% no_numeric_claim])),
+  all(is.na(entries$corrected_values[entries$class != "quantity"])),
+  all(is.na(entries$corrected_values[entries$form == "note"])),
+  all(is.na(entries$corrected_values) | has_ids)
+)
 
 # The spine's markup, resolved for this document. The edition resolves it differently.
 bold <- function(x) str_replace_all(x, "\\[\\[(.*?)\\]\\]", "**\\1**")
