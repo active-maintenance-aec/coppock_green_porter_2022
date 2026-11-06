@@ -442,13 +442,12 @@ locus <- c(
   fg2_ols_pate_label = "archive",
   fg2_post_pate_label = "archive",
   # The archive's single unseeded draw put the power at 23 per cent against a published
-  # 21; the rewrite's seeded run at the published number of draws rounds to 21.
+  # 21; the rewrite's seeded run at the published number of draws reads 21.5 under
+  # DeclareDesign 2.0 and rounded to 21 before it, so the gap is simulation noise.
   power_own_pct = "archive",
-  # The same holds for the posterior power. The rewrite's seeded run rounded to the
-  # published 89 until estimatr 2.0 and fabricatr 2.0, both of which consume the random
-  # stream differently, moved it to 89.9. The published figure is one unseeded draw of a
-  # Monte Carlo quantity whose standard error at 5000 draws is about 0.4 points.
-  power_combined_pct = "archive",
+  # The posterior power takes no locus: it rounded to the published 89 before estimatr and
+  # fabricatr 2.0, read 89.9 under them, and reads 88.7 under DeclareDesign 2.0. Each is one
+  # draw of a Monte Carlo quantity whose standard error at 5000 draws is about 0.4 points.
   # The deposited script types Table 4's rounded standard error into the Figure 1 label
   # instead of passing the fitted one.
   f1_pres_se = "archive",

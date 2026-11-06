@@ -1,6 +1,6 @@
 paper_id,claim_id,table_figure,claim,claim_type,value_script,value_paper,match,value_rewrite,match_rewrite,holds,defect_locus,notes
 coppock_green_porter_2022,abs_adjusted_est,Abstract,"Covariate-adjusted effect on Democratic vote share, percentage points",pipeline,-0.04433232858292829,-0.04,1,-0.04433232858219413,1,NA,NA,NA
-coppock_green_porter_2022,abs_adjusted_se,Abstract,"Standard error of the covariate-adjusted effect, percentage points",pipeline,0.8475969259392859,0.85,1,0.847596925938736,1,NA,NA,NA
+coppock_green_porter_2022,abs_adjusted_se,Abstract,"Standard error of the covariate-adjusted effect, percentage points",pipeline,0.8475969259392859,0.85,1,0.8475969259408861,1,NA,NA,NA
 coppock_green_porter_2022,app_a_small_insignificant,Appendix A,Effects on vote margin and turnout are small and statistically insignificant,descriptive,NA,NA,NA,NA,NA,TRUE,NA,NA
 coppock_green_porter_2022,app_c_dim_none_below,Appendix C,No difference-in-means equivalence p-value is smaller than 0.05,descriptive,NA,0.05,NA,NA,NA,TRUE,NA,NA
 coppock_green_porter_2022,app_c_ols_01_total_only,Appendix C,Under the 0.1 SD tolerance only the OLS estimate on vote total can be affirmed equivalent,descriptive,NA,NA,NA,NA,NA,TRUE,NA,NA
@@ -13,11 +13,11 @@ coppock_green_porter_2022,app_f_zips,Appendix F,"ZIP codes block-randomized, res
 coppock_green_porter_2022,app_f8_joint_p,Appendix F.1,"Joint significance test p-value, ZIP-level balance",pipeline,0.3284604392860449,0.328,1,0.3284604392860464,1,NA,NA,NA
 coppock_green_porter_2022,app_g_pate_center,Appendix G,Centre of the distribution simulated treatment effects are drawn from,definitional,NA,0.01,NA,0.01,1,NA,NA,NA
 coppock_green_porter_2022,app_g_pate_sd,Appendix G,Standard deviation of the distribution simulated treatment effects are drawn from,definitional,NA,0.005,NA,0.005,1,NA,NA,NA
-coppock_green_porter_2022,app_g_power_combined,Appendix G,"Power of the Bayesian posterior estimator, per cent, as stated in the appendix",pipeline,89,89.3,0,89.89999999999996,0,NA,archive,NA
-coppock_green_porter_2022,app_g_power_own,Appendix G,"Power of the study on its own, per cent, as stated in the appendix",pipeline,23,21.0,0,21.240000000000016,0,NA,archive,NA
+coppock_green_porter_2022,app_g_power_combined,Appendix G,"Power of the Bayesian posterior estimator, per cent, as stated in the appendix",pipeline,89,89.3,0,88.72,0,NA,archive,NA
+coppock_green_porter_2022,app_g_power_own,Appendix G,"Power of the study on its own, per cent, as stated in the appendix",pipeline,23,21.0,0,21.540000000000003,0,NA,archive,NA
 coppock_green_porter_2022,bayes_all_insignificant,Bayesian integration,Each of the four studies returned a statistically insignificant result,descriptive,NA,NA,NA,NA,NA,TRUE,NA,NA
-coppock_green_porter_2022,bayes_final_mean,Bayesian integration,"Posterior mean after all four studies, percentage points",pipeline,0.7083640865164079,0.7,1,0.70836408651634,1,NA,NA,NA
-coppock_green_porter_2022,bayes_final_sd,Bayesian integration,"Posterior standard deviation after all four studies, percentage points",pipeline,0.44961730846587294,0.4,1,0.449617308465791,1,NA,NA,NA
+coppock_green_porter_2022,bayes_final_mean,Bayesian integration,"Posterior mean after all four studies, percentage points",pipeline,0.7083640865164079,0.7,1,0.708364086517414,1,NA,NA,NA
+coppock_green_porter_2022,bayes_final_sd,Bayesian integration,"Posterior standard deviation after all four studies, percentage points",pipeline,0.44961730846587294,0.4,1,0.44961730846611203,1,NA,NA,NA
 coppock_green_porter_2022,bayes_panel4_mean,Bayesian integration,"Posterior mean after the first three studies, percentage points",pipeline,1.003100201576892,1.0,1,1.003100201576892,1,NA,NA,NA
 coppock_green_porter_2022,bayes_panel4_sd,Bayesian integration,"Posterior standard deviation after the first three studies, percentage points",pipeline,NA,0.5,NA,0.53039097610428,1,NA,NA,NA
 coppock_green_porter_2022,bayes_prior_sd_pp,Bayesian integration,"Prior standard deviation stated in the text, percentage points",definitional,NA,5,NA,5,1,NA,NA,NA
@@ -29,25 +29,25 @@ coppock_green_porter_2022,design_treatment_zips,Field experiment: Florida advert
 coppock_green_porter_2022,design_zip_codes,Field experiment: Florida advertisements,ZIP codes randomized,pipeline,NA,210,NA,210,1,NA,NA,NA
 coppock_green_porter_2022,design_zips_analysis,Field experiment: Florida advertisements,ZIP codes in the analysis sample,pipeline,NA,154,NA,154,1,NA,NA,NA
 coppock_green_porter_2022,disc_cost_per_vote,Discussion,"Implied cost per vote, dollars",pipeline,8.681337780261797,8.68,1,8.681337780261797,1,NA,NA,NA
-coppock_green_porter_2022,disc_posterior_mean,Discussion,"Mean of the final Bayesian posterior restated in the discussion, percentage points",pipeline,0.7083640865164079,0.7,1,0.70836408651634,1,NA,NA,NA
+coppock_green_porter_2022,disc_posterior_mean,Discussion,"Mean of the final Bayesian posterior restated in the discussion, percentage points",pipeline,0.7083640865164079,0.7,1,0.708364086517414,1,NA,NA,NA
 coppock_green_porter_2022,disc_skip_ratio,Discussion,Viewers who skipped after three seconds for every viewer who watched an ad through,descriptive,NA,10,NA,9.570429045143452,NA,TRUE,NA,NA
 coppock_green_porter_2022,f1_bg_post_mu,Figure 1,Posterior mean after Broockman and Green (2014),pipeline,0.01483679525222552,0.015,1,0.01483679525222552,1,NA,NA,NA
 coppock_green_porter_2022,f1_bg_post_sd,Figure 1,Posterior standard deviation after Broockman and Green (2014),pipeline,0.01348149627599854,0.013,1,0.01348149627599854,1,NA,NA,NA
 coppock_green_porter_2022,f1_hag_post_mu,Figure 1,Posterior mean after Hager (2019),pipeline,0.01003100201576892,0.010,1,0.01003100201576892,1,NA,NA,NA
 coppock_green_porter_2022,f1_hag_post_sd,Figure 1,Posterior standard deviation after Hager (2019),pipeline,0.0053039097610428,0.005,1,0.0053039097610428,1,NA,NA,NA
 coppock_green_porter_2022,f1_pres_est,Figure 1,The present study's estimate on the panel face,pipeline,-4.4332328582928296e-4,-0.000,1,-4.4332328582194133e-4,1,NA,NA,NA
-coppock_green_porter_2022,f1_pres_post_mu,Figure 1,Posterior mean after the present study,pipeline,0.00708364086516408,0.007,1,0.0070836408651634,1,NA,NA,NA
-coppock_green_porter_2022,f1_pres_post_sd,Figure 1,Posterior standard deviation after the present study,pipeline,0.00449617308465873,0.004,1,0.00449617308465791,1,NA,NA,NA
-coppock_green_porter_2022,f1_pres_se,Figure 1,The present study's standard error on the panel face,pipeline,0.0085,0.009,1,0.00847596925938736,0,NA,archive,NA
+coppock_green_porter_2022,f1_pres_post_mu,Figure 1,Posterior mean after the present study,pipeline,0.00708364086516408,0.007,1,0.00708364086517414,1,NA,NA,NA
+coppock_green_porter_2022,f1_pres_post_sd,Figure 1,Posterior standard deviation after the present study,pipeline,0.00449617308465873,0.004,1,0.00449617308466112,1,NA,NA,NA
+coppock_green_porter_2022,f1_pres_se,Figure 1,The present study's standard error on the panel face,pipeline,0.0085,0.009,1,0.00847596925940886,0,NA,archive,NA
 coppock_green_porter_2022,f1_prior_mu,Figure 1,Prior mean,definitional,0,0.000,1,0,1,NA,NA,NA
 coppock_green_porter_2022,f1_prior_sd,Figure 1,Prior standard deviation,definitional,0.05,0.050,1,0.05,1,NA,NA,NA
 coppock_green_porter_2022,f1_tur_post_mu,Figure 1,Posterior mean after Turitto et al. (2014),pipeline,0.01371702077982722,0.014,1,0.01371702077982722,1,NA,NA,NA
 coppock_green_porter_2022,f1_tur_post_sd,Figure 1,Posterior standard deviation after Turitto et al. (2014),pipeline,0.01134488933950494,0.011,1,0.01134488933950494,1,NA,NA,NA
 coppock_green_porter_2022,fg2_ols_pate_label,Figure G.2,PATE named in the left panel annotation,pipeline,NA,0.1,NA,0.01,0,NA,archive,NA
-coppock_green_porter_2022,fg2_ols_power,Figure G.2,Power printed in the left panel,pipeline,0.23,0.210,0,0.21240000000000017,0,NA,archive,NA
+coppock_green_porter_2022,fg2_ols_power,Figure G.2,Power printed in the left panel,pipeline,0.23,0.210,0,0.21540000000000004,0,NA,archive,NA
 coppock_green_porter_2022,fg2_post_pate_label,Figure G.2,PATE named in the right panel annotation,pipeline,NA,0.1,NA,0.01,0,NA,archive,NA
-coppock_green_porter_2022,fg2_post_power,Figure G.2,Power printed in the right panel,pipeline,0.89,0.893,0,0.8989999999999997,0,NA,archive,NA
-coppock_green_porter_2022,fn_calc_posterior,Note 1,Posterior mean inside the printed cost-per-vote expression,pipeline,0.00708364086516408,0.007,1,0.0070836408651634,1,NA,NA,NA
+coppock_green_porter_2022,fg2_post_power,Figure G.2,Power printed in the right panel,pipeline,0.89,0.893,0,0.8872,0,NA,archive,NA
+coppock_green_porter_2022,fn_calc_posterior,Note 1,Posterior mean inside the printed cost-per-vote expression,pipeline,0.00708364086516408,0.007,1,0.00708364086517414,1,NA,NA,NA
 coppock_green_porter_2022,fn_calc_result,Note 1,"Result of the printed cost-per-vote expression, dollars",pipeline,8.681337780261797,8.68,1,8.681337780261797,1,NA,NA,NA
 coppock_green_porter_2022,fn_calc_voters,Note 1,Voter total inside the printed cost-per-vote expression,pipeline,822782.7733194007,822783,1,822782.7733194007,1,NA,NA,NA
 coppock_green_porter_2022,fn_voters,Note 1,Voters in targeted ZIP codes used in the cost-per-vote calculation,pipeline,822782.7733194007,822783,1,822782.7733194007,1,NA,NA,NA
@@ -55,13 +55,13 @@ coppock_green_porter_2022,pap_control,Appendix H (pre-analysis plan),ZIP codes a
 coppock_green_porter_2022,pap_v1,Appendix H (pre-analysis plan),ZIP codes assigned to video 1 in the pre-analysis plan's assignment table,pipeline,NA,53,NA,53,1,NA,NA,NA
 coppock_green_porter_2022,pap_v2,Appendix H (pre-analysis plan),ZIP codes assigned to video 2 in the pre-analysis plan's assignment table,pipeline,NA,53,NA,53,1,NA,NA,NA
 coppock_green_porter_2022,pap_zips,Appendix H (pre-analysis plan),ZIP codes named in the pre-analysis plan,pipeline,NA,210,NA,210,1,NA,NA,NA
-coppock_green_porter_2022,power_combined_pct,Bayesian integration,"Power of the Bayesian posterior estimator, per cent, as stated in the main text",pipeline,89,89,1,89.89999999999996,0,NA,archive,NA
-coppock_green_porter_2022,power_own_pct,Bayesian integration,"Power of the experiment on its own, per cent, as stated in the main text",pipeline,23,21,0,21.240000000000016,1,NA,archive,NA
+coppock_green_porter_2022,power_combined_pct,Bayesian integration,"Power of the Bayesian posterior estimator, per cent, as stated in the main text",pipeline,89,89,1,88.72,1,NA,NA,NA
+coppock_green_porter_2022,power_own_pct,Bayesian integration,"Power of the experiment on its own, per cent, as stated in the main text",pipeline,23,21,0,21.540000000000003,0,NA,archive,NA
 coppock_green_porter_2022,power_pate_pp,Bayesian integration,"Average effect implied by the previous literature, percentage points",pipeline,1.003100201576892,1.0,1,1.003100201576892,1,NA,NA,NA
 coppock_green_porter_2022,results_adj_est,Results,"Covariate-adjusted effect on vote share, percentage points",pipeline,-0.04433232858292829,-0.04,1,-0.04433232858219413,1,NA,NA,NA
-coppock_green_porter_2022,results_adj_se,Results,"Standard error of the covariate-adjusted effect, percentage points",pipeline,0.8475969259392859,0.85,1,0.847596925938736,1,NA,NA,NA
+coppock_green_porter_2022,results_adj_se,Results,"Standard error of the covariate-adjusted effect, percentage points",pipeline,0.8475969259392859,0.85,1,0.8475969259408861,1,NA,NA,NA
 coppock_green_porter_2022,results_ri_p_adj,Results,"One-tailed randomization inference p-value, covariate-adjusted model",pipeline,0.51,0.508,0,0.534,0,NA,archive,NA
-coppock_green_porter_2022,results_ri_p_unadj,Results,"One-tailed randomization inference p-value, unadjusted model",pipeline,0.48,0.471,0,0.4875,0,NA,archive,NA
+coppock_green_porter_2022,results_ri_p_unadj,Results,"One-tailed randomization inference p-value, unadjusted model",pipeline,0.48,0.471,0,0.469,0,NA,archive,NA
 coppock_green_porter_2022,results_unadj_est,Results,"Unadjusted effect on Democratic vote share as stated in the text, percentage points",pipeline,0.211445890447404,2.1,0,0.21144589044742299,0,NA,paper_internal,NA
 coppock_green_porter_2022,results_unadj_se,Results,"Standard error of the unadjusted effect as stated in the text, percentage points",pipeline,2.248729557733574,3.0,0,2.248729557733591,0,NA,paper_internal,NA
 coppock_green_porter_2022,results_zip_all,Results,ZIP codes included in the ZIP-level analysis,pipeline,NA,210,NA,210,1,NA,NA,NA
@@ -92,29 +92,29 @@ coppock_green_porter_2022,t1_outcome_v2_zip,Table 1,"With outcome data, Treatmen
 coppock_green_porter_2022,t4_m1_any_est,Table 4,Table 4 cell m1_any_est,pipeline,0.00211445890447404,0.0021,1,0.00211445890447423,1,NA,NA,NA
 coppock_green_porter_2022,t4_m1_any_se,Table 4,Table 4 cell m1_any_se,pipeline,0.02248729557733574,0.0225,1,0.02248729557733591,1,NA,NA,NA
 coppock_green_porter_2022,t4_m1_int_est,Table 4,Table 4 cell m1_int_est,pipeline,NA,0.4937,NA,0.49368484327259426,1,NA,NA,NA
-coppock_green_porter_2022,t4_m1_int_se,Table 4,Table 4 cell m1_int_se,pipeline,NA,0.0157,NA,0.01572498143990578,1,NA,NA,NA
+coppock_green_porter_2022,t4_m1_int_se,Table 4,Table 4 cell m1_int_se,pipeline,NA,0.0157,NA,0.01572498143990579,1,NA,NA,NA
 coppock_green_porter_2022,t4_m1_nclust,Table 4,Table 4 cell m1_nclust,pipeline,154,154,1,154,1,NA,NA,NA
 coppock_green_porter_2022,t4_m1_nobs,Table 4,Table 4 cell m1_nobs,pipeline,853,853,1,853,1,NA,NA,NA
 coppock_green_porter_2022,t4_m1_r2,Table 4,Table 4 cell m1_r2,pipeline,NA,0.0000,NA,4.130678263802867e-5,1,NA,NA,NA
 coppock_green_porter_2022,t4_m2_any_est,Table 4,Table 4 cell m2_any_est,pipeline,-4.4332328582928296e-4,-0.0004,1,-4.4332328582194133e-4,1,NA,NA,NA
-coppock_green_porter_2022,t4_m2_any_se,Table 4,Table 4 cell m2_any_se,pipeline,0.00847596925939286,0.0085,1,0.00847596925938736,1,NA,NA,NA
+coppock_green_porter_2022,t4_m2_any_se,Table 4,Table 4 cell m2_any_se,pipeline,0.00847596925939286,0.0085,1,0.00847596925940886,1,NA,NA,NA
 coppock_green_porter_2022,t4_m2_int_est,Table 4,Table 4 cell m2_int_est,pipeline,NA,0.0135,NA,0.01345519101129682,1,NA,NA,NA
-coppock_green_porter_2022,t4_m2_int_se,Table 4,Table 4 cell m2_int_se,pipeline,NA,0.0122,NA,0.0122049952715976,1,NA,NA,NA
+coppock_green_porter_2022,t4_m2_int_se,Table 4,Table 4 cell m2_int_se,pipeline,NA,0.0122,NA,0.01220499527847132,1,NA,NA,NA
 coppock_green_porter_2022,t4_m2_m2012_est,Table 4,Table 4 cell m2_m2012_est,pipeline,NA,5.3026,NA,5.302613055640503,1,NA,NA,NA
-coppock_green_porter_2022,t4_m2_m2012_se,Table 4,Table 4 cell m2_m2012_se,pipeline,NA,3.0541,NA,3.0540937778476667,1,NA,NA,NA
+coppock_green_porter_2022,t4_m2_m2012_se,Table 4,Table 4 cell m2_m2012_se,pipeline,NA,3.0541,NA,3.054093776554667,1,NA,NA,NA
 coppock_green_porter_2022,t4_m2_m2014_est,Table 4,Table 4 cell m2_m2014_est,pipeline,NA,14.8150,NA,14.81496147527888,1,NA,NA,NA
-coppock_green_porter_2022,t4_m2_m2014_se,Table 4,Table 4 cell m2_m2014_se,pipeline,NA,5.0869,NA,5.08686546552453,1,NA,NA,NA
+coppock_green_porter_2022,t4_m2_m2014_se,Table 4,Table 4 cell m2_m2014_se,pipeline,NA,5.0869,NA,5.08686546835041,1,NA,NA,NA
 coppock_green_porter_2022,t4_m2_m2016_est,Table 4,Table 4 cell m2_m2016_est,pipeline,NA,84.3343,NA,84.3343097102716,1,NA,NA,NA
-coppock_green_porter_2022,t4_m2_m2016_se,Table 4,Table 4 cell m2_m2016_se,pipeline,NA,6.0944,NA,6.094409892488999,1,NA,NA,NA
+coppock_green_porter_2022,t4_m2_m2016_se,Table 4,Table 4 cell m2_m2016_se,pipeline,NA,6.0944,NA,6.094409893641552,1,NA,NA,NA
 coppock_green_porter_2022,t4_m2_nclust,Table 4,Table 4 cell m2_nclust,pipeline,154,154,1,154,1,NA,NA,NA
 coppock_green_porter_2022,t4_m2_nobs,Table 4,Table 4 cell m2_nobs,pipeline,853,853,1,853,1,NA,NA,NA
 coppock_green_porter_2022,t4_m2_r2,Table 4,Table 4 cell m2_r2,pipeline,NA,0.8356,NA,0.8356498606214334,1,NA,NA,NA
 coppock_green_porter_2022,t4_m2_x2012_est,Table 4,Table 4 cell m2_x2012_est,pipeline,NA,0.0531,NA,0.05312674481584476,1,NA,NA,NA
-coppock_green_porter_2022,t4_m2_x2012_se,Table 4,Table 4 cell m2_x2012_se,pipeline,NA,0.0307,NA,0.03069852002723472,1,NA,NA,NA
+coppock_green_porter_2022,t4_m2_x2012_se,Table 4,Table 4 cell m2_x2012_se,pipeline,NA,0.0307,NA,0.03069852001135259,1,NA,NA,NA
 coppock_green_porter_2022,t4_m2_x2014_est,Table 4,Table 4 cell m2_x2014_est,pipeline,NA,0.1489,NA,0.14892941564679354,1,NA,NA,NA
-coppock_green_porter_2022,t4_m2_x2014_se,Table 4,Table 4 cell m2_x2014_se,pipeline,NA,0.0511,NA,0.05113641195328648,1,NA,NA,NA
+coppock_green_porter_2022,t4_m2_x2014_se,Table 4,Table 4 cell m2_x2014_se,pipeline,NA,0.0511,NA,0.05113641198518427,1,NA,NA,NA
 coppock_green_porter_2022,t4_m2_x2016_est,Table 4,Table 4 cell m2_x2016_est,pipeline,NA,0.8482,NA,0.8482380661471786,1,NA,NA,NA
-coppock_green_porter_2022,t4_m2_x2016_se,Table 4,Table 4 cell m2_x2016_se,pipeline,NA,0.0613,NA,0.06128426849838694,1,NA,NA,NA
+coppock_green_porter_2022,t4_m2_x2016_se,Table 4,Table 4 cell m2_x2016_se,pipeline,NA,0.0613,NA,0.06128426850953576,1,NA,NA,NA
 coppock_green_porter_2022,t4_m3_int_est,Table 4,Table 4 cell m3_int_est,pipeline,NA,0.4937,NA,0.4936848432725942,1,NA,NA,NA
 coppock_green_porter_2022,t4_m3_int_se,Table 4,Table 4 cell m3_int_se,pipeline,NA,0.0157,NA,0.01572498143990578,1,NA,NA,NA
 coppock_green_porter_2022,t4_m3_nclust,Table 4,Table 4 cell m3_nclust,pipeline,154,154,1,154,1,NA,NA,NA
@@ -123,140 +123,140 @@ coppock_green_porter_2022,t4_m3_r2,Table 4,Table 4 cell m3_r2,pipeline,NA,0.0100
 coppock_green_porter_2022,t4_m3_tv1_est,Table 4,Table 4 cell m3_tv1_est,pipeline,-0.02054151711593248,-0.0205,1,-0.0205415171159322,1,NA,NA,NA
 coppock_green_porter_2022,t4_m3_tv1_se,Table 4,Table 4 cell m3_tv1_se,pipeline,0.0249779396651857,0.0250,1,0.02497793966518556,1,NA,NA,NA
 coppock_green_porter_2022,t4_m3_tv2_est,Table 4,Table 4 cell m3_tv2_est,pipeline,0.02551499751710058,0.0255,1,0.02551499751710072,1,NA,NA,NA
-coppock_green_porter_2022,t4_m3_tv2_se,Table 4,Table 4 cell m3_tv2_se,pipeline,0.0291181584918253,0.0291,1,0.02911815849182541,1,NA,NA,NA
+coppock_green_porter_2022,t4_m3_tv2_se,Table 4,Table 4 cell m3_tv2_se,pipeline,0.0291181584918253,0.0291,1,0.02911815849182542,1,NA,NA,NA
 coppock_green_porter_2022,t4_m4_int_est,Table 4,Table 4 cell m4_int_est,pipeline,NA,0.0140,NA,0.01404791761228771,1,NA,NA,NA
-coppock_green_porter_2022,t4_m4_int_se,Table 4,Table 4 cell m4_int_se,pipeline,NA,0.0128,NA,0.01279770843945397,1,NA,NA,NA
+coppock_green_porter_2022,t4_m4_int_se,Table 4,Table 4 cell m4_int_se,pipeline,NA,0.0128,NA,0.0127977084395844,1,NA,NA,NA
 coppock_green_porter_2022,t4_m4_m2012_est,Table 4,Table 4 cell m4_m2012_est,pipeline,NA,5.2424,NA,5.242379644478701,1,NA,NA,NA
-coppock_green_porter_2022,t4_m4_m2012_se,Table 4,Table 4 cell m4_m2012_se,pipeline,NA,3.1297,NA,3.1297226590107767,1,NA,NA,NA
+coppock_green_porter_2022,t4_m4_m2012_se,Table 4,Table 4 cell m4_m2012_se,pipeline,NA,3.1297,NA,3.1297226631698587,1,NA,NA,NA
 coppock_green_porter_2022,t4_m4_m2014_est,Table 4,Table 4 cell m4_m2014_est,pipeline,NA,14.7661,NA,14.76614274441124,1,NA,NA,NA
-coppock_green_porter_2022,t4_m4_m2014_se,Table 4,Table 4 cell m4_m2014_se,pipeline,NA,5.1776,NA,5.1775966601734815,1,NA,NA,NA
+coppock_green_porter_2022,t4_m4_m2014_se,Table 4,Table 4 cell m4_m2014_se,pipeline,NA,5.1776,NA,5.177596660617126,1,NA,NA,NA
 coppock_green_porter_2022,t4_m4_m2016_est,Table 4,Table 4 cell m4_m2016_est,pipeline,NA,84.3359,NA,84.33588314466287,1,NA,NA,NA
-coppock_green_porter_2022,t4_m4_m2016_se,Table 4,Table 4 cell m4_m2016_se,pipeline,NA,6.1268,NA,6.126763569524432,1,NA,NA,NA
+coppock_green_porter_2022,t4_m4_m2016_se,Table 4,Table 4 cell m4_m2016_se,pipeline,NA,6.1268,NA,6.126763569389928,1,NA,NA,NA
 coppock_green_porter_2022,t4_m4_nclust,Table 4,Table 4 cell m4_nclust,pipeline,154,154,1,154,1,NA,NA,NA
 coppock_green_porter_2022,t4_m4_nobs,Table 4,Table 4 cell m4_nobs,pipeline,853,853,1,853,1,NA,NA,NA
 coppock_green_porter_2022,t4_m4_r2,Table 4,Table 4 cell m4_r2,pipeline,NA,0.8357,NA,0.8356733487234991,1,NA,NA,NA
 coppock_green_porter_2022,t4_m4_tv1_est,Table 4,Table 4 cell m4_tv1_est,pipeline,-0.00161931034712876,-0.0016,1,-0.00161931034716319,1,NA,NA,NA
-coppock_green_porter_2022,t4_m4_tv1_se,Table 4,Table 4 cell m4_tv1_se,pipeline,0.01086087176269422,0.0109,1,0.01086087176268514,1,NA,NA,NA
+coppock_green_porter_2022,t4_m4_tv1_se,Table 4,Table 4 cell m4_tv1_se,pipeline,0.01086087176269422,0.0109,1,0.0108608717626776,1,NA,NA,NA
 coppock_green_porter_2022,t4_m4_tv2_est,Table 4,Table 4 cell m4_tv2_est,pipeline,6.758475674641944e-4,0.0007,1,6.758475674706088e-4,1,NA,NA,NA
-coppock_green_porter_2022,t4_m4_tv2_se,Table 4,Table 4 cell m4_tv2_se,pipeline,0.00960570277980645,0.0096,1,0.00960570277985177,1,NA,NA,NA
+coppock_green_porter_2022,t4_m4_tv2_se,Table 4,Table 4 cell m4_tv2_se,pipeline,0.00960570277980645,0.0096,1,0.00960570277985158,1,NA,NA,NA
 coppock_green_porter_2022,t4_m4_x2012_est,Table 4,Table 4 cell m4_x2012_est,pipeline,NA,0.0525,NA,0.05252361899976213,1,NA,NA,NA
-coppock_green_porter_2022,t4_m4_x2012_se,Table 4,Table 4 cell m4_x2012_se,pipeline,NA,0.0315,NA,0.03145610564455974,1,NA,NA,NA
+coppock_green_porter_2022,t4_m4_x2012_se,Table 4,Table 4 cell m4_x2012_se,pipeline,NA,0.0315,NA,0.03145610568694196,1,NA,NA,NA
 coppock_green_porter_2022,t4_m4_x2014_est,Table 4,Table 4 cell m4_x2014_est,pipeline,NA,0.1484,NA,0.14843609087431153,1,NA,NA,NA
-coppock_green_porter_2022,t4_m4_x2014_se,Table 4,Table 4 cell m4_x2014_se,pipeline,NA,0.0521,NA,0.05205268030303073,1,NA,NA,NA
+coppock_green_porter_2022,t4_m4_x2014_se,Table 4,Table 4 cell m4_x2014_se,pipeline,NA,0.0521,NA,0.05205268031577555,1,NA,NA,NA
 coppock_green_porter_2022,t4_m4_x2016_est,Table 4,Table 4 cell m4_x2016_est,pipeline,NA,0.8483,NA,0.848251240943297,1,NA,NA,NA
-coppock_green_porter_2022,t4_m4_x2016_se,Table 4,Table 4 cell m4_x2016_se,pipeline,NA,0.0616,NA,0.06160606873813414,1,NA,NA,NA
+coppock_green_porter_2022,t4_m4_x2016_se,Table 4,Table 4 cell m4_x2016_se,pipeline,NA,0.0616,NA,0.0616060687361888,1,NA,NA,NA
 coppock_green_porter_2022,ta1_m1_any_est,Table A.1,Table A.1 cell m1_any_est,pipeline,47.14504548673529,47.15,1,47.145045486735256,1,NA,NA,NA
 coppock_green_porter_2022,ta1_m1_any_se,Table A.1,Table A.1 cell m1_any_se,pipeline,56.74410432699257,56.74,1,56.744104326992584,1,NA,NA,NA
 coppock_green_porter_2022,ta1_m1_int_est,Table A.1,Table A.1 cell m1_int_est,pipeline,NA,-72.16,NA,-72.16113744075793,1,NA,NA,NA
-coppock_green_porter_2022,ta1_m1_int_se,Table A.1,Table A.1 cell m1_int_se,pipeline,NA,37.75,NA,37.746454905090445,1,NA,NA,NA
+coppock_green_porter_2022,ta1_m1_int_se,Table A.1,Table A.1 cell m1_int_se,pipeline,NA,37.75,NA,37.74645490509046,1,NA,NA,NA
 coppock_green_porter_2022,ta1_m1_nclust,Table A.1,Table A.1 cell m1_nclust,pipeline,154,154,1,154,1,NA,NA,NA
 coppock_green_porter_2022,ta1_m1_nobs,Table A.1,Table A.1 cell m1_nobs,pipeline,857,857,1,857,1,NA,NA,NA
 coppock_green_porter_2022,ta1_m1_r2,Table A.1,Table A.1 cell m1_r2,pipeline,NA,0.00,NA,0.0029640556779652,1,NA,NA,NA
 coppock_green_porter_2022,ta1_m2_any_est,Table A.1,Table A.1 cell m2_any_est,pipeline,6.537417274466778,6.54,1,6.537417274466809,1,NA,NA,NA
-coppock_green_porter_2022,ta1_m2_any_se,Table A.1,Table A.1 cell m2_any_se,pipeline,18.69691935822568,18.70,1,18.69691935822567,1,NA,NA,NA
+coppock_green_porter_2022,ta1_m2_any_se,Table A.1,Table A.1 cell m2_any_se,pipeline,18.69691935822568,18.70,1,18.69691935822568,1,NA,NA,NA
 coppock_green_porter_2022,ta1_m2_int_est,Table A.1,Table A.1 cell m2_int_est,pipeline,NA,88.28,NA,88.28236543078718,1,NA,NA,NA
-coppock_green_porter_2022,ta1_m2_int_se,Table A.1,Table A.1 cell m2_int_se,pipeline,NA,17.70,NA,17.701542157245484,1,NA,NA,NA
+coppock_green_porter_2022,ta1_m2_int_se,Table A.1,Table A.1 cell m2_int_se,pipeline,NA,17.70,NA,17.7015421572455,1,NA,NA,NA
 coppock_green_porter_2022,ta1_m2_m2012_est,Table A.1,Table A.1 cell m2_m2012_est,pipeline,NA,33.90,NA,33.90085657745432,1,NA,NA,NA
-coppock_green_porter_2022,ta1_m2_m2012_se,Table A.1,Table A.1 cell m2_m2012_se,pipeline,NA,17.93,NA,17.925640372766075,1,NA,NA,NA
+coppock_green_porter_2022,ta1_m2_m2012_se,Table A.1,Table A.1 cell m2_m2012_se,pipeline,NA,17.93,NA,17.925640372766086,1,NA,NA,NA
 coppock_green_porter_2022,ta1_m2_m2014_est,Table A.1,Table A.1 cell m2_m2014_est,pipeline,NA,10.77,NA,10.76570133765702,1,NA,NA,NA
-coppock_green_porter_2022,ta1_m2_m2014_se,Table A.1,Table A.1 cell m2_m2014_se,pipeline,NA,20.48,NA,20.48146773969107,1,NA,NA,NA
+coppock_green_porter_2022,ta1_m2_m2014_se,Table A.1,Table A.1 cell m2_m2014_se,pipeline,NA,20.48,NA,20.481467739691062,1,NA,NA,NA
 coppock_green_porter_2022,ta1_m2_m2016_est,Table A.1,Table A.1 cell m2_m2016_est,pipeline,NA,-66.23,NA,-66.2327405350673,1,NA,NA,NA
 coppock_green_porter_2022,ta1_m2_m2016_se,Table A.1,Table A.1 cell m2_m2016_se,pipeline,NA,70.20,NA,70.19741172087734,1,NA,NA,NA
 coppock_green_porter_2022,ta1_m2_nclust,Table A.1,Table A.1 cell m2_nclust,pipeline,154,154,1,154,1,NA,NA,NA
 coppock_green_porter_2022,ta1_m2_nobs,Table A.1,Table A.1 cell m2_nobs,pipeline,857,857,1,857,1,NA,NA,NA
 coppock_green_porter_2022,ta1_m2_r2,Table A.1,Table A.1 cell m2_r2,pipeline,NA,0.86,NA,0.8550490149820256,1,NA,NA,NA
 coppock_green_porter_2022,ta1_m2_x2012_est,Table A.1,Table A.1 cell m2_x2012_est,pipeline,NA,0.03,NA,0.02561424561963638,1,NA,NA,NA
-coppock_green_porter_2022,ta1_m2_x2012_se,Table A.1,Table A.1 cell m2_x2012_se,pipeline,NA,0.05,NA,0.05485937956226292,1,NA,NA,NA
+coppock_green_porter_2022,ta1_m2_x2012_se,Table A.1,Table A.1 cell m2_x2012_se,pipeline,NA,0.05,NA,0.05485937956226294,1,NA,NA,NA
 coppock_green_porter_2022,ta1_m2_x2014_est,Table A.1,Table A.1 cell m2_x2014_est,pipeline,NA,0.07,NA,0.06673658067734325,1,NA,NA,NA
-coppock_green_porter_2022,ta1_m2_x2014_se,Table A.1,Table A.1 cell m2_x2014_se,pipeline,NA,0.04,NA,0.03910459198091886,1,NA,NA,NA
+coppock_green_porter_2022,ta1_m2_x2014_se,Table A.1,Table A.1 cell m2_x2014_se,pipeline,NA,0.04,NA,0.03910459198091887,1,NA,NA,NA
 coppock_green_porter_2022,ta1_m2_x2016_est,Table A.1,Table A.1 cell m2_x2016_est,pipeline,NA,0.73,NA,0.7329485818060859,1,NA,NA,NA
-coppock_green_porter_2022,ta1_m2_x2016_se,Table A.1,Table A.1 cell m2_x2016_se,pipeline,NA,0.04,NA,0.03971945690850376,1,NA,NA,NA
+coppock_green_porter_2022,ta1_m2_x2016_se,Table A.1,Table A.1 cell m2_x2016_se,pipeline,NA,0.04,NA,0.03971945690850374,1,NA,NA,NA
 coppock_green_porter_2022,ta1_m3_int_est,Table A.1,Table A.1 cell m3_int_est,pipeline,NA,-72.16,NA,-72.1611374407579,1,NA,NA,NA
-coppock_green_porter_2022,ta1_m3_int_se,Table A.1,Table A.1 cell m3_int_se,pipeline,NA,37.75,NA,37.746454905090374,1,NA,NA,NA
+coppock_green_porter_2022,ta1_m3_int_se,Table A.1,Table A.1 cell m3_int_se,pipeline,NA,37.75,NA,37.74645490509037,1,NA,NA,NA
 coppock_green_porter_2022,ta1_m3_nclust,Table A.1,Table A.1 cell m3_nclust,pipeline,154,154,1,154,1,NA,NA,NA
 coppock_green_porter_2022,ta1_m3_nobs,Table A.1,Table A.1 cell m3_nobs,pipeline,857,857,1,857,1,NA,NA,NA
 coppock_green_porter_2022,ta1_m3_r2,Table A.1,Table A.1 cell m3_r2,pipeline,NA,0.01,NA,0.00535076791495614,1,NA,NA,NA
 coppock_green_porter_2022,ta1_m3_tv1_est,Table A.1,Table A.1 cell m3_tv1_est,pipeline,18.066542846163777,18.07,1,18.066542846163628,1,NA,NA,NA
-coppock_green_porter_2022,ta1_m3_tv1_se,Table A.1,Table A.1 cell m3_tv1_se,pipeline,53.36957704512563,53.37,1,53.36957704512539,1,NA,NA,NA
+coppock_green_porter_2022,ta1_m3_tv1_se,Table A.1,Table A.1 cell m3_tv1_se,pipeline,53.36957704512563,53.37,1,53.36957704512538,1,NA,NA,NA
 coppock_green_porter_2022,ta1_m3_tv2_est,Table A.1,Table A.1 cell m3_tv2_est,pipeline,77.45221725296497,77.45,1,77.452217252965,1,NA,NA,NA
 coppock_green_porter_2022,ta1_m3_tv2_se,Table A.1,Table A.1 cell m3_tv2_se,pipeline,84.914914470095,84.91,1,84.9149144700952,1,NA,NA,NA
 coppock_green_porter_2022,ta1_m4_int_est,Table A.1,Table A.1 cell m4_int_est,pipeline,NA,89.62,NA,89.62233220715015,1,NA,NA,NA
-coppock_green_porter_2022,ta1_m4_int_se,Table A.1,Table A.1 cell m4_int_se,pipeline,NA,17.51,NA,17.509409587418737,1,NA,NA,NA
+coppock_green_porter_2022,ta1_m4_int_se,Table A.1,Table A.1 cell m4_int_se,pipeline,NA,17.51,NA,17.50940958741873,1,NA,NA,NA
 coppock_green_porter_2022,ta1_m4_m2012_est,Table A.1,Table A.1 cell m4_m2012_est,pipeline,NA,29.43,NA,29.43146612923158,1,NA,NA,NA
 coppock_green_porter_2022,ta1_m4_m2012_se,Table A.1,Table A.1 cell m4_m2012_se,pipeline,NA,18.37,NA,18.36868483331928,1,NA,NA,NA
 coppock_green_porter_2022,ta1_m4_m2014_est,Table A.1,Table A.1 cell m4_m2014_est,pipeline,NA,15.15,NA,15.153279429936948,1,NA,NA,NA
 coppock_green_porter_2022,ta1_m4_m2014_se,Table A.1,Table A.1 cell m4_m2014_se,pipeline,NA,20.69,NA,20.692148413085153,1,NA,NA,NA
 coppock_green_porter_2022,ta1_m4_m2016_est,Table A.1,Table A.1 cell m4_m2016_est,pipeline,NA,-60.47,NA,-60.4704317115795,1,NA,NA,NA
-coppock_green_porter_2022,ta1_m4_m2016_se,Table A.1,Table A.1 cell m4_m2016_se,pipeline,NA,65.58,NA,65.57817505119628,1,NA,NA,NA
+coppock_green_porter_2022,ta1_m4_m2016_se,Table A.1,Table A.1 cell m4_m2016_se,pipeline,NA,65.58,NA,65.5781750511963,1,NA,NA,NA
 coppock_green_porter_2022,ta1_m4_nclust,Table A.1,Table A.1 cell m4_nclust,pipeline,154,154,1,154,1,NA,NA,NA
 coppock_green_porter_2022,ta1_m4_nobs,Table A.1,Table A.1 cell m4_nobs,pipeline,857,857,1,857,1,NA,NA,NA
 coppock_green_porter_2022,ta1_m4_r2,Table A.1,Table A.1 cell m4_r2,pipeline,NA,0.86,NA,0.8561524079671016,1,NA,NA,NA
 coppock_green_porter_2022,ta1_m4_tv1_est,Table A.1,Table A.1 cell m4_tv1_est,pipeline,-14.522192596932932,-14.52,1,-14.522192596932948,1,NA,NA,NA
-coppock_green_porter_2022,ta1_m4_tv1_se,Table A.1,Table A.1 cell m4_tv1_se,pipeline,21.94449045561022,21.94,1,21.9444904556102,1,NA,NA,NA
+coppock_green_porter_2022,ta1_m4_tv1_se,Table A.1,Table A.1 cell m4_tv1_se,pipeline,21.94449045561022,21.94,1,21.944490455610197,1,NA,NA,NA
 coppock_green_porter_2022,ta1_m4_tv2_est,Table A.1,Table A.1 cell m4_tv2_est,pipeline,26.70337066473266,26.70,1,26.703370664732653,1,NA,NA,NA
 coppock_green_porter_2022,ta1_m4_tv2_se,Table A.1,Table A.1 cell m4_tv2_se,pipeline,22.81222828610203,22.81,1,22.812228286102027,1,NA,NA,NA
 coppock_green_porter_2022,ta1_m4_x2012_est,Table A.1,Table A.1 cell m4_x2012_est,pipeline,NA,0.02,NA,0.02180547792195976,1,NA,NA,NA
-coppock_green_porter_2022,ta1_m4_x2012_se,Table A.1,Table A.1 cell m4_x2012_se,pipeline,NA,0.06,NA,0.05591916995284436,1,NA,NA,NA
+coppock_green_porter_2022,ta1_m4_x2012_se,Table A.1,Table A.1 cell m4_x2012_se,pipeline,NA,0.06,NA,0.05591916995284439,1,NA,NA,NA
 coppock_green_porter_2022,ta1_m4_x2014_est,Table A.1,Table A.1 cell m4_x2014_est,pipeline,NA,0.07,NA,0.06515851443584239,1,NA,NA,NA
-coppock_green_porter_2022,ta1_m4_x2014_se,Table A.1,Table A.1 cell m4_x2014_se,pipeline,NA,0.04,NA,0.03864357527608903,1,NA,NA,NA
+coppock_green_porter_2022,ta1_m4_x2014_se,Table A.1,Table A.1 cell m4_x2014_se,pipeline,NA,0.04,NA,0.03864357527608905,1,NA,NA,NA
 coppock_green_porter_2022,ta1_m4_x2016_est,Table A.1,Table A.1 cell m4_x2016_est,pipeline,NA,0.73,NA,0.7344357593070238,1,NA,NA,NA
-coppock_green_porter_2022,ta1_m4_x2016_se,Table A.1,Table A.1 cell m4_x2016_se,pipeline,NA,0.04,NA,0.03936169576124809,1,NA,NA,NA
+coppock_green_porter_2022,ta1_m4_x2016_se,Table A.1,Table A.1 cell m4_x2016_se,pipeline,NA,0.04,NA,0.0393616957612481,1,NA,NA,NA
 coppock_green_porter_2022,ta2_m1_any_est,Table A.2,Table A.2 cell m1_any_est,pipeline,-23.591594487116556,-23.59,1,-23.59159448711612,1,NA,NA,NA
 coppock_green_porter_2022,ta2_m1_any_se,Table A.2,Table A.2 cell m1_any_se,pipeline,103.35115006129978,103.35,1,103.35115006129956,1,NA,NA,NA
 coppock_green_porter_2022,ta2_m1_int_est,Table A.2,Table A.2 cell m1_int_est,pipeline,NA,1348.33,NA,1348.3341232227417,1,NA,NA,NA
-coppock_green_porter_2022,ta2_m1_int_se,Table A.2,Table A.2 cell m1_int_se,pipeline,NA,69.36,NA,69.35703033405423,1,NA,NA,NA
+coppock_green_porter_2022,ta2_m1_int_se,Table A.2,Table A.2 cell m1_int_se,pipeline,NA,69.36,NA,69.35703033405419,1,NA,NA,NA
 coppock_green_porter_2022,ta2_m1_nclust,Table A.2,Table A.2 cell m1_nclust,pipeline,NA,154,NA,154,1,NA,NA,NA
 coppock_green_porter_2022,ta2_m1_nobs,Table A.2,Table A.2 cell m1_nobs,pipeline,857,857,1,857,1,NA,NA,NA
 coppock_green_porter_2022,ta2_m1_r2,Table A.2,Table A.2 cell m1_r2,pipeline,NA,0.00,NA,1.4418493928947118e-4,1,NA,NA,NA
 coppock_green_porter_2022,ta2_m2_any_est,Table A.2,Table A.2 cell m2_any_est,pipeline,10.186389960237149,10.19,1,10.18638996023703,1,NA,NA,NA
 coppock_green_porter_2022,ta2_m2_any_se,Table A.2,Table A.2 cell m2_any_se,pipeline,23.67650930379425,23.68,1,23.67650930379432,1,NA,NA,NA
 coppock_green_porter_2022,ta2_m2_int_est,Table A.2,Table A.2 cell m2_int_est,pipeline,NA,42.55,NA,42.550778798919815,1,NA,NA,NA
-coppock_green_porter_2022,ta2_m2_int_se,Table A.2,Table A.2 cell m2_int_se,pipeline,NA,48.37,NA,48.3735432777011,1,NA,NA,NA
+coppock_green_porter_2022,ta2_m2_int_se,Table A.2,Table A.2 cell m2_int_se,pipeline,NA,48.37,NA,48.373543277701096,1,NA,NA,NA
 coppock_green_porter_2022,ta2_m2_m2012_est,Table A.2,Table A.2 cell m2_m2012_est,pipeline,NA,-66.11,NA,-66.11410331552153,1,NA,NA,NA
-coppock_green_porter_2022,ta2_m2_m2012_se,Table A.2,Table A.2 cell m2_m2012_se,pipeline,NA,49.82,NA,49.82054143551194,1,NA,NA,NA
+coppock_green_porter_2022,ta2_m2_m2012_se,Table A.2,Table A.2 cell m2_m2012_se,pipeline,NA,49.82,NA,49.820541435511906,1,NA,NA,NA
 coppock_green_porter_2022,ta2_m2_m2014_est,Table A.2,Table A.2 cell m2_m2014_est,pipeline,NA,-8.21,NA,-8.213650883533392,1,NA,NA,NA
-coppock_green_porter_2022,ta2_m2_m2014_se,Table A.2,Table A.2 cell m2_m2014_se,pipeline,NA,36.72,NA,36.72307286819031,1,NA,NA,NA
+coppock_green_porter_2022,ta2_m2_m2014_se,Table A.2,Table A.2 cell m2_m2014_se,pipeline,NA,36.72,NA,36.723072868190314,1,NA,NA,NA
 coppock_green_porter_2022,ta2_m2_m2016_est,Table A.2,Table A.2 cell m2_m2016_est,pipeline,NA,858.20,NA,858.1963707085789,1,NA,NA,NA
-coppock_green_porter_2022,ta2_m2_m2016_se,Table A.2,Table A.2 cell m2_m2016_se,pipeline,NA,124.46,NA,124.4582076994957,1,NA,NA,NA
+coppock_green_porter_2022,ta2_m2_m2016_se,Table A.2,Table A.2 cell m2_m2016_se,pipeline,NA,124.46,NA,124.45820769949567,1,NA,NA,NA
 coppock_green_porter_2022,ta2_m2_nclust,Table A.2,Table A.2 cell m2_nclust,pipeline,NA,154,NA,154,1,NA,NA,NA
 coppock_green_porter_2022,ta2_m2_nobs,Table A.2,Table A.2 cell m2_nobs,pipeline,857,857,1,857,1,NA,NA,NA
 coppock_green_porter_2022,ta2_m2_r2,Table A.2,Table A.2 cell m2_r2,pipeline,NA,0.91,NA,0.9060310213863484,1,NA,NA,NA
 coppock_green_porter_2022,ta2_m2_x2012_est,Table A.2,Table A.2 cell m2_x2012_est,pipeline,NA,-0.00,NA,-0.00461866892510915,1,NA,NA,NA
-coppock_green_porter_2022,ta2_m2_x2012_se,Table A.2,Table A.2 cell m2_x2012_se,pipeline,NA,0.04,NA,0.03537227320002428,1,NA,NA,NA
+coppock_green_porter_2022,ta2_m2_x2012_se,Table A.2,Table A.2 cell m2_x2012_se,pipeline,NA,0.04,NA,0.03537227320002427,1,NA,NA,NA
 coppock_green_porter_2022,ta2_m2_x2014_est,Table A.2,Table A.2 cell m2_x2014_est,pipeline,NA,0.02,NA,0.01982850613128461,1,NA,NA,NA
-coppock_green_porter_2022,ta2_m2_x2014_se,Table A.2,Table A.2 cell m2_x2014_se,pipeline,NA,0.02,NA,0.02437197410273165,1,NA,NA,NA
+coppock_green_porter_2022,ta2_m2_x2014_se,Table A.2,Table A.2 cell m2_x2014_se,pipeline,NA,0.02,NA,0.02437197410273164,1,NA,NA,NA
 coppock_green_porter_2022,ta2_m2_x2016_est,Table A.2,Table A.2 cell m2_x2016_est,pipeline,NA,0.87,NA,0.8711731484738561,1,NA,NA,NA
-coppock_green_porter_2022,ta2_m2_x2016_se,Table A.2,Table A.2 cell m2_x2016_se,pipeline,NA,0.02,NA,0.0209698657304762,1,NA,NA,NA
+coppock_green_porter_2022,ta2_m2_x2016_se,Table A.2,Table A.2 cell m2_x2016_se,pipeline,NA,0.02,NA,0.02096986573047619,1,NA,NA,NA
 coppock_green_porter_2022,ta2_m3_int_est,Table A.2,Table A.2 cell m3_int_est,pipeline,NA,1348.33,NA,1348.3341232227417,1,NA,NA,NA
-coppock_green_porter_2022,ta2_m3_int_se,Table A.2,Table A.2 cell m3_int_se,pipeline,NA,69.36,NA,69.357030334054,1,NA,NA,NA
+coppock_green_porter_2022,ta2_m3_int_se,Table A.2,Table A.2 cell m3_int_se,pipeline,NA,69.36,NA,69.35703033405402,1,NA,NA,NA
 coppock_green_porter_2022,ta2_m3_nclust,Table A.2,Table A.2 cell m3_nclust,pipeline,NA,154,NA,154,1,NA,NA,NA
 coppock_green_porter_2022,ta2_m3_nobs,Table A.2,Table A.2 cell m3_nobs,pipeline,857,857,1,857,1,NA,NA,NA
 coppock_green_porter_2022,ta2_m3_r2,Table A.2,Table A.2 cell m3_r2,pipeline,NA,0.00,NA,0.0047784172770815,1,NA,NA,NA
 coppock_green_porter_2022,ta2_m3_tv1_est,Table A.2,Table A.2 cell m3_tv1_est,pipeline,-115.5233124119383,-115.52,1,-115.52331241193758,1,NA,NA,NA
-coppock_green_porter_2022,ta2_m3_tv1_se,Table A.2,Table A.2 cell m3_tv1_se,pipeline,140.9333352820469,140.93,1,140.93333528204644,1,NA,NA,NA
+coppock_green_porter_2022,ta2_m3_tv1_se,Table A.2,Table A.2 cell m3_tv1_se,pipeline,140.9333352820469,140.93,1,140.9333352820464,1,NA,NA,NA
 coppock_green_porter_2022,ta2_m3_tv2_est,Table A.2,Table A.2 cell m3_tv2_est,pipeline,72.22456222326072,72.22,1,72.22456222326132,1,NA,NA,NA
 coppock_green_porter_2022,ta2_m3_tv2_se,Table A.2,Table A.2 cell m3_tv2_se,pipeline,112.05587295378326,112.06,1,112.05587295378292,1,NA,NA,NA
 coppock_green_porter_2022,ta2_m4_int_est,Table A.2,Table A.2 cell m4_int_est,pipeline,NA,41.89,NA,41.89024322425296,1,NA,NA,NA
-coppock_green_porter_2022,ta2_m4_int_se,Table A.2,Table A.2 cell m4_int_se,pipeline,NA,47.81,NA,47.808573404840466,1,NA,NA,NA
+coppock_green_porter_2022,ta2_m4_int_se,Table A.2,Table A.2 cell m4_int_se,pipeline,NA,47.81,NA,47.80857340484042,1,NA,NA,NA
 coppock_green_porter_2022,ta2_m4_m2012_est,Table A.2,Table A.2 cell m4_m2012_est,pipeline,NA,-65.34,NA,-65.34446918447014,1,NA,NA,NA
-coppock_green_porter_2022,ta2_m4_m2012_se,Table A.2,Table A.2 cell m4_m2012_se,pipeline,NA,48.82,NA,48.82359245532778,1,NA,NA,NA
+coppock_green_porter_2022,ta2_m4_m2012_se,Table A.2,Table A.2 cell m4_m2012_se,pipeline,NA,48.82,NA,48.82359245532775,1,NA,NA,NA
 coppock_green_porter_2022,ta2_m4_m2014_est,Table A.2,Table A.2 cell m4_m2014_est,pipeline,NA,-9.20,NA,-9.19728492696404,1,NA,NA,NA
-coppock_green_porter_2022,ta2_m4_m2014_se,Table A.2,Table A.2 cell m4_m2014_se,pipeline,NA,36.16,NA,36.15671155944111,1,NA,NA,NA
+coppock_green_porter_2022,ta2_m4_m2014_se,Table A.2,Table A.2 cell m4_m2014_se,pipeline,NA,36.16,NA,36.15671155944115,1,NA,NA,NA
 coppock_green_porter_2022,ta2_m4_m2016_est,Table A.2,Table A.2 cell m4_m2016_est,pipeline,NA,857.18,NA,857.1803012536841,1,NA,NA,NA
-coppock_green_porter_2022,ta2_m4_m2016_se,Table A.2,Table A.2 cell m4_m2016_se,pipeline,NA,123.83,NA,123.8339333603292,1,NA,NA,NA
+coppock_green_porter_2022,ta2_m4_m2016_se,Table A.2,Table A.2 cell m4_m2016_se,pipeline,NA,123.83,NA,123.83393336032924,1,NA,NA,NA
 coppock_green_porter_2022,ta2_m4_nclust,Table A.2,Table A.2 cell m4_nclust,pipeline,NA,154,NA,154,1,NA,NA,NA
 coppock_green_porter_2022,ta2_m4_nobs,Table A.2,Table A.2 cell m4_nobs,pipeline,857,857,1,857,1,NA,NA,NA
 coppock_green_porter_2022,ta2_m4_r2,Table A.2,Table A.2 cell m4_r2,pipeline,NA,0.91,NA,0.9060453034328192,1,NA,NA,NA
 coppock_green_porter_2022,ta2_m4_tv1_est,Table A.2,Table A.2 cell m4_tv1_est,pipeline,15.632883176789813,15.63,1,15.632883176789756,1,NA,NA,NA
-coppock_green_porter_2022,ta2_m4_tv1_se,Table A.2,Table A.2 cell m4_tv1_se,pipeline,29.013936367844305,29.01,1,29.01393636784434,1,NA,NA,NA
+coppock_green_porter_2022,ta2_m4_tv1_se,Table A.2,Table A.2 cell m4_tv1_se,pipeline,29.013936367844305,29.01,1,29.01393636784433,1,NA,NA,NA
 coppock_green_porter_2022,ta2_m4_tv2_est,Table A.2,Table A.2 cell m4_tv2_est,pipeline,4.978948376139224,4.98,1,4.978948376139305,1,NA,NA,NA
 coppock_green_porter_2022,ta2_m4_tv2_se,Table A.2,Table A.2 cell m4_tv2_se,pipeline,28.28167314961479,28.28,1,28.281673149614775,1,NA,NA,NA
 coppock_green_porter_2022,ta2_m4_x2012_est,Table A.2,Table A.2 cell m4_x2012_est,pipeline,NA,-0.00,NA,-0.00490926461099958,1,NA,NA,NA
-coppock_green_porter_2022,ta2_m4_x2012_se,Table A.2,Table A.2 cell m4_x2012_se,pipeline,NA,0.04,NA,0.03568486692614166,1,NA,NA,NA
+coppock_green_porter_2022,ta2_m4_x2012_se,Table A.2,Table A.2 cell m4_x2012_se,pipeline,NA,0.04,NA,0.03568486692614164,1,NA,NA,NA
 coppock_green_porter_2022,ta2_m4_x2014_est,Table A.2,Table A.2 cell m4_x2014_est,pipeline,NA,0.02,NA,0.01986345759708552,1,NA,NA,NA
-coppock_green_porter_2022,ta2_m4_x2014_se,Table A.2,Table A.2 cell m4_x2014_se,pipeline,NA,0.02,NA,0.02436426749612526,1,NA,NA,NA
+coppock_green_porter_2022,ta2_m4_x2014_se,Table A.2,Table A.2 cell m4_x2014_se,pipeline,NA,0.02,NA,0.02436426749612533,1,NA,NA,NA
 coppock_green_porter_2022,ta2_m4_x2016_est,Table A.2,Table A.2 cell m4_x2016_est,pipeline,NA,0.87,NA,0.8715230261117971,1,NA,NA,NA
-coppock_green_porter_2022,ta2_m4_x2016_se,Table A.2,Table A.2 cell m4_x2016_se,pipeline,NA,0.02,NA,0.02112775875481488,1,NA,NA,NA
+coppock_green_porter_2022,ta2_m4_x2016_se,Table A.2,Table A.2 cell m4_x2016_se,pipeline,NA,0.02,NA,0.02112775875481491,1,NA,NA,NA
 coppock_green_porter_2022,tb3_m1_any_est,Table B.3,Table B.3 cell m1_any_est,pipeline,0.00424102545744664,51.94,0,0.00424102545744684,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
 coppock_green_porter_2022,tb3_m1_any_se,Table B.3,Table B.3 cell m1_any_se,pipeline,0.02171048858825918,55.15,0,0.02171048858825922,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
 coppock_green_porter_2022,tb3_m1_int_est,Table B.3,Table B.3 cell m1_int_est,pipeline,NA,-126.10,NA,0.48054107336733354,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
@@ -265,97 +265,97 @@ coppock_green_porter_2022,tb3_m1_nclust,Table B.3,Table B.3 cell m1_nclust,pipel
 coppock_green_porter_2022,tb3_m1_nobs,Table B.3,Table B.3 cell m1_nobs,pipeline,NA,857,NA,853,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
 coppock_green_porter_2022,tb3_m1_r2,Table B.3,Table B.3 cell m1_r2,pipeline,NA,0.06,NA,0.04200785910484761,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
 coppock_green_porter_2022,tb3_m2_any_est,Table B.3,Table B.3 cell m2_any_est,pipeline,-0.00179900361535011,3.62,0,-0.00179900361534076,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
-coppock_green_porter_2022,tb3_m2_any_se,Table B.3,Table B.3 cell m2_any_se,pipeline,0.00882331010534093,18.95,0,0.00882331010540614,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+coppock_green_porter_2022,tb3_m2_any_se,Table B.3,Table B.3 cell m2_any_se,pipeline,0.00882331010534093,18.95,0,0.00882331010540168,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
 coppock_green_porter_2022,tb3_m2_int_est,Table B.3,Table B.3 cell m2_int_est,pipeline,NA,62.96,NA,0.00826925854419017,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
-coppock_green_porter_2022,tb3_m2_int_se,Table B.3,Table B.3 cell m2_int_se,pipeline,NA,19.54,NA,0.01228517464455252,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+coppock_green_porter_2022,tb3_m2_int_se,Table B.3,Table B.3 cell m2_int_se,pipeline,NA,19.54,NA,0.01228517463276432,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
 coppock_green_porter_2022,tb3_m2_m2012_est,Table B.3,Table B.3 cell m2_m2012_est,pipeline,NA,30.59,NA,5.469558672272042,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
-coppock_green_porter_2022,tb3_m2_m2012_se,Table B.3,Table B.3 cell m2_m2012_se,pipeline,NA,19.24,NA,2.9907844227733595,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+coppock_green_porter_2022,tb3_m2_m2012_se,Table B.3,Table B.3 cell m2_m2012_se,pipeline,NA,19.24,NA,2.990784417033633,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
 coppock_green_porter_2022,tb3_m2_m2014_est,Table B.3,Table B.3 cell m2_m2014_est,pipeline,NA,10.24,NA,12.801581849820066,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
-coppock_green_porter_2022,tb3_m2_m2014_se,Table B.3,Table B.3 cell m2_m2014_se,pipeline,NA,18.08,NA,5.740548036680238,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+coppock_green_porter_2022,tb3_m2_m2014_se,Table B.3,Table B.3 cell m2_m2014_se,pipeline,NA,18.08,NA,5.740548037307242,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
 coppock_green_porter_2022,tb3_m2_m2016_est,Table B.3,Table B.3 cell m2_m2016_est,pipeline,NA,-76.80,NA,85.56481714020873,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
-coppock_green_porter_2022,tb3_m2_m2016_se,Table B.3,Table B.3 cell m2_m2016_se,pipeline,NA,68.68,NA,6.470946535473114,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+coppock_green_porter_2022,tb3_m2_m2016_se,Table B.3,Table B.3 cell m2_m2016_se,pipeline,NA,68.68,NA,6.470946535462622,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
 coppock_green_porter_2022,tb3_m2_nclust,Table B.3,Table B.3 cell m2_nclust,pipeline,NA,154,NA,154,1,NA,NA,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
 coppock_green_porter_2022,tb3_m2_nobs,Table B.3,Table B.3 cell m2_nobs,pipeline,NA,857,NA,853,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
 coppock_green_porter_2022,tb3_m2_r2,Table B.3,Table B.3 cell m2_r2,pipeline,NA,0.86,NA,0.8378296221381127,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
 coppock_green_porter_2022,tb3_m2_x2012_est,Table B.3,Table B.3 cell m2_x2012_est,pipeline,NA,0.03,NA,0.05484953136093996,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
-coppock_green_porter_2022,tb3_m2_x2012_se,Table B.3,Table B.3 cell m2_x2012_se,pipeline,NA,0.05,NA,0.03005662953992537,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+coppock_green_porter_2022,tb3_m2_x2012_se,Table B.3,Table B.3 cell m2_x2012_se,pipeline,NA,0.05,NA,0.03005662949362057,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
 coppock_green_porter_2022,tb3_m2_x2014_est,Table B.3,Table B.3 cell m2_x2014_est,pipeline,NA,0.05,NA,0.12871649356720785,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
-coppock_green_porter_2022,tb3_m2_x2014_se,Table B.3,Table B.3 cell m2_x2014_se,pipeline,NA,0.04,NA,0.05770993861765539,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+coppock_green_porter_2022,tb3_m2_x2014_se,Table B.3,Table B.3 cell m2_x2014_se,pipeline,NA,0.04,NA,0.05770993862189459,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
 coppock_green_porter_2022,tb3_m2_x2016_est,Table B.3,Table B.3 cell m2_x2016_est,pipeline,NA,0.74,NA,0.8605761311682433,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
-coppock_green_porter_2022,tb3_m2_x2016_se,Table B.3,Table B.3 cell m2_x2016_se,pipeline,NA,0.04,NA,0.06504962510792885,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+coppock_green_porter_2022,tb3_m2_x2016_se,Table B.3,Table B.3 cell m2_x2016_se,pipeline,NA,0.04,NA,0.06504962510892043,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
 coppock_green_porter_2022,tb3_m3_int_est,Table B.3,Table B.3 cell m3_int_est,pipeline,NA,-127.86,NA,0.4788592121735402,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
-coppock_green_porter_2022,tb3_m3_int_se,Table B.3,Table B.3 cell m3_int_se,pipeline,NA,64.25,NA,0.02279299927612088,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+coppock_green_porter_2022,tb3_m3_int_se,Table B.3,Table B.3 cell m3_int_se,pipeline,NA,64.25,NA,0.02279299927612091,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
 coppock_green_porter_2022,tb3_m3_nclust,Table B.3,Table B.3 cell m3_nclust,pipeline,NA,154,NA,154,1,NA,NA,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
 coppock_green_porter_2022,tb3_m3_nobs,Table B.3,Table B.3 cell m3_nobs,pipeline,NA,857,NA,853,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
 coppock_green_porter_2022,tb3_m3_r2,Table B.3,Table B.3 cell m3_r2,pipeline,NA,0.06,NA,0.04867558784031045,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
 coppock_green_porter_2022,tb3_m3_tv1_est,Table B.3,Table B.3 cell m3_tv1_est,pipeline,-0.01540767189425262,31.94,0,-0.01540767189425242,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
 coppock_green_porter_2022,tb3_m3_tv1_se,Table B.3,Table B.3 cell m3_tv1_se,pipeline,0.02444246906606207,53.25,0,0.02444246906606192,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
 coppock_green_porter_2022,tb3_m3_tv2_est,Table B.3,Table B.3 cell m3_tv2_est,pipeline,0.02350049426000227,71.72,0,0.02350049426000243,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
-coppock_green_porter_2022,tb3_m3_tv2_se,Table B.3,Table B.3 cell m3_tv2_se,pipeline,0.0272377971422544,80.34,0,0.02723779714225455,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+coppock_green_porter_2022,tb3_m3_tv2_se,Table B.3,Table B.3 cell m3_tv2_se,pipeline,0.0272377971422544,80.34,0,0.02723779714225456,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
 coppock_green_porter_2022,tb3_m4_int_est,Table B.3,Table B.3 cell m4_int_est,pipeline,NA,61.80,NA,0.00884342563623932,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
-coppock_green_porter_2022,tb3_m4_int_se,Table B.3,Table B.3 cell m4_int_se,pipeline,NA,19.75,NA,0.01268775517022828,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+coppock_green_porter_2022,tb3_m4_int_se,Table B.3,Table B.3 cell m4_int_se,pipeline,NA,19.75,NA,0.01268775515892525,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
 coppock_green_porter_2022,tb3_m4_m2012_est,Table B.3,Table B.3 cell m4_m2012_est,pipeline,NA,26.69,NA,5.425434163375744,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
-coppock_green_porter_2022,tb3_m4_m2012_se,Table B.3,Table B.3 cell m4_m2012_se,pipeline,NA,19.45,NA,3.0439819568506783,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+coppock_green_porter_2022,tb3_m4_m2012_se,Table B.3,Table B.3 cell m4_m2012_se,pipeline,NA,19.45,NA,3.0439819500804894,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
 coppock_green_porter_2022,tb3_m4_m2014_est,Table B.3,Table B.3 cell m4_m2014_est,pipeline,NA,15.22,NA,12.684141834843476,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
-coppock_green_porter_2022,tb3_m4_m2014_se,Table B.3,Table B.3 cell m4_m2014_se,pipeline,NA,18.50,NA,5.919734647371913,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+coppock_green_porter_2022,tb3_m4_m2014_se,Table B.3,Table B.3 cell m4_m2014_se,pipeline,NA,18.50,NA,5.919734645627589,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
 coppock_green_porter_2022,tb3_m4_m2016_est,Table B.3,Table B.3 cell m4_m2016_est,pipeline,NA,-73.27,NA,85.58559299321863,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
-coppock_green_porter_2022,tb3_m4_m2016_se,Table B.3,Table B.3 cell m4_m2016_se,pipeline,NA,64.05,NA,6.543554007748393,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+coppock_green_porter_2022,tb3_m4_m2016_se,Table B.3,Table B.3 cell m4_m2016_se,pipeline,NA,64.05,NA,6.543554007387108,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
 coppock_green_porter_2022,tb3_m4_nclust,Table B.3,Table B.3 cell m4_nclust,pipeline,NA,154,NA,154,1,NA,NA,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
 coppock_green_porter_2022,tb3_m4_nobs,Table B.3,Table B.3 cell m4_nobs,pipeline,NA,857,NA,853,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
 coppock_green_porter_2022,tb3_m4_r2,Table B.3,Table B.3 cell m4_r2,pipeline,NA,0.86,NA,0.8378972822298523,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
 coppock_green_porter_2022,tb3_m4_tv1_est,Table B.3,Table B.3 cell m4_tv1_est,pipeline,-0.00388299268233914,-21.37,0,-0.00388299268237038,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
-coppock_green_porter_2022,tb3_m4_tv1_se,Table B.3,Table B.3 cell m4_tv1_se,pipeline,0.01156632152205259,22.62,0,0.01156632152211336,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+coppock_green_porter_2022,tb3_m4_tv1_se,Table B.3,Table B.3 cell m4_tv1_se,pipeline,0.01156632152205259,22.62,0,0.01156632152208397,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
 coppock_green_porter_2022,tb3_m4_tv2_est,Table B.3,Table B.3 cell m4_tv2_est,pipeline,1.0737788774877615e-4,26.63,0,1.073778877560604e-4,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
-coppock_green_porter_2022,tb3_m4_tv2_se,Table B.3,Table B.3 cell m4_tv2_se,pipeline,0.00994055780639916,22.79,0,0.00994055780648414,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+coppock_green_porter_2022,tb3_m4_tv2_se,Table B.3,Table B.3 cell m4_tv2_se,pipeline,0.00994055780639916,22.79,0,0.00994055780644882,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
 coppock_green_porter_2022,tb3_m4_x2012_est,Table B.3,Table B.3 cell m4_x2012_est,pipeline,NA,0.02,NA,0.05440910281981382,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
-coppock_green_porter_2022,tb3_m4_x2012_se,Table B.3,Table B.3 cell m4_x2012_se,pipeline,NA,0.05,NA,0.03058942758225366,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+coppock_green_porter_2022,tb3_m4_x2012_se,Table B.3,Table B.3 cell m4_x2012_se,pipeline,NA,0.05,NA,0.03058942753094713,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
 coppock_green_porter_2022,tb3_m4_x2014_est,Table B.3,Table B.3 cell m4_x2014_est,pipeline,NA,0.05,NA,0.12753178505407609,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
-coppock_green_porter_2022,tb3_m4_x2014_se,Table B.3,Table B.3 cell m4_x2014_se,pipeline,NA,0.04,NA,0.05951742348589919,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+coppock_green_porter_2022,tb3_m4_x2014_se,Table B.3,Table B.3 cell m4_x2014_se,pipeline,NA,0.04,NA,0.05951742346977493,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
 coppock_green_porter_2022,tb3_m4_x2016_est,Table B.3,Table B.3 cell m4_x2016_est,pipeline,NA,0.74,NA,0.8607826963058038,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
-coppock_green_porter_2022,tb3_m4_x2016_se,Table B.3,Table B.3 cell m4_x2016_se,pipeline,NA,0.04,NA,0.06577769001900122,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
+coppock_green_porter_2022,tb3_m4_x2016_se,Table B.3,Table B.3 cell m4_x2016_se,pipeline,NA,0.04,NA,0.06577769001654853,0,NA,paper_internal,"Published Table B.3 reprints Table B.4, so every cell beneath the vote share caption is a vote margin cell"
 coppock_green_porter_2022,tb4_m1_any_est,Table B.4,Table B.4 cell m1_any_est,pipeline,51.94003608999533,51.94,1,51.94003608999532,1,NA,NA,NA
-coppock_green_porter_2022,tb4_m1_any_se,Table B.4,Table B.4 cell m1_any_se,pipeline,55.15257829619377,55.15,1,55.15257829619386,1,NA,NA,NA
+coppock_green_porter_2022,tb4_m1_any_se,Table B.4,Table B.4 cell m1_any_se,pipeline,55.15257829619377,55.15,1,55.15257829619385,1,NA,NA,NA
 coppock_green_porter_2022,tb4_m1_int_est,Table B.4,Table B.4 cell m1_int_est,pipeline,NA,-126.10,NA,-126.10056153099704,1,NA,NA,NA
-coppock_green_porter_2022,tb4_m1_int_se,Table B.4,Table B.4 cell m1_int_se,pipeline,NA,64.62,NA,64.61943751560808,1,NA,NA,NA
+coppock_green_porter_2022,tb4_m1_int_se,Table B.4,Table B.4 cell m1_int_se,pipeline,NA,64.62,NA,64.61943751560807,1,NA,NA,NA
 coppock_green_porter_2022,tb4_m1_nclust,Table B.4,Table B.4 cell m1_nclust,pipeline,NA,154,NA,154,1,NA,NA,NA
 coppock_green_porter_2022,tb4_m1_nobs,Table B.4,Table B.4 cell m1_nobs,pipeline,857,857,1,857,1,NA,NA,NA
 coppock_green_porter_2022,tb4_m1_r2,Table B.4,Table B.4 cell m1_r2,pipeline,NA,0.06,NA,0.05583973600294112,1,NA,NA,NA
 coppock_green_porter_2022,tb4_m2_any_est,Table B.4,Table B.4 cell m2_any_est,pipeline,3.620607291284251,3.62,1,3.620607291284274,1,NA,NA,NA
 coppock_green_porter_2022,tb4_m2_any_se,Table B.4,Table B.4 cell m2_any_se,pipeline,18.94736841476798,18.95,1,18.947368414767997,1,NA,NA,NA
 coppock_green_porter_2022,tb4_m2_int_est,Table B.4,Table B.4 cell m2_int_est,pipeline,NA,62.96,NA,62.9591104868487,1,NA,NA,NA
-coppock_green_porter_2022,tb4_m2_int_se,Table B.4,Table B.4 cell m2_int_se,pipeline,NA,19.54,NA,19.539970436476807,1,NA,NA,NA
+coppock_green_porter_2022,tb4_m2_int_se,Table B.4,Table B.4 cell m2_int_se,pipeline,NA,19.54,NA,19.539970436476818,1,NA,NA,NA
 coppock_green_porter_2022,tb4_m2_m2012_est,Table B.4,Table B.4 cell m2_m2012_est,pipeline,NA,30.59,NA,30.594932327440127,1,NA,NA,NA
-coppock_green_porter_2022,tb4_m2_m2012_se,Table B.4,Table B.4 cell m2_m2012_se,pipeline,NA,19.24,NA,19.24237874391627,1,NA,NA,NA
+coppock_green_porter_2022,tb4_m2_m2012_se,Table B.4,Table B.4 cell m2_m2012_se,pipeline,NA,19.24,NA,19.242378743916262,1,NA,NA,NA
 coppock_green_porter_2022,tb4_m2_m2014_est,Table B.4,Table B.4 cell m2_m2014_est,pipeline,NA,10.24,NA,10.242131517744728,1,NA,NA,NA
-coppock_green_porter_2022,tb4_m2_m2014_se,Table B.4,Table B.4 cell m2_m2014_se,pipeline,NA,18.08,NA,18.082004308449076,1,NA,NA,NA
+coppock_green_porter_2022,tb4_m2_m2014_se,Table B.4,Table B.4 cell m2_m2014_se,pipeline,NA,18.08,NA,18.082004308449083,1,NA,NA,NA
 coppock_green_porter_2022,tb4_m2_m2016_est,Table B.4,Table B.4 cell m2_m2016_est,pipeline,NA,-76.80,NA,-76.79637897272754,1,NA,NA,NA
 coppock_green_porter_2022,tb4_m2_m2016_se,Table B.4,Table B.4 cell m2_m2016_se,pipeline,NA,68.68,NA,68.68414808349736,1,NA,NA,NA
 coppock_green_porter_2022,tb4_m2_nclust,Table B.4,Table B.4 cell m2_nclust,pipeline,NA,154,NA,154,1,NA,NA,NA
 coppock_green_porter_2022,tb4_m2_nobs,Table B.4,Table B.4 cell m2_nobs,pipeline,857,857,1,857,1,NA,NA,NA
 coppock_green_porter_2022,tb4_m2_r2,Table B.4,Table B.4 cell m2_r2,pipeline,NA,0.86,NA,0.8569993188292101,1,NA,NA,NA
 coppock_green_porter_2022,tb4_m2_x2012_est,Table B.4,Table B.4 cell m2_x2012_est,pipeline,NA,0.03,NA,0.02509552998443241,1,NA,NA,NA
-coppock_green_porter_2022,tb4_m2_x2012_se,Table B.4,Table B.4 cell m2_x2012_se,pipeline,NA,0.05,NA,0.05373755508239458,1,NA,NA,NA
+coppock_green_porter_2022,tb4_m2_x2012_se,Table B.4,Table B.4 cell m2_x2012_se,pipeline,NA,0.05,NA,0.05373755508239457,1,NA,NA,NA
 coppock_green_porter_2022,tb4_m2_x2014_est,Table B.4,Table B.4 cell m2_x2014_est,pipeline,NA,0.05,NA,0.05233368659984423,1,NA,NA,NA
 coppock_green_porter_2022,tb4_m2_x2014_se,Table B.4,Table B.4 cell m2_x2014_se,pipeline,NA,0.04,NA,0.03855225381427622,1,NA,NA,NA
 coppock_green_porter_2022,tb4_m2_x2016_est,Table B.4,Table B.4 cell m2_x2016_est,pipeline,NA,0.74,NA,0.7413258455784888,1,NA,NA,NA
-coppock_green_porter_2022,tb4_m2_x2016_se,Table B.4,Table B.4 cell m2_x2016_se,pipeline,NA,0.04,NA,0.03948624693092072,1,NA,NA,NA
+coppock_green_porter_2022,tb4_m2_x2016_se,Table B.4,Table B.4 cell m2_x2016_se,pipeline,NA,0.04,NA,0.0394862469309207,1,NA,NA,NA
 coppock_green_porter_2022,tb4_m3_int_est,Table B.4,Table B.4 cell m3_int_est,pipeline,NA,-127.86,NA,-127.86061730375953,1,NA,NA,NA
-coppock_green_porter_2022,tb4_m3_int_se,Table B.4,Table B.4 cell m3_int_se,pipeline,NA,64.25,NA,64.25148422911269,1,NA,NA,NA
+coppock_green_porter_2022,tb4_m3_int_se,Table B.4,Table B.4 cell m3_int_se,pipeline,NA,64.25,NA,64.25148422911266,1,NA,NA,NA
 coppock_green_porter_2022,tb4_m3_nclust,Table B.4,Table B.4 cell m3_nclust,pipeline,NA,154,NA,154,1,NA,NA,NA
 coppock_green_porter_2022,tb4_m3_nobs,Table B.4,Table B.4 cell m3_nobs,pipeline,857,857,1,857,1,NA,NA,NA
 coppock_green_porter_2022,tb4_m3_r2,Table B.4,Table B.4 cell m3_r2,pipeline,NA,0.06,NA,0.05684499747221228,1,NA,NA,NA
 coppock_green_porter_2022,tb4_m3_tv1_est,Table B.4,Table B.4 cell m3_tv1_est,pipeline,31.94489326114893,31.94,1,31.94489326114839,1,NA,NA,NA
 coppock_green_porter_2022,tb4_m3_tv1_se,Table B.4,Table B.4 cell m3_tv1_se,pipeline,53.246071085433805,53.25,1,53.24607108543343,1,NA,NA,NA
 coppock_green_porter_2022,tb4_m3_tv2_est,Table B.4,Table B.4 cell m3_tv2_est,pipeline,71.72008423122978,71.72,1,71.72008423122954,1,NA,NA,NA
-coppock_green_porter_2022,tb4_m3_tv2_se,Table B.4,Table B.4 cell m3_tv2_se,pipeline,80.34377407240518,80.34,1,80.34377407240477,1,NA,NA,NA
+coppock_green_porter_2022,tb4_m3_tv2_se,Table B.4,Table B.4 cell m3_tv2_se,pipeline,80.34377407240518,80.34,1,80.34377407240478,1,NA,NA,NA
 coppock_green_porter_2022,tb4_m4_int_est,Table B.4,Table B.4 cell m4_int_est,pipeline,NA,61.80,NA,61.79964164400409,1,NA,NA,NA
-coppock_green_porter_2022,tb4_m4_int_se,Table B.4,Table B.4 cell m4_int_se,pipeline,NA,19.75,NA,19.746431106514784,1,NA,NA,NA
+coppock_green_porter_2022,tb4_m4_int_se,Table B.4,Table B.4 cell m4_int_se,pipeline,NA,19.75,NA,19.746431106514788,1,NA,NA,NA
 coppock_green_porter_2022,tb4_m4_m2012_est,Table B.4,Table B.4 cell m4_m2012_est,pipeline,NA,26.69,NA,26.6904042290806,1,NA,NA,NA
-coppock_green_porter_2022,tb4_m4_m2012_se,Table B.4,Table B.4 cell m4_m2012_se,pipeline,NA,19.45,NA,19.4532069285216,1,NA,NA,NA
+coppock_green_porter_2022,tb4_m4_m2012_se,Table B.4,Table B.4 cell m4_m2012_se,pipeline,NA,19.45,NA,19.453206928521617,1,NA,NA,NA
 coppock_green_porter_2022,tb4_m4_m2014_est,Table B.4,Table B.4 cell m4_m2014_est,pipeline,NA,15.22,NA,15.215582450715315,1,NA,NA,NA
 coppock_green_porter_2022,tb4_m4_m2014_se,Table B.4,Table B.4 cell m4_m2014_se,pipeline,NA,18.50,NA,18.49923456240295,1,NA,NA,NA
 coppock_green_porter_2022,tb4_m4_m2016_est,Table B.4,Table B.4 cell m4_m2016_est,pipeline,NA,-73.27,NA,-73.27030781181384,1,NA,NA,NA
-coppock_green_porter_2022,tb4_m4_m2016_se,Table B.4,Table B.4 cell m4_m2016_se,pipeline,NA,64.05,NA,64.04688539583879,1,NA,NA,NA
+coppock_green_porter_2022,tb4_m4_m2016_se,Table B.4,Table B.4 cell m4_m2016_se,pipeline,NA,64.05,NA,64.0468853958388,1,NA,NA,NA
 coppock_green_porter_2022,tb4_m4_nclust,Table B.4,Table B.4 cell m4_nclust,pipeline,NA,154,NA,154,1,NA,NA,NA
 coppock_green_porter_2022,tb4_m4_nobs,Table B.4,Table B.4 cell m4_nobs,pipeline,857,857,1,857,1,NA,NA,NA
 coppock_green_porter_2022,tb4_m4_r2,Table B.4,Table B.4 cell m4_r2,pipeline,NA,0.86,NA,0.8584226072323793,1,NA,NA,NA
@@ -377,24 +377,24 @@ coppock_green_porter_2022,tb5_m1_nclust,Table B.5,Table B.5 cell m1_nclust,pipel
 coppock_green_porter_2022,tb5_m1_nobs,Table B.5,Table B.5 cell m1_nobs,pipeline,857,857,1,857,1,NA,NA,NA
 coppock_green_porter_2022,tb5_m1_r2,Table B.5,Table B.5 cell m1_r2,pipeline,NA,0.08,NA,0.0845330499258764,1,NA,NA,NA
 coppock_green_porter_2022,tb5_m2_any_est,Table B.5,Table B.5 cell m2_any_est,pipeline,9.176570629363654,9.18,1,9.17657062936354,1,NA,NA,NA
-coppock_green_porter_2022,tb5_m2_any_se,Table B.5,Table B.5 cell m2_any_se,pipeline,23.163937034582144,23.16,1,23.163937034582208,1,NA,NA,NA
+coppock_green_porter_2022,tb5_m2_any_se,Table B.5,Table B.5 cell m2_any_se,pipeline,23.163937034582144,23.16,1,23.163937034582204,1,NA,NA,NA
 coppock_green_porter_2022,tb5_m2_int_est,Table B.5,Table B.5 cell m2_int_est,pipeline,NA,45.07,NA,45.07339331936336,1,NA,NA,NA
-coppock_green_porter_2022,tb5_m2_int_se,Table B.5,Table B.5 cell m2_int_se,pipeline,NA,56.87,NA,56.86511234176828,1,NA,NA,NA
+coppock_green_porter_2022,tb5_m2_int_se,Table B.5,Table B.5 cell m2_int_se,pipeline,NA,56.87,NA,56.86511234176826,1,NA,NA,NA
 coppock_green_porter_2022,tb5_m2_m2012_est,Table B.5,Table B.5 cell m2_m2012_est,pipeline,NA,-26.88,NA,-26.88451391963226,1,NA,NA,NA
-coppock_green_porter_2022,tb5_m2_m2012_se,Table B.5,Table B.5 cell m2_m2012_se,pipeline,NA,49.84,NA,49.83504082196701,1,NA,NA,NA
+coppock_green_porter_2022,tb5_m2_m2012_se,Table B.5,Table B.5 cell m2_m2012_se,pipeline,NA,49.84,NA,49.83504082196696,1,NA,NA,NA
 coppock_green_porter_2022,tb5_m2_m2014_est,Table B.5,Table B.5 cell m2_m2014_est,pipeline,NA,-1.74,NA,-1.736761229042859,1,NA,NA,NA
-coppock_green_porter_2022,tb5_m2_m2014_se,Table B.5,Table B.5 cell m2_m2014_se,pipeline,NA,41.36,NA,41.35865097677707,1,NA,NA,NA
+coppock_green_porter_2022,tb5_m2_m2014_se,Table B.5,Table B.5 cell m2_m2014_se,pipeline,NA,41.36,NA,41.35865097677709,1,NA,NA,NA
 coppock_green_porter_2022,tb5_m2_m2016_est,Table B.5,Table B.5 cell m2_m2016_est,pipeline,NA,781.56,NA,781.5577257120702,1,NA,NA,NA
-coppock_green_porter_2022,tb5_m2_m2016_se,Table B.5,Table B.5 cell m2_m2016_se,pipeline,NA,137.19,NA,137.19460336841962,1,NA,NA,NA
+coppock_green_porter_2022,tb5_m2_m2016_se,Table B.5,Table B.5 cell m2_m2016_se,pipeline,NA,137.19,NA,137.1946033684196,1,NA,NA,NA
 coppock_green_porter_2022,tb5_m2_nclust,Table B.5,Table B.5 cell m2_nclust,pipeline,NA,154,NA,154,1,NA,NA,NA
 coppock_green_porter_2022,tb5_m2_nobs,Table B.5,Table B.5 cell m2_nobs,pipeline,857,857,1,857,1,NA,NA,NA
 coppock_green_porter_2022,tb5_m2_r2,Table B.5,Table B.5 cell m2_r2,pipeline,NA,0.91,NA,0.9077302534850727,1,NA,NA,NA
 coppock_green_porter_2022,tb5_m2_x2012_est,Table B.5,Table B.5 cell m2_x2012_est,pipeline,NA,-0.00,NA,-0.00376671497147063,1,NA,NA,NA
-coppock_green_porter_2022,tb5_m2_x2012_se,Table B.5,Table B.5 cell m2_x2012_se,pipeline,NA,0.04,NA,0.03510921622963847,1,NA,NA,NA
+coppock_green_porter_2022,tb5_m2_x2012_se,Table B.5,Table B.5 cell m2_x2012_se,pipeline,NA,0.04,NA,0.03510921622963846,1,NA,NA,NA
 coppock_green_porter_2022,tb5_m2_x2014_est,Table B.5,Table B.5 cell m2_x2014_est,pipeline,NA,0.01,NA,0.00935631970559268,1,NA,NA,NA
-coppock_green_porter_2022,tb5_m2_x2014_se,Table B.5,Table B.5 cell m2_x2014_se,pipeline,NA,0.03,NA,0.02521331807287271,1,NA,NA,NA
+coppock_green_porter_2022,tb5_m2_x2014_se,Table B.5,Table B.5 cell m2_x2014_se,pipeline,NA,0.03,NA,0.02521331807287273,1,NA,NA,NA
 coppock_green_porter_2022,tb5_m2_x2016_est,Table B.5,Table B.5 cell m2_x2016_est,pipeline,NA,0.87,NA,0.8691585308790489,1,NA,NA,NA
-coppock_green_porter_2022,tb5_m2_x2016_se,Table B.5,Table B.5 cell m2_x2016_se,pipeline,NA,0.02,NA,0.02074097397537032,1,NA,NA,NA
+coppock_green_porter_2022,tb5_m2_x2016_se,Table B.5,Table B.5 cell m2_x2016_se,pipeline,NA,0.02,NA,0.02074097397537037,1,NA,NA,NA
 coppock_green_porter_2022,tb5_m3_int_est,Table B.5,Table B.5 cell m3_int_est,pipeline,NA,1568.81,NA,1568.806719407842,1,NA,NA,NA
 coppock_green_porter_2022,tb5_m3_int_se,Table B.5,Table B.5 cell m3_int_se,pipeline,NA,91.60,NA,91.59770326824956,1,NA,NA,NA
 coppock_green_porter_2022,tb5_m3_nclust,Table B.5,Table B.5 cell m3_nclust,pipeline,NA,154,NA,154,1,NA,NA,NA
@@ -405,31 +405,31 @@ coppock_green_porter_2022,tb5_m3_tv1_se,Table B.5,Table B.5 cell m3_tv1_se,pipel
 coppock_green_porter_2022,tb5_m3_tv2_est,Table B.5,Table B.5 cell m3_tv2_est,pipeline,102.94762930116796,102.95,1,102.94762930116744,1,NA,NA,NA
 coppock_green_porter_2022,tb5_m3_tv2_se,Table B.5,Table B.5 cell m3_tv2_se,pipeline,90.25316399835982,90.25,1,90.2531639983591,1,NA,NA,NA
 coppock_green_porter_2022,tb5_m4_int_est,Table B.5,Table B.5 cell m4_int_est,pipeline,NA,45.31,NA,45.31109015915427,1,NA,NA,NA
-coppock_green_porter_2022,tb5_m4_int_se,Table B.5,Table B.5 cell m4_int_se,pipeline,NA,56.78,NA,56.77620611326991,1,NA,NA,NA
+coppock_green_porter_2022,tb5_m4_int_se,Table B.5,Table B.5 cell m4_int_se,pipeline,NA,56.78,NA,56.776206113269936,1,NA,NA,NA
 coppock_green_porter_2022,tb5_m4_m2012_est,Table B.5,Table B.5 cell m4_m2012_est,pipeline,NA,-27.40,NA,-27.40171902718366,1,NA,NA,NA
-coppock_green_porter_2022,tb5_m4_m2012_se,Table B.5,Table B.5 cell m4_m2012_se,pipeline,NA,49.19,NA,49.191684198219306,1,NA,NA,NA
+coppock_green_porter_2022,tb5_m4_m2012_se,Table B.5,Table B.5 cell m4_m2012_se,pipeline,NA,49.19,NA,49.19168419821931,1,NA,NA,NA
 coppock_green_porter_2022,tb5_m4_m2014_est,Table B.5,Table B.5 cell m4_m2014_est,pipeline,NA,-0.66,NA,-0.6606189511232666,1,NA,NA,NA
-coppock_green_porter_2022,tb5_m4_m2014_se,Table B.5,Table B.5 cell m4_m2014_se,pipeline,NA,41.43,NA,41.425694742785055,1,NA,NA,NA
+coppock_green_porter_2022,tb5_m4_m2014_se,Table B.5,Table B.5 cell m4_m2014_se,pipeline,NA,41.43,NA,41.42569474278509,1,NA,NA,NA
 coppock_green_porter_2022,tb5_m4_m2016_est,Table B.5,Table B.5 cell m4_m2016_est,pipeline,NA,781.60,NA,781.6035808723353,1,NA,NA,NA
-coppock_green_porter_2022,tb5_m4_m2016_se,Table B.5,Table B.5 cell m4_m2016_se,pipeline,NA,137.28,NA,137.2827671400792,1,NA,NA,NA
+coppock_green_porter_2022,tb5_m4_m2016_se,Table B.5,Table B.5 cell m4_m2016_se,pipeline,NA,137.28,NA,137.28276714007913,1,NA,NA,NA
 coppock_green_porter_2022,tb5_m4_nclust,Table B.5,Table B.5 cell m4_nclust,pipeline,NA,154,NA,154,1,NA,NA,NA
 coppock_green_porter_2022,tb5_m4_nobs,Table B.5,Table B.5 cell m4_nobs,pipeline,857,857,1,857,1,NA,NA,NA
 coppock_green_porter_2022,tb5_m4_r2,Table B.5,Table B.5 cell m4_r2,pipeline,NA,0.91,NA,0.907744530562388,1,NA,NA,NA
 coppock_green_porter_2022,tb5_m4_tv1_est,Table B.5,Table B.5 cell m4_tv1_est,pipeline,3.500956430176096,3.50,1,3.50095643017599,1,NA,NA,NA
-coppock_green_porter_2022,tb5_m4_tv1_se,Table B.5,Table B.5 cell m4_tv1_se,pipeline,30.617428910821552,30.62,1,30.61742891082156,1,NA,NA,NA
+coppock_green_porter_2022,tb5_m4_tv1_se,Table B.5,Table B.5 cell m4_tv1_se,pipeline,30.617428910821552,30.62,1,30.61742891082157,1,NA,NA,NA
 coppock_green_porter_2022,tb5_m4_tv2_est,Table B.5,Table B.5 cell m4_tv2_est,pipeline,14.439900124496443,14.44,1,14.43990012449643,1,NA,NA,NA
-coppock_green_porter_2022,tb5_m4_tv2_se,Table B.5,Table B.5 cell m4_tv2_se,pipeline,26.763512191064105,26.76,1,26.76351219106406,1,NA,NA,NA
+coppock_green_porter_2022,tb5_m4_tv2_se,Table B.5,Table B.5 cell m4_tv2_se,pipeline,26.763512191064105,26.76,1,26.763512191064063,1,NA,NA,NA
 coppock_green_porter_2022,tb5_m4_x2012_est,Table B.5,Table B.5 cell m4_x2012_est,pipeline,NA,-0.00,NA,-0.00355961223507762,1,NA,NA,NA
-coppock_green_porter_2022,tb5_m4_x2012_se,Table B.5,Table B.5 cell m4_x2012_se,pipeline,NA,0.04,NA,0.035370655862782,1,NA,NA,NA
+coppock_green_porter_2022,tb5_m4_x2012_se,Table B.5,Table B.5 cell m4_x2012_se,pipeline,NA,0.04,NA,0.03537065586278203,1,NA,NA,NA
 coppock_green_porter_2022,tb5_m4_x2014_est,Table B.5,Table B.5 cell m4_x2014_est,pipeline,NA,0.01,NA,0.00933314184676452,1,NA,NA,NA
-coppock_green_porter_2022,tb5_m4_x2014_se,Table B.5,Table B.5 cell m4_x2014_se,pipeline,NA,0.03,NA,0.02524258930075201,1,NA,NA,NA
+coppock_green_porter_2022,tb5_m4_x2014_se,Table B.5,Table B.5 cell m4_x2014_se,pipeline,NA,0.03,NA,0.02524258930075204,1,NA,NA,NA
 coppock_green_porter_2022,tb5_m4_x2016_est,Table B.5,Table B.5 cell m4_x2016_est,pipeline,NA,0.87,NA,0.8687621397422309,1,NA,NA,NA
-coppock_green_porter_2022,tb5_m4_x2016_se,Table B.5,Table B.5 cell m4_x2016_se,pipeline,NA,0.02,NA,0.02080551929003881,1,NA,NA,NA
+coppock_green_porter_2022,tb5_m4_x2016_se,Table B.5,Table B.5 cell m4_x2016_se,pipeline,NA,0.02,NA,0.02080551929003882,1,NA,NA,NA
 coppock_green_porter_2022,tc6_margin_dim_est,Table C.6,Table C.6 margin DIM est,pipeline,NA,-59.386,NA,-59.38567440680137,1,NA,environment,NA
 coppock_green_porter_2022,tc6_margin_dim_p01,Table C.6,Table C.6 margin DIM p01,pipeline,NA,0.575,NA,0.5750476184048956,1,NA,environment,NA
-coppock_green_porter_2022,tc6_margin_dim_p02,Table C.6,Table C.6 margin DIM p02,pipeline,NA,0.374,NA,0.3741290104662074,1,NA,environment,NA
+coppock_green_porter_2022,tc6_margin_dim_p02,Table C.6,Table C.6 margin DIM p02,pipeline,NA,0.374,NA,0.37412901046620745,1,NA,environment,NA
 coppock_green_porter_2022,tc6_margin_dim_sd,Table C.6,Table C.6 margin DIM sd,pipeline,NA,433.178,NA,433.17804914351865,1,NA,environment,NA
-coppock_green_porter_2022,tc6_margin_dim_se,Table C.6,Table C.6 margin DIM se,pipeline,NA,84.907,NA,84.90738918159626,1,NA,environment,NA
+coppock_green_porter_2022,tc6_margin_dim_se,Table C.6,Table C.6 margin DIM se,pipeline,NA,84.907,NA,84.90738918159627,1,NA,environment,NA
 coppock_green_porter_2022,tc6_margin_ols_est,Table C.6,Table C.6 margin OLS est,pipeline,NA,-41.226,NA,-41.2255632616656,1,NA,environment,NA
 coppock_green_porter_2022,tc6_margin_ols_p01,Table C.6,Table C.6 margin OLS p01,pipeline,NA,0.467,NA,0.4672304560585161,1,NA,environment,NA
 coppock_green_porter_2022,tc6_margin_ols_p02,Table C.6,Table C.6 margin OLS p02,pipeline,NA,0.037,NA,0.03714683703081718,1,NA,environment,NA
@@ -441,33 +441,33 @@ coppock_green_porter_2022,tc6_share_dim_p02,Table C.6,Table C.6 share DIM p02,pi
 coppock_green_porter_2022,tc6_share_dim_sd,Table C.6,Table C.6 share DIM sd,pipeline,NA,0.165,NA,0.1645746137815807,1,NA,environment,NA
 coppock_green_porter_2022,tc6_share_dim_se,Table C.6,Table C.6 share DIM se,pipeline,NA,0.031,NA,0.03126043091996566,1,NA,environment,NA
 coppock_green_porter_2022,tc6_share_ols_est,Table C.6,Table C.6 share OLS est,pipeline,NA,-0.002,NA,-0.0022951579146338,1,NA,environment,NA
-coppock_green_porter_2022,tc6_share_ols_p01,Table C.6,Table C.6 share OLS p01,pipeline,NA,0.106,NA,0.10632074789721242,1,NA,environment,NA
-coppock_green_porter_2022,tc6_share_ols_p02,Table C.6,Table C.6 share OLS p02,pipeline,NA,0.004,NA,0.00352310895541014,1,NA,environment,NA
+coppock_green_porter_2022,tc6_share_ols_p01,Table C.6,Table C.6 share OLS p01,pipeline,NA,0.106,NA,0.10632074789676288,1,NA,environment,NA
+coppock_green_porter_2022,tc6_share_ols_p02,Table C.6,Table C.6 share OLS p02,pipeline,NA,0.004,NA,0.00352310895535414,1,NA,environment,NA
 coppock_green_porter_2022,tc6_share_ols_sd,Table C.6,Table C.6 share OLS sd,pipeline,NA,0.165,NA,0.1645746137815807,1,NA,environment,NA
-coppock_green_porter_2022,tc6_share_ols_se,Table C.6,Table C.6 share OLS se,pipeline,NA,0.011,NA,0.01136316110131027,1,NA,environment,NA
+coppock_green_porter_2022,tc6_share_ols_se,Table C.6,Table C.6 share OLS se,pipeline,NA,0.011,NA,0.01136316110128794,1,NA,environment,NA
 coppock_green_porter_2022,tc6_total_dim_est,Table C.6,Table C.6 total DIM est,pipeline,NA,-187.748,NA,-187.7478746351989,1,NA,environment,NA
 coppock_green_porter_2022,tc6_total_dim_p01,Table C.6,Table C.6 total DIM p01,pipeline,NA,0.723,NA,0.7232533912387585,1,NA,environment,NA
 coppock_green_porter_2022,tc6_total_dim_p02,Table C.6,Table C.6 total DIM p02,pipeline,NA,0.477,NA,0.4767231171247467,1,NA,environment,NA
 coppock_green_porter_2022,tc6_total_dim_sd,Table C.6,Table C.6 total DIM sd,pipeline,NA,982.813,NA,982.813030266344,1,NA,environment,NA
-coppock_green_porter_2022,tc6_total_dim_se,Table C.6,Table C.6 total DIM se,pipeline,NA,150.990,NA,150.98982860987053,1,NA,environment,NA
+coppock_green_porter_2022,tc6_total_dim_se,Table C.6,Table C.6 total DIM se,pipeline,NA,150.990,NA,150.9898286098705,1,NA,environment,NA
 coppock_green_porter_2022,tc6_total_ols_est,Table C.6,Table C.6 total OLS est,pipeline,NA,10.654,NA,10.65393480065045,1,NA,environment,NA
-coppock_green_porter_2022,tc6_total_ols_p01,Table C.6,Table C.6 total OLS p01,pipeline,NA,0.003,NA,0.00323174069823085,1,NA,environment,NA
-coppock_green_porter_2022,tc6_total_ols_p02,Table C.6,Table C.6 total OLS p02,pipeline,NA,0.000,NA,3.786681639530544e-9,1,NA,environment,NA
+coppock_green_porter_2022,tc6_total_ols_p01,Table C.6,Table C.6 total OLS p01,pipeline,NA,0.003,NA,0.00323174069823084,1,NA,environment,NA
+coppock_green_porter_2022,tc6_total_ols_p02,Table C.6,Table C.6 total OLS p02,pipeline,NA,0.000,NA,3.786681639530524e-9,1,NA,environment,NA
 coppock_green_porter_2022,tc6_total_ols_sd,Table C.6,Table C.6 total OLS sd,pipeline,NA,982.813,NA,982.813030266344,1,NA,environment,NA
-coppock_green_porter_2022,tc6_total_ols_se,Table C.6,Table C.6 total OLS se,pipeline,NA,32.177,NA,32.17699526161328,1,NA,environment,NA
+coppock_green_porter_2022,tc6_total_ols_se,Table C.6,Table C.6 total OLS se,pipeline,NA,32.177,NA,32.17699526161327,1,NA,environment,NA
 coppock_green_porter_2022,te7_m1_int_est,Table E.7,Table E.7 cell m1_int_est,pipeline,0.553059771850728,0.553,1,0.5530597718507264,1,NA,NA,NA
-coppock_green_porter_2022,te7_m1_int_se,Table E.7,Table E.7 cell m1_int_se,pipeline,0.08309170382047601,0.083,1,0.08309170382047561,1,NA,NA,NA
+coppock_green_porter_2022,te7_m1_int_se,Table E.7,Table E.7 cell m1_int_se,pipeline,0.08309170382047601,0.083,1,0.08309170382047545,1,NA,NA,NA
 coppock_green_porter_2022,te7_m1_m2012_est,Table E.7,Table E.7 cell m1_m2012_est,pipeline,NA,-0.122,NA,-0.12214573799131716,1,NA,NA,NA
-coppock_green_porter_2022,te7_m1_m2012_se,Table E.7,Table E.7 cell m1_m2012_se,pipeline,NA,0.087,NA,0.08651887726112875,1,NA,NA,NA
+coppock_green_porter_2022,te7_m1_m2012_se,Table E.7,Table E.7 cell m1_m2012_se,pipeline,NA,0.087,NA,0.08651887726112867,1,NA,NA,NA
 coppock_green_porter_2022,te7_m1_m2014_est,Table E.7,Table E.7 cell m1_m2014_est,pipeline,NA,0.096,NA,0.09628905872420576,1,NA,NA,NA
-coppock_green_porter_2022,te7_m1_m2014_se,Table E.7,Table E.7 cell m1_m2014_se,pipeline,NA,0.080,NA,0.08013355632457511,1,NA,NA,NA
+coppock_green_porter_2022,te7_m1_m2014_se,Table E.7,Table E.7 cell m1_m2014_se,pipeline,NA,0.080,NA,0.08013355632457508,1,NA,NA,NA
 coppock_green_porter_2022,te7_m1_m2016_est,Table E.7,Table E.7 cell m1_m2016_est,pipeline,NA,0.083,NA,0.0828032741588423,1,NA,NA,NA
 coppock_green_porter_2022,te7_m1_m2016_se,Table E.7,Table E.7 cell m1_m2016_se,pipeline,NA,0.158,NA,0.15767731069849197,1,NA,NA,NA
 coppock_green_porter_2022,te7_m1_nclust,Table E.7,Table E.7 cell m1_nclust,pipeline,169,169,1,169,1,NA,NA,NA
 coppock_green_porter_2022,te7_m1_nobs,Table E.7,Table E.7 cell m1_nobs,pipeline,1096,1096,1,1096,1,NA,NA,NA
 coppock_green_porter_2022,te7_m1_r2,Table E.7,Table E.7 cell m1_r2,pipeline,0.0347554080253486,0.035,1,0.0347554080253486,1,NA,NA,NA
 coppock_green_porter_2022,te7_m1_x2012_est,Table E.7,Table E.7 cell m1_x2012_est,pipeline,NA,-0.000,NA,-1.4292026709087195e-5,1,NA,NA,NA
-coppock_green_porter_2022,te7_m1_x2012_se,Table E.7,Table E.7 cell m1_x2012_se,pipeline,NA,0.000,NA,1.0138587623530248e-4,1,NA,NA,NA
+coppock_green_porter_2022,te7_m1_x2012_se,Table E.7,Table E.7 cell m1_x2012_se,pipeline,NA,0.000,NA,1.0138587623530246e-4,1,NA,NA,NA
 coppock_green_porter_2022,te7_m1_x2014_est,Table E.7,Table E.7 cell m1_x2014_est,pipeline,NA,-0.000,NA,-1.3940659660906487e-4,1,NA,NA,NA
 coppock_green_porter_2022,te7_m1_x2014_se,Table E.7,Table E.7 cell m1_x2014_se,pipeline,NA,0.000,NA,1.1542593168811144e-4,1,NA,NA,NA
 coppock_green_porter_2022,te7_m1_x2016_est,Table E.7,Table E.7 cell m1_x2016_est,pipeline,NA,0.000,NA,1.2689979402194174e-4,1,NA,NA,NA

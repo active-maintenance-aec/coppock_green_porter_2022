@@ -341,16 +341,16 @@ carry `match = NA` rather than a verdict.
 
 | Claim | Published | Rewrite | Locus |
 |:---|:---|---:|:---|
-| Appendix G: Power of the Bayesian posterior estimator, per cent, as stated in the appendix | 89.3 | 89.9000 | archive |
-| Appendix G: Power of the study on its own, per cent, as stated in the appendix | 21.0 | 21.2400 | archive |
+| Appendix G: Power of the Bayesian posterior estimator, per cent, as stated in the appendix | 89.3 | 88.7200 | archive |
+| Appendix G: Power of the study on its own, per cent, as stated in the appendix | 21.0 | 21.5400 | archive |
 | Figure 1: The present study’s standard error on the panel face | 0.009 | 0.0085 | archive |
 | Figure G.2: PATE named in the left panel annotation | 0.1 | 0.0100 | archive |
-| Figure G.2: Power printed in the left panel | 0.210 | 0.2124 | archive |
+| Figure G.2: Power printed in the left panel | 0.210 | 0.2154 | archive |
 | Figure G.2: PATE named in the right panel annotation | 0.1 | 0.0100 | archive |
-| Figure G.2: Power printed in the right panel | 0.893 | 0.8990 | archive |
-| Bayesian integration: Power of the Bayesian posterior estimator, per cent, as stated in the main text | 89 | 89.9000 | archive |
+| Figure G.2: Power printed in the right panel | 0.893 | 0.8872 | archive |
+| Bayesian integration: Power of the experiment on its own, per cent, as stated in the main text | 21 | 21.5400 | archive |
 | Results: One-tailed randomization inference p-value, covariate-adjusted model | 0.508 | 0.5340 | archive |
-| Results: One-tailed randomization inference p-value, unadjusted model | 0.471 | 0.4875 | archive |
+| Results: One-tailed randomization inference p-value, unadjusted model | 0.471 | 0.4690 | archive |
 | Results: Unadjusted effect on Democratic vote share as stated in the text, percentage points | 2.1 | 0.2114 | paper_internal |
 | Results: Standard error of the unadjusted effect as stated in the text, percentage points | 3.0 | 2.2487 | paper_internal |
 
@@ -364,7 +364,7 @@ that a package moved underneath the deposited code.
 
 | Defect locus   | Rows |
 |:---------------|-----:|
-| archive        |   17 |
+| archive        |   16 |
 | environment    |   30 |
 | paper_internal |   54 |
 
@@ -576,7 +576,7 @@ simulations.](maintained/output/figure_g2_design_diagnosis.png)
 
 | Simulations | Mean OLS estimate | Power, OLS | Power, posterior |
 |------------:|:------------------|:-----------|:-----------------|
-|        5000 | 0.0101            | 0.212      | 0.899            |
+|        5000 | 0.0098            | 0.215      | 0.887            |
 
 Figure G.2 diagnosands
 
@@ -632,16 +632,16 @@ they are not reproducible against the archive, which set no seed.
 
 # R environment
 
-| Component     | Version |
-|:--------------|:--------|
-| R             | 4.6.0   |
-| tidyverse     | 2.0.0   |
-| estimatr      | 2.0.1   |
-| modelsummary  | 2.6.0   |
-| DeclareDesign | 1.1.1   |
-| knitr         | 1.51    |
-| kableExtra    | 1.4.0   |
-| here          | 1.0.2   |
+| Component     | Version    |
+|:--------------|:-----------|
+| R             | 4.6.1      |
+| tidyverse     | 2.0.0      |
+| estimatr      | 2.0.1.9000 |
+| modelsummary  | 2.6.0      |
+| DeclareDesign | 2.0.0      |
+| knitr         | 1.51       |
+| kableExtra    | 1.4.0      |
+| here          | 1.0.2      |
 
 Versions this report was built against
 

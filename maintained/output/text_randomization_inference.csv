@@ -1,7 +1,7 @@
 estimator,term,estimate_obs,p_upper,p_two_tailed,sims
-DIM binary,Zsim,0.0021144589044742312,0.4875,0.936,2000
-DIM three arm,treatmentsimvideo_1,-0.0205415171159322,0.774,0.4645,2000
-DIM three arm,treatmentsimvideo_2,0.025514997517100728,0.175,0.347,2000
-OLS binary,Zsim,-4.4332328582194133e-4,0.534,0.959,2000
-OLS three arm,treatmentsimvideo_1,-0.001619310347163198,0.5605,0.877,2000
-OLS three arm,treatmentsimvideo_2,6.758475674706088e-4,0.4775,0.946,2000
+DIM binary,Zsim,0.0021144589044742312,0.469,0.928,2000
+DIM three arm,treatmentsimvideo_1,-0.0205415171159322,0.7715,0.4505,2000
+DIM three arm,treatmentsimvideo_2,0.025514997517100728,0.1745,0.349,2000
+OLS binary,Zsim,-4.4332328582194133e-4,0.534,0.9465,2000
+OLS three arm,treatmentsimvideo_1,-0.001619310347163198,0.566,0.887,2000
+OLS three arm,treatmentsimvideo_2,6.758475674706088e-4,0.46,0.939,2000
