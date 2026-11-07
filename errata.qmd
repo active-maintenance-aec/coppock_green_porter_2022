@@ -71,8 +71,8 @@ entries <- tribble(
   1, "quantity", "pipeline", "full",
   "The unadjusted estimate is misstated by a factor of ten",
   "published p. 5",
-  "...a [[2.1 percentage point]] increase in Democratic vote share, though this estimate is uncertain, as evidenced by its large [[standard error of 3.0 percentage points]].",
-  str_glue("...a [[{cv1[1]} percentage point]] increase in Democratic vote share, though this estimate is uncertain, as evidenced by its large [[standard error of {cv1[2]} percentage points]]."),
+  "...a [[2.1 percentage point]] increase in Democratic vote share, though this estimate is uncertain, as evidenced by its large [[standard error of 3.0 percentage points]]",
+  str_glue("...a [[{cv1[1]} percentage point]] increase in Democratic vote share, though this estimate is uncertain, as evidenced by its large [[standard error of {cv1[2]} percentage points]]"),
   str_glue(
     "Table 4 reports {sprintf('%.4f', t4$estimate)} with a standard error of ",
     "{sprintf('%.4f', t4$std.error)}, which is {sprintf('%.2f', t4$estimate * 100)} and ",
