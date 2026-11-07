@@ -70,7 +70,7 @@ entries <- tribble(
 
   1, "quantity", "pipeline", "full",
   "The unadjusted estimate is misstated by a factor of ten",
-  "published p. 5",
+  "published p. 4",
   "...a [[2.1 percentage point]] increase in Democratic vote share, though this estimate is uncertain, as evidenced by its large [[standard error of 3.0 percentage points]]",
   str_glue("...a [[{cv1[1]} percentage point]] increase in Democratic vote share, though this estimate is uncertain, as evidenced by its large [[standard error of {cv1[2]} percentage points]]"),
   str_glue(
