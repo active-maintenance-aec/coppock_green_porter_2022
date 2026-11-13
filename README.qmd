@@ -34,9 +34,12 @@ latex_only <- function(k, f) if (latex_out) f(k) else k
 
 # value_paper is the string the article prints, and a column whose entries all look
 # numeric is guessed as double, which would turn a published 0.0250 into 0.025 here.
+# The float a row belongs to is the part of its location before the first comma: "Table
+# 4" for a cell, "Abstract" or "Results" for a sentence.
 gt <- read_csv(here::here("ground_truth", "coppock_green_porter_2022_ground_truth.csv"),
                show_col_types = FALSE,
-               col_types = cols(.default = col_guess(), value_paper = col_character()))
+               col_types = cols(.default = col_guess(), value_paper = col_character())) |>
+  mutate(float = str_remove(location, ",.*$"))
 
 published_claims <- read_csv(here::here("ground_truth", "published_claims.csv"),
                              col_types = cols(.default = col_character())) |>
@@ -80,7 +83,7 @@ n_rewrite_verifiable <- sum(!is.na(gt$match_rewrite))
 n_rewrite_match <- sum(gt$match_rewrite == 1, na.rm = TRUE)
 n_rewrite_fail <- sum(gt$match_rewrite == 0, na.rm = TRUE)
 n_unverifiable <- sum(is.na(gt$match_rewrite) & is.na(gt$holds))
-n_b3 <- sum(gt$table_figure == "Table B.3" & gt$match_rewrite == 0, na.rm = TRUE)
+n_b3 <- sum(gt$float == "Table B.3" & gt$match_rewrite == 0, na.rm = TRUE)
 n_extraction <- nrow(published_claims)
 ```
 
@@ -88,7 +91,7 @@ Two questions, answered before the detail.
 
 ## Does the deposited archive run?
 
-Almost. Eight of the nine analysis scripts execute without error on a current R installation. The ninth, `CGP_2022_equivalence_tests.R`, stops on its first model: it asks `lh_robust()` for a linear combination of coefficients with clustered CR2 standard errors, and current `estimatr` refuses, because `lh_robust()` has no CR2 path. Everything in appendix Table C.6 therefore has no live source in the deposit, which is `r sum(gt$table_figure == "Table C.6")` of the `r n_claims` recorded quantities.
+Almost. Eight of the nine analysis scripts execute without error on a current R installation. The ninth, `CGP_2022_equivalence_tests.R`, stops on its first model: it asks `lh_robust()` for a linear combination of coefficients with clustered CR2 standard errors, and current `estimatr` refuses, because `lh_robust()` has no CR2 path. Everything in appendix Table C.6 therefore has no live source in the deposit, which is `r sum(gt$float == "Table C.6")` of the `r n_claims` recorded quantities.
 
 Of what does run, every number matches the table it belongs to. Two numbers in the article's prose do not match the table they describe, but the code is right and the sentence is wrong; see the errata. The one class of quantity that cannot reproduce exactly is the simulated one: neither the randomization inference nor the design diagnosis sets a seed, so the archive does not return its own published p-values twice in a row, let alone four years later. Both scripts also ship with the number of simulations cut by a factor of four to ten below the value used for the paper, with the published setting left commented out on the line above.
 
@@ -193,10 +196,10 @@ gt |>
     `Archive matches` = sum(match == 1, na.rm = TRUE),
     `Rewrite verifiable` = sum(!is.na(match_rewrite)),
     `Rewrite matches` = sum(match_rewrite == 1, na.rm = TRUE),
-    .by = table_figure
+    .by = float
   ) |>
-  arrange(table_figure, .locale = "en") |>
-  rename(`Table or figure` = table_figure) |>
+  arrange(float, .locale = "en") |>
+  rename(`Table or figure` = float) |>
   kable(booktabs = TRUE, caption = "Ground truth, by published object") |>
   latex_only(\(k) kable_styling(k, latex_options = c("striped", "hold_position")))
 ```
@@ -207,9 +210,9 @@ Every value in the `value_paper` column of `ground_truth/coppock_green_porter_20
 
 ```{r gt_mismatch}
 gt |>
-  filter(match_rewrite == 0, table_figure != "Table B.3") |>
+  filter(match_rewrite == 0, float != "Table B.3") |>
   transmute(
-    Claim = paste0(table_figure, ": ", claim),
+    Claim = paste0(float, ": ", claim),
     Published = value_paper,
     Rewrite = round(value_rewrite, 4),
     Locus = defect_locus
@@ -411,15 +414,15 @@ gt |>
     Claims = n(),
     Matching = sum(match_rewrite == 1),
     `Not matching` = sum(match_rewrite == 0),
-    .by = table_figure
+    .by = float
   ) |>
-  arrange(table_figure, .locale = "en") |>
-  rename(`Table or figure` = table_figure) |>
+  arrange(float, .locale = "en") |>
+  rename(`Table or figure` = float) |>
   kable(booktabs = TRUE, caption = "Rewrite against the published values") |>
   latex_only(\(k) kable_styling(k, latex_options = c("striped", "hold_position")))
 ```
 
-Every printed cell of every published table is a row in the table above, so "reproduces the published table" is a counted claim here rather than an impression: Table 4, Tables A.1 and A.2, Tables B.4 and B.5, Tables C.6, E.7 and F.8, and Tables F.9 through F.11 match in all `r sum(gt$match_rewrite == 1 & str_starts(gt$table_figure, "Table") & gt$table_figure != "Table B.3", na.rm = TRUE)` of their cells. Table B.3 is the exception, and it is the erratum.
+Every printed cell of every published table is a row in the table above, so "reproduces the published table" is a counted claim here rather than an impression: Table 4, Tables A.1 and A.2, Tables B.4 and B.5, Tables C.6, E.7 and F.8, and Tables F.9 through F.11 match in all `r sum(gt$match_rewrite == 1 & str_starts(gt$float, "Table") & gt$float != "Table B.3", na.rm = TRUE)` of their cells. Table B.3 is the exception, and it is the erratum.
 
 **Determinism.** Every script other than the two simulation scripts is deterministic and returns byte-identical output on a second run. The two simulation scripts are seeded, so they are also reproducible run to run; they are not reproducible against the archive, which set no seed.
 

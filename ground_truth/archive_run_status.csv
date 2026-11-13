@@ -1,0 +1,10 @@
+pass,script,role,exit_status,outcome,stopped_at
+as_shipped,CGP_2022_in_text_calculations.R,analysis,0,clean,NA
+as_shipped,CGP_2022_precinct_level_analysis.R,analysis,0,clean,NA
+as_shipped,CGP_2022_zip_code_level_analysis.R,analysis,0,clean,NA
+as_shipped,CGP_2022_precinct_level_analysis_CD.R,analysis,0,clean,NA
+as_shipped,CGP_2022_design_tests.R,analysis,0,clean,NA
+as_shipped,CGP_2022_bayesian_learning.R,analysis,0,clean,NA
+as_shipped,CGP_2022_precinct_level_randomization_inference.R,analysis,0,clean,NA
+as_shipped,CGP_2022_design_diagnosis.R,analysis,0,clean,NA
+as_shipped,CGP_2022_equivalence_tests.R,analysis,0,clean,NA

@@ -1,0 +1,19 @@
+float,published_numbers,covered,reproduced_by_rewrite,reproduced_by_archive,plotted,plotted_reproduced,note
+Table 1,24,24,20,20,NA,NA,NA
+Figure 1,21,12,11,12,5,5,"Five normal densities, the prior and four posteriors; one is reproduced when both its mean and its standard deviation match the panel label."
+Table 2,5,0,0,NA,NA,NA,Advertisement scripts and stills; the five numbers are quoted advertisement copy.
+Table 3,6,0,0,NA,NA,NA,"The advertisement vendor's exposure counts, which appear in no deposited file."
+Table 4,56,56,56,20,NA,NA,NA
+Table A.1,56,56,56,20,NA,NA,NA
+Table A.2,56,56,56,16,NA,NA,NA
+Table B.3,56,56,4,0,NA,NA,NA
+Table B.4,56,56,56,16,NA,NA,NA
+Table B.5,56,56,56,16,NA,NA,NA
+Table C.6,30,30,30,NA,NA,NA,NA
+Figure D.1,12,0,0,NA,148,0,"A map of the 148 ZIP codes with geographic boundaries, shaded by assignment; the rewrite does not redraw it."
+Table E.7,17,17,17,5,NA,NA,NA
+Table F.8,10,10,10,4,NA,NA,NA
+Table F.9,48,48,48,16,NA,NA,NA
+Table F.10,48,48,48,16,NA,NA,NA
+Table F.11,48,48,48,16,NA,NA,NA
+Figure G.2,7,4,0,0,2,2,"Two panels of simulated sampling distributions, reproduced as distributions rather than draw for draw, because the deposited simulation sets no seed."

@@ -634,16 +634,16 @@ they are not reproducible against the archive, which set no seed.
 
 # R environment
 
-| Component     | Version    |
-|:--------------|:-----------|
-| R             | 4.6.1      |
-| tidyverse     | 2.0.0      |
-| estimatr      | 2.0.1.9000 |
-| modelsummary  | 2.6.0      |
-| DeclareDesign | 2.0.0      |
-| knitr         | 1.51       |
-| kableExtra    | 1.4.0      |
-| here          | 1.0.2      |
+| Component     | Version |
+|:--------------|:--------|
+| R             | 4.6.2   |
+| tidyverse     | 2.0.0   |
+| estimatr      | 2.0.1   |
+| modelsummary  | 2.6.0   |
+| DeclareDesign | 2.0.0   |
+| knitr         | 1.52    |
+| kableExtra    | 1.4.1   |
+| here          | 1.0.2   |
 
 Versions this report was built against
 
